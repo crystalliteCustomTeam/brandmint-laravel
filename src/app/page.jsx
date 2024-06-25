@@ -232,7 +232,7 @@ export default function page() {
             </TabsList>
             <div className="xl:col-span-8 col-span-12 text-left">
               <TabsContent value="Annually" className="grid grid-cols-1 items-center">
-                <div className="inline-flex gap-5">
+                <div className="inline-flex items-center gap-5">
                   <div className="bg-[#F2F2F2] rounded-[26px] px-[45px] py-[35px]">
                     <p className="text-[20px]">
                       Basic Plan
