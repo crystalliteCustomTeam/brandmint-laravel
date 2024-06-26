@@ -5,7 +5,7 @@ import seoGraph  from "media/seograph.png";
 export default function SeoGraph() {
     return (
         <section>
-            <div className="py-[50px]">
+            <div className="py-[90px]">
                 <div className="container">
                     <h2 className="xs:text-[25px] sm:text-[30px] md:text-[30px] lg:text-[40px] xl:text-[48px] 2xl:text-[58px]   font-semibold leading-snug">Other SEO agencies promise results.
                         We’ve got dozens of case studies to prove it</h2>

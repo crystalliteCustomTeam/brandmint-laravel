@@ -14,6 +14,9 @@ import WhyChoose from "./whyChoose";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"
 import UsaCities from "./UsaCities";
+import ServicesTabs from "./ServicesTabs";
+import Strategies from "./Strategies";
 
 
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph,UsaCities, Package };
+
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph,UsaCities, Package,ServicesTabs,Strategies };
