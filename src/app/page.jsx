@@ -1,6 +1,6 @@
 "use client"
 // Components
-import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Card, SeoGraph, UsaCities } from "@/components"
+import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Testimonial, Industries, SeoGraph, UsaCities } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 import Image from "next/image"
@@ -9,43 +9,49 @@ import check from "../../public/home/check-mark.svg"
 import CallAwayImageMen from "../../public/callaway/menLaptop.png"
 import BannerBlue from "../../public/callaway/blueBG.png"
 import CallAwayImageWomen from "../../public/callaway/women.png"
-// Card Data
-let cardData = [
+// Testimonial Data
+let testimonialData = [
   {
+    "shadowColor" : "bg-[#4E81EC]", 
     iconimage : "/card/stars.png",
     review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
     testimonialImage : "/card/philip.png",
     testimonialName: 'Philip'
   },
   {
+    "shadowColor" : "bg-[#E1183A]", 
     iconimage : "/card/stars.png",
     review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
     testimonialImage : "/card/chris.png",
     testimonialName: 'Chris'
   },
   {
+    "shadowColor" : "bg-[#F5C228]", 
     iconimage : "/card/stars.png",
     review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
     testimonialImage : "/card/bilal.png",
     testimonialName: 'Bilal'
   },
   {
+    "shadowColor" : "bg-[#24BF5A]", 
     iconimage : "/card/stars.png",
     review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
     testimonialImage : "/card/elissa.png",
     testimonialName: 'Elissa Kidarshan'
   },
   {
+    "shadowColor" : "bg-[#4E81EC]", 
+    iconimage : "/card/stars.png",
+    review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
+    testimonialImage : "/card/joe.png",
+    testimonialName: 'Joe Francis'
+  },
+  {
+    "shadowColor" : "bg-[#F5C228]",   
     iconimage : "/card/stars.png",
     review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
-    testimonialImage : "/card/bilal.png",
-    testimonialName: 'Bilal'
-  },
-  {
-    iconimage : "/card/stars.png",
-    review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
-    testimonialImage : "/card/elissa.png",
-    testimonialName: 'Elissa Kidarshan'
+    testimonialImage : "/card/moses.png",
+    testimonialName: 'Moses'
   },
 ]
 export default function page() {
@@ -62,26 +68,27 @@ export default function page() {
       />
       <Awards/>
       <CallAway
-        title="Digital Marketing Expert Is Just A Call Away!"
-        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
+        title="Digital Marketing Expert <br /> Is Just A Call Away!"
+        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
         CallAwayImage={CallAwayImageMen}
         // Banner={BannerBlue}
         bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
+        btnClass="!bg-[#EC4139] !text-white"
+        btnClass2="!bg-white !text-black"
       />
 
-      <Card
+      <Testimonial
         title="Still Not Convinced?"
         desc="Discover What Customers Have To Say About Us"
-        gridsClasses="grid-cols-3 gap-4"
+        gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
         bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
-        data={cardData}
+        data={testimonialData}
       />
 
-      <CallAway
-        title="Digital Marketing Expert Is Just A Call Away!"
-        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
-        CallAwayImage={CallAwayImageWomen}
-        bg= "bg-[#E1183A] rounded-[40px]"
+      
+      <Industries
+        title="Customer Base From Different Industries"
+        desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!"
       />
       <section className="py-20">
         <div className="container">
@@ -274,7 +281,7 @@ export default function page() {
 
 
 
-      {/* <section className="packages">
+      {/* {/* <section className="packages">
         <div className="container text-center">
           <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
             Break Your Competition Without
@@ -846,7 +853,15 @@ export default function page() {
             </div>
           </Tabs>
         </div>
-      </section> */}
+      </section> */} */}
+      <CallAway
+        title="Digital Marketing Expert Is Just A Call Away!"
+        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
+        CallAwayImage={CallAwayImageWomen}
+        bg= "bg-[#E1183A] rounded-[40px]"
+        btnClass="!bg-[#202124] !text-white"
+        btnClass2="!bg-white !text-black"
+      />
     </main>
   )
 }

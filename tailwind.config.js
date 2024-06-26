@@ -75,10 +75,14 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        // move: {
+        //   '50%': { bottom: '110px', right: '300px' },
+        // },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "accordion-down": "accordion-down 0.2s ease-in-out",
+        "accordion-up": "accordion-up 0.2s ease-in-out",
+        // move: 'move 3s ease-in-out',
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

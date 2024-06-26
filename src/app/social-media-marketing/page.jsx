@@ -1,5 +1,5 @@
 // Components
-import { Awards, Hero } from "@/components"
+import { Awards, Hero, WhyChoose } from "@/components"
 // Media
 import heroImg from 'media/socialMediaHero.png'
 
@@ -20,6 +20,10 @@ export default function page() {
                 />
             </div>
             <Awards />
+            <WhyChoose 
+            subTitle="Why Choose Us"
+            title="Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!"
+            />
         </main>
     )
 }
