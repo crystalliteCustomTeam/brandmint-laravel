@@ -1,4 +1,4 @@
-import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
+import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/Sheet"
 import Link from "next/link"
 import { CTA } from "@/components"
 import Image from "next/image"
