@@ -7,7 +7,7 @@ export default function CallAway({title, desc, CallAwayImage, bg, Banner}) {
     <section>
       <div className="pt-[80px]">
         <div className="container">
-          <div className={`relative z-10 xl:py-[100px] lg:pt-[50px] md:pt-[0px] md:pb-0 py-[50px] px-5 ${bg}`}>
+          <div className={`relative z-10 xl:pt-[80px] xl:pb-[60px] lg:pt-[50px] md:pt-[0px] md:pb-0 py-[50px] px-5 ${bg}`}>
             {Banner && <Image src={Banner} alt="" className="absolute top-0 left-0 right-0 bottom-0 w-full h-full -z-10" priority={true} />}
 
             <div className="text-white grid md:grid-cols-12 gap-x-5 items-center">
