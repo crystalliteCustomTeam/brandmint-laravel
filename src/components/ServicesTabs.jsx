@@ -1,5 +1,5 @@
 // Components
-import {  Tabs, TabsContent, TabsList, TabsTrigger } from "@/components"
+import {  Tabs, TabsContent, TabsList, TabsTrigger,CTA } from "@/components"
 
 // Media
 import Image from "next/image"
@@ -11,7 +11,7 @@ export default function ServicesTabs() {
     <section >
     <div className="container">
       <div className="text-center">
-        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium">
+        <h2 className="text-[25px] sm:text-[30px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium">
           Fresh Strategies for Digital Success
         </h2>
         <p className="max-w-[782px] mx-auto ">
@@ -49,6 +49,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
           <TabsContent value="Reputation Management" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
@@ -63,6 +64,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
           <TabsContent value="Search Engine Optimization" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
@@ -77,6 +79,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
           <TabsContent value="App Design & Development" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
@@ -91,6 +94,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
           <TabsContent value="Pay Per Click (PPC)" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
@@ -105,6 +109,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
           <TabsContent value="Google Services" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
@@ -119,6 +124,7 @@ export default function ServicesTabs() {
               <p className="text-[16px]">
                 Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
               </p>
+              <CTA text={"Learn More"} className="!bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
             </div>
           </TabsContent>
         </div>
