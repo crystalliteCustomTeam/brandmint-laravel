@@ -22,8 +22,8 @@ export default function Card({subTitle, title, desc, bgClass, classes = " ", gri
           </div>
           <div className={`grid ${gridsClasses} gap-x-4 gap-y-5 mb-10`}>
             {data?.map((e, i) => (
-              <div key={i} className={`${bgClass} py-8 px-6 group items-center overflow-hidden relative xl:min-h-[350px] lg:min-h-[380px] min-h-[320px]`}>
-                <div className={`w-32 h-32 rounded-full group-hover:animate-move blur-2xl ${e.shadowColor} bg-opacity-50 absolute right-0 bottom-0`}></div>
+              <div key={i} className={`${bgClass} py-8 px-6 transition-all ease-in-out duration-1000 group items-center overflow-hidden relative xl:min-h-[350px] lg:min-h-[380px] min-h-[320px]`}>
+                <div className={`w-36 h-36 rounded-full transition-all ease-in-out duration-1000 group-hover:bottom-[180px] group-hover:right-[280px] blur-2xl ${e.shadowColor} bg-opacity-50 absolute right-0 bottom-0`}></div>
                 {iconimage && <Image src={e.iconimage} alt="Icon Image" className="mb-4" width={100} height={15} />}
                 <p className="md:text-[18px] text-[16px] mb-3 font-normal leading-normal" dangerouslySetInnerHTML={{__html: e.review}} />
                 <div className="absolute bottom-4 left-6">
@@ -36,7 +36,7 @@ export default function Card({subTitle, title, desc, bgClass, classes = " ", gri
             ))}
           </div>
           <div className="flex justify-center">
-            <CTA text={"Read More Local Maps 360 Reviews"} className="!bg-[#4E81EC]" />
+            <CTA text={"Read More Local Maps 360 Reviews"} className="!bg-[#4E81EC] hover:!bg-[#202124]" />
           </div>
         </div>
       </div>
