@@ -28,7 +28,7 @@ export default function Card({subTitle, title, desc, bgClass, classes = " ", gri
                 <p className="md:text-[18px] text-[16px] mb-3" dangerouslySetInnerHTML={{__html: e.review}} />
                 <div className="absolute bottom-4 left-6">
                   <div className="flex gap-2 items-center">
-                    <Image alt="card image" src={e.testimonialImage} className="rounded-full" width={68} height={15} />
+                    <Image alt="Testimonial image" src={e.testimonialImage} className="rounded-full" width={68} height={15} />
                     <span className="text-[18px] font-medium capitalize" dangerouslySetInnerHTML={{__html: e.testimonialName}} />
                   </div>
                 </div>

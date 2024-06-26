@@ -16,10 +16,10 @@ export default function MarqueeBlock({
       <div className={`rotate-6 ${css}`}>
         <Marquee className="text-[50px]  bg-white border-2 border-[#707070]" autoFill="true" >
           <div className="flex items-center gap-5 ml-3">
-            <span ><Image src={star} className="w-[42px] h-[42px]" /> </span> BRANDING
-            <span ><Image src={seostar} className="w-[42px] h-[42px]" /> </span> SEO
-            <span ><Image src={ppcstar} className="w-[42px] h-[42px]" /> </span> SMM
-            <span ><Image src={smmstar} className="w-[42px] h-[42px]" /> </span> PPC
+            <span ><Image src={star} alt='Branding' className="w-[42px] h-[42px]" /> </span> BRANDING
+            <span ><Image src={seostar} alt='SEO' className="w-[42px] h-[42px]" /> </span> SEO
+            <span ><Image src={ppcstar} alt='SMM' className="w-[42px] h-[42px]" /> </span> SMM
+            <span ><Image src={smmstar} alt='PPC' className="w-[42px] h-[42px]" /> </span> PPC
           </div>
         </Marquee>
       </div>

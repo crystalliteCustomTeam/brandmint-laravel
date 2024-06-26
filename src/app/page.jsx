@@ -70,6 +70,8 @@ export default function page() {
         CallAwayImage={CallAwayImageMen}
         // Banner={BannerBlue}
         bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
+        btnClass="!bg-[#EC4139] !text-white"
+        btnClass2="!bg-white !text-black"
       />
 
       <Testimonial
@@ -849,6 +851,8 @@ export default function page() {
         desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
         CallAwayImage={CallAwayImageWomen}
         bg= "bg-[#E1183A] rounded-[40px]"
+        btnClass="!bg-[#202124] !text-white"
+        btnClass2="!bg-white !text-black"
       />
     </main>
   )
