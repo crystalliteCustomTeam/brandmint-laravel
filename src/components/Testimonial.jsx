@@ -36,7 +36,7 @@ export default function Card({subTitle, title, desc, bgClass, classes = " ", gri
             ))}
           </div>
           <div className="flex justify-center">
-            <CTA text={"Read More Local Maps 360 Reviews"} className="!bg-[#4E81EC] hover:!bg-[#202124]" />
+            <CTA text={"Read More Local Maps 360 Reviews"} className="!bg-[#4E81EC] hover:!bg-[#EC4139]" />
           </div>
         </div>
       </div>

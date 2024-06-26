@@ -8,7 +8,8 @@ import Testimonial from "./Testimonial";
 import MarqueeBlock from "./MarqueeBlock"
 import { ButtonVariants } from "./ui/Button"
 import Industries from "./Industries"
+import WhyChoose from "./whyChoose";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"
 
-export {Header, Hero, Awards, CTA, ButtonVariants,MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries};
+export {Header, Hero, Awards, CTA, ButtonVariants,MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose};
