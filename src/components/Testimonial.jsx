@@ -24,8 +24,8 @@ export default function Card({subTitle, title, desc, bgClass, classes = " ", gri
             {data?.map((e, i) => (
               <div key={i} className={`${bgClass} py-8 px-6 group items-center overflow-hidden relative xl:min-h-[350px] lg:min-h-[380px] min-h-[320px]`}>
                 <div className={`w-32 h-32 rounded-full group-hover:animate-move blur-2xl ${e.shadowColor} bg-opacity-50 absolute right-0 bottom-0`}></div>
-                {iconimage && <Image src={e.iconimage} alt="Icon Image" className="mb-4 " width={100} height={15} />}
-                <p className="md:text-[18px] text-[16px] mb-3" dangerouslySetInnerHTML={{__html: e.review}} />
+                {iconimage && <Image src={e.iconimage} alt="Icon Image" className="mb-4" width={100} height={15} />}
+                <p className="md:text-[18px] text-[16px] mb-3 font-normal leading-normal" dangerouslySetInnerHTML={{__html: e.review}} />
                 <div className="absolute bottom-4 left-6">
                   <div className="flex gap-2 items-center">
                     <Image alt="Testimonial image" src={e.testimonialImage} className="rounded-full" width={68} height={15} />

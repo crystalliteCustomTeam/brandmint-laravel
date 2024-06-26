@@ -45,11 +45,11 @@ export default function Awards() {
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-y-10 items-center">
             <div>
               <ul className="space-y-[6px] list-none relative">
-                <div className="before:absolute before:w-[1px] before:h-[100%] before:bg-[#707070] before:right-0 before:top-0 before:bottom-0"></div>
+                <div className="before:lg:absolute before:lg:w-[1px] before:lg:h-[100%] before:lg:bg-[#707070] before:lg:right-0 before:lg:top-0 before:lg:bottom-0"></div>
                 {list?.map((e, i) => (
                   <li key={i} className="hover:bg-[#f3f3f3de] p-2 hover:shadow-sm pl-6">
                     <div className="relative before:absolute before:w-[6px] before:h-[6px] before:rounded-[100%] before:bg-[#000] before:left-0 before:top-[8px] before:-ml-4"></div>
-                    <p className="text-[18px] mb-3">{e.listTitle}</p>
+                    <p className="xs:text-[14px] sm:text-[16px] xl:text-[18px] mb-3">{e.listTitle}</p>
                     <span className="text-[14px] text-[#6B6B6B]">{e.listComapny}</span>
                   </li>
                 ))}

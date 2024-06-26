@@ -65,8 +65,8 @@ export default function page() {
       />
       <Awards/>
       <CallAway
-        title="Digital Marketing Expert Is Just A Call Away!"
-        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
+        title="Digital Marketing Expert <br /> Is Just A Call Away!"
+        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
         CallAwayImage={CallAwayImageMen}
         // Banner={BannerBlue}
         bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"

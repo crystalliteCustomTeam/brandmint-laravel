@@ -1,32 +1,29 @@
 // Next
 import Image from "next/image";
-import { CTA } from ".";
+import {CTA} from ".";
 
 export default function CallAway({title, desc, CallAwayImage, bg, Banner, btnClass, btnClass2}) {
   return (
     <section>
       <div className="pt-[80px]">
         <div className="container">
-          <div className={`relative z-10 xl:pt-[80px] xl:pb-[60px] lg:pt-[50px] md:pt-[0px] md:pb-0 py-[50px] px-5 ${bg}`}>
+          <div className={`relative z-10 xl:py-[60px] px-[20px] lg:pl-[40px] xl:pl-[60px] lg:py-[40px] pt-[50px] ${bg}`}>
             {Banner && <Image src={Banner} alt="banner" className="absolute top-0 left-0 right-0 bottom-0 w-full h-full -z-10" priority={true} />}
 
-            <div className="text-white grid md:grid-cols-12 gap-x-5 items-center">
-              <div className="lg:col-span-8 md:col-span-6 md:pl-8">
-                <h3 className="2xl:text-[60px] xl:text-[50px] lg:text-[40px] text-[30px] font-semibold mb-3" dangerouslySetInnerHTML={{__html: title}} />
-                <p className="" dangerouslySetInnerHTML={{__html: desc}} />
-                <div className="flex gap-2 mt-5">
+            <div className="text-white grid md:grid-cols-12 gap-x-5 items-center text-center lg:text-left">
+              <div className="lg:col-span-8 col-span-12">
+                <h3
+                  className="2xl:text-[60px] xl:text-[50px] lg:text-[40px] xs:text-[25px] sm:text-[30px] md:text-[40px] leading-normal font-semibold mb-4"
+                  dangerouslySetInnerHTML={{__html: title}}
+                />
+                <p className="2xl:text-[16px] text-[14px] leading-normal font-light  lg:max-w-[85%] xl:max-w-full" dangerouslySetInnerHTML={{__html: desc}} />
+                <div className="flex gap-4 mt-[20px] justify-center lg:justify-start">
                   <CTA text={"GET STARTED NOW"} className={`${btnClass}`} />
                   <CTA text={"Contact"} className={`${btnClass2}`} />
                 </div>
               </div>
-              <div className="lg:col-span-4 md:col-span-6">
-                <Image
-                  src={CallAwayImage}
-                  alt="Call Away"
-                  className="md:block hidden xl:absolute xl:max-w-[380px] 2xl:max-w-[450px] lg:max-w-[300px] static 2xl:-top-[14%] xl:top-[-7%] top-[-110px]"
-                />
-              </div>
             </div>
+            <Image src={CallAwayImage} alt="Call Away" className="lg:absolute xl:max-w-[380px] 2xl:max-w-[450px] lg:max-w-[300px] lg:bottom-0 lg:right-[30px] xl:right-[40px] mx-auto mt-10" />
           </div>
         </div>
       </div>
