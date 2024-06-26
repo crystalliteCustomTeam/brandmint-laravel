@@ -1,11 +1,11 @@
 // Components
 import {AutoScrollSlider} from "@/components";
 // Media
-import industries1 from "../../public/industries/automotive.png";
-import industries2 from "../../public/industries/buisness.png";
-import industries3 from "../../public/industries/construction.png";
-import industries4 from "../../public/industries/education.png";
-import industries5 from "../../public/industries/travel.png";
+import industries1 from "media/industries/automotive.png";
+import industries2 from "media/industries/buisness.png";
+import industries3 from "media/industries/construction.png";
+import industries4 from "media/industries/education.png";
+import industries5 from "media/industries/travel.png";
 // Next
 import Image from "next/image";
 
