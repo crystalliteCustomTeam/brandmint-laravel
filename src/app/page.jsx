@@ -4,11 +4,10 @@ import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Testi
 // Media
 import heroBG from 'media/horsebg.png'
 import Image from "next/image"
-import service1 from "../../public/home/solution-seo.png"
-import check from "../../public/home/check-mark.svg"
-import CallAwayImageMen from "../../public/callaway/menLaptop.png"
-import BannerBlue from "../../public/callaway/blueBG.png"
-import CallAwayImageWomen from "../../public/callaway/women.png"
+import service1 from "media/home/solution-seo.png"
+import check from "media/home/check-mark.svg"
+import CallAwayImageMen from "media/callaway/menLaptop.png"
+import CallAwayImageWomen from "media/callaway/women.png"
 // Testimonial Data
 let testimonialData = [
   {

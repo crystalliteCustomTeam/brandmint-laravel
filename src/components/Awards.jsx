@@ -1,13 +1,13 @@
 // Components
 import {AutoScrollSlider} from "@/components";
 // Media
-import award1 from "../../public/awards/1.png";
-import award2 from "../../public/awards/2.png";
-import award3 from "../../public/awards/3.png";
-import award4 from "../../public/awards/4.png";
-import award5 from "../../public/awards/5.png";
-import award6 from "../../public/awards/6.png";
-import award7 from "../../public/awards/7.png";
+import award1 from "media/awards/1.png";
+import award2 from "media/awards/2.png";
+import award3 from "media/awards/3.png";
+import award4 from "media/awards/4.png";
+import award5 from "media/awards/5.png";
+import award6 from "media/awards/6.png";
+import award7 from "media/awards/7.png";
 // Next
 import Image from "next/image";
 

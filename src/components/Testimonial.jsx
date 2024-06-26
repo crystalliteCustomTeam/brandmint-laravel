@@ -2,8 +2,7 @@
 import Image from "next/image";
 
 // Image
-import iconimage from "../../public/card/stars.png";
-import cardImage from "../../public/card/philip.png";
+import iconimage from "media/card/stars.png";
 import { CTA } from ".";
 export default function Card({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", variant = "steps", data, theme = "light"}) {
   return (
