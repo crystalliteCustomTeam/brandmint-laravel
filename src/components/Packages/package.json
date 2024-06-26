@@ -1,0 +1,392 @@
+{
+    "id": 1,
+    "package": [
+        {
+            "name": "Annually",
+            "upto": "40%",
+            "list": [
+                {
+                    "name": "Basic",
+                    "price": "199",
+                    "desc": "Great for new start ups and businesses new to SEO! A solid first step towards conversions.",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard",
+                    "price": "249",
+                    "desc": "Highly sought after by companies who want to increase their conversions and market share!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Professional",
+                    "price": "394",
+                    "desc": "Highly recommended by our SEO experts, this package has delivered clients the best results!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quarterly",
+            "upto": "30%",
+            "list": [
+                {
+                    "name": "Basic",
+                    "price": "199",
+                    "desc": "Great for new start ups and businesses new to SEO! A solid first step towards conversions.",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard",
+                    "price": "249",
+                    "desc": "Highly sought after by companies who want to increase their conversions and market share!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Professional",
+                    "price": "394",
+                    "desc": "Highly recommended by our SEO experts, this package has delivered clients the best results!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monthly",
+            "upto": "10%",
+            "list": [
+                {
+                    "name": "Basic",
+                    "price": "199",
+                    "desc": "Great for new start ups and businesses new to SEO! A solid first step towards conversions.",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard",
+                    "price": "249",
+                    "desc": "Highly sought after by companies who want to increase their conversions and market share!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Professional",
+                    "price": "394",
+                    "desc": "Highly recommended by our SEO experts, this package has delivered clients the best results!",
+                    "items": [
+                        {
+                            "Keyword Reserch": [
+                                "15 Keywords"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words)",
+                                "2 Blogs (500 words)"
+                            ],
+                            "Link Building": [
+                                "10 Submissions",
+                                "10 Classifieds",
+                                "10 Classifieds",
+                                "10 Community Participation",
+                                "10 Business Profiles"
+                            ],
+                            "Website": [
+                                "Meta Tags Creation",
+                                "Web Content Optimization",
+                                "Keyword Optimization",
+                                "Anchor Text Optimization"
+                            ],
+                            "Conversion Tracking": [
+                                "Google Analytics Installation"
+                            ],
+                            "Reporting": [
+                                "Monthly Progress Report"
+                            ],
+                            "Features": [
+                                "Dedicated Project Manager",
+                                "24 HR Support, 5 Days a Week",
+                                "Client Dashboard Access",
+                                "100% Money Back Guarantee"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

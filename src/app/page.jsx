@@ -1,6 +1,6 @@
 "use client"
 // Components
-import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Testimonial, Industries, SeoGraph, UsaCities } from "@/components"
+import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Testimonial, Industries, SeoGraph, UsaCities, Package } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 import Image from "next/image"
@@ -93,7 +93,7 @@ export default function page() {
       <section className="py-20">
         <div className="container">
           <div className="text-center">
-            <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
+            <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] mb-[22px]">
               Fresh Strategies for Digital Success
             </h2>
             <p className="max-w-[782px] mx-auto">
@@ -111,7 +111,7 @@ export default function page() {
                   "Pay Per Click (PPC)",
                   "Google Services"
                 ].map((title, i) => (
-                  <TabsTrigger value={title} key={i} className="data-[state=active]:bg-red-400 data-[state=active]:text-white data-[state=active]:border-none bg-transparent rounded-[5px]
+                  <TabsTrigger value={title} key={i} className="data-[state=active]:bg-[#EF4252] data-[state=active]:text-white data-[state=active]:border-none bg-transparent rounded-[5px]
                   border-[#F3F3F3] mb-3 mt-3 border-2 text-[17px] text-[#CBCBCB] h-[50px]">
                     {title}
                   </TabsTrigger>
@@ -124,7 +124,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                     Search Engine
                     Optimization (SEO)
                   </h2>
@@ -138,7 +138,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                     Reputation 
                     Management
                   </h2>
@@ -152,7 +152,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                     Search Engine
                     Optimization (SEO)
                   </h2>
@@ -166,7 +166,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                   App Design 
                   & Development
                   </h2>
@@ -180,7 +180,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                     Pay Per
                    Click (PPC)
                   </h2>
@@ -194,7 +194,7 @@ export default function page() {
                   <Image src={service1} alt="home image" />
                 </div>
                 <div className="text-wrap md:text-left text-center">
-                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px]">
+                  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]">
                    Google 
                    Services
                   </h2>
@@ -207,7 +207,7 @@ export default function page() {
           </Tabs>
         </div>
       </section>
-      <section className="pb-20">
+      <section className="pb-8">
         <div className="container text-center">
             <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
               How Our SEO Strategy Powers
@@ -281,579 +281,7 @@ export default function page() {
 
 
 
-      {/* <section className="packages">
-        <div className="container text-center">
-          <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
-            Break Your Competition Without
-          </h2>
-          <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] text-[#E1183A]">
-           Breaking Your Bank!
-          </h2>
-            
-          <p className="max-w-[892px] mx-auto py-3">
-           We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
-          </p>
-        </div>
-        <div className="container">
-          <Tabs defaultValue="Annually" className="mt-16 text-center">
-            <TabsList className="bg-[#000000] rounded-[50px] inline-flex mb-[50px]">
-             {
-              [
-                ["Annually","Save 40%"],
-                ["Quarterly","Save 30%"],
-                ["Monthly","Save 10%"],
-              ].map(([title, subTitle],i)=>(
-                  <TabsTrigger value={title} key={i} className="data-[state=active]:bg-red-400 data-[state=active]:text-white  bg-transparent rounded-[50px]
-                  border-[#F3F3F3] text-[14px] md:text-[16px] lg:text-[18px] text-[#CBCBCB] px-[15px] sm:px-[22px] md:px-[55px] lg:px-[85px] py-[2px] sm:py-[4px] md:py-[8px] lg:py-[10px] ">
-                    <div className=" font-bold">
-                      {title}
-                    </div>
-                    <div>
-                      {subTitle}
-                    </div>
-                  </TabsTrigger>
-              ))
-             }
-            </TabsList>
-            <div className="xl:col-span-8 col-span-12 text-left">
-              <TabsContent value="Annually" className="grid grid-cols-1 items-center">
-                <div className="inline-flex gap-5">
-                  <div className="bg-[#F2F2F2] rounded-[26px] px-[45px] py-[35px]">
-                    <p className="text-[20px]">
-                      Basic Plan
-                    </p>
-                    <p className="text-[50px]">$199 <span className="text-[23px]">Per Month</span></p>
-                    <p>
-                      Great for new start ups and businesses new to SEO! A solid first step towards conversions.
-                    </p>
-                    <div className="bg-white rounded-[26px] p-[27px] mt-[25px]">
-                      <div className="h-[328px] overflow-y-scroll custom-scrollbar">
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                         
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bg-[#0085F8] rounded-[26px] px-[45px] py-[50px]">
-                    <p className="text-[20px] text-white">
-                      Basic Plan
-                    </p>
-                    <p className="text-[50px] text-white">$199 <span className="text-[23px]">Per Month</span></p>
-                    <p className="text-white">
-                      Great for new start ups and businesses new to SEO! A solid first step towards conversions.
-                    </p>
-                    <div className="bg-white rounded-[26px] p-[27px] mt-[25px]">
-                      <div className="h-[328px] overflow-y-scroll custom-scrollbar">
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                         
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="bg-[#F2F2F2] rounded-[26px] px-[45px] py-[35px]">
-                    <p className="text-[20px]">
-                      Basic Plan
-                    </p>
-                    <p className="text-[50px]">$199 <span className="text-[23px]">Per Month</span></p>
-                    <p>
-                      Great for new start ups and businesses new to SEO! A solid first step towards conversions.
-                    </p>
-                    <div className="bg-white rounded-[26px] p-[27px] mt-[25px]">
-                      <div className="h-[328px] overflow-y-scroll custom-scrollbar">
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                         
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </TabsContent>
-              <TabsContent value="Quarterly" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
-                <div className="inline-flex ">
-                  <div className="bg-[#F2F2F2] rounded-[26px] px-[45px] py-[35px]">
-                    <p className="text-[20px]">
-                      Basic Plan
-                    </p>
-                    <p className="text-[50px]">$199 <span className="text-[23px]">Per Month</span></p>
-                    <p>
-                      Great for new start ups and businesses new to SEO! A solid first step towards conversions.
-                    </p>
-                    <div className="bg-white rounded-[26px] p-[27px] mt-[25px]">
-                      <div className="h-[328px] overflow-y-scroll custom-scrollbar">
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                         
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </TabsContent>
-              <TabsContent value="Monthly" className="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
-                <div className="inline-flex ">
-                  <div className="bg-[#F2F2F2] rounded-[26px] px-[45px] py-[35px]">
-                    <p className="text-[20px]">
-                      Basic Plan
-                    </p>
-                    <p className="text-[50px]">$199 <span className="text-[23px]">Per Month</span></p>
-                    <p>
-                      Great for new start ups and businesses new to SEO! A solid first step towards conversions.
-                    </p>
-                    <div className="bg-white rounded-[26px] p-[27px] mt-[25px]">
-                      <div className="h-[328px] overflow-y-scroll custom-scrollbar">
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                         
-                        <p className="text-[18px] font-bold mb-[8px]">
-                          Keyword Research
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >15 Keywords</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Content
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Articles (400 words)</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >2 Blogs (500 words)</span>
-                        </p>
-                        <p className="text-[18px] font-bold mb-[8px] mt-[30px]">
-                          Link Building
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Classifieds</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Submissions</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Community Participation</span>
-                        </p>
-                        <p className="flex items-center text-[14px] font-light ">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>g
-                        </p>
-                        <p className="flex items-center text-[14px] font-light">
-                          <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </TabsContent>
-              
-            </div>
-          </Tabs>
-        </div>
-      </section> */} 
+      <Package/>
       <CallAway
         title="Digital Marketing Expert Is Just A Call Away!"
         desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
