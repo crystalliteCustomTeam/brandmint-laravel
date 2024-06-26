@@ -3,7 +3,7 @@ import { Awards, Hero, WhyChoose } from "@/components"
 // Media
 import heroImg from 'media/socialMediaHero.png'
 
-export default function page() {
+export default function Page() {
     return (
         <main>
             <div className="bg-black">

@@ -3,7 +3,7 @@ import { Awards, Hero } from "@/components"
 // Media
 import HeroImg from "media/nationwideseoHero.png"
 
-export default function page() {
+export default function Page() {
     return (
         <main>
             <Hero

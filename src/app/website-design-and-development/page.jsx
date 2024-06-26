@@ -5,7 +5,7 @@ import { Awards, Hero } from "@/components"
 import heroImg from 'media/webDevelopmentImg.png'
 import { useEffect, useState } from "react"
 
-export default function page() {
+export default function Page() {
     const [marqueeTheme, setMarqueeTheme] = useState('dark')
     useEffect(() => {
         const checkMobile = () => {

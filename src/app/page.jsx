@@ -1,4 +1,4 @@
-"use client"
+
 // Components
 import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, Package, ServicesTabs, Strategies, Header } from "@/components"
 // Media
@@ -50,7 +50,7 @@ let testimonialData = [
     testimonialName: 'Moses'
   },
 ]
-export default function page() {
+export default function Page() {
   return (
     <main>
       <Header />
