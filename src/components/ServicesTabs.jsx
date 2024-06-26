@@ -8,7 +8,7 @@ import service1 from "media/home/solution-seo.png"
 
 export default function ServicesTabs() {
   return (
-    <section className="py-20">
+    <section >
     <div className="container">
       <div className="text-center">
         <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium">

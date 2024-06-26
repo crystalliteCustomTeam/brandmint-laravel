@@ -37,13 +37,13 @@ const list = [
 export default function Awards() {
   return (
     <section>
-      <div className="py-[80px]">
+      <div >
         <div className="container">
           <h3 className="xl:text-[50px] text-[40px] mb-3 font-medium">
             Awards <span className="text-[#E1183A]">&</span> Recognition
           </h3>
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-y-10 items-center">
-            <div>
+            <div className="hidden md:block">
               <ul className="space-y-[6px] list-none relative">
                 <div className="before:lg:absolute before:lg:w-[1px] before:lg:h-[100%] before:lg:bg-[#707070] before:lg:right-0 before:lg:top-0 before:lg:bottom-0"></div>
                 {list?.map((e, i) => (
@@ -59,7 +59,7 @@ export default function Awards() {
               <AutoScrollSlider>
                 {[award1, award2, award3, award4, award5, award6, award7].map((e, i) => (
                   <div key={i} className="grow-0 group shrink-0 basis-auto min-w-0 pl-4">
-                    <Image tabIndex={0} key={i} src={e} alt="awards" />
+                    <Image tabIndex={0} key={i} src={e} alt="awards" className=" w-[300px]" />
                   </div>
                 ))}
               </AutoScrollSlider>

@@ -1,7 +1,7 @@
 
 export default function Strategies() {
   return (
-    <section className="pt-[100px]">
+    <section >
     <div className="container text-center">
         <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-medium leading-snug">
           How Our SEO Strategy Powers<br />

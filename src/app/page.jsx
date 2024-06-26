@@ -3,8 +3,8 @@
 import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, Package, ServicesTabs, Strategies } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
-import CallAwayImageMen from "../../public/callaway/menLaptop.png"
-import CallAwayImageWomen from "../../public/callaway/women.png"
+import CallAwayImageMen from "media/callaway/menLaptop.png"
+import CallAwayImageWomen from "media/callaway/women.png"
 // Testimonial Data
 let testimonialData = [
   {
@@ -62,48 +62,67 @@ export default function page() {
         spaceBottom="pb-[300px]"
         
       />
-      <Awards/>
-      <ServicesTabs />
-      <CallAway
-        title="Digital Marketing Expert <br /> Is Just A Call Away!"
-        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
-        CallAwayImage={CallAwayImageMen}
-        // Banner={BannerBlue}
-        bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
-        btnClass="!bg-[#EC4139] !text-white"
-        btnClass2="!bg-white !text-black"
-      />
-      <Strategies />
-      <SeoGraph />
-      <Testimonial
-        title="Still Not Convinced?"
-        desc="Discover What Customers Have To Say About Us"
-        gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
-        bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
-        data={testimonialData}
-      />
-
+      <div className=" xs:py-[50px] py-[90px]">
+        <Awards/>
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <ServicesTabs />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <CallAway
+          title="Digital Marketing Expert <br /> Is Just A Call Away!"
+          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
+          CallAwayImage={CallAwayImageMen}
+          // Banner={BannerBlue}
+          bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
+          btnClass="!bg-[#EC4139] !text-white"
+          btnClass2="!bg-white !text-black"
+        />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <Strategies />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <SeoGraph />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <Testimonial
+          title="Still Not Convinced?"
+          desc="Discover What Customers Have To Say About Us"
+          gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
+          bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
+          data={testimonialData}
+        />
+      </div>
       
-      <Industries
-        title="Customer Base From Different Industries"
-        desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!"
-      />
+
+      <div className="xs:py-[50px] py-[90px]">
+        <Industries
+          title="Customer Base From Different Industries"
+          desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!"
+        />
+      </div>
+     
       
       
+      <div className="xs:py-[50px] py-[90px]">
+        <UsaCities/>  
+      </div>
       
-      <UsaCities/>
 
 
 
-
-      <CallAway
-        title="Digital Marketing Expert Is Just A Call Away!"
-        desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
-        CallAwayImage={CallAwayImageWomen}
-        bg= "bg-[#E1183A] rounded-[40px]"
-        btnClass="!bg-[#202124] !text-white"
-        btnClass2="!bg-white !text-black"
-      />
+      <div className="xs:py-[50px] py-[90px]">
+        <CallAway
+          title="Digital Marketing Expert Is Just A Call Away!"
+          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
+          CallAwayImage={CallAwayImageWomen}
+          bg= "bg-[#E1183A] rounded-[40px]"
+          btnClass="!bg-[#202124] !text-white"
+          btnClass2="!bg-white !text-black"
+        />
+      </div>
+     
     </main>
   )
 }

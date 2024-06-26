@@ -6,7 +6,7 @@ import liBorder from "media/liborder.png";
 export default function UsaCities() {
     return (
         <section>
-            <div className="py-[100px]">
+            <div>
                 <div className="container">
                     <div className="mb-[40px] md:mb-[80px]">
                         <h2 className="text-center xs:text-[25px] sm:text-[30px] md:text-[30px] lg:text-[40px] xl:text-[48px] 2xl:text-[58px] text-[65px] leading-snug font-semibold capitalize">Providing <span className="text-[#24BF5A] ">SEO</span> services to multiple

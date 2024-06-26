@@ -1,7 +1,7 @@
 export default function whyChoose({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", data, theme = "light"}) {
   return (
     <section>
-      <div className="py-[80px]">
+      <div >
         <div className="container">
           <div className="text-center mb-12">
             {subTitle && (

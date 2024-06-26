@@ -5,7 +5,7 @@ import {CTA} from ".";
 export default function CallAway({title, desc, CallAwayImage, bg, Banner, btnClass, btnClass2}) {
   return (
     <section>
-      <div className="pt-[80px]">
+      <div >
         <div className="container">
           <div className={`relative z-10 xl:py-[60px] px-[20px] lg:pl-[40px] xl:pl-[60px] lg:py-[40px] pt-[50px] ${bg}`}>
             {Banner && <Image src={Banner} alt="banner" className="absolute top-0 left-0 right-0 bottom-0 w-full h-full -z-10" priority={true} />}
