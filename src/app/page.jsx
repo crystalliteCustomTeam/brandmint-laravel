@@ -281,7 +281,7 @@ export default function page() {
 
 
 
-      {/* {/* <section className="packages">
+      {/* <section className="packages">
         <div className="container text-center">
           <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
             Break Your Competition Without
@@ -838,7 +838,7 @@ export default function page() {
                         </p>
                         <p className="flex items-center text-[14px] font-light ">
                           <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
-                          <span >10 Business Profiles</span>
+                          <span >10 Business Profiles</span>g
                         </p>
                         <p className="flex items-center text-[14px] font-light">
                           <span className="me-[10px]"><Image src={check} alt="check icon" /></span>
@@ -853,7 +853,7 @@ export default function page() {
             </div>
           </Tabs>
         </div>
-      </section> */} */}
+      </section> */} 
       <CallAway
         title="Digital Marketing Expert Is Just A Call Away!"
         desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
