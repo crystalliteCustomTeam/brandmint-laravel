@@ -4,10 +4,11 @@ import Header from "./Header";
 import Hero from "./Hero";
 import AutoScrollSlider from "./AutoScrollSlider";
 import CallAway from "./CallAway" 
-import Card from "./Card";
+import Testimonial from "./Testimonial";
 import MarqueeBlock from "./MarqueeBlock"
 import { ButtonVariants } from "./ui/Button"
+import Industries from "./Industries"
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"
 
-export {Header, Hero, Awards, CTA, ButtonVariants,MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Card};
+export {Header, Hero, Awards, CTA, ButtonVariants,MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries};
