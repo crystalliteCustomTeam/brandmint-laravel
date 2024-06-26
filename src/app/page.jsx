@@ -1,6 +1,6 @@
 "use client"
 // Components
-import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, Package, ServicesTabs, Strategies } from "@/components"
+import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, Package, ServicesTabs, Strategies, Header } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 import CallAwayImageMen from "media/callaway/menLaptop.png"
@@ -53,6 +53,7 @@ let testimonialData = [
 export default function page() {
   return (
     <main>
+      <Header />
       <Hero
         subTitle="America's Leading Digital Marketing Company"
         title="Fresh Strategies <br class='hidden lg:block' />for Digital Success"
