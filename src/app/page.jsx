@@ -1,8 +1,8 @@
 "use client"
 // Components
-import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Card } from "@/components"
+import { Awards, Hero, Tabs, TabsContent, TabsList, TabsTrigger, CallAway, Card, SeoGraph, UsaCities } from "@/components"
 // Media
-import heroBG from 'media/heroBgHome.png'
+import heroBG from 'media/horsebg.png'
 import Image from "next/image"
 import service1 from "../../public/home/solution-seo.png"
 import check from "../../public/home/check-mark.svg"
@@ -56,6 +56,9 @@ export default function page() {
         title="Fresh Strategies <br class='hidden lg:block' />for Digital Success"
         desc="Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
         bg={heroBG}
+        marqueeCss="absolute bottom-[100px] left-0 right-0"
+        spaceBottom="pb-[300px]"
+        
       />
       <Awards/>
       <CallAway
@@ -266,7 +269,12 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="packages">
+      <SeoGraph />
+      <UsaCities/>
+
+
+
+      {/* <section className="packages">
         <div className="container text-center">
           <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
             Break Your Competition Without
@@ -838,7 +846,7 @@ export default function page() {
             </div>
           </Tabs>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }

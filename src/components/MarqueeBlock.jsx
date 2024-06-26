@@ -13,7 +13,7 @@ export default function MarqueeBlock({
 }) {
   return (
     <div className={`relative ${theme === "dark" ? "bg-black" : "bg-white"} mx-[-1rem]`}>
-      <div className={`rotate-6 ${css}`}>
+      <div className={`rotate-6 ${css} `}>
         <Marquee className="text-[50px]  bg-white border-2 border-[#707070]" autoFill="true" >
           <div className="flex items-center gap-5 ml-3">
             <span ><Image src={star} className="w-[42px] h-[42px]" /> </span> BRANDING

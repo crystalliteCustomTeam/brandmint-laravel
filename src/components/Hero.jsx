@@ -52,8 +52,8 @@ export default function Hero({
                             </div>
                         </div>
                     </div>
+                    <MarqueeBlock theme={marqueeTheme} css={marqueeCss} />
                 </div>
-                <MarqueeBlock theme={marqueeTheme} css={marqueeCss} />
             </div>
         </section>
     )
