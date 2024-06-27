@@ -67,7 +67,7 @@
 }
 @layer utilities {
   .custom-scrollbar::-webkit-scrollbar {
-      @apply w-3; /* Adjust the width of the scrollbar */
+      @apply w-2; /* Adjust the width of the scrollbar */
   }
   .custom-scrollbar::-webkit-scrollbar-track {
       @apply bg-[#F3F3F3]; /* Customize the scrollbar track */

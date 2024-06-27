@@ -2,7 +2,7 @@
 import Image from 'next/image'
 // Media
 import usaflag from 'media/usa_flag.png'
-import ukflag from 'media/usa_flag.png'
+import ukflag from 'media/uk_flag.png'
 // Components
 import { CTA, MarqueeBlock } from '@/components'
 
