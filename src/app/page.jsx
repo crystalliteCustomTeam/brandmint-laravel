@@ -54,7 +54,6 @@ let testimonialData = [
 export default function Page() {
   return (
     <main>
-      <Header />
       <Hero
         subTitle="America's Leading Digital Marketing Company"
         title="Fresh Strategies <br class='hidden lg:block' />for Digital Success"

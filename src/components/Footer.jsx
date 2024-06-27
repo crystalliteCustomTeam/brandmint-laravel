@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Media
-import logo from "media/footer_logo.png";
+import logo from "media/logo.svg";
 import payment from "media/payment.png";
 
 export default function Footer() {
@@ -14,14 +14,14 @@ export default function Footer() {
           <div className="lg:pt-[100px] lg:pb-[40px] py-[50px] border-b-[1px] border-b-solid border-[#707070] text-white">
             <div className="lg:flex grid grid-cols-12 justify-between gap-3 gap-y-6 lg:flex-nowrap flex-wrap relative">
               <div className="lg:max-w-[40%] col-span-12">
-                <Image src={logo} alt="Brandmint" width={200} height={40} className="mb-2" />
+                <Image src={logo} alt="Brandmint" width={200} height={40} className="brightness-0 invert mb-5" />
                 <p className="lg:text-[15px] text-[14px] leading-[25px] lg:leading-[30px] font-normal text-white mb-10">
                   BrandMint is a full service digital marketing agency that offers a multitude of advertising solutions for various industry verticals. The company aims at making businesses successful
                   BRANDS with its affordable internet marketing solutions.
                 </p>
 
-                <h3 className="text-[25px] font-normal leading-[30px] mb-4">Subscribe Our News Letter</h3>
-                <input type="email" name="email" id="" />
+                {/* <h3 className="text-[25px] font-normal leading-[30px] mb-4">Subscribe Our News Letter</h3>
+                <input type="email" name="email" id="" /> */}
                 <div className="flex gap-4 justify-start items-center mt-5">
                   {[
                     ["/", "facebook", "/facebook.png"],
