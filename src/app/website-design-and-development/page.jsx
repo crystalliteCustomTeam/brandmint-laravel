@@ -1,6 +1,6 @@
 "use client"
 // Components
-import { Awards, Hero } from "@/components"
+import { Awards, Hero, Process } from "@/components"
 // Media
 import heroImg from 'media/webDevelopmentImg.png'
 import { useEffect, useState } from "react"
@@ -35,6 +35,9 @@ export default function Page() {
                 marqueeTheme={marqueeTheme}
             />
             <Awards />
+            <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+                <Process />
+            </div>
         </main>
     )
 }
