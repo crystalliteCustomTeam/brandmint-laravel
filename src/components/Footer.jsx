@@ -27,8 +27,8 @@ export default function Footer() {
                     ["/", "facebook", "/facebook.png"],
                     ["/", "twitter", "/twitter.png"],
                     ["/", "instagram", "/instagram.png"],
-                  ].map(([link, social, imageURL]) => (
-                    <Link href={link}>
+                  ].map(([link, social, imageURL], i) => (
+                    <Link href={link} key={i}>
                       <Image src={imageURL} alt={social} className="w-[40px] hover:" width={40} height={40} />
                     </Link>
                   ))}
