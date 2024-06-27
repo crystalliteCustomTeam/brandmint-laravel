@@ -70,7 +70,7 @@ export default function Strategies({theme = "light"}) {
             We understand that business is dynamic. Should anything change in your situation or you need to adjust your marketing plans, you can pause or cancel our services anytime. We’re here to support your growth, however it evolves.
           </div>
         </div>
-        <div className="flex gap-2 mt-5">
+        <div className="flex gap-2 mt-5 justify-center">
           <CTA text={'GET STARTED NOW'} />
           <CTA text={'Contact'} variant='black' className={`${theme === "light" ? " " : "!bg-white/20"}`} />
         </div>
