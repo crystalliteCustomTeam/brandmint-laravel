@@ -22,7 +22,7 @@ export default function Header() {
                         ["Services","/ser"],
                         ["Industries We Serve","/ser"],
                         ["Client Testimonials","/ser"],
-                        ["About","/ser"],
+                        ["About","/about-us"],
                         ["Blog","/ser"],      
                         ["Contact","/ser"]
                       ].map(([text, link], i) => (
@@ -69,11 +69,11 @@ export default function Header() {
                   }
                 </ul>
               </nav>
-              <CTA text={"(123)-456-7890"} variant="black" className="mt-10 !w-full text-center" /> {/* Desktop Menu */}
+              <CTA text={"(123)-456-7890"} variant="icon" className="mt-10 !w-full text-center" icon={true} /> {/* Desktop Menu */}
                 </SheetContent>
               </Sheet>
             </div>
-            <CTA text={"Contact Us"} variant="black" className="px-5 xl:px-10 xs:hidden" /> {/* Desktop Menu */}
+            <CTA text={"Contact Us"} variant="icon" className="xs:hidden" icon={true} /> {/* Desktop Menu */}
           </div>
         </div>
       </div>

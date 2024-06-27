@@ -72,7 +72,7 @@ export default function Strategies({theme = "light"}) {
         </div>
         <div className="flex gap-2 mt-5 justify-center">
           <CTA text={'GET STARTED NOW'} />
-          <CTA text={'Contact'} variant='black' className={`${theme === "light" ? " " : "!bg-white/20"}`} />
+          <CTA text={'Contact'} variant='icon' icon={true} />
         </div>
       </div>
     </section>

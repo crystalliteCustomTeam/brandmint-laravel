@@ -43,7 +43,7 @@ export default function Hero({
                                     </p>}
                                     <div className="flex gap-2 mt-5">
                                         <CTA text={'GET STARTED NOW'} />
-                                        <CTA text={'Contact'} variant='black' className={`${theme === "light" ? " " : "!bg-white/20"}`} />
+                                        <CTA text={'Contact'} variant='icon' icon={true} className={`${theme === "light" ? " " : "!bg-white/20"}`} />
                                     </div>
                                 </div>
                             </div>

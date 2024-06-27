@@ -19,7 +19,7 @@ export default function CallAway({title, desc, CallAwayImage, bg, Banner, btnCla
                 <p className="2xl:text-[16px] text-[14px] leading-normal font-light  lg:max-w-[85%] xl:max-w-full" dangerouslySetInnerHTML={{__html: desc}} />
                 <div className="flex gap-4 mt-[20px] justify-center lg:justify-start">
                   <CTA text={"GET STARTED NOW"} className={`${btnClass}`} />
-                  <CTA text={"Contact"} className={`${btnClass2}`} />
+                  <CTA text={"Contact"} variant="icon" icon={true} className={`${btnClass2}`} />
                 </div>
               </div>
             </div>

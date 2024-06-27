@@ -5,14 +5,16 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils"
 
 const ButtonVariants = cva(
-  "w-max rounded-full font-medium text-[16px] h-[45px] xs:px-5 px-10",
+  "w-max rounded-full font-medium text-[16px] h-[45px]",
   {
     variants: {
       variant: {
         default:
-          "bg-[#EC4139] text-primary-foreground shadow hover:bg-[#EC4139]/90",
+          "bg-[#EC4139] text-primary-foreground shadow hover:bg-[#EC4139]/90 xs:px-5 px-10",
         black:
-          "bg-black text-primary-foreground shadow hover:bg-black /90",
+          "bg-black text-primary-foreground shadow hover:bg-black/90 xs:px-5 px-10",
+        icon:
+          "bg-black text-primary-foreground shadow hover:bg-black/90 xs:px-3 px-6",
       }
     },
     defaultVariants: {
