@@ -1,6 +1,7 @@
 import Awards from "./Awards";
 import CTA from "./CTA"
 import Header from "./Header";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import AutoScrollSlider from "./AutoScrollSlider";
 import CallAway from "./CallAway"
@@ -23,4 +24,4 @@ import FAQs from "./FAQs";
 
 
 
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger,FAQs  };
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger,FAQs  };
