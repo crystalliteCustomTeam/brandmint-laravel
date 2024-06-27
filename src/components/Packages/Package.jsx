@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/index";
 import data from "./package.json"
 import Image from "next/image";
 
-const Package = ({ id = 1 }) => {
+const Package = ({id}) => {
     return (
         <section className="packages">
             <div className="container text-center">

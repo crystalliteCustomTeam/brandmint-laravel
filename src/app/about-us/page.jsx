@@ -1,5 +1,5 @@
 // Components
-import { Awards, Hero } from "@/components"
+import { Awards, Hero, Package } from "@/components"
 // Media
 import HeroImg from "media/about-us.png"
 
@@ -21,6 +21,7 @@ export default function Page() {
                 gridright="col-span-12 lg:col-span-4"
             />
             <Awards />
+            <Package id={1}/>
         </main>
     )
 }
