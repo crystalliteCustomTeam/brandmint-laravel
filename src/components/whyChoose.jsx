@@ -12,15 +12,25 @@ export default function whyChoose({subTitle, title, desc, bgClass, classes = " "
               </span>
             )}
             {title && (
-              <h3 className={`lg:text-[50px] md:text-[40px] text-[25px] font-medium text-[#202124] mx-auto ${theme == "light" ? "text-[#202124]" : "text-white"} mb-2`} dangerouslySetInnerHTML={{__html: title}} />
+              <h3
+                className={`lg:text-[50px] md:text-[40px] text-[25px] font-medium text-[#202124] mx-auto ${theme == "light" ? "text-[#202124]" : "text-white"} mb-2`}
+                dangerouslySetInnerHTML={{__html: title}}
+              />
             )}
-            {desc && <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light ${theme == "light" ? "text-[#202124]" : "text-white"}`} dangerouslySetInnerHTML={{__html: desc}} />}
+            {desc && (
+              <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light ${theme == "light" ? "text-[#202124]" : "text-white"}`} dangerouslySetInnerHTML={{__html: desc}} />
+            )}
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 items-center gap-3 ">
             {data?.map(([image, title, desc], i) => (
-              <div key={i} className="flex flex-col justify-center gap-3 lg:min-h-[450px] min-h-[400px] even:border-[1px] even:border-solid  even:shadow-lg lg:px-[25px] px-[15px] lg:py-[40px] py-[30px] even:rounded-[30px]">
-                <Image src={image} alt="Brandmint" className="w-[70px] h-[70px] mb-[20px]" width={50} height={50} />
+              <div
+                key={i}
+                className="relative flex flex-col justify-center gap-3 min-h-[450px] hover:border-[1px] hover:border-solid  hover:shadow-lg lg:px-[25px] px-[15px] lg:py-[50px] py-[30px] hover:rounded-[30px] group"
+              >
+                  <div className="xl:w-[20%] lg:w-[30%] md:w-[35%] w-[25%] group-hover:p-5 p-5 h-full rounded-full mb-[0px] group-hover:bg-[#EC4139]">
+                  <Image src={image} alt="Brandmint" className="w-[45px] relative z-20 transition-all duration-400 ease-in-out group-hover:brightness-0 group-hover:invert" width={50} height={50} quality={95}/>
+                  </div>
                 <h3 className="xl:text-[30px] md:text-[20px] text-[25px] font-semibold border-b-[4px] border-b-[#EBEBEB] pb-5 mb-5" dangerouslySetInnerHTML={{__html: title}} />
                 <p className="xl:text-[16px] text-[14px] font-light" dangerouslySetInnerHTML={{__html: desc}} />
               </div>

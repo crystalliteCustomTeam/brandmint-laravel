@@ -4,10 +4,55 @@ import Image from "next/image";
 // Image
 import iconimage from "media/card/stars.png";
 import { CTA } from ".";
-export default function Card({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", variant = "steps", data, theme = "light"}) {
+// Testimonial Data
+let data = [
+  {
+    shadowColor: "bg-[#4E81EC]",
+    iconimage: "/card/stars.png",
+    review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
+    testimonialImage: "/card/philip.png",
+    testimonialName: "Philip",
+  },
+  {
+    shadowColor: "bg-[#E1183A]",
+    iconimage: "/card/stars.png",
+    review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
+    testimonialImage: "/card/chris.png",
+    testimonialName: "Chris",
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    iconimage: "/card/stars.png",
+    review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
+    testimonialImage: "/card/bilal.png",
+    testimonialName: "Bilal",
+  },
+  {
+    shadowColor: "bg-[#24BF5A]",
+    iconimage: "/card/stars.png",
+    review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
+    testimonialImage: "/card/elissa.png",
+    testimonialName: "Elissa Kidarshan",
+  },
+  {
+    shadowColor: "bg-[#4E81EC]",
+    iconimage: "/card/stars.png",
+    review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
+    testimonialImage: "/card/joe.png",
+    testimonialName: "Joe Francis",
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    iconimage: "/card/stars.png",
+    review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
+    testimonialImage: "/card/moses.png",
+    testimonialName: "Moses",
+  },
+];
+export default function Card({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", variant = "steps", theme = "light"}) {
   return (
     <section>
-      <div >
+      <div>
         <div className="container">
           <div className="text-center mb-12">
             {subTitle && <span className="text-[20px] lg:text-[30px] block leading-tight font-semibold font-sans text-[#40BEE2] mb-2">{subTitle}</span>}

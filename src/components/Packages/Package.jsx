@@ -6,7 +6,7 @@ import Image from "next/image";
 const Package = ({id}) => {
     return (
         <section className="packages">
-            <div className="container text-center">
+            <div className="container text-center font-medium">
                 <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
                     Break Your Competition Without
                 </h2>
@@ -14,7 +14,7 @@ const Package = ({id}) => {
                     Breaking Your Bank!
                 </h2>
 
-                <p className="max-w-[892px] mx-auto py-3">
+                <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
                     We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
                 </p>
             </div>
@@ -39,7 +39,7 @@ const Package = ({id}) => {
                                 <div className="inline-flex flex-col md:flex-row items-center gap-3 lg:gap-5">
                                     {
                                         list && list?.map((item, i) => (
-                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[10px] lg:px-[25px] xl:px-[45px] py-[8px] lg:py-[18px] xl:py-[35px] even:py-[18px] even:lg:py-[30px] even:xl:py-[55px]" key={i}>
+                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[10px] lg:px-[20px] xl:px-[20px] py-[8px] lg:py-[18px] xl:py-[35px] even:py-[18px] even:lg:py-[25px] even:xl:py-[55px]" key={i}>
                                                 <p className="text-[20px] ">{item.name} Plan</p>
                                                 <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[23px]">Per Month</span></p>
                                                 <p className="text-[14px]">{item.desc}</p>
