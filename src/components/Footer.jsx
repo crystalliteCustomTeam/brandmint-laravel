@@ -76,19 +76,23 @@ export default function Footer() {
               <div className="lg:max-w-[20%] md:col-span-4 col-span-12 ">
                 <h3 className="text-[25px] font-normal leading-[30px]">Contact</h3>
                 <ul className="list-none mt-5 space-y-3">
-                  {[
-                    ["Operations: 502 W 7th ST STE 100 Erie, PA 16502", "/location.png"],
-                    ["(717)-400-0010 <br/> 1-844-400-0025", "/phone.png"],
-                    ["Contact Mail", "/mail.png"],
-                  ].map(([text, icon], i) => (
-                    <li key={i} className="flex items-center justify-start gap-3">
-                      <div className="max-w-[25%]">
-                        <Image src={icon} alt="contact" className="w-[20px]" width={20} height={20} />
-                      </div>
-                      <span className="text-[14px] 2xl:text-[15px] leading-[20px] lg:max-w-[70%] max-w-[60%] font-normal" dangerouslySetInnerHTML={{__html : text }} />
-                        
-                    </li>
-                  ))}
+                  {
+                    [
+                        ["/location.png","#","Operations: 502 W 7th ST STE 100 Erie, PA 16502"],
+                        ["/phone.png","#","(717)-400-0010"],
+                        ["/phone.png","#","1-844-400-0025"],
+                        ["/mail.png","#","Contact Email"],
+                    ].map(([icon,link,text],i)=>(
+                            <li key={i} className="flex items-center justify-start gap-3">
+                              <div className="max-w-[25%]">
+                                <Image src={icon} alt="contact" className="w-[20px]" width={20} height={20} />
+                              </div>
+                              <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[20px] lg:max-w-[70%] max-w-[60%] font-normal hover:text-red-700 transition-colors">
+                                {text}
+                              </Link>
+                            </li>
+                    ))
+                  }
                 </ul>
               </div>
               <Image src={payment} alt="Payment Methods" width={120} height={100} className="absolute right-0 lg:bottom-0 -bottom-[40px]"/>
