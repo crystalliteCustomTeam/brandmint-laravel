@@ -1,6 +1,7 @@
 import Awards from "./Awards";
 import CTA from "./CTA"
 import Header from "./Header";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import AutoScrollSlider from "./AutoScrollSlider";
 import CallAway from "./CallAway"
@@ -16,4 +17,4 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"
 import UsaCities from "./UsaCities";
 
 
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph,UsaCities, Package };
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph,UsaCities, Package, Footer };
