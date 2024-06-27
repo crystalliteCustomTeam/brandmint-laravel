@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
+  <g id="accordianIconUp" transform="translate(-0.143 -0.191)">
+    <g id="_Round_Navigation_arrow_drop_down_circle" data-name=" Round / Navigation / arrow_drop_down_circle" transform="translate(0 0)">
+      <rect id="Path" width="33" height="32" transform="translate(0.143 0.191)" fill="none"/>
+      <path id="_Icon_Color" data-name=" Icon Color" d="M13.5,27A13.5,13.5,0,0,1,3.954,3.954,13.5,13.5,0,1,1,23.046,23.046,13.412,13.412,0,0,1,13.5,27Zm.019-15.85a.69.69,0,0,0-.491.2L9.261,15.121a.655.655,0,0,0-.155.728.664.664,0,0,0,.627.42H17.28a.664.664,0,0,0,.624-.415.675.675,0,0,0-.152-.746l-3.767-3.766A.655.655,0,0,0,13.519,11.15Z" transform="translate(3.143 2.191)" fill="#3ba155"/>
+    </g>
+  </g>
+</svg>
