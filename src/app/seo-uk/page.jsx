@@ -1,6 +1,6 @@
 
 // Components
-import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs, UkCities } from "@/components"
+import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs, UkCities, Contact } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 import CallAwayImageMen from "media/callaway/menLaptop.png"
@@ -103,15 +103,17 @@ export default function Page() {
           desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!"
         />
       </div>
-     
+      <div  className="xs:py-[50px] py-[90px]">
+            <Contact/>
+        </div>
+    
       
       
       <div className="xs:py-[50px] py-[90px]">
         <UkCities />
       </div>
       
-
-
+        
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
