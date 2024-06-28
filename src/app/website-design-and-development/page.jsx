@@ -60,7 +60,7 @@ export default function Page() {
           btnClass2="!bg-white !text-black"
         />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[50px]">
         <Portfolio />
       </div>
       <div className="xs:py-[50px] py-[90px]">
