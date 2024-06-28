@@ -1,5 +1,5 @@
 // Components
-import { Awards, Hero } from "@/components"
+import { Awards, ComboPackage, Hero } from "@/components"
 import HeroImg from "media/seoservicesHero.png"
 
 export default function Page() {
@@ -18,6 +18,9 @@ export default function Page() {
                 imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
             />
             <Awards />
+            <div className="xs:py-[50px] py-[90px] bg-[#0085F8]">
+                <ComboPackage/>
+            </div>
         </main>
     )
 }

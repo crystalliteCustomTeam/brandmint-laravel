@@ -5,7 +5,7 @@ export default function Strategies({theme = "light"}) {
   return (
     <section >
       <div className="container text-center">
-        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-medium leading-snug">
+        <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium leading-snug">
           How Our SEO Strategy Powers<br className="md:block hidden" />
           Your Business
         </h2>
