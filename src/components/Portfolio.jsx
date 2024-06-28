@@ -6,7 +6,7 @@ import React from "react";
 import Portfolio1 from "media/website-design-and-development/portfolio1.png";
 import Portfolio2 from "media/website-design-and-development/portfolio2.png";
 import Portfolio3 from "media/website-design-and-development/portfolio3.png";
-import { CTA } from ".";
+import {CTA} from ".";
 
 export default function Portfolio() {
   return (
@@ -22,14 +22,19 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div className="flex gap-2 mb-2">
-            <Image src={Portfolio1} alt="Brandmint Portfolio" className="w-[800px]" width={400} height={500} quality={95} />
-            <Image src={Portfolio2} alt="Brandmint Portfolio" className="w-full" width={500} height={500} quality={95} />
+          <div className="grid grid-cols-12 gap-5 mb-2">
+            <div className="md:col-span-5 col-span-12">
+              <Image src={Portfolio1} alt="Brandmint Portfolio" className="w-full" width={400} height={300} quality={95} />
+            </div>
+            <div className="md:col-span-7 col-span-12">
+              <Image src={Portfolio2} alt="Brandmint Portfolio" className="w-full" width={800} height={300} quality={95} />
+            </div>
+            <div className="col-span-12 relative">
+            <Image src={Portfolio3} alt="Brandmint Portfolio" className="w-full" width={1000} height={500} quality={95} />
+            <CTA text={"View More Website Portfolio"} variant="icon" icon={true} className="!bg-[#414141] hover:!bg-[#EC4139] md:absolute static xl:left-[38%] lg:left-[34%] md:left-[30%] lg:bottom-16 md:bottom-10 mx-auto mt-5 md:mt-0" />
           </div>
-          <div className="relative">
-            <Image src={Portfolio3} alt="Brandmint Portfolio" className="w-full relative -z-20" width={1000} height={500} quality={95} />
-            <CTA text={'View More Website Portfolio'} variant='icon' icon={true} className="!bg-[#414141] hover:!bg-[#EC4139] absolute bottom-14 left-[39%]"/>
           </div>
+          
         </div>
       </div>
     </section>

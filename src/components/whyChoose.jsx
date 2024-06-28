@@ -13,7 +13,7 @@ export default function whyChoose({subTitle, title, desc, bgClass, classes = " "
             )}
             {title && (
               <h3
-                className={`lg:text-[50px] md:text-[40px] text-[25px] font-medium text-[#202124] mx-auto ${theme == "light" ? "text-[#202124]" : "text-white"} mb-2`}
+                className={`text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-[#202124] mx-auto ${theme == "light" ? "text-[#202124]" : "text-white"} mb-2`}
                 dangerouslySetInnerHTML={{__html: title}}
               />
             )}
@@ -28,8 +28,8 @@ export default function whyChoose({subTitle, title, desc, bgClass, classes = " "
                 key={i}
                 className="relative flex flex-col justify-center gap-3 min-h-[450px] hover:border-[1px] hover:border-solid  hover:shadow-lg lg:px-[25px] px-[15px] lg:py-[50px] py-[30px] hover:rounded-[30px] group"
               >
-                  <div className="xl:w-[20%] lg:w-[30%] md:w-[35%] w-[25%] group-hover:p-5 p-5 h-full rounded-full mb-[0px] group-hover:bg-[#EC4139]">
-                  <Image src={image} alt="Brandmint" className="w-[45px] relative z-20 transition-all duration-400 ease-in-out group-hover:brightness-0 group-hover:invert" width={50} height={50} quality={95}/>
+                  <div className="xl:w-[20%] lg:w-[30%] md:w-[35%] w-max group-hover:p-5 p-5 h-full rounded-full mb-[0px] group-hover:bg-[#EC4139]">
+                  <Image src={image} alt="Brandmint" className="md:w-[45px] w-[30px] relative z-20 transition-all duration-400 ease-in-out group-hover:brightness-0 group-hover:invert" width={50} height={50} quality={95}/>
                   </div>
                 <h3 className="xl:text-[30px] md:text-[20px] text-[25px] font-semibold border-b-[4px] border-b-[#EBEBEB] pb-5 mb-5" dangerouslySetInnerHTML={{__html: title}} />
                 <p className="xl:text-[16px] text-[14px] font-light" dangerouslySetInnerHTML={{__html: desc}} />
