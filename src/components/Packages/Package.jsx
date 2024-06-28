@@ -6,13 +6,13 @@ import Image from "next/image";
 const Package = ({ id }) => {
     return (
         <section className="packages">
-            <div className="container text-center">
+            <div className="container text-center font-medium">
                 <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
                     Break Your Competition Without <br class='hidden md:block' />
                     <span className="text-[#E1183A]">Breaking Your Bank!</span>
                 </h2>
 
-                <p className="max-w-[892px] mx-auto py-3">
+                <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
                     We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
                 </p>
             </div>
@@ -37,9 +37,15 @@ const Package = ({ id }) => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 md:gap-5">
                                     {
                                         list && list?.map((item, i) => (
+<<<<<<< HEAD
                                             <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[25px] xl:px-[45px] py-[30px] even:py-[40px] relative" key={i}>
                                                 <p className="text-[18px] sm:text-[20px]">{item.name} Plan</p>
                                                 <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[20px] sm:text-[23px]">Per Month</span></p>
+=======
+                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[10px] lg:px-[20px] xl:px-[20px] py-[8px] lg:py-[18px] xl:py-[35px] even:py-[18px] even:lg:py-[25px] even:xl:py-[55px]" key={i}>
+                                                <p className="text-[20px] ">{item.name} Plan</p>
+                                                <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[23px]">Per Month</span></p>
+>>>>>>> 1ca0c52ab732a55dfa2231a486a4bf0b4c48bf1f
                                                 <p className="text-[14px]">{item.desc}</p>
                                                 <div className="bg-white !text-black rounded-[26px] p-[27px] mt-[25px]">
                                                     <div className="h-[328px] overflow-y-scroll custom-scrollbar">
