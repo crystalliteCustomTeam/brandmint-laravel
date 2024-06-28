@@ -7,20 +7,18 @@ import seoImg from "media/local-seo-service/seo.png";
 import BusinessSeoImg from "media/local-seo-service/business-seo.png";
 import qualityLeadsImg from "media/local-seo-service/qualityLeads.png";
 import CallAwayImageMen from "media/callaway/menLaptop.png";
-import CallAwayImageWomen from "media/callaway/women.png"
-
+import CallAwayImageWomen from "media/callaway/women.png";
 
 // Why Choose Section Data
 const chooseData = [
-    ["/social-media-marketing/speech-bubble.png", "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
-    [
-      "/social-media-marketing/customer-centric-approch.png",
-      "Customer-Centric <br/> Approch",
-      "We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your",
-    ],
-    ["/social-media-marketing/great-idea.png", "Innovation and <br/> Excellence", "We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends."],
-  ];
-  
+  ["/social-media-marketing/speech-bubble.png", "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
+  [
+    "/social-media-marketing/customer-centric-approch.png",
+    "Customer-Centric <br/> Approch",
+    "We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your",
+  ],
+  ["/social-media-marketing/great-idea.png", "Innovation and <br/> Excellence", "We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends."],
+];
 
 export default function Page() {
   return (
@@ -41,12 +39,7 @@ export default function Page() {
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose
-          subTitle="Why Choose Us"
-          title="Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!"
-          desc="We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?"
-          data={chooseData}
-        />
+        <WhyChoose />
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content
@@ -57,7 +50,6 @@ export default function Page() {
             <br/><br/>
             Let us ask you a question. What do you do when you crave pizza? Obviously, you pick up your mobile phone and check what nearby pizza shop is available to satisfy your cravings. What did you just enter? Was it “pizza near me”? If yes, the shops that appear in the search results are the ones that have Local SEO done on their online profiles."
           img1={seoImg}
-          direction=""
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -75,65 +67,52 @@ export default function Page() {
           title="What Goes Into Local SEO That Drives Quality Leads To Your Website?"
           desc="Many attributes go into the process of creating a successful local SEO strategy for making the brand recognizable. It starts with devising a marketing strategy where lead generation and local SEO services hold a prominent position. It goes unsaid that lead generation serves as the lifeblood of any business. Without a steady stream of quality leads, firms of all shapes and sizes toil to make sales and grow. And, let alone local SEO acts as a funnel attracting prospects to your business."
           img1={qualityLeadsImg}
-          direction=""
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
-        <CallAway
-          title="Digital Marketing Expert <br /> Is Just A Call Away!"
-          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
-          CallAwayImage={CallAwayImageMen}
-          // Banner={BannerBlue}
-          bg="bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
-          btnClass="!bg-[#EC4139] !text-white"
-          btnClass2="!bg-white !text-black"
-        />
+        <CallAway />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial
-          title="Still Not Convinced?"
-          desc="Discover What Customers Have To Say About Us"
-          gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
-          bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
-        />
+        <Testimonial />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway
-          title="Digital Marketing Expert Is Just A Call Away!"
-          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
-          CallAwayImage={CallAwayImageWomen}
-          bg= "bg-[#E1183A] rounded-[40px]"
-          btnClass="!bg-[#202124] !text-white"
-          btnClass2="!bg-white !text-black"
-        />
+        <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-      <FAQs items={[
-        {
-          title: "How long does SEO take to generate results?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        },
-        {
-          title: "What Includes In on page SEO services?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        },
-        {
-          title: "Why is SEO important for your business?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        },
-        {
-          title: "How Does Jumpto1 Carry Its SEO service delivery?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        },
-        {
-          title: "Why Should You Partner With Us?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        },
-        {
-          title: "Why is SEO important for your business?",
-          content: "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries."
-        }
-      ]} />
+        <FAQs
+          items={[
+            {
+              title: "How long does SEO take to generate results?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+            {
+              title: "What Includes In on page SEO services?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+            {
+              title: "Why is SEO important for your business?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+            {
+              title: "How Does Jumpto1 Carry Its SEO service delivery?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+            {
+              title: "Why Should You Partner With Us?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+            {
+              title: "Why is SEO important for your business?",
+              content:
+                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+            },
+          ]}
+        />
       </div>
     </main>
   );

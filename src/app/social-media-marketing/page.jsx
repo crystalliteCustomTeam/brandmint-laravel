@@ -2,19 +2,7 @@
 import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose, Platforms } from "@/components"
 // Media
 import heroImg from "media/socialMediaHero.png";
-import CallAwayImageMen from "media/callaway/menLaptop.png";
 import CallAwayImageWomen from "media/callaway/women.png";
-
-// Why Choose Section Data
-const chooseData = [
-  ["/social-media-marketing/speech-bubble.png", "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
-  [
-    "/social-media-marketing/customer-centric-approch.png",
-    "Customer-Centric <br/> Approch",
-    "We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your",
-  ],
-  ["/social-media-marketing/great-idea.png", "Innovation and <br/> Excellence", "We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends."],
-];
 
 export default function Page() {
   return (
@@ -37,41 +25,24 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway
-          title="Digital Marketing Expert <br /> Is Just A Call Away!"
-          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
-          CallAwayImage={CallAwayImageMen}
-          // Banner={BannerBlue}
-          bg="bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
-          btnClass="!bg-[#EC4139] !text-white"
-          btnClass2="!bg-white !text-black"
-        />
+        <CallAway/>
       </div>
       <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
         <Platforms />
       </div>
-      <WhyChoose
-        subTitle="Why Choose Us"
-        title="Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!"
-        desc="We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?"
-      />
+      <div className="xs:py-[50px] py-[90px]">
+      <WhyChoose/>
+      </div>
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1} />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial
-          title="Still Not Convinced?"
-          desc="Discover What Customers Have To Say About Us"
-          gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
-          bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
-        />
+        <Testimonial/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-          title="Digital Marketing Expert Is Just A Call Away!"
-          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online."
           CallAwayImage={CallAwayImageWomen}
           bg="bg-[#E1183A] rounded-[40px]"
           btnClass="!bg-[#202124] !text-white"

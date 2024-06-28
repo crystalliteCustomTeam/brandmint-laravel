@@ -12,7 +12,7 @@ import { ButtonVariants, Button } from "@/components/ui/Button"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/Sheet"
 import SeoGraph from "./SeoGraph";
 import Industries from "./Industries"
-import WhyChoose from "./whyChoose";
+import WhyChoose from "./WhyChoose";
 import Portfolio from "./Portfolio";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"

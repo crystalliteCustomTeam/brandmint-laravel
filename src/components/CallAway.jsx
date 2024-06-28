@@ -1,8 +1,18 @@
 // Next
 import Image from "next/image";
 import {CTA} from ".";
+// Media
+import CallAwayImageMen from "media/callaway/menLaptop.png"
 
-export default function CallAway({title, desc, CallAwayImage = "", bg, Banner, btnClass, btnClass2}) {
+export default function CallAway({
+  title="Digital Marketing Expert Is Just A Call Away!", 
+  desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online.", 
+  CallAwayImage= CallAwayImageMen, 
+  bg= "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]", 
+  Banner, 
+  btnClass="!bg-[#EC4139] !text-white", 
+  btnClass2="!bg-white !text-black"
+}) {
   return (
     <section>
       <div >

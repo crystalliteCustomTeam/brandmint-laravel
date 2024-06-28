@@ -9,17 +9,21 @@ import industries5 from "media/industries/travel.png";
 // Next
 import Image from "next/image";
 
-export default function Industries({subTitle, title, desc, theme = "light"}) {
+export default function Industries({
+  subTitle, 
+  title="Customer Base From Different Industries", 
+  desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!", 
+}) {
   return (
     <section>
       <div >
         <div className="container">
           <div className="text-center mb-12">
             {subTitle && <span className="text-[20px] lg:text-[30px] block leading-tight font-semibold font-sans text-[#40BEE2] mb-2">{subTitle}</span>}
-            {title && <h3 className={`text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] xs:pb-[10px] font-semibold text-[#202124] ${theme == "light" ? "text-[#202124]" : "text-white"} mb-2`} dangerouslySetInnerHTML={{__html: title}} />}
+            {title && <h3 className={`text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] xs:pb-[10px] font-semibold text-[#202124]  mb-2`} dangerouslySetInnerHTML={{__html: title}} />}
             {desc && (
               <p
-                className={`text-[14px] lg:text-[16px] 2xl:w-[75%] lg:w-[85%] mx-auto block leading-[26px] font-normal ${theme == "light" ? "text-[#202124]" : "text-white"}`}
+                className={`text-[14px] lg:text-[16px] 2xl:w-[75%] lg:w-[85%] mx-auto block leading-[26px] font-normal `}
                 dangerouslySetInnerHTML={{__html: desc}}
               />
             )}
