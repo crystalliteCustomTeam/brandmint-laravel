@@ -1,6 +1,6 @@
 
 // Components
-import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs, UkCities, Contact } from "@/components"
+import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs, UkCities, Contact, Advertising } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 import CallAwayImageMen from "media/callaway/menLaptop.png"
@@ -153,6 +153,8 @@ export default function Page() {
         }
       ]} />
       </div>
+
+      <Advertising />
      
     </main>
   )

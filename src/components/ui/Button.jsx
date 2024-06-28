@@ -5,7 +5,7 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils"
 
 const ButtonVariants = cva(
-  "w-max rounded-full font-medium text-[16px] h-[45px]",
+  "w-max rounded-full font-medium xs:text-[14px] sm:text-[15px] text-[16px] h-[45px]",
   {
     variants: {
       variant: {
