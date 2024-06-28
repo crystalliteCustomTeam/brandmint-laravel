@@ -1,5 +1,14 @@
 import Image from "next/image";
-
+// Why Choose Section Data
+const chooseData = [
+  ["/social-media-marketing/speech-bubble.png", "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
+  [
+    "/social-media-marketing/customer-centric-approch.png",
+    "Customer-Centric <br/> Approch",
+    "We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your",
+  ],
+  ["/social-media-marketing/great-idea.png", "Innovation and <br/> Excellence", "We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends."],
+];
 export default function whyChoose({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", data, theme = "light"}) {
   return (
     <section>

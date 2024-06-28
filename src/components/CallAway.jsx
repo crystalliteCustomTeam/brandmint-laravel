@@ -2,7 +2,7 @@
 import Image from "next/image";
 import {CTA} from ".";
 
-export default function CallAway({title, desc, CallAwayImage, bg, Banner, btnClass, btnClass2}) {
+export default function CallAway({title, desc, CallAwayImage = "", bg, Banner, btnClass, btnClass2}) {
   return (
     <section>
       <div >

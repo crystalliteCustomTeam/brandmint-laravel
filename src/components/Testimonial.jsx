@@ -49,7 +49,7 @@ let data = [
     testimonialName: "Moses",
   },
 ];
-export default function Card({subTitle, title, desc, bgClass, classes = " ", gridsClasses = " ", cta = "", variant = "steps", theme = "light"}) {
+export default function Card({subTitle, title, desc, bgClass,  gridsClasses = " ", cta = "", theme = "light"}) {
   return (
     <section>
       <div>
