@@ -2,7 +2,13 @@ import Image from "next/image";
 import React from "react";
 import { CTA } from ".";
 
-export default function Content({subTitle, title, desc, classes, direction = "", img1}) {
+export default function Content({
+  subTitle, 
+  title, 
+  desc, 
+  classes = "", 
+  direction = "", 
+  img1}) {
   return (
     <section>
       <div className={` ${classes} bg-cover bg-center`}>
