@@ -7,50 +7,7 @@ import CallAwayImageMen from "media/callaway/menLaptop.png"
 import CallAwayImageWomen from "media/callaway/women.png"
 
 // Testimonial Data
-let testimonialData = [
-  {
-    "shadowColor" : "bg-[#4E81EC]", 
-    iconimage : "/card/stars.png",
-    review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
-    testimonialImage : "/card/philip.png",
-    testimonialName: 'Philip'
-  },
-  {
-    "shadowColor" : "bg-[#E1183A]", 
-    iconimage : "/card/stars.png",
-    review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
-    testimonialImage : "/card/chris.png",
-    testimonialName: 'Chris'
-  },
-  {
-    "shadowColor" : "bg-[#F5C228]", 
-    iconimage : "/card/stars.png",
-    review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
-    testimonialImage : "/card/bilal.png",
-    testimonialName: 'Bilal'
-  },
-  {
-    "shadowColor" : "bg-[#24BF5A]", 
-    iconimage : "/card/stars.png",
-    review: "'Business Name' is my go-to site for getting the reviews for my business accounts. Since the time I have known this site, I haven't visited any other.",
-    testimonialImage : "/card/elissa.png",
-    testimonialName: 'Elissa Kidarshan'
-  },
-  {
-    "shadowColor" : "bg-[#4E81EC]", 
-    iconimage : "/card/stars.png",
-    review: "Having positive reviews on the website and account feels so good. It is so encouraging to drive the business. I got them from Business Name and I love them.",
-    testimonialImage : "/card/joe.png",
-    testimonialName: 'Joe Francis'
-  },
-  {
-    "shadowColor" : "bg-[#F5C228]",   
-    iconimage : "/card/stars.png",
-    review: "If you are looking to build a strong review profile, I suggest you see BuyReviewz. They have an expert team and fulfill the order in a professional manner.",
-    testimonialImage : "/card/moses.png",
-    testimonialName: 'Moses'
-  },
-]
+
 export default function Page() {
   return (
     <main>
@@ -92,7 +49,7 @@ export default function Page() {
           desc="Discover What Customers Have To Say About Us"
           gridsClasses="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4"
           bgClass="bg-transparent border-[1px] shadow-lg rounded-[15px]"
-          data={testimonialData}
+         
         />
       </div>
       
@@ -154,7 +111,7 @@ export default function Page() {
       ]} />
       </div>
 
-      <Advertising />
+     
      
     </main>
   )

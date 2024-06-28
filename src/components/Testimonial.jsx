@@ -10,7 +10,7 @@ import elissa from "media/testimonial/elissa.png";
 import joe from "media/testimonial/joe.png";
 import moses from "media/testimonial/moses.png";
 
-import { CTA } from ".";
+import { CTA } from "@/components";
 // Testimonial Data
 let data = [
   {
