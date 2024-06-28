@@ -11,7 +11,7 @@ export default function ServicesTabs() {
     <section >
     <div className="container">
       <div className="text-center">
-        <h2 className="text-[25px] sm:text-[30px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium">
+        <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-medium">
           Fresh Strategies for Digital Success
         </h2>
         <p className="max-w-[782px] mx-auto ">

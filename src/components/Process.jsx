@@ -4,8 +4,8 @@ import Image from "next/image"
 export default function Process() {
   return (
     <div className="container">
-        <h2 className="mt-[40px] text-[25px] text-center sm:text-[30px] lg:text-[45px] mb-[22px] font-medium">
-            What Goes Into Our Art Of  Creating Affordable <br class='hidden sm:block' />
+        <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-medium">
+            What Goes Into Our Art Of  Creating Affordable <br class='hidden lg:block' />
             Website Design For Your Brand?
         </h2>
         <div className="py-[40px] flex flex-wrap justify-center xl:justify-between items-center gap-12 xl:gap-5">

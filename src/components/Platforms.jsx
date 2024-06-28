@@ -35,7 +35,7 @@ export default function Platforms() {
                     <Image src={youtube} className="w-[100%] max-w-[220px]" alt="youtube" />
                 </div>
             </div>
-            <h2 className="mt-[40px] text-[25px] text-center sm:text-[30px] lg:text-[45px] mb-[22px] font-medium">
+            <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-medium">
                 Enter The Digital Era Now, <br class='hidden sm:block' />
                 Else Wait For Miracle To Happen!
             </h2>
