@@ -1,6 +1,6 @@
 "use client";
 // Components
-import {Awards, CallAway, FAQs, Hero, Package, Portfolio, Testimonial, WhyChoose} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Process, Package, Portfolio, Testimonial, WhyChoose} from "@/components";
 // Media
 import heroImg from "media/webDevelopmentImg.png";
 import CallAwayImageMen from "media/callaway/menLaptop.png";
@@ -120,6 +120,9 @@ export default function Page() {
           ]}
         />
       </div>
+            <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+                <Process />
+            </div>
     </main>
   );
 }

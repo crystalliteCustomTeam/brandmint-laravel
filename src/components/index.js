@@ -23,6 +23,7 @@ import Strategies from "./Strategies";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/Accordion"
 import FAQs from "./FAQs";
 
+import Platforms from "./Platforms";
+import Process from "./Process";
 
-
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger,FAQs , Portfolio  };
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger,FAQs,Platforms,Process , Portfolio  };
