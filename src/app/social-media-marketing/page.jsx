@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose} from "@/components";
+import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose, Platforms } from "@/components"
 // Media
 import heroImg from "media/socialMediaHero.png";
 import CallAwayImageMen from "media/callaway/menLaptop.png";
@@ -47,14 +47,14 @@ export default function Page() {
           btnClass2="!bg-white !text-black"
         />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose
-          subTitle="Why Choose Us"
-          title="Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!"
-          desc="We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?"
-          data={chooseData}
-        />
+      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+        <Platforms />
       </div>
+      <WhyChoose
+        subTitle="Why Choose Us"
+        title="Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!"
+        desc="We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?"
+      />
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1} />
       </div>
