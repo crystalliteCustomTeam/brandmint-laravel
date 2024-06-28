@@ -13,6 +13,7 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/Sheet"
 import SeoGraph from "./SeoGraph";
 import Industries from "./Industries"
 import WhyChoose from "./whyChoose";
+import Portfolio from "./Portfolio";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs"
 import UsaCities from "./UsaCities";
@@ -28,4 +29,4 @@ import { Label } from "./ui/Label";
 
 
 
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, UkCities, Contact, Input, Label };
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, UkCities, Contact, Input, Label,Portfolio };
