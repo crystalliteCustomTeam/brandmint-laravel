@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, FAQs, Hero, Testimonial, WhyChoose} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Testimonial, WhyChooseUs} from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/onpageseoHero.png";
@@ -42,7 +42,7 @@ export default function Page() {
       <Testimonial />
 
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose />
+        <WhyChooseUs />
       </div>
 
       <div className="xs:py-[50px] py-[50px]">

@@ -1,5 +1,5 @@
 // Components
-import {CallAway, FAQs, Hero, Industries, Package, Testimonial, WhyChoose} from "@/components";
+import {CallAway, FAQs, Hero, Industries, Package, Testimonial, WhyChooseUs} from "@/components";
 // Media
 import HeroImg from "media/googleAdsHero.png";
 
@@ -25,7 +25,7 @@ export default function Page() {
         <CallAway/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose/>
+        <WhyChooseUs/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">

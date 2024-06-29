@@ -1,5 +1,5 @@
 // Components
-import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose, Platforms, Advertising, Contact } from "@/components"
+import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChooseUs, Platforms, Advertising, Contact } from "@/components"
 // Media
 import heroImg from "media/socialMediaHero.png";
 import CallAwayImageWomen from "media/callaway/women.png";
@@ -31,7 +31,7 @@ export default function Page() {
       </div>
      
       <div className="xs:py-[50px] py-[90px]">
-      <WhyChoose/>
+      <WhyChooseUs/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1} />

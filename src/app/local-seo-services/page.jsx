@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, FAQs, Hero, Package, SeoServiceSteps, Testimonial, WhyChoose} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Package, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/localseoservicesHero.png";
@@ -39,7 +39,7 @@ export default function Page() {
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose/>
+        <WhyChooseUs/>
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content

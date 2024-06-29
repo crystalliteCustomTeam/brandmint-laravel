@@ -1,6 +1,6 @@
 "use client";
 // Components
-import {Awards, CallAway, FAQs, Hero, Process, Package, Portfolio, Testimonial, WhyChoose} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Process, Package, Portfolio, Testimonial, WhyChooseUs} from "@/components";
 // Media
 import heroImg from "media/webDevelopmentImg.png";
 import {useEffect, useState} from "react";
@@ -47,7 +47,7 @@ export default function Page() {
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose/>
+        <WhyChooseUs/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
