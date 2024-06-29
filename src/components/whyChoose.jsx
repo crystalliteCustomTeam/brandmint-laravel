@@ -68,4 +68,4 @@ const WhyChoose = ({
   );
 }
 
-export default whyChoose
+export default WhyChoose
