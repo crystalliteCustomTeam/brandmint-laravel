@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Package, SeoServiceSteps, Testimonial, WhyChoose} from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/localseoservicesHero.png";
@@ -88,6 +88,9 @@ export default function Page() {
           btnClass="!bg-[#EC4139] !text-white"
           btnClass2="!bg-white !text-black"
         />
+      </div>
+      <div className="xs:py-[50px] py-[60px]">
+        <SeoServiceSteps/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial
