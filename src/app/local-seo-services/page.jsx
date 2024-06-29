@@ -39,7 +39,7 @@ export default function Page() {
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChoose />
+        <WhyChoose/>
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content
