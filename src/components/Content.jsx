@@ -1,14 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { CTA } from ".";
+import {CTA} from ".";
 
-export default function Content({
-  subTitle, 
-  title, 
-  desc, 
-  classes = "", 
-  direction = "", 
-  img1}) {
+export default function Content({subTitle, title, desc, list = false, listingData, classes = "", direction = "", img1}) {
   return (
     <section>
       <div className={` ${classes} bg-cover bg-center`}>
@@ -22,6 +16,17 @@ export default function Content({
                 {subTitle && <span className="text-[12px]" dangerouslySetInnerHTML={{__html: subTitle}} />}
                 {title && <h3 className="2xl:text-[55px] xl:text-[45px] md:text-[40px] text-[30px] font-medium leading-snug mb-3" dangerouslySetInnerHTML={{__html: title}} />}
                 {desc && <p className="2xl:text-[18px] xl:text-[16px] text-[14px] font-light mb-5" dangerouslySetInnerHTML={{__html: desc}} />}
+                {list && (
+                  <ol className="list-decimal pl-4 text-[25px] font-semibold space-y-[60px] my-5">
+                    {listingData?.map((e, i) => (
+                      <li key={i} className="">
+                        <h4 className="text-[25px] font-semibold" dangerouslySetInnerHTML={{__html: e.Heading}} />
+                        <span className="block text-[18px] font-light" dangerouslySetInnerHTML={{__html: e.spanDesc}} />
+                      </li>
+                    ))}
+                  </ol>
+                )}
+
                 <div className="flex gap-2 mt-5">
                   <CTA text={"GET STARTED NOW"} />
                   <CTA text={"Contact"} variant="icon" icon={true} className="" />
