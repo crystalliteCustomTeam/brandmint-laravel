@@ -37,9 +37,9 @@ const Package = ({ id }) => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 md:gap-5">
                                     {
                                         list && list?.map((item, i) => (
-                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[10px] lg:px-[20px] xl:px-[20px] py-[35px] even:xl:py-[55px]" key={i}>
-                                                <p className="text-[20px] ">{item.name} Plan</p>
-                                                <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[23px]">Per Month</span></p>
+                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[25px] xl:px-[45px] py-[30px] even:py-[40px] relative" key={i}>
+                                                <p className="text-[18px] sm:text-[20px]">{item.name} Plan</p>
+                                                <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[20px] sm:text-[23px]">Per Month</span></p>
                                                 <p className="text-[14px]">{item.desc}</p>
                                                 <div className="bg-white !text-black rounded-[26px] p-[27px] mt-[25px]">
                                                     <div className="h-[328px] overflow-y-scroll custom-scrollbar">
@@ -63,9 +63,9 @@ const Package = ({ id }) => {
                                                     <CTA text={'Call Us'} variant='icon' icon={true} className="!w-[60%] group-hover:!w-[50%] absolute  right-0 transition-all duration-500 group-hover:!bg-[#EC4139]" />
                                                 </div> */}
                                                 <div className="flex justify-center">
-                                                    <div className="inline-flex mt-5 justify-center group ">
-                                                        <CTA text={'Order Now'} className="z-10 transition-all duration-300 ease-in-out !px-6 !xl:px-10 group-hover:bg-[rgba(68,68,68,0.09)] group-hover:opacity-[9px] group-hover:!pr-[60px] group-hover:text-[#000]" />
-                                                        <CTA text={'Call Us'} variant='icon' icon={true} className="ml-[-40px] transition-all duration-300 ease-in-out !pl-[60px] group-hover:!pl-[30px] group-hover:z-20" />
+                                                    <div className="inline-flex mt-5 justify-center group w-full">
+                                                        <CTA text={'Order Now'} className="xl:!w-full md:!w-max !w-full z-10 transition-all duration-300 ease-in-out !px-6 !xl:px-10 group-hover:bg-[rgba(68,68,68,0.09)] group-hover:opacity-[9px] group-hover:!pr-[60px] group-hover:text-[#000]" />
+                                                        <CTA text={'Call Us'} variant='icon' icon={true} className="xl:!w-full md:!w-max !w-full ml-[-40px] transition-all duration-300 ease-in-out 2xl:!pl-[60px] !pl-[50px] group-hover:!pl-[30px] group-hover:z-20" />
                                                     </div>
                                                 </div>
                                             </div>

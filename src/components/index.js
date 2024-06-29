@@ -32,5 +32,6 @@ import Process from "./Process";
 import Advertising from "./Advertising";
 import COLORCARD from "./COLORCARD";
 import ComboPackage from "./ComboPackage";
+import SeoServiceSteps from "./SeoServiceSteps";
 
-export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs,Platforms,Process, UkCities, Contact, Input, Label,Portfolio,Advertising,COLORCARD,ComboPackage };
+export { Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChoose, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs,Platforms,Process, UkCities, Contact, Input, Label,Portfolio,Advertising,COLORCARD,ComboPackage,SeoServiceSteps };
