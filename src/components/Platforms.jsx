@@ -55,8 +55,8 @@ export default function Platforms() {
                     six
 
                 ].map((name,i)=>(
-                    <div className="hover:rotate-3 transition-all ease-in-out duration-300">
-                        <Image src={name} key={i} className="" alt={name} />
+                    <div key={i}  className="hover:rotate-3 transition-all ease-in-out duration-300">
+                        <Image src={name}  className="" alt={name} />
                     </div>
                 ))
             }
