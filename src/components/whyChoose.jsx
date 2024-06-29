@@ -7,7 +7,7 @@ import icon1 from "media/social-media-marketing/speech-bubble.png"
 import icon2 from "media/social-media-marketing/customer-centric-approch.png"
 import icon3 from "media/social-media-marketing/great-idea.png"
 
-const whyChoose = ({
+const WhyChoose = ({
   subTitle = "Why Choose Us",
   title = "Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!",
   desc = "We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?",

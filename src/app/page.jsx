@@ -1,6 +1,6 @@
 
 // Components
-import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs } from "@/components"
+import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header,FAQs, Contact } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 
@@ -40,7 +40,9 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <Industries/>
       </div>
-     
+      <div className="xs:py-[50px] py-[90px]">
+        <Contact/>
+      </div>
       <div className="xs:py-[50px] py-[90px]">
         <UsaCities/>  
       </div>
@@ -53,7 +55,8 @@ export default function Page() {
           btnClass2="!bg-white !text-black"
         />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+   
+      <div className="xs:py-[50px] py-[30px]">
       <FAQs items={[
         {
           title: "How long does SEO take to generate results?",

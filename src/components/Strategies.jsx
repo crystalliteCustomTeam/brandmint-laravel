@@ -1,31 +1,62 @@
 // Components
-import { CTA} from '@/components'
+import { CTA } from "@/components"
 
-export default function Strategies({theme = "light"}) {
+let data = [
+  {
+    title: "Getting to Know You",
+    desc: "First, we dive deep. We learn everything about your businessfrom your goals and target audience to reviewing your past marketing efforts. This thorough understanding allows us to craft a perfectly tailored strategy that hits all the right notes."
+  },
+  {
+    title: "Crafting Your Custom Plan",
+    desc: "Based on our findings, we develop an initial plan tailored just for you, covering the next 3-6 months. This isn’t just about SEO; we integrate various digital marketing strategies that align with your specific needs, ensuring a comprehensive approach."
+  },
+  {
+    title: "Setting the Partnership in Motion",
+    desc: "Once you’re happy with the plan and the pricing, we’ll send over a contract for you to sign. After the upfront fee is sorted, our team rolls up their sleeves and gets down to business. It’s time to turn plans into action."
+  },
+  {
+    title: "Regular Updates and Reviews",
+    desc: "We believe in keeping you in the loop. That’s why we schedule monthly meetings to review progress, discuss results, and make any necessary tweaks. This keeps our strategies fresh and your business on the path to success.ght notes."
+  },
+  {
+    title: "Flexible and Responsive",
+    desc: "We understand that business is dynamic. Should anything change in your situation or you need to adjust your marketing plans, you can pause or cancel our services anytime. We’re here to support your growth, however it evolves."
+  }
+]
+
+export default function Strategies() {
   return (
     <section >
-      <div className="container text-center">
-        <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium leading-snug">
-          How Our SEO Strategy Powers<br className="md:block hidden" />
-          Your Business
-        </h2>
-        <p className="max-w-[970px] mx-auto py-3 text-[14px] md:text-[16px]">
-          At the heart of our approach is a commitment to truly understanding your business. Here’s how our tailored,  SEO strategy works to amplify your success:
-        </p>
-      </div>
-      <div className="container ">
-        <div className="grid grid-cols-12 group text-[#CBCBCB] py-8">
-          <div className="number col-span-2 md:col-span-1 group-hover:text-[#E1183A] text-[18px] sm:text-[22px] xl:text-[30px] font-semibold">
-            01
-          </div>
-          <div className="title col-span-9 me-10 xl:me-24 md:col-span-5 mb-5 group-hover:text-[#E1183A] text-[18px] sm:text-[22px] xl:text-[30px] font-semibold">
-            Getting to Know You
-          </div>
-          <div className="content col-span-12 md:col-span-6 text-[14px] md:text-[16px] text-justify md:text-left group-hover:text-[#202124]">
-            First, we dive deep. We learn everything about your businessfrom your goals and target audience to reviewing your past marketing efforts. This thorough understanding allows us to craft a perfectly tailored strategy that hits all the right notes.
-          </div>
+      <div className="container">
+        <div className="text-center">
+          <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-semibold leading-snug">
+            How Our SEO Strategy Powers <br className="md:block hidden" />
+            Your Business
+          </h2>
+          <p className="max-w-[970px] mx-auto py-3 text-[14px] md:text-[16px]">
+            At the heart of our approach is a commitment to truly understanding your business. Here’s how our tailored,  SEO strategy works to amplify your success:
+          </p>
         </div>
-        <div className="grid grid-cols-12 group text-[#CBCBCB] py-8">
+      </div>
+      <div className="container mt-10">
+        {/* <div className="grid grid-cols-12 group text-[#CBCBCB] py-8"> */}
+        {
+          data?.map(({ title, desc }, i) => (
+            <div className="grid grid-cols-12 group text-[#CBCBCB] py-8 gap-x-5" key={i}>
+              <span className="number col-span-1 md:col-span-1 group-hover:text-[#E1183A] text-[18px] sm:text-[22px] xl:text-[30px] font-semibold">
+                0{i + 1}
+              </span>
+              <h3 className="title col-span-11 me-10 xl:me-24 md:col-span-5 mb-5 group-hover:text-[#E1183A] text-[17px] sm:text-[20px] xl:text-[30px] font-semibold">
+                {title}
+              </h3>
+              <p className="content col-span-12 md:col-span-6 text-[14px] md:text-[16px] text-justify md:text-left group-hover:text-[#202124]">
+                {desc}
+              </p>
+            </div>
+          ))
+        }
+        {/* </div> */}
+        {/* <div className="grid grid-cols-12 group text-[#CBCBCB] py-8">
           <div className="number col-span-2 md:col-span-1 group-hover:text-[#24BF5A] text-[18px] sm:text-[22px] xl:text-[30px] font-semibold">
             02
           </div>
@@ -69,7 +100,7 @@ export default function Strategies({theme = "light"}) {
           <div className="content col-span-12 md:col-span-6 text-[14px] md:text-[16px] text-justify md:text-left group-hover:text-[#202124]">
             We understand that business is dynamic. Should anything change in your situation or you need to adjust your marketing plans, you can pause or cancel our services anytime. We’re here to support your growth, however it evolves.
           </div>
-        </div>
+        </div> */}
         <div className="flex gap-2 mt-5 justify-center">
           <CTA text={'GET STARTED NOW'} />
           <CTA text={'Contact'} variant='icon' icon={true} />

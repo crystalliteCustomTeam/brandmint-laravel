@@ -1,5 +1,5 @@
 // Components
-import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose, Platforms } from "@/components"
+import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChoose, Platforms, Advertising, Contact } from "@/components"
 // Media
 import heroImg from "media/socialMediaHero.png";
 import CallAwayImageWomen from "media/callaway/women.png";
@@ -23,13 +23,13 @@ export default function Page() {
       <div className="py-[80px]">
         <Awards />
       </div>
-
+      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+        <Platforms/>
+      </div>
       <div className="xs:py-[50px] py-[90px]">
         <CallAway/>
       </div>
-      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
-        <Platforms />
-      </div>
+     
       <div className="xs:py-[50px] py-[90px]">
       <WhyChoose/>
       </div>
@@ -40,6 +40,15 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial/>
       </div>
+
+      <div className="xs:py-[50px] py-[90px]">
+        <Advertising/>
+      </div>
+      
+      <div className="xs:py-[50px] py-[90px]">
+        <Contact/>
+      </div>
+      
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
