@@ -18,10 +18,10 @@ const Package = ({ id }) => {
             </div>
             <div className="container">
                 <Tabs defaultValue="Annually" className="mt-16 text-center">
-                    <TabsList className="bg-[#000000] rounded-[50px] inline-flex mb-[50px]">
+                    <TabsList className="bg-[#000000] rounded-[50px] flex md:inline-flex mb-[50px]">
                         {(data.id === id) && data.package.map(({ name, upto }, i) => (
                             <TabsTrigger key={i} value={name} className="data-[state=active]:bg-[#EC4139] data-[state=active]:text-white  bg-transparent rounded-[50px]
-                  border-[#F3F3F3] text-[14px] md:text-[16px] lg:text-[18px] text-[#CBCBCB] px-[22px] md:px-[55px] lg:px-[85px] py-[4px] md:py-[8px] lg:py-[10px] ">
+                  border-[#F3F3F3] text-[14px] md:text-[16px] lg:text-[18px] text-[#CBCBCB] px-[22px] md:px-[55px] lg:px-[85px] py-[4px] md:py-[8px] lg:py-[10px] flex-1 md:flex-auto">
                                 <div className=" font-bold">
                                     {name}
                                 </div>
