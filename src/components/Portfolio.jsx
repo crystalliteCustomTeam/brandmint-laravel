@@ -14,8 +14,8 @@ export default function Portfolio() {
       <div>
         <div className="container">
           <div className="text-center mb-8">
-            <span className="text-[20px] lg:text-[25px] bg-[#F8BF19] w-max mx-auto rounded-full py-3 px-[2.5rem] block leading-tight font-normal uppercase text-black mb-6 shadow-sm">Portfolio</span>
-            <h3 className={`lg:text-[50px] md:text-[40px] text-[25px] font-medium text-[#202124] mx-auto mb-2`}>Making Brands The Best Of What They Can Be</h3>
+            <span className="md:text-[20px] text-[16px] lg:text-[25px] bg-[#F8BF19] w-max mx-auto rounded-full md:py-3 py-2 px-[2.5rem] block leading-tight font-normal uppercase text-black mb-6 shadow-sm">Portfolio</span>
+            <h3 className={`text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-[#202124] mx-auto text-[#202124]"  mb-5`}>Making Brands The Best Of What They Can Be</h3>
             <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light`}>
               Our team of experts focus on the needs of our client and their specific requirements to develop a custom solution tailored to their needs. Our ideology is DEFYING BRANDING NORMS, SETTING
               NEW HORIZONS! This is one of the main reasons why our work is internationally recognized.
