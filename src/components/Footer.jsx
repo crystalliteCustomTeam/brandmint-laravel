@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="lg:pt-[100px] lg:pb-[40px] py-[50px] border-b-[1px] border-b-solid border-[#707070] text-white">
             <div className="lg:flex grid grid-cols-12 justify-between gap-3 gap-y-6 lg:flex-nowrap flex-wrap relative">
               <div className="lg:max-w-[40%] col-span-12">
-                <Image src={logo} alt="Brandmint" width={200} height={40} className="brightness-0 invert mb-5" />
+                <Image src={logo} alt="SEO company" width={200} height={40} className="brightness-0 invert mb-5" />
                 <p className="lg:text-[15px] text-[14px] leading-[25px] lg:leading-[30px] font-normal text-white mb-10">
                   BrandMint is a full service digital marketing agency that offers a multitude of advertising solutions for various industry verticals. The company aims at making businesses successful
                   BRANDS with its affordable internet marketing solutions.

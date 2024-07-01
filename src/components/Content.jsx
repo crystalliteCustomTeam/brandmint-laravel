@@ -9,7 +9,7 @@ export default function Content({subTitle, title, desc, list = false, listingDat
         <div className="container">
           <div className={`flex gap-x-20 gap-y-10 items-center justify-center flex-wrap lg:flex-nowrap ${direction}`}>
             <div className="basis-4/12">
-              <Image src={img1} alt="Brandmint" className="lg:max-w-full max-w-[300px]" width={600} height={500} />
+              <Image src={img1} alt="SEO company" className="lg:max-w-full max-w-[300px]" width={600} height={500} />
             </div>
             <div className="basis-7/12">
               <div>

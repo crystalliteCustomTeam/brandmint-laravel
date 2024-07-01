@@ -145,7 +145,7 @@ export default function UkCities() {
                             </div>
                         </div>
                         <div className="hidden lg:block col-span-3">
-                            <Image src={seoUk} alt="brandMint" />
+                            <Image src={seoUk} alt="SEO company" />
                         </div>
                     </div>
                 </div>

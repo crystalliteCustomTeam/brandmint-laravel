@@ -45,7 +45,7 @@ const WhyChooseUs = ({
                 <div className={`xl:w-[20%] lg:w-[30%] md:w-[35%] w-max group-hover:p-5 p-5 h-full rounded-full mb-[0px] ${i === activeIndex ? "bg-[#EC4139] p-5" : ""}`}>
                   <Image
                     src={image}
-                    alt="Brandmint"
+                    alt="SEO company"
                     className={`md:w-[45px] w-[30px] relative z-20 transition-all duration-400 ease-in-out ${i === activeIndex ? "brightness-0 invert" : ""}`}
                     width={50}
                     height={50}

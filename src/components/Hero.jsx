@@ -25,7 +25,7 @@ export default function Hero({
     return (
         <section>
             <div className="overflow-hidden pt-[100px]">
-                <div className="relative z-10">
+                <div className="relative ">
                     {bg && <Image src={bg} alt="bg" fill className="-z-10 opacity-10 lg:opacity-100 object-cover lg:object-fill object-right-bottom" />}
                     <div className="container relative">
                         <div className={`grid grid-cols-12 gap-5 items-center ${spaceBottom}`}>

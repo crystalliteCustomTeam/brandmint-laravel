@@ -43,7 +43,7 @@ export default function Contact() {
                                 <Image src={buttonImage} className="hidden sm:block group-hover:rotate-45 transition-transform duration-500 " width={41} height={41}/>
                             </Button>
                         </div>
-                        <Image src={Contactbg} alt="BrandMint" fill={true} className="-z-10" />
+                        <Image src={Contactbg} alt="SEO company" fill={true} className="-z-10" />
                     </div>
 
                 </div>

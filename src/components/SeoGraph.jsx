@@ -31,7 +31,7 @@ export default function SeoGraph() {
                         </div>
                     </div>
                     <div className="mt-10">
-                        <Image src={seoGraph} alt="brandMINT" className="max-w-[90%] lg:max-w-[80%] mx-auto" />
+                        <Image src={seoGraph} alt="SEO company" className="max-w-[90%] lg:max-w-[80%] mx-auto" />
                     </div>
                     <div className="grid grid-cols-3  items-center text-center gap-5 mt-5">
                       
