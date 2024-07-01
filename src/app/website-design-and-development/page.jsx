@@ -1,6 +1,6 @@
 "use client";
 // Components
-import {Awards, CallAway, FAQs, Hero, Process, Package, Portfolio, Testimonial, WhyChooseUs} from "@/components";
+import {Awards, CallAway, FAQs, Hero, Process, Package, Portfolio, Testimonial, WhyChooseUs, Contact} from "@/components";
 // Media
 import heroImg from "media/webDevelopmentImg.png";
 import {useEffect, useState} from "react";
@@ -33,9 +33,10 @@ export default function Page() {
         titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[40px] xl:text-[55px] 2xl:text-[65px]"
         marqueeTheme={marqueeTheme}
       />
-      <div className="py-[80px]">
-        <Awards />
+      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+        <Process />
       </div>
+      
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway/>
@@ -52,6 +53,10 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial/>
+      </div>
+
+      <div className="xs:py-[50px] py-[90px]">
+        <Contact/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
@@ -90,9 +95,7 @@ export default function Page() {
           ]}
         />
       </div>
-            <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
-                <Process />
-            </div>
+           
     </main>
   );
 }

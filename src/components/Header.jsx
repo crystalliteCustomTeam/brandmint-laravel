@@ -27,7 +27,7 @@ export default function Header() {
                         ["Contact","/ser"]
                       ].map(([text, link], i) => (
                         <li key={i}>
-                          <Link href={link} className=" text-[14px] xl:text-[16px]   font-medium hover:text-red-700 transition-colors">
+                          <Link href={link} className=" text-[13px] xl:text-[16px]   font-medium hover:text-red-700 transition-colors">
                               {text}
                           </Link>
                         </li>
