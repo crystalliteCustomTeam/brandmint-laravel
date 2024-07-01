@@ -58,6 +58,7 @@ export default function Page() {
           btnClass2="!bg-white !text-black"
         />
       </div>
+     
       <div className="xs:py-[50px] py-[90px]">
         <FAQs
           items={[
