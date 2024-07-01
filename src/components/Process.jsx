@@ -9,7 +9,7 @@ export default function Process() {
             Website Design For Your Brand?
         </h2>
         <div className="py-[40px] flex flex-wrap justify-center xl:justify-between items-center gap-12 xl:gap-5">
-            <Image src={process} className="" alt="twitter" />
+            <Image src={process} className="w-[100%]" alt="twitter" />
         </div>
     </div>
   )
