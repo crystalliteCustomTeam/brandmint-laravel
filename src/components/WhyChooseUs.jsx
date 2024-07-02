@@ -23,14 +23,14 @@ const WhyChooseUs = ({
     <section>
       <div>
         <div className="container">
-          <div className="text-center mb-16">
+          <div className=" mb-16">
             {subTitle && (
               <span className="md:text-[20px] text-[16px] lg:text-[25px] bg-[#F8BF19] w-max mx-auto rounded-full md:py-3 py-2 px-[2.5rem] block leading-tight font-normal uppercase text-black mb-6 shadow-sm">
                 {subTitle}
               </span>
             )}
-            {title && <h3 className={`text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-[#202124] mx-auto text-[#202124]"  mb-5`} dangerouslySetInnerHTML={{__html: title}} />}
-            {desc && <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light text-[#202124]" `} dangerouslySetInnerHTML={{__html: desc}} />}
+            {title && <h3 className={`text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-[#202124] mx-auto text-[#202124]"  mb-5`} dangerouslySetInnerHTML={{__html: title}} />}
+            {desc && <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light text-[#202124] md:text-center !text-justify" `} dangerouslySetInnerHTML={{__html: desc}} />}
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 items-center gap-3">
