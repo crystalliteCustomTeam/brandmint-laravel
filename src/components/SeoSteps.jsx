@@ -37,7 +37,7 @@ export default function SeoSteps() {
             {count.map((e, i) =>
               i % 2 === 0 ? (
                 <div key={i} className="md:grid md:grid-cols-12 items-center relative hidden">
-                  <div className="md:col-span-5 col-span-12 py-5">
+                  <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
                     <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[40px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                   <div className="md:col-span-2 col-span-12">
@@ -59,7 +59,7 @@ export default function SeoSteps() {
                       <span className="absolute bg-[#363636] h-16 flex items-center justify-center w-16  rounded-full text-3xl font-bold text-center -left-7 xl:top-10 lg:top-12 top-14">0{++i}</span>
                     </div>
                   </div>
-                  <div className="md:col-span-5 col-span-12 py-5">
+                  <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
                     <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[40px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                 </div>
