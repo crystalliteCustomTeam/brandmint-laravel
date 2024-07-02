@@ -7,6 +7,7 @@ export default function thankYou() {
         <Hero
         title="Thank You"
         desc="Get your free 30 minutes strategy session with an experienced digital marketer valued at $300USD."
+        marqueeTheme = "light"
         />
         <div className="xs:py-[50px] py-[90px]">
         <ServicesTabs />
