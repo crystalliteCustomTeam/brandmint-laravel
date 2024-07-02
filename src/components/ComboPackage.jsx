@@ -229,7 +229,7 @@ const ComboPackages = ({
           </div>
         </div>
         <div className="container">
-          <div className="bg-white rounded-[26px] pl-[15px] 2xl:pl-[50px] pr[30px] py-[55px] grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-[70px] justify-center">
+          <div className="bg-white rounded-[26px] pl-[15px] 2xl:pl-[50px] pr[30px] py-[55px] grid lg:grid-cols-4  sm:grid-cols-2 grid-cols-1 mt-[70px] justify-center">
             <div className="px-3 lg:pb-0 pb-4">
               <h3 className="text-[18px] font-bold mb-[35px]">SEO</h3>
               <ul>
