@@ -85,7 +85,7 @@ export default function Footer() {
                     ].map(([icon,link,text],i)=>(
                             <li key={i} className="flex items-center justify-start gap-3">
                               <div className="max-w-[25%]">
-                                <Image src={icon} alt="contact" className="w-[20px]" width={20} height={20} />
+                                <Image src={icon} alt="SEO company" className="w-[20px]" width={20} height={20} />
                               </div>
                               <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[20px] lg:max-w-[70%] max-w-[60%] font-normal hover:text-[#EC4139] transition-colors">
                                 {text}
@@ -94,7 +94,7 @@ export default function Footer() {
                     ))
                   }
                 </ul>
-                <Image src={payment} alt="Payment Methods" width={120} height={100} className="absolute right-0 lg:-bottom-8 -bottom-[40px]"/>
+                <Image src={payment} alt="SEO company" width={120} height={100} className="absolute right-0 lg:-bottom-8 -bottom-[40px]"/>
               </div>
               
             </div>

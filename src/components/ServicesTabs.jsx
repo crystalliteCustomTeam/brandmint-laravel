@@ -70,7 +70,7 @@ export default function ServicesTabs() {
               data?.map(({ value, title, desc, img }, i) => (
                 <TabsContent value={value} className="grid md:grid-cols-12 grid-cols-1 gap-5 items-center" key={i}>
                   <div className="col-span-12 md:col-span-5">
-                    <Image src={img} alt="img" className="mx-auto block" />
+                    <Image src={img} alt="SEO company" className="mx-auto block" />
                   </div>
                   <div className="md:text-left text-center col-span-12 md:col-span-7">
                     {/* <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] font-medium mb-[20px]"> */}

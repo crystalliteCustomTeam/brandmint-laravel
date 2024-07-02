@@ -15,12 +15,12 @@ export default function Hero({
     return (
         <section >
             <div className="relative overflow-hidden z-10">
-                <Image src={bg} alt="bg" />
+                <Image src={bg} alt="SEO company" />
                 <div className="container">
                     <div className="flex items-center">
                         <div className="col-span-12 md:col-span-6">
                             <div className="flex gap-2 items-center">
-                                <Image src={usaflag} alt="Brand Mint" className="w-[40px] h-[40px]" />
+                                <Image src={usaflag} alt="SEO company" className="w-[40px] h-[40px]" />
                                 {subTitle && <p className="lg:text-[16px] text-[14px] text-white">
                                     {subTitle}
                                 </p>}

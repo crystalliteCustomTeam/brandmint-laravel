@@ -26,12 +26,12 @@ export default function Hero({
         <section>
             <div className="overflow-hidden pt-[100px]">
                 <div className="relative ">
-                    {bg && <Image src={bg} alt="bg" fill className="-z-10 opacity-10 lg:opacity-100 object-cover lg:object-fill object-right-bottom" />}
+                    {bg && <Image src={bg} alt="SEO company" fill className="-z-10 opacity-10 lg:opacity-100 object-cover lg:object-fill object-right-bottom" />}
                     <div className="container relative">
                         <div className={`grid grid-cols-12 gap-5 items-center ${spaceBottom}`}>
                             <div className={` ${gridleft} `}>
                                 <div className="flex gap-2 items-center">
-                                    <Image src={flag === "usa" ? usaflag : ukflag} alt="Brand Mint" className="w-[40px] h-[40px]" />
+                                    <Image src={flag === "usa" ? usaflag : ukflag} alt="SEO company" className="w-[40px] h-[40px]" />
                                     {subTitle && <p className={`lg:text-[16px] xs:text-[12px] sm:text-[14px] ${theme === "light" ? "text-black" : "text-white"}`}>
                                         {subTitle}
                                     </p>}
@@ -48,7 +48,7 @@ export default function Hero({
                                 </div>
                             </div>
                             <div className={`${gridright}`}>
-                                {img && <Image src={img} alt="img" className={`block mx-auto ${imgCss}`} />}
+                                {img && <Image src={img} alt="SEO company" className={`block mx-auto ${imgCss}`} />}
                             </div>
                         </div>
                     </div>

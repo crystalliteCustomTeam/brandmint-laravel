@@ -25,7 +25,7 @@ export default function UsaCities() {
                                         "Atlanta",
                                         "Dallas"].map((e, i) => (
                                             <li className="md:text-[18px] lg:text-[20px] xl:text-[25px] group overflow-hidden cursor-pointer w-[130px] mx-auto" key={i}>{e}
-                                                <Image src={liBorder} className="translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
+                                                <Image src={liBorder} alt="SEO company" className="translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
                                             </li>
                                         ))
                                 }
@@ -40,7 +40,7 @@ export default function UsaCities() {
                                         "Austin",
                                         "Denver"].map((e, i) => (
                                             <li className=" md:text-[18px] lg:text-[20px] xl:text-[25px] group overflow-hidden cursor-pointer w-[155px] mx-auto" key={i}>{e}
-                                                <Image src={liBorder} className="translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
+                                                <Image src={liBorder} alt="SEO company" className="translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
                                             </li>
                                         ))
                                 }
@@ -55,7 +55,7 @@ export default function UsaCities() {
                                         "Phoenix",
                                         "San Antonio"].map((e, i) => (
                                             <li className=" md:text-[18px] lg:text-[20px] xl:text-[25px] group overflow-hidden cursor-pointer w-[155px]  mx-auto" key={i}>{e}
-                                                <Image src={liBorder} className="translate-x-[-100%]  group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
+                                                <Image src={liBorder} alt="SEO company" className="translate-x-[-100%]  group-hover:translate-x-0 transition-transform duration-200 mx-auto max-w-[60%] scale-0 group-hover:scale-100" />
                                             </li>
                                         ))
                                 }
@@ -94,7 +94,7 @@ export default function UsaCities() {
                             }
                         </div>
                         <div className="col-span-5 hidden lg:block">
-                            <Image src={usaCityImage} className="h-full object-cover rounded-[20px]" />
+                            <Image src={usaCityImage} className="h-full object-cover rounded-[20px]" alt="SEO company"/>
                         </div>
                     </div>
                 </div>
