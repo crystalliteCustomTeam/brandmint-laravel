@@ -39,7 +39,7 @@ export default function Page() {
       
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway/>
+        <CallAway />
       </div>
       <div className="xs:py-[50px] py-[50px]">
         <Portfolio />
@@ -48,11 +48,11 @@ export default function Page() {
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChooseUs/>
+        <WhyChooseUs />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial/>
+        <Testimonial />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
@@ -95,7 +95,9 @@ export default function Page() {
           ]}
         />
       </div>
-           
+      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+        <Process />
+      </div>
     </main>
   );
 }

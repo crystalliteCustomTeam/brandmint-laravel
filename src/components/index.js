@@ -34,6 +34,7 @@ import COLORCARD from "./COLORCARD";
 import ComboPackage from "./ComboPackage";
 import SeoServiceSteps from "./SeoServiceSteps";
 import WhyChooseUs from "./WhyChooseUs";
+import ImageComponent from "./ImageComponent";
 
 
 
