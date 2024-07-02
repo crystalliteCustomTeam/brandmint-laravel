@@ -1,5 +1,5 @@
 // Components
-import {  ComboPackage, Hero, Testimonial, WhyChooseUs } from "@/components"
+import {  CallAway, ComboPackage, Hero, SeoServiceSteps, Testimonial, WhyChooseUs } from "@/components"
 import Content from "@/components/Content"
 // Media
 import HeroImg from "media/nationwideseoHero.png"
@@ -51,7 +51,12 @@ export default function Page() {
                 />
                 </div>
             </div>
-            
+            <div className="xs:py-[50px] py-[90px] ">
+                <CallAway />
+            </div>
+            <div className="xs:py-[50px] py-[90px] ">
+                <SeoServiceSteps />
+            </div>
         </main>
     )
 }
