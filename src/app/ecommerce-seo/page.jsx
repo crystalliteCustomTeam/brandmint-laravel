@@ -1,9 +1,9 @@
 // Components
-import {Awards, CallAway, ComboPackage, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
+import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
 import Content from "@/components/Content";
 import HeroImg from "media/ecommerceHero.png";
-import Ecommerce1 from "media/ecommerce1.png"
-import Ecommerce2 from "media/ecommerce2.png"
+import Ecommerce1 from "media/ecommerce1.png";
+import Ecommerce2 from "media/ecommerce2.png";
 export default function Page() {
   return (
     <main>
@@ -56,65 +56,78 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
+          title="Why Choose Jumpto1 For  <span class='text-[#E1183A]'> eCommerce <br class='lg:block hidden'/> SEO Services ?</span>"
+          description="eCommerce is here to dominate! Leverage Jumpto1 to your advantage and surpass the online competition by delivering the finest <br class='xl:block hidden'/> customer experience. Our eCommerce SEO marketing company brings a set of wholesomeness to your business arena."
           items={[
             {
               no: "01",
-              title: "Team Of Experts",
+              title: "Boost Your <br class='lg:block hidden'/> Business Efficiency",
               content:
-                "When your company becomes more recognized, more quality links will boost. With that, you will require more staff to service your SEO. Hiring then becomes a task that will take up more of your time, which will lead to less work efficiency. At Jumpto1, we provide you with a team of professionals to fulfill your SEO needs.",
+                "With the help of Jumpto1 SEO marketing for an eCommerce company, you can successfully mount your business, improve your product ranges and eliminate repetitive tasks. eCommerce digital marketing permits you to execute data-driven strategies that align with your eCommerce marketing goals. We Position your brand in front of potential buyers and generate loyal customers. Jumpto1 eCommerce SEO marketing covers a variety of online solutions, including SEO, social media brand management, and keyword research and optimization.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "02",
-              title: "Agency Growth",
+              title: "Strengthen Your Online Foundation rack Record",
               content:
-                "With our pre-packaged SEO services, you can add value to your agency's offerings and deliver the work you need for customers. With Jumpto1, there is no requirement to hire an in-house team. Our white label SEO outsourcing will provide you with the resources to get clients' deliverables.",
+                "Our profitable digital marketing campaigns throughout the years reflect Jumpto1's exceptional portfolio. Through our passion for creation and dedication to supporting our clients, we are confident that we will bring you the best eCommerce SEO services for your online store.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "03",
-              title: "Improved SEO Performance",
+              title: "Client-Focused Approach",
               content:
-                "With our white-hat link-building services, you can track campaign advancement with a brandable SEO dashboard that displays keyword rankings, Google Analytics, and traffic gains. We help you assemble customizable white label SEO reports that you can send directly to customers. All this you can get with our white label SEO company.",
+                "At Jumpto1, we appreciate your goals and put them above everything else. Our eCommerce SEO experts ensure everyone is on board when handling our clients' projects. You are always welcome to discuss your goals and share your ideas with our account managers.",
               borderColor: "border-[#34A854]",
             },
             {
               no: "04",
-              title: "SEO Tools",
+              title: "We Value Honesty",
               content:
                 "If you prefer in-house SEO, you will require expensive SEO tools, which can be very costly to buy. If you subscribe to our white label SEO services, Jumpto1 has already invested in having these tools, helping our clients save on expenses.",
               borderColor: "border-[#000000]",
             },
-            {
-              no: "05",
-              title: "Quality Backlinks",
-              content:
-                "Link building demands skills and expertise. Hiring us as a white-label service provider will assure you get high-quality backlinks. Our backlinks will send powerful messages to primary search engines like Google, Yahoo, and Bing that show competence and mastery. With quality backlinks, your website will have higher rankings and attract more potential clients for your business.",
-              borderColor: "border-[#F8BA05]",
-            },
-            {
-              no: "06",
-              title: "Work Freedom",
-              content:
-                "The costs associated with White Label SEO are far lower if you work with our white label SEO company that offers you a wholesale cost and the freedom to specify your client markup.",
-              borderColor: "border-[#0085F8]",
-            },
-            {
-              no: "07",
-              title: "Increased revenues",
-              content:
-                "The tools included in our white label SEO services will help you generate leads. With improved customer satisfaction, you will also be able to predict more reliable clients, which will lead to raised revenues for your digital agency. With our services, you save on expenses and time while improving business efficiency to gain more profit.",
-              borderColor: "border-[#EF4252]",
-            },
-            {
-              no: "08",
-              title: "Experts On Your Side",
-              content:
-                "It takes years of expertise to advise customers on the best SEO strategies. And because search engines are constantly changing, it's not something you can understand once and move on from. At Jumpto1, we optimize your clients' websites and execute an efficient SEO strategy as a full-time job.",
-              borderColor: "border-[#34A854]",
-            },
           ]}
         />
+        <div className="xs:py-[50px] py-[90px]">
+          <Contact />
+        </div>
+        <div className="xs:py-[50px] py-[90px]">
+          <FAQs
+            items={[
+              {
+                title: "How long does SEO take to generate results?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+              {
+                title: "What Includes In on page SEO services?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+              {
+                title: "Why is SEO important for your business?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+              {
+                title: "How Does Jumpto1 Carry Its SEO service delivery?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+              {
+                title: "Why Should You Partner With Us?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+              {
+                title: "Why is SEO important for your business?",
+                content:
+                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              },
+            ]}
+          />
+        </div>
       </div>
     </main>
   );
