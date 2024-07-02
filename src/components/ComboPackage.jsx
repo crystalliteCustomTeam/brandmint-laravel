@@ -219,7 +219,7 @@ const ComboPackages = ({
   return (
     <section>
       <div className="">
-        <div className={`relative before:bg-no-repeat before:bg-cover before:bg-center before:absolute before:w-[18%] before:h-full before:lg:block before:hidden`}>
+        <div className={`relative before:bg-no-repeat before:bg-cover before:bg-center before:absolute before:w-[18%] before:h-full before:lg:block before:hidden `}>
           <div className="container">
             <div className="">
                 <h2 className=" text-white text-[22px] text-center sm:text-[25px] lg:text-[45px] xl:text-[52px] 2xl:text-[60px] mb-[22px]">
