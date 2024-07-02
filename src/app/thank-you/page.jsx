@@ -1,10 +1,10 @@
-import {Heros, ServicesTabs, Testimonial } from '@/components'
+import {Hero, ServicesTabs, Testimonial } from '@/components'
 import React from 'react'
 
 export default function thankYou() {
     return (
       <main>
-        <Heros 
+        <Hero
         title="Thank You"
         desc="Get your free 30 minutes strategy session with an experienced digital marketer valued at $300USD."
         />
