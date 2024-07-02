@@ -6,17 +6,17 @@ import Image from "next/image";
 const Package = ({ id }) => {
     return (
         <section className="packages">
-            <div className="container text-center font-medium">
-                <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
-                    Break Your Competition Without <br class='hidden md:block' />
-                    <span className="text-[#E1183A]">Breaking Your Bank!</span>
-                </h2>
-
-                <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
-                    We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
-                </p>
-            </div>
             <div className="container">
+                <div className="text-center font-medium">
+                    <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
+                        Break Your Competition Without <br class='hidden md:block' />
+                        <span className="text-[#E1183A]">Breaking Your Bank!</span>
+                    </h2>
+
+                    <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
+                        We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
+                    </p>
+                </div>
                 <Tabs defaultValue="Annually" className="mt-16 text-center">
                     <TabsList className="bg-[#000000] rounded-[50px] flex md:inline-flex mb-[50px]">
                         {(data.id === id) && data.package.map(({ name, upto }, i) => (
