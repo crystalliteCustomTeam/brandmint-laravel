@@ -16,6 +16,7 @@ export default function page() {
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
       />
+      
       <div className="xs:py-[50px] py-[90px]">
         <CallAway />
       </div>
