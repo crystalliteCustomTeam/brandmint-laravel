@@ -1,5 +1,5 @@
 // Components
-import {CallAway, FAQs, Hero, Industries, Package, Testimonial, WhyChooseUs} from "@/components";
+import {CallAway, Contact, FAQs, Hero, Industries, Package, Testimonial, WhyChooseUs} from "@/components";
 import ImageComponent from "@/components/ImageComponent";
 // Media
 import HeroImg from "media/googleAdsHero.png";
@@ -37,6 +37,10 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <Industries/>
       </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <Contact />
+      </div>
+
       <div className="xs:py-[50px] py-[90px]">
         <FAQs
           items={[

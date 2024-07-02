@@ -2,6 +2,7 @@
 import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, Package, Platforms, Testimonial} from "@/components";
 import HeroImg from "media/seoservicesHero.png";
 import CallAwayImageWomen from "media/callaway/women.png";
+import SeoSteps from "@/components/SeoSteps";
 
 export default function Page() {
   return (
@@ -35,6 +36,10 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Contact />
+      </div>
+
+      <div>
+        <SeoSteps/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">

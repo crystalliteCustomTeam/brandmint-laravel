@@ -16,23 +16,23 @@ import six from "media/hurdles/6.png";
 export default function Platforms() {
     return (
         <div className="container">
-            <p className="relative mt-[20px] text-[22px] before:border-b-[6px] before:w-[90px] before:absolute before:-bottom-[3px] before:left-0 before:right-0 before:mx-auto before:border-[#EC4139] lg:text-[30px] inline-block border-b-[1px] border-[#707070] pb-[25px] ">
+            <p className="relative mt-[20px] text-[24px] before:border-b-[6px] before:w-[90px] before:absolute before:-bottom-[3px] before:left-0 before:right-0 before:mx-auto before:border-[#EC4139] lg:text-[30px] inline-block border-b-[1px] border-[#707070] pb-[25px] font-medium">
                 Platform We Working With
             </p>
-            <div className="pt-[40px] flex flex-wrap justify-center xl:justify-between items-center gap-12 xl:gap-5">
+            <div className="pt-[40px] flex flex-wrap justify-center xl:justify-between space-x-3 items-center gap-5 md:gap-8 xl:gap-5">
                 <div>
-                    <Image src={twitter} className="w-[100%] max-w-[70px]" alt="twitter" />
+                    <Image src={twitter} className="max-w-[40px] lg:max-w-[50px] xl:max-w-[70px]" alt="twitter" width={70} height={70}/>
                 </div>
                 <div>
-                    <Image src={tiktok} className="w-[100%] max-w-[224px]" alt="tiktok" /></div>
+                    <Image src={tiktok} className="max-w-[100px] lg:max-w-[150px] xl:max-w-[224px]" alt="tiktok" width={224} height={50}/></div>
                 <div>
-                    <Image src={instagram} className="w-[100%] max-w-[294px]" alt="instagram" />
+                    <Image src={instagram} className="max-w-[100px] lg:max-w-[150px] xl:max-w-[294px]" alt="instagram" />
                 </div>
                 <div>
-                    <Image src={facebook} className="w-[100%] max-w-[220px]" alt="facebook" />
+                    <Image src={facebook} className="max-w-[100px] lg:max-w-[150px] xl:max-w-[220px]" alt="facebook" />
                 </div>
                 <div>
-                    <Image src={youtube} className="w-[100%] max-w-[220px]" alt="youtube" />
+                    <Image src={youtube} className="max-w-[100px] lg:max-w-[150px] xl:max-w-[220px]" alt="youtube" />
                 </div>
             </div>
             <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-medium">
