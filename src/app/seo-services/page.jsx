@@ -41,8 +41,8 @@ export default function Page() {
         <Contact />
       </div>
 
-      <div>
-        <SeoSteps/>
+      <div className="xs:py-[50px] py-[90px]" >
+        <SeoSteps />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
