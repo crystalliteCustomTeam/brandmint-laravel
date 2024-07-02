@@ -1,5 +1,5 @@
 // Components
-import { Awards, Hero, Package } from "@/components"
+import { AboutProcess, Awards, CallAway, Contact, FAQs, Hero, Package, Testimonial } from "@/components"
 // Media
 import HeroImg from "media/about-us.png"
 
@@ -20,8 +20,57 @@ export default function Page() {
                 gridleft="col-span-12 lg:col-span-8"
                 gridright="col-span-12 lg:col-span-4"
             />
-            <Awards />
-            <Package id={1}/>
+            <div className="xs:py-[50px] py-[90px]">
+                <Testimonial/>
+            </div>
+            <div>
+                <AboutProcess/>
+            </div>
+            <div className="xs:py-[50px] py-[90px]">
+                <CallAway/>
+            </div>
+            <div className="xs:py-[50px] py-[90px]">
+                <Package id={1}/>
+            </div>
+            <div className="xs:py-[50px] py-[90px]">
+                <Contact/>
+            </div>
+            <div className="xs:py-[50px] py-[90px]">
+                <FAQs
+                    items={[
+                        {
+                          title: "How long does SEO take to generate results?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                        {
+                          title: "What Includes In on page SEO services?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                        {
+                          title: "Why is SEO important for your business?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                        {
+                          title: "How Does Jumpto1 Carry Its SEO service delivery?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                        {
+                          title: "Why Should You Partner With Us?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                        {
+                          title: "Why is SEO important for your business?",
+                          content:
+                            "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                        },
+                      ]}
+                />
+            </div>
         </main>
     )
 }
