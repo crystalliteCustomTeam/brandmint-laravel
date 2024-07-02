@@ -63,7 +63,7 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[50px]">
         <Content
-          title="How Can On-Page SEO <br class='lg:block hidden'/> Services Help Your <br class='lg:block hidden'/> Business?"
+          title="How Can On-Page SEO <br className='lg:block hidden'/> Services Help Your <br className='lg:block hidden'/> Business?"
           desc="By using website SEO services to optimize your business, you will save a lot of time and relieve the stress associated with technical SEO problems. Executing an SEO strategy is not an easy task. From trying to grasp how to optimize your online business to keyword research, it can be very overwhelming. If your SEO is done inaccurately, it can cost you a ton of missed leads and revenue for your brand.
         At Jumpto1, we pride ourselves on having on-page SEO experts who are experienced and highly skilled. They improve your website's online visibility, making it easier for searchers to find your content and algorithms to crawl and index your webpage pages."
           img1={seoService}

@@ -13,7 +13,7 @@ export default function Page() {
     <main>
       <Hero
         subTitle="UK's Leading Digital Marketing Company"
-        title="Fresh Strategies <br class='hidden lg:block' />for Digital Success"
+        title="Fresh Strategies <br className='hidden lg:block' />for Digital Success"
         desc="Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
         bg={heroBG}
         marqueeCss="absolute bottom-[100px] left-0 right-0"
@@ -29,7 +29,7 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
           title="Digital Marketing Expert <br /> Is Just A Call Away!"
-          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br class='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
+          desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop <br className='xl:block hidden'/> digital marketing solution for all the problems your business faces online."
           CallAwayImage={CallAwayImageMen}
           // Banner={BannerBlue}
           bg = "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]"
@@ -57,7 +57,7 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <Industries
           title="Customer Base From Different Industries"
-          desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!"
+          desc="Businesses of every GENRE or SCALE are more than welcome to increase <br className='lg:block hidden'/> their DIGITAL worth with us!"
         />
       </div>
       <div  className="xs:py-[50px] py-[90px]">

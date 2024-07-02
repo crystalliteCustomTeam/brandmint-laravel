@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, Package, Platforms, Testimonial} from "@/components";
+import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, Package, Platforms, SmmServices, Testimonial} from "@/components";
 import HeroImg from "media/seoservicesHero.png";
 import CallAwayImageWomen from "media/callaway/women.png";
 
@@ -21,14 +21,17 @@ export default function Page() {
       <div className="xs:py-[50px] md:py-[80px]">
         <Awards />
       </div>
-      <div className="xs:py-[50px] md:py-[80px]">
-        <Platforms/>
+      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+        <Platforms variant={"logo"}/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1} />
       </div>
       <div className="xs:py-[50px] py-[90px] bg-[#0085F8]">
         <ComboPackage />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <SmmServices />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial />

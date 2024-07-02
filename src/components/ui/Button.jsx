@@ -10,7 +10,7 @@ const ButtonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-[#EC4139] text-primary-foreground shadow hover:bg-[#EC4139]/90 xs:px-5 px-10",
+          "bg-[#EC4139] text-primary-foreground shadow  xs:px-5 px-10",
         black:
           "bg-black text-primary-foreground shadow hover:bg-black/90 xs:px-5 px-10",
         icon:

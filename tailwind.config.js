@@ -23,6 +23,7 @@ module.exports = {
       "2xl": "1400px",
     },
     extend: {
+      
       backgroundImage: {
         'custom-gradient': 'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(39,39,39,1) 71%);',
       },

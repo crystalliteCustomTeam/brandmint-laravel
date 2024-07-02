@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Industries({
   subTitle, 
   title="Customer Base From Different Industries", 
-  desc="Businesses of every GENRE or SCALE are more than welcome to increase <br class='lg:block hidden'/> their DIGITAL worth with us!", 
+  desc="Businesses of every GENRE or SCALE are more than welcome to increase <br className='lg:block hidden'/> their DIGITAL worth with us!", 
 }) {
   return (
     <section>

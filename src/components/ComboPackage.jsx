@@ -303,7 +303,7 @@ const ComboPackages = ({
               </ul>
             </div>
             <div className="px-3 lg:pb-0 pb-4">
-              <Image src={satisfaction} alt="satisfaction" className="mt-[40px] mb-[60px] pl-[20px]"/>
+              <Image src={satisfaction} alt="satisfaction" className="mt-[40px] mb-[60px] pl-[20px] mx-auto"/>
               <div className="bg-[#0085F8] rounded-[26px] border border-[#707070] py-[20px] px-[30px] text-white">
                 <h3 className="text-[18px] font-bold mb-[35px]">Features</h3>
                 <ul>

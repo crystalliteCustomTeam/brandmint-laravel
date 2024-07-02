@@ -8,7 +8,7 @@ const Package = ({ id }) => {
         <section className="packages">
             <div className="container text-center font-medium">
                 <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px]">
-                    Break Your Competition Without <br class='hidden md:block' />
+                    Break Your Competition Without <br className='hidden md:block' />
                     <span className="text-[#E1183A]">Breaking Your Bank!</span>
                 </h2>
 
@@ -37,7 +37,7 @@ const Package = ({ id }) => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 md:gap-5">
                                     {
                                         list && list?.map((item, i) => (
-                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[25px] xl:px-[45px] py-[30px] even:py-[40px] relative" key={i}>
+                                            <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[25px]  xl:px-[30px] py-[30px] even:py-[30px] relative" key={i}>
                                                 <p className="text-[18px] sm:text-[20px]">{item.name} Plan</p>
                                                 <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[20px] sm:text-[23px]">Per Month</span></p>
                                                 <p className="text-[14px]">{item.desc}</p>

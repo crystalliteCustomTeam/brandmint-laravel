@@ -5,7 +5,7 @@ export default function SeoServiceSteps() {
         <div>
             <div className="container text-center">
                 <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-medium">
-                    Our Local SEO Services Entail a <br class='hidden md:block' />
+                    Our Local SEO Services Entail a <br className='hidden md:block' />
                     <span className="text-[#E1183A]">Versatile Series of Steps</span>
                 </h2>
 

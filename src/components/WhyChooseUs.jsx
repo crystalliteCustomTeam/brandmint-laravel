@@ -10,7 +10,7 @@ import icon3 from "media/social-media-marketing/great-idea.png";
 
 const WhyChooseUs = ({
   subTitle = "Why Choose Us",
-  title = "Because We HelpYour Business Get <br class='lg:block hidden'/> Bigger Every Passing Day!",
+  title = "Because We HelpYour Business Get <br className='lg:block hidden'/> Bigger Every Passing Day!",
   desc = "We know, and you know too, that business survival is so challenging in the internet-focused world. And when 90% of U.S. firms use social media, it becomes even more challenging to survive and keep moving. However, with a sound digital marketing agency that doesn't use cookie-cutter marketing, brands can enjoy impressive growth and sales. But the question arises, where to find such an authentic marketing agency?",
   data = [
     [icon1, "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
