@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, FAQs, Hero, Testimonial, WhyChooseUs} from "@/components";
+import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/onpageseoHero.png";
@@ -42,6 +42,10 @@ export default function Page() {
       <Testimonial />
 
       <div className="xs:py-[50px] py-[90px]">
+        <ComboPackage />
+      </div>
+
+      <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs />
       </div>
 
@@ -75,6 +79,65 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[50px]">
         <CallAway />
+      </div>
+
+      <div className="xs:py-[50px] py-[50px]">
+        <SeoServiceSteps 
+        items={[
+          {
+            no:"01",
+            title: "Website Audit",
+            content:"We begin our on-page SEO optimization strategy by analyzing your website, its structure, keyword density, content.",
+            borderColor:"border-[#0085F8]"
+          },
+          {
+            no:"02",
+            title: "Technical SEO",
+            content:"At jumpto1, we check a number of technical parameters to determine areas for improvement to help your website rank higher in the search results.",
+            borderColor:"border-[#EF4252]"
+          },
+          {
+            no:"03",
+            title: "Keyword research",
+            content:"We conduct keyword research and provide you with a list of potential keywords your website should be focusing on.",
+            borderColor:"border-[#34A854]"
+          },
+          {
+            no:"04",
+            title: "On page SEO strategy",
+            content:"Our team at Jumpto1 identifies content gaps and maps out the entire SEO architecture to execute across the website.",
+            borderColor:"border-[#000000]"
+          },
+          {
+            no:"05",
+            title: "On-page SEO optimization",
+            content:"Armed with all the details about your website, we establish an on-page SEO optimization strategy and build you an effective SEO architecture.",
+            borderColor:"border-[#F8BA05]"
+          },
+          {
+            no:"06",
+            title: "Meta Tags",
+            content:"We optimize your page for SEO and use custom meta tags to influence users and increase your clickthrough rate (CTR).",
+            borderColor:"border-[#0085F8]"
+          },
+          {
+            no:"07",
+            title: "URLs",
+            content:"When we set a URL for your website page, we include the keyword in the URL as if we're trying to rank for a particular keyword; Google will look for it in the URL.",
+            borderColor:"border-[#EF4252]"
+          },
+          {
+            no:"08",
+            title: "Local SEO",
+            content:"At Jumpto1, we align these on-page and off-page efforts by optimizing your web pages for local-intent keywords and correcting information on the web about your website, sending Google mixed signals.",
+            borderColor:"border-[#34A854]"
+          }
+        ]}
+        />
+      </div>
+
+      <div className="xs:py-[50px] py-[90px]">
+        <Contact/>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
