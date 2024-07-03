@@ -9,7 +9,7 @@ const Package = ({ id }) => {
             <div className="container">
                 <div className="text-center font-medium">
                     <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px]">
-                        Break Your Competition Without <br class='hidden md:block' />
+                        Break Your Competition Without <br className='hidden md:block' />
                         <span className="text-[#E1183A]">Breaking Your Bank!</span>
                     </h2>
 
