@@ -1,5 +1,5 @@
 // Components
-import { AboutProcess,CallAway, Contact, FAQs, CallAway, Contact, FAQs, Hero, Package, Testimonial, Process, Testimonial} from "@/components";
+import { AboutProcess,CallAway, Contact, FAQs, Contact, FAQs, Hero, Package, Testimonial, Process, Testimonial} from "@/components";
 // Media
 import HeroImg from "media/about-us.png";
 
