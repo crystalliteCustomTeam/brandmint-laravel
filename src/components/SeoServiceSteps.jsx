@@ -10,21 +10,20 @@ export default function SeoServiceSteps(
             <div className="container text-center">
                 <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-medium" dangerouslySetInnerHTML={{__html : title}}/>
 
-                <p className="py-3 text-[16px] font-light">
-                {description}
-                </p>
+                <p className="py-3 text-[16px] font-light" dangerouslySetInnerHTML={{__html : description}} />
+                
             </div>
             <div className="container">
                 {
                     items?.map(({no,title,content,borderColor}, i) => (
                     <div key={i} className="grid grid-cols-12 items-center md:py-[50px] py-[25px] md:min-h-[270px] min-h-auto border-b border-[#707070] last-of-type:border-none">
-                        <div className={`title col-span-12 md:col-span-4 h-full flex items-center text-[16px] sm:text-[18px] xl:text-[27px] mb-5 md:mb-0`}>
+                        <div className={`title col-span-12 md:col-span-3 h-full flex items-center  mb-5 md:mb-0`}>
                             <div className="flex">
-                                <span className="pr-2">{no}.</span> {title}
+                                <span className="pr-2 text-[16px] sm:text-[18px] xl:text-[27px] font-medium">{no}.</span> <h4 className="text-[16px] sm:text-[18px] xl:text-[27px] font-medium" dangerouslySetInnerHTML={{__html : title}}/> 
                             </div>
                         </div>
-                        <div className={`content col-span-12 md:col-span-8 h-full flex items-center md:ms-[30px] ms-[0] md:ps-[50px] ps-[25px] border-l-[3px] ${borderColor} text-[14px] md:text-[15spx] xl:text-[18px] text-justify md:text-left group-hover:text-[#202124] font-light`}>
-                            {content}
+                        <div className={`content col-span-12 md:col-span-9 h-full flex items-center md:ms-[30px] ms-[0] md:ps-[50px] ps-[25px] border-l-[3px] ${borderColor} text-justify md:text-left group-hover:text-[#202124] `}>
+                            <p className="text-[14px] md:text-[15spx] xl:text-[18px] font-light" dangerouslySetInnerHTML={{__html : content}}/>
                         </div>
                     </div>
                     ))    

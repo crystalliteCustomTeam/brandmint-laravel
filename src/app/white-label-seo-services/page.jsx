@@ -61,6 +61,8 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
+            title="8 Ways Your Agency Benefits from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Our White Label SEO Services</span>"
+            description="Our White Label SEO Services Providing the Edge to Your Digital Agency"
           items={[
             {
               no: "01",

@@ -92,11 +92,11 @@ export default function testimonial({subTitle, title = "Still Not Convinced?", d
                   <div
                     className={`w-36 h-36 rounded-full transition-all ease-in-out duration-1000 group-hover:bottom-[180px] group-hover:right-[280px] blur-2xl ${e.shadowColor} bg-opacity-50 absolute right-0 bottom-0`}
                   ></div>
-                  <Image src={iconimage} alt="Icon Image" className="mb-4" width={100} height={15} />
+                  <Image src={iconimage} alt="SEO company" className="mb-4" width={100} height={15} />
                   <p className="md:text-[18px] text-[16px] mb-3 font-normal leading-normal" dangerouslySetInnerHTML={{__html: e.review}} />
                   <div className="absolute bottom-4 left-6">
                     <div className="flex gap-2 items-center">
-                      <Image alt="Testimonial image" src={e.testimonialImage} className="rounded-full" width={68} height={15} />
+                      <Image alt="SEO company" src={e.testimonialImage} className="rounded-full" width={68} height={15} />
                       <span className="text-[18px] font-medium capitalize" dangerouslySetInnerHTML={{__html: e.testimonialName}} />
                     </div>
                   </div>

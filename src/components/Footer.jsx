@@ -47,7 +47,7 @@ export default function Footer() {
                     ["Contact", "/"],
                   ].map(([text, link], i) => (
                     <li key={i}>
-                      <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[30px] font-normal hover:text-red-700 transition-colors">
+                      <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[30px] font-normal hover:text-[#EC4139] transition-colors">
                         {text}
                       </Link>
                     </li>
@@ -66,14 +66,14 @@ export default function Footer() {
                     ["Reputation Services", "/"],
                   ].map(([text, link], i) => (
                     <li key={i}>
-                      <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[30px] font-normal hover:text-red-700 transition-colors">
+                      <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[30px] font-normal hover:text-[#EC4139] transition-colors">
                         {text}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="lg:max-w-[20%] md:col-span-4 col-span-12 ">
+              <div className="lg:max-w-[20%] md:col-span-4 col-span-12 relative">
                 <h3 className="text-[25px] font-normal leading-[30px]">Contact</h3>
                 <ul className="list-none mt-5 space-y-3">
                   {
@@ -85,17 +85,18 @@ export default function Footer() {
                     ].map(([icon,link,text],i)=>(
                             <li key={i} className="flex items-center justify-start gap-3">
                               <div className="max-w-[25%]">
-                                <Image src={icon} alt="contact" className="w-[20px]" width={20} height={20} />
+                                <Image src={icon} alt="SEO company" className="w-[20px]" width={20} height={20} />
                               </div>
-                              <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[20px] lg:max-w-[70%] max-w-[60%] font-normal hover:text-red-700 transition-colors">
+                              <Link href={link} className="text-[14px] 2xl:text-[15px] leading-[20px] lg:max-w-[70%] max-w-[60%] font-normal hover:text-[#EC4139] transition-colors">
                                 {text}
                               </Link>
                             </li>
                     ))
                   }
                 </ul>
+                <Image src={payment} alt="SEO company" width={120} height={100} className="absolute right-0 lg:-bottom-8 -bottom-[40px]"/>
               </div>
-              <Image src={payment} alt="Payment Methods" width={120} height={100} className="absolute right-0 lg:bottom-0 -bottom-[40px]"/>
+              
             </div>
           </div>
 

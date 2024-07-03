@@ -61,7 +61,7 @@ export default function Header() {
                         ["Client Testimonials", "/ser"],
                         ["About", "/about-us"],
                         ["Blog", "/ser"],
-                        ["Contact", "/ser"]
+                        ["Contact", "/contact-us"]
                       ].map(([text, link], i) => (
 
                         <NavigationMenuItem key={i}>

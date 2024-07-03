@@ -19,7 +19,7 @@ export default function Contact() {
                                 digital marketer valued at<br className="hidden sm:block"/>
                                 <strong> $300 USD.</strong>
                             </h2>
-                            <Image src={contactborder} className="max-w-[200px] md:max-w-[300px] my-5" />
+                            <Image src={contactborder} alt="SEO company" className="max-w-[200px] md:max-w-[300px] my-5" />
                             <form className="grid xs:grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-10 mt-20">
                                 <div>
                                     <Label htmlFor="name" >Name*</Label>
@@ -40,7 +40,7 @@ export default function Contact() {
                             </form>
                             <Button className="w-full flex items-center justify-between mt-20 !bg-[#E1183A] h-[55px] group">
                                 <span className="xs:text-[14px] text-[18px]">Get My Free 30 Minutes Strategy Session</span>
-                                <Image src={buttonImage} className="hidden sm:block group-hover:rotate-45 transition-transform duration-500 " width={41} height={41}/>
+                                <Image src={buttonImage} alt="SEO company" className="hidden sm:block group-hover:rotate-45 transition-transform duration-500 " width={41} height={41}/>
                             </Button>
                         </div>
                         <Image src={Contactbg} alt="SEO company" fill={true} className="-z-10" />
