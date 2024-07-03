@@ -20,6 +20,8 @@ export default function Page() {
         spaceBottom="pb-0"
         marqueeCss="py-[80px] md:pb-[100px] "
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
+        gridleft="col-span-12 lg:col-span-7"
+        gridright="col-span-12 lg:col-span-5"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial />

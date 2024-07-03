@@ -4,6 +4,7 @@ import { CTA, MarqueeBlock, MenuMarquee, NavigationMenu, NavigationMenuContent, 
 import Image from "next/image"
 import LogoImage from "media/logo.svg"
 import MenuImage from "media/menuimage.png"
+import MenuMask from "media/menuMask.png"
 
 
 
@@ -44,7 +45,7 @@ export default function Header() {
                             "Ecommerce SEO", "/ecommerce-seo"
                           ],
                           [
-                            "Google Services", "/ecommerce-seo"
+                            "Google Services", "/google-services"
                           ],
                           [
                             "Google Ads", "/google-ads-ppc"
@@ -74,7 +75,7 @@ export default function Header() {
                               <NavigationMenuTrigger  className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors">Services</NavigationMenuTrigger>
                               <NavigationMenuContent >
                                 <div className="w-[800px] max-w-[800px]  overflow-hidden bg-white p-5 !z-[9999999] relative">
-                              
+
                                   <div className="grid grid-cols-12 gap-5 py-5 ">
                                     <div className="col-span-8 p-5">
                                       <ul className="columns-2">
@@ -90,7 +91,7 @@ export default function Header() {
                                         <Image src={MenuImage} alt="SEO COMPANY" className="w-[320px] h-[270px]"/>
                                     </div>
                                   </div>
-                                  <MenuMarquee/>
+                               
                                 </div>
                                 
                               </NavigationMenuContent>
