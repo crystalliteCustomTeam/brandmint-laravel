@@ -27,7 +27,7 @@ export default function Page() {
             <div className="xs:py-[50px] py-[90px]">
                 <Testimonial />
             </div>
-            <div className="xs:py-[50px] py-[90px] bg-[#0085F8]">
+            <div>
                 <ComboPackage />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
