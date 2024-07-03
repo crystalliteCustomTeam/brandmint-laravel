@@ -23,7 +23,7 @@ export default function Page() {
       <div className="py-[80px]">
         <Awards />
       </div>
-      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+      <div>
         <Platforms/>
       </div>
       <div className="xs:py-[50px] py-[90px]">

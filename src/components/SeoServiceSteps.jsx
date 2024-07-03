@@ -8,7 +8,7 @@ export default function SeoServiceSteps(
     return (
         <div>
             <div className="container text-center">
-                <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[60px] font-medium" dangerouslySetInnerHTML={{__html : title}}/>
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium" dangerouslySetInnerHTML={{__html : title}}/>
 
                 <p className="py-3 text-[16px] font-light" dangerouslySetInnerHTML={{__html : description}} />
                 

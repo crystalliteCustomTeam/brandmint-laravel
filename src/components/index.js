@@ -35,7 +35,8 @@ import ComboPackage from "./ComboPackage";
 import SeoServiceSteps from "./SeoServiceSteps";
 import WhyChooseUs from "./WhyChooseUs";
 import ImageComponent from "./ImageComponent";
-
+import AboutProcess from "./AboutProcess";
+import TechnologiesTabs from "./TechnologiesTabs";
 
 
 
@@ -56,5 +57,5 @@ import VersatileSteps from "./VersatileSteps";
 
 
 export {
-    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps
+    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps,AboutProcess,TechnologiesTabs
 };

@@ -41,7 +41,7 @@ export default function Page() {
       />
       <Testimonial />
 
-      <div className="xs:py-[50px] py-[90px]">
+      <div>
         <ComboPackage />
       </div>
 

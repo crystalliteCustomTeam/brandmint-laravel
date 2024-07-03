@@ -22,7 +22,7 @@ export default function Page() {
       <div className="xs:py-[50px] md:py-[80px]">
         <Awards />
       </div>
-      <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
+      <div>
         <Platforms variant={"logo"}/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
@@ -30,7 +30,7 @@ export default function Page() {
       </div>
       <div>
         <ComboPackage />
-      </div>
+      </div>  
       <div className="xs:py-[50px] py-[90px]">
         <SmmServices />
       </div>
