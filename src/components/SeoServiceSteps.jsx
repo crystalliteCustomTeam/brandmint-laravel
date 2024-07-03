@@ -17,7 +17,7 @@ export default function SeoServiceSteps(
             <div className="container">
                 {
                     items?.map(({no,title,content,borderColor}, i) => (
-                    <div key={i} className="grid grid-cols-12 items-center md:my-[50px] my-[25px] md:min-h-[170px] min-h-auto">
+                    <div key={i} className="grid grid-cols-12 items-center md:py-[50px] py-[25px] md:min-h-[270px] min-h-auto border-b border-[#707070] last-of-type:border-none">
                         <div className={`title col-span-12 md:col-span-4 h-full flex items-center text-[16px] sm:text-[18px] xl:text-[27px] mb-5 md:mb-0`}>
                             <div className="flex">
                                 <span className="pr-2">{no}.</span> {title}
@@ -29,10 +29,6 @@ export default function SeoServiceSteps(
                     </div>
                     ))    
                 }
-                <div className="flex gap-2 mt-5 justify-center">
-                    <CTA text={'GET STARTED NOW'} />
-                    <CTA text={'Contact'} variant='icon' icon={true} />
-                </div>
             </div>
         </div>
     )
