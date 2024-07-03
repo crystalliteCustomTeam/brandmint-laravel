@@ -19,7 +19,7 @@ const data = [
       value: "wordpress",
       title: "Wordpress",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
-      img: shopify
+      img: wordpress
     },
     {
       value: "shopify",
@@ -32,43 +32,37 @@ const data = [
       title: "Wix",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: wix
-    }
-    ,
+    },
     {
       value: "etsy",
       title: "Etsy",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: etsy
-    }
-    ,
+    },
     {
       value: "magento",
       title: "Magento",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: magento
-    }
-    ,
+    },
     {
       value: "woocommerce",
       title: "Woo Commerce",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: woocommerce
-    }
-    ,
+    },
     {
       value: "html5",
       title: "HTML5",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: html5
-    }
-    ,
+    },
     {
       value: "bigcommerce",
       title: "Big Commerce",
       desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
       img: bigCommerce
-    }
-    ,
+    },
     {
       value: "squarespace",
       title: "Square Space",
@@ -86,20 +80,18 @@ export default function TechnologiesTabs() {
             Technologies We Love to Work
           </h2>
         </div>
-        <Tabs defaultValue={data[0]?.value} className="grid grid-cols-12 gap-10 mt-[30px] md:mt-[60px] items-center">
-          <TabsList className="col-span-12 md:col-span-6 md:justify-evenly gap-4 md:gap-0 text-nowrap py-3 md:py-0 overflow-x-scroll md:overflow-x-auto custom-scrollbar">
-            <div className="grid grid-cols-3 gap-x-5 gap-y-7">
+        <Tabs defaultValue={data[0]?.value} className="md:grid md:grid-cols-12 gap-10 mt-[30px] md:mt-[60px] items-center">
+          <TabsList className="mb-8 md:mb-0 md:col-span-6 md:grid grid-cols-3 gap-3 lg:gap-5 md:justify-evenly text-nowrap py-3 md:py-0 overflow-x-scroll md:overflow-x-auto custom-scrollbar relative w-[100%]">
             {
               data?.map(({ value,img }, i) => (
                 
-                    <TabsTrigger value={value} key={i} className="text-center border rounded-[20px] data-[state=active]:text-white data-[state=active]:bg-[#000000] border-[#000000] transition-colors xl:w-[95%] px-4 md:px-0 min-h-[150px] group">
-                        <Image src={img} alt="" className="mx-auto group-focus:invert group-focus:brightness-1"/>
+                    <TabsTrigger value={value} key={i} className="text-center border rounded-[20px] data-[state=active]:text-white data-[state=active]:bg-[#d3d3d3] border-[#d3d3d3] transition-colors px-2 lg:px-3 mx-2 md:mx-0 min-h-[100px] w-[150px] md:w-[100%] lg:min-h-[120px] xl:min-h-[150px] group">
+                        <Image src={img} alt="" className="mx-auto data-[state=active]:invert"/>
                     </TabsTrigger>
               ))
             }
-            </div>
           </TabsList>
-          <div className="col-span-12 md:col-span-6">
+          <div className="md:col-span-6">
             {
               data?.map(({ value, title, desc }, i) => (
                 <TabsContent value={value} className="grid md:grid-cols-12 grid-cols-1 gap-5 items-center" key={i}>
