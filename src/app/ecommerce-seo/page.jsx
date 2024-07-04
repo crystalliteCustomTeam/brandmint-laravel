@@ -4,6 +4,7 @@ import Content from "@/components/Content";
 import HeroImg from "media/ecommerceHero.png";
 import Ecommerce1 from "media/ecommerce1.png";
 import Ecommerce2 from "media/ecommerce2.png";
+import EcommerceVersatileSteps from "@/components/EcommerceVersatileSteps";
 export default function Page() {
   return (
     <main>
@@ -90,10 +91,7 @@ export default function Page() {
           ]}
         />
         <div className="xs:py-[50px] py-[90px] ">
-          <VersatileSteps
-            title={`Here are Jumpto1's eCommerce SEO<br class="hidden md:block" /> Services that are worth your investment`}
-            desc = {`An eCommerce store has several layers of functionality, and SEO is top on the list.`}
-          />
+          <EcommerceVersatileSteps/>
         </div>
         <div className="xs:py-[50px] py-[90px]">
           <Contact />

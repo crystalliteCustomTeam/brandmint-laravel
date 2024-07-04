@@ -9,18 +9,18 @@ import seoImageSix from "media/seovarSix.png"
 import Image from "next/image"
 
 
-export default function VersatileSteps(
-    {
-    title=`Our National SEO Services Entail<br class="hidden md:block" /> <span class="text-[#E1183A]">A Versatile Series of Steps</span>`,
-    desc = `Did you know 60% of national website traffic is sourced from organic searches? Jumpto1 powers your website with creative SEO tactics to improve <br class="hidden xl:block" /> conversions on your website! Here’s what we do to offer you the best nationwide SEO services.`
-    }) {
+export default function VersatileSteps() {
     return (
         <section>
             <div>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-medium" dangerouslySetInnerHTML={{__html: title}} />
-                        <p className="py-3 text-[16px] text-center font-light" dangerouslySetInnerHTML={{__html: desc}} />
+                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-medium">
+                            Our National SEO Services Entail<br class="hidden md:block" /> <span class="text-[#E1183A]">A Versatile Series of Steps</span>
+                        </h2>
+                        <p className="py-3 text-[16px] text-center font-light">
+                            Did you know 60% of national website traffic is sourced from organic searches? Jumpto1 powers your website with creative SEO tactics to improve <br class="hidden xl:block" /> conversions on your website! Here’s what we do to offer you the best nationwide SEO services.
+                        </p>
                     </div>
                     <div className="mt-10 relative">
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 lg:gap-3 xl:gap-5">
