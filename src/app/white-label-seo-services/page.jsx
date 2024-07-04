@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, Contact, FAQs, Hero, Package, SeoServiceSteps, Testimonial} from "@/components";
+import { Awards, CallAway, Contact, FAQs, Hero, Package, SeoServiceSteps, Testimonial, VersatileSteps } from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/whitelableHero.png";
@@ -61,8 +61,8 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
-            title="8 Ways Your Agency Benefits from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Our White Label SEO Services</span>"
-            description="Our White Label SEO Services Providing the Edge to Your Digital Agency"
+          title="8 Ways Your Agency Benefits from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Our White Label SEO Services</span>"
+          description="Our White Label SEO Services Providing the Edge to Your Digital Agency"
           items={[
             {
               no: "01",
@@ -124,10 +124,17 @@ export default function Page() {
         />
       </div>
 
+      <div className="xs:py-[50px] py-[90px] ">
+        <VersatileSteps
+          title={"Our White-Label SEO Services"}
+          desc={'Outrank Your Competition Through Our White Label SEO Company.'}
+        />
+      </div>
+
       <div className="xs:py-[50px] py-[90px]">
         <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
-          
+
 
       <div className="xs:py-[50px] py-[90px]">
         <FAQs

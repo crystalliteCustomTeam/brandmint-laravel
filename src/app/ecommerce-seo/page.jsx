@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
+import { Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, VersatileSteps, WhyChooseUs } from "@/components";
 import Content from "@/components/Content";
 import HeroImg from "media/ecommerceHero.png";
 import Ecommerce1 from "media/ecommerce1.png";
@@ -89,6 +89,12 @@ export default function Page() {
             },
           ]}
         />
+        <div className="xs:py-[50px] py-[90px] ">
+          <VersatileSteps
+            title={`Here are Jumpto1's eCommerce SEO<br class="hidden md:block" /> Services that are worth your investment`}
+            desc = {`An eCommerce store has several layers of functionality, and SEO is top on the list.`}
+          />
+        </div>
         <div className="xs:py-[50px] py-[90px]">
           <Contact />
         </div>
