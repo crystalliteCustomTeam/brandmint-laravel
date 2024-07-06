@@ -31,7 +31,7 @@ export default function SeoSteps() {
         <div className="container">
           <div className="md:py-[100px] py-[50px] text-white">
             <h3 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-center md:mb-24 mb-10">
-              Our 6 Step SEO Process Ensures Your Customers <br className="xl:block hidden" /> Don’t Find Your Competitors, But You!
+              Our 6 Step SEO Process Ensures Your Customers <br className="2xl:block hidden" /> Don’t Find Your Competitors, But You!
             </h3>
 
             {count.map((e, i) =>

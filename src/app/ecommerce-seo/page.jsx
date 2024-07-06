@@ -1,9 +1,10 @@
 // Components
-import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
+import { Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, VersatileSteps, WhyChooseUs } from "@/components";
 import Content from "@/components/Content";
 import HeroImg from "media/ecommerceHero.png";
 import Ecommerce1 from "media/ecommerce1.png";
 import Ecommerce2 from "media/ecommerce2.png";
+import EcommerceVersatileSteps from "@/components/EcommerceVersatileSteps";
 export default function Page() {
   return (
     <main>
@@ -89,6 +90,9 @@ export default function Page() {
             },
           ]}
         />
+        <div className="xs:py-[50px] py-[90px] ">
+          <EcommerceVersatileSteps/>
+        </div>
         <div className="xs:py-[50px] py-[90px]">
           <Contact />
         </div>

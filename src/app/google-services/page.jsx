@@ -6,6 +6,7 @@ import HeroImg from "media/googleservicesHero.png";
 import GoogleService1 from "media/google-services1.png";
 import GoogleService2 from "media/google-services2.png";
 import GoogleService3 from "media/google-services3.png";
+import GoogleServices from "@/components/GoogleServices";
 export default function Page() {
   return (
     <main>
@@ -25,6 +26,9 @@ export default function Page() {
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial />
+      </div>
+      <div className="xs:py-[50px] py-[90px]">
+        <GoogleServices/>
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content

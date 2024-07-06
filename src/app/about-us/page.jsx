@@ -1,5 +1,6 @@
 // Components
 import { AboutProcess,CallAway, Contact, FAQs, Hero, Package, Testimonial} from "@/components";
+import AboutUsEcommerceVersatileSteps from "@/components/AboutUsVersatileSteps";
 // Media
 import HeroImg from "media/about-us.png";
 
@@ -22,6 +23,9 @@ export default function Page() {
             />
             <div className="xs:py-[50px] py-[90px]">
                 <Testimonial/>
+            </div>
+            <div className="xs:py-[50px] py-[90px]">
+                <AboutUsEcommerceVersatileSteps/>
             </div>
             <div>
                 <AboutProcess/>
