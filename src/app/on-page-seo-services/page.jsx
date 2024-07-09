@@ -39,8 +39,9 @@ export default function Page() {
         marqueeCss="pb-[80px] pt-[50px] xs:pt-[50px] sm:pt-[80px]"
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
       />
+      <div className="xs:py-[50px] py-[90px]">
       <Testimonial />
-
+      </div>
       <div>
         <ComboPackage />
       </div>
