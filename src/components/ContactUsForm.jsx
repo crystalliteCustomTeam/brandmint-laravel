@@ -5,27 +5,33 @@ import phone from "media/phone-icon.png";
 import email from "media/email-icon.png";
 import {Checkbox} from "./ui/checkbox";
 import { useId } from "react";
+import Link from "next/link";
 
 const detailData = [
   {
     imgIcon: location,
     text: "Operations: 502 W 7th ST STE 100 Erie, PA 16502",
+    URL: "/"
   },
   {
     imgIcon: location,
     text: "Operations: 7 Coronation Road, Dephna House, Launchese, London, United Kingdom, NW10 7PQ",
+    URL: "/"
   },
   {
     imgIcon: phone,
     text: "(717)-908-1211",
+    URL: "tel:717-908-1211"
   },
   {
     imgIcon: phone,
     text: "1-844-400-0025",
+    URL: "tel:1-844-400-0025"
   },
   {
     imgIcon: email,
     text: "Contact Email",
+    URL: "mailto:info@seo-company.us"
   },
 ];
 
@@ -36,7 +42,7 @@ export default function ContactUsForm() {
       <div>
         <div className="container">
           <div>
-            <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center font-medium">We've Driven Over 6,437,349 Leads For Clients <br className="xl:block hidden"/> Through Digital Marketing.</h2>
+            <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center font-medium leading-snug">We've Driven Over 6,437,349 Leads For Clients <br className="xl:block hidden"/> Through Digital Marketing.</h2>
             <p className="mt-5 font-light text-[16px] text-center">Fill in the form below to instantly schedule a call with us.</p>
           </div>
           <div className="grid grid-cols-12 mt-10 gap-8">
@@ -75,9 +81,9 @@ export default function ContactUsForm() {
                         ["ADA Compliance"],
                         ["Pay Per Click (PPC)"]
                     ].map(([text], i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px]" />
-                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] leading-normal">
+                        <div key={i} className="flex items-center gap-2 group">
+                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px] group-hover:border-[#EC4139]" />
+                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] leading-normal group-hover:text-[#EC4139]">
                             {text}
                           </Label>
                         </div>
@@ -92,9 +98,9 @@ export default function ContactUsForm() {
                         ["Amazon Marketing"],
                         ["Link Building"]
                     ].map(([text], i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px]" />
-                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] leading-normal">
+                        <div key={i} className="flex items-center gap-2 group">
+                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px] group-hover:border-[#EC4139]" />
+                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] leading-normal group-hover:text-[#EC4139]">
                             {text}
                           </Label>
                         </div>
@@ -108,9 +114,9 @@ export default function ContactUsForm() {
                         ["Email Marketing"],
                         ["Search Engine MArketing"]
                     ].map(([text], i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px]" />
-                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] leading-normal">
+                        <div key={i} className="flex items-center gap-2 group">
+                          <Checkbox id="" className="w-5 h-5 rounded-none border-[3px] group-hover:border-[#EC4139]" />
+                          <Label htmlFor={id} className="xl:text-[15px] lg:text-[12px] text-[12px] font-normal text-[#000000] group-hover:text-[#EC4139] leading-normal">
                             {text}
                           </Label>
                         </div>
@@ -127,9 +133,11 @@ export default function ContactUsForm() {
               <h3 className="xl:text-[45px] font-medium text-[35px] leading-snug mb-5">Contact Us</h3>
               <ul className="flex flex-col gap-y-5">
                 {detailData?.map((e, i) => (
-                  <li key={i} className="flex items-center justify-start gap-4">
+                  <li key={i} className="">
+                    <Link href={e.URL} className=" flex items-center justify-start gap-4 group ">
                     <Image src={e.imgIcon} className="w-[20px]" alt="Seo Company US" />
-                    <span className="xl:text-[16px] text-[14px] font-light leading-normal" dangerouslySetInnerHTML={{__html: e.text}} />
+                    <span className="xl:text-[16px] text-[14px] font-light leading-normal group-hover:text-[#EC4139]" dangerouslySetInnerHTML={{__html: e.text}} />
+                    </Link>
                   </li>
                 ))}
               </ul>
