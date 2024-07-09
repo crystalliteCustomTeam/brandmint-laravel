@@ -54,18 +54,18 @@ export default function Hero({
                                     <div className={`${gridright} relative py-[50px]`}>
                                         <Image src={img} alt="SEO company" className={`block mx-auto object-contain ${imgCss}`} fill={true} />
                                         <div className='p-10 w-[80%] mx-auto backdrop-blur-sm bg-white/85 shadow-lg rounded-[20px]'>
-                                            <form className="grid grid-cols-1  gap-5 ">
+                                            <form className="grid grid-cols-1  gap-5 " action='post'>
                                                 <div>
-                                                    <Input type="text" id="name" placeholder="Type Full Name" className="border-b-black text-black" />
+                                                    <Input type="text" id="name" placeholder="Name" className="border-b-black text-black" required/>
                                                 </div>
                                                 <div>
-                                                    <Input type="text" id="phone" placeholder="(000) 0000-000" className="border-b-black text-black" />
+                                                    <Input type="email" id="email" placeholder="Email" className="border-b-black text-black" required/>
                                                 </div>
                                                 <div>
-                                                    <Input type="text" id="name" placeholder="Type Full Name"  className="border-b-black text-black"/>
+                                                    <Input type="phone" id="phone" placeholder="Phone"  className="border-b-black text-black" required/>
                                                 </div>
                                                 <div>
-                                                    <Input type="text" id="name" placeholder="Type Your Website"  className="border-b-black text-black" />
+                                                    <Input type="text" id="url" placeholder="Type Your Website"  className="border-b-black text-black" />
                                                 </div>
                                                 
                                                 <Button  variant="black" className="mt-5">

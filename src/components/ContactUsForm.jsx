@@ -11,12 +11,12 @@ const detailData = [
   {
     imgIcon: location,
     text: "Operations: 502 W 7th ST STE 100 Erie, PA 16502",
-    URL: "/"
+    URL: "javascript:;"
   },
   {
     imgIcon: location,
     text: "Operations: 7 Coronation Road, Dephna House, Launchese, London, United Kingdom, NW10 7PQ",
-    URL: "/"
+    URL: "javascript:;"
   },
   {
     imgIcon: phone,
@@ -31,7 +31,7 @@ const detailData = [
   {
     imgIcon: email,
     text: "Contact Email",
-    URL: "mailto:info@seo-company.us"
+    URL: "javascript:;"
   },
 ];
 
