@@ -9,7 +9,7 @@ export default function AboutProcess() {
   return (
     <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
       <div className="container">
-          <h2 className="text-center text-[24px] sm:text-[32px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] mb-[22px] font-medium">
+          <h2 className="text-center text-[24px] sm:text-[32px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] mb-[22px] font-semibold">
             Digits That Define Our Credibility
           </h2>
           <div className="pt-[40px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0 items-center text-center">

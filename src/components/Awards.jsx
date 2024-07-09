@@ -39,7 +39,7 @@ export default function Awards() {
     <section>
       <div >
         <div className="container">
-          <h3 className="text-[30px] lg:text-[40px] xl:text-[50px] md:mb-3 mb-10 font-medium">
+          <h3 className="text-[30px] lg:text-[40px] xl:text-[50px] md:mb-3 mb-10 font-semibold">
             Awards <span className="text-[#E1183A]">&</span> Recognition
           </h3>
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-y-10 items-center">

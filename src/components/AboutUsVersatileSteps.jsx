@@ -15,7 +15,7 @@ export default function AboutUsEcommerceVersatileSteps() {
             <div>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-medium">
+                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold">
                             Here are Jumpto1's eCommerce SEO<br class="hidden md:block" />
                             Services that are worth your investment
                         </h2>

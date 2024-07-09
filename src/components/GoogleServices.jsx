@@ -11,7 +11,7 @@ export default function GoogleServices() {
         <div>
             <div className="container">
                 <div>
-                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-medium">Google Services We Provide</h2>
+                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Google Services We Provide</h2>
                   <p className="text-center my-5 xs:text-[1
                   px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Business Boost? Watch Us Doing GMB Listing, Google Local Ads, Google Screened Us Guarantees You <br className="hidden lg:block"/>
                   More Clients For Your Business!</p>

@@ -29,7 +29,7 @@ const WhyChooseUs = ({
                 {subTitle}
               </span>
             )}
-            {title && <h3 className={`text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-medium text-[#202124] mx-auto text-[#202124]"  mb-5`} dangerouslySetInnerHTML={{__html: title}} />}
+            {title && <h3 className={`text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-[#202124] mx-auto text-[#202124]"  mb-5`} dangerouslySetInnerHTML={{__html: title}} />}
             {desc && <p className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light text-[#202124] md:text-center !text-justify" `} dangerouslySetInnerHTML={{__html: desc}} />}
           </div>
 

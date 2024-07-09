@@ -17,7 +17,7 @@ export default function Page() {
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
-        titleCss="xs:text-[30px] sm:text-[25px] lg:text-[30px] xl:text-[50px] 2xl:text-[50px]"
+        titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
         spaceBottom="pb-0"
         marqueeCss="pb-[80px] pt-[90px] xs:pt-[50px] sm:pt-[90px]"
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
@@ -33,7 +33,7 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1} />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[30px] md:py-[50px]">
         <div className="my-5">
           <Content
             title={"Why Does Your Business Need White Label SEO Services?"}

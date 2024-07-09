@@ -43,7 +43,7 @@ export default function ServicesTabs() {
       <div className="container">
         <div className="text-center">
           {/* <h2 className="text-[25px] sm:text-[30px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium"> */}
-          <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-medium text-[#202124] leading-tight mb-4">
+          <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4">
             Fresh Strategies for Digital Success
           </h2>
           {/* <p className="max-w-[782px] mx-auto"> */}
@@ -58,7 +58,7 @@ export default function ServicesTabs() {
               data?.map(({ value }, i) => (
                 //   <TabsTrigger value={value} key={i} className="data-[state=active]:bg-[#EF4252] data-[state=active]:text-white data-[state=active]:border-none bg-transparent rounded-[5px]
                 // border-[#F3F3F3] mb-3 mt-3 border-2 text-[17px] text-[#CBCBCB] h-[50px]">
-                <TabsTrigger value={value} key={i} className="text-[15px] lg:text-[17px] text-[#CBCBCB] text-center border-2 font-medium h-[50px] rounded-sm data-[state=active]:text-white data-[state=active]:bg-[#EF4252] data-[state=active]:border-[#EF4252] transition-colors xl:w-[95%] px-4 md:px-0">
+                <TabsTrigger value={value} key={i} className="text-[15px] lg:text-[17px] text-[#707070] text-center border-2 font-medium h-[50px] rounded-sm border-[#707070a5] data-[state=active]:text-white data-[state=active]:bg-[#EF4252] data-[state=active]:border-[#EF4252] transition-colors xl:w-[95%] px-4 md:px-0">
                   {value}
                 </TabsTrigger>
               ))

@@ -17,7 +17,7 @@ export default function Page() {
           imgCss="absolute bottom-0  right-0 max-w-[60%] xl:max-w-full opacity-20 lg:opacity-100"
           spaceBottom="pb-[150px] sm:pb-[200px] xl:pb-[250px]"
           marqueeCss="relative top-[-70px] z-10"
-          titleCss="xs:text-[25px] text-[35px] xl:text-[45px] 2xl:text-[50px]"
+          titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
         />
       </div>
       <div className="py-[80px]">

@@ -5,7 +5,7 @@ import {CTA} from ".";
 import CallAwayImageMen from "media/callaway/menLaptop.png"
 
 export default function CallAway({
-  title="Digital Marketing Expert Is Just A Call Away!", 
+  title="Digital Marketing Expert Is <br class='block lg:hidden'/> Just A Call Away!", 
   desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online.", 
   CallAwayImage= CallAwayImageMen, 
   bg= "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]", 
@@ -17,13 +17,13 @@ export default function CallAway({
     <section>
       <div >
         <div className="container">
-          <div className={`relative z-10 xl:py-[60px] px-[20px] lg:pl-[40px] xl:pl-[60px] lg:py-[40px] pt-[50px] ${bg} `}>
+          <div className={`relative z-10 xl:py-[60px] px-[20px] lg:pl-[40px] xl:pl-[60px] lg:py-[40px] lg:pt-[50px] py-[50px] ${bg} `}>
             {Banner && <Image src={Banner} alt="banner" className="absolute top-0 left-0 right-0 bottom-0 w-full h-full -z-10" priority={true} />}
 
             <div className="text-white grid md:grid-cols-12 gap-x-5 items-center text-center lg:text-left">
               <div className="lg:col-span-8 col-span-12">
                 <h3
-                  className="2xl:text-[60px] xl:text-[50px] lg:text-[40px] xs:text-[25px] sm:text-[30px] md:text-[40px] leading-normal font-semibold mb-4"
+                  className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] leading-normal font-semibold mb-4"
                   dangerouslySetInnerHTML={{__html: title}}
                 />
                 <p className="2xl:text-[16px] text-[14px] leading-normal font-light  lg:max-w-[85%] xl:max-w-full" dangerouslySetInnerHTML={{__html: desc}} />
@@ -33,7 +33,7 @@ export default function CallAway({
                 </div>
               </div>
             </div>
-            <Image src={CallAwayImage} alt="Call Away" className="lg:absolute w-[90%] xl:max-w-[380px] 2xl:max-w-[450px] lg:max-w-[300px] lg:bottom-0 lg:right-[30px] xl:right-[40px] mx-auto mt-10" />
+            <Image src={CallAwayImage} alt="Call Away" className="lg:absolute w-[90%] xl:max-w-[380px] 2xl:max-w-[450px] lg:max-w-[300px] lg:bottom-0 lg:right-[30px] xl:right-[40px] mx-auto mt-10 lg:block hidden" />
           </div>
         </div>
       </div>

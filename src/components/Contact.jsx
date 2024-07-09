@@ -22,20 +22,20 @@ export default function Contact() {
                             <Image src={contactborder} alt="SEO company" className="max-w-[200px] md:max-w-[300px] my-5" />
                             <form className="grid xs:grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-10 mt-20">
                                 <div>
-                                    <Label htmlFor="name" >Name*</Label>
+                                    <Label htmlFor="name" className="md:block hidden">Name*</Label>
                                     <Input type="text" id="name" placeholder="Type Full Name" />
                                 </div>
                                 <div>
-                                    <Label htmlFor="phone" >Phone*</Label>
-                                    <Input type="text" id="phone" placeholder="(000) 0000-000" />
+                                    <Label htmlFor="phone" className="md:block hidden">Phone*</Label>
+                                    <Input type="phone" id="phone" placeholder="(000) 0000-000" />
                                 </div>
                                 <div>
-                                    <Label htmlFor="name" >Name*</Label>
-                                    <Input type="text" id="name" placeholder="Type Full Name" />
+                                    <Label htmlFor="name" className="md:block hidden">Email Address*</Label>
+                                    <Input type="email" id="email" placeholder="Type Your Email" />
                                 </div>
                                 <div>
-                                    <Label htmlFor="name" >Name*</Label>
-                                    <Input type="text" id="name" placeholder="Type Full Name" />
+                                    <Label htmlFor="name" className="md:block hidden">Website Link*</Label>
+                                    <Input type="url" id="url" placeholder="www.yourwebsite.com" />
                                 </div>
                             </form>
                             <Button className="w-full flex items-center justify-between mt-20 !bg-[#E1183A] h-[55px] group">

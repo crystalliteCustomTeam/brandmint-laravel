@@ -9,7 +9,7 @@ export default function Page() {
         <main>
             <Hero
                 subTitle="About Us"
-                title="Internet Marketing Expertise That Brings Quantifiable Results"
+                title="Internet Marketing Expertise That <br/> Brings Quantifiable Results"
                 desc="Our Multifaceted Digital Marketing Solutions Helps Business Succeed and Make an Impact on the Digital Realm"
                 img={HeroImg}
                 variant="default"

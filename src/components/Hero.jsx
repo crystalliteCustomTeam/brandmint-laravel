@@ -11,7 +11,7 @@ export default function Hero({
     subTitle,
     title,
     desc,
-    titleCss = "xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[60px] 2xl:text-[65px]",
+    titleCss = "xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]",
     theme = "light",
     marqueeTheme = "dark",
     flag = "usa",
@@ -39,7 +39,7 @@ export default function Hero({
                                     </p>}
                                 </div>
                                 <div className={`mt-5 ${theme === "light" ? "text-black" : "text-white"}`}>
-                                    {title && <h1 className={`leading-tight font-medium ${titleCss}`} dangerouslySetInnerHTML={{ __html: title }} />}
+                                    {title && <h1 className={`leading-tight font-semibold  ${titleCss}`} dangerouslySetInnerHTML={{ __html: title }} />}
                                     {desc && <p className="mt-5 font-light text-[14px] lg:text-[16px] xs:text-justify">
                                         {desc}
                                     </p>}

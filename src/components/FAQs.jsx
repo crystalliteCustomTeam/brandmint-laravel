@@ -5,7 +5,7 @@ export default function FAQs({ items }) {
         <section>
             <div className="text-foreground">
                 <div className="container">
-                    <h2 tabIndex={0} className="mb-8 md:mb-14 text-center text-[30px] md:text-[40px] lg:text-[50px] font-bold leading-normal">
+                    <h2 tabIndex={0} className="mb-8 md:mb-14 text-center text-[30px] md:text-[40px] lg:text-[50px] font-semibold leading-normal">
                     FAQS
                     </h2>
                     <Accordion type="single" collapsible  className="grid grid-cols-1 xl:grid-cols-2 gap-5">

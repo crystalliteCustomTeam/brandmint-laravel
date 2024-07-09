@@ -8,7 +8,7 @@ const Package = ({ id }) => {
         <section className="packages">
             <div className="container">
                 <div className="text-center font-medium">
-                    <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px]">
+                    <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold">
                         Break Your Competition Without <br className='hidden md:block' />
                         <span className="text-[#E1183A]">Breaking Your Bank!</span>
                     </h2>
@@ -64,8 +64,8 @@ const Package = ({ id }) => {
                                                 </div> */}
                                                 <div className="flex justify-center">
                                                     <div className="inline-flex mt-5 justify-center group w-full">
-                                                        <CTA text={'Order Now'} className="xl:!w-full md:!w-max !w-full z-10 transition-all duration-300 ease-in-out !px-6 !xl:px-10 group-hover:bg-[rgba(68,68,68,0.09)] group-hover:opacity-[9px] group-hover:!pr-[60px] group-hover:text-[#000]" />
-                                                        <CTA text={'Call Us'} variant='icon' icon={true} className="xl:!w-full md:!w-max !w-full ml-[-40px] transition-all duration-300 ease-in-out 2xl:!pl-[60px] !pl-[50px] group-hover:!pl-[30px] group-hover:z-20" />
+                                                        <CTA text={'Order Now'} className="xl:!w-full md:!w-max !w-full z-10 transition-all duration-300 ease-in-out !px-6 !xl:px-10 group-hover:bg-[rgb(255,255,255)] group-hover:opacity-[5px] group-hover:!pr-[60px] group-hover:text-[#000]" />
+                                                        <CTA text={'Call Us'} variant='icon' icon={true} className="xl:!w-full md:!w-max !w-full ml-[-40px] transition-all duration-300 ease-in-out 2xl:!pl-[60px] !pl-[50px] group-hover:!pl-[30px] group-hover:z-50" />
                                                     </div>
                                                 </div>
                                             </div>

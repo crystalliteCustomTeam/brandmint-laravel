@@ -11,7 +11,7 @@ export default function Advertising() {
         <div>
             <div className="container">
                 <div>
-                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-medium">Social Media Advertising Services <br className="hidden lg:block"/>
+                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Social Media Advertising Services <br className="hidden lg:block"/>
                   That Grows Your Business</h2>
                   <p className="text-center my-5 xs:text-[1
                   px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block"/>

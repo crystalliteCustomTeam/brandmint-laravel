@@ -22,7 +22,7 @@ export default function Page() {
                 img={HeroImg}
                 variant="default"
                 marqueeTheme="light"
-                titleCss="xs:text-[30px] sm:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50px]"
+                titleCss="xs:text-[30px] sm:text-[35px] lg:text-[35px] xl:text-[45px] 2xl:text-[50px]"
                 spaceBottom="pb-0"
                 marqueeCss="pb-[80px] pt-[50px] xs:pt-[50px] sm:pt-[80px]"
                 imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"

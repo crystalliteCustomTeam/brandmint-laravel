@@ -16,7 +16,7 @@ export default function SmmServices() {
             <div>
                 <div className="container">
                     <div>
-                        <h2 className="text-[25px] md:text-[35px] lg:text-[40px] 2xl:text-[50px] font-medium leading-snug text-center">Social Media Advertising Services <br className="hidden lg:block'"/>
+                        <h2 className="text-[25px] md:text-[35px] lg:text-[40px] 2xl:text-[50px] font-semibold leading-snug text-center">Social Media Advertising Services <br className="hidden lg:block'"/>
                             That Grows Your Business</h2>
                         <p className=" text-[14px] xl:text-[16px] font-light text-center mt-5">Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block'"/>
                             More Clients For Your Business!</p>

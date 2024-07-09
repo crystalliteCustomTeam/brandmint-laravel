@@ -42,11 +42,11 @@ export default function ContactUsForm() {
       <div>
         <div className="container">
           <div>
-            <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center font-medium leading-snug">We've Driven Over 6,437,349 Leads For Clients <br className="xl:block hidden"/> Through Digital Marketing.</h2>
+            <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center font-semibold leading-snug">We've Driven Over 6,437,349 Leads For Clients <br className="xl:block hidden"/> Through Digital Marketing.</h2>
             <p className="mt-5 font-light text-[16px] text-center">Fill in the form below to instantly schedule a call with us.</p>
           </div>
           <div className="grid grid-cols-12 mt-10 gap-8">
-            <div className="md:col-span-8 col-span-12">
+            <div className="lg:col-span-8 col-span-12">
               <form action="post">
                 <div className="grid md:grid-cols-2 lg:gap-5 gap-x-2 gap-y-4">
                   <div>
@@ -129,7 +129,7 @@ export default function ContactUsForm() {
               </form>
             </div>
 
-            <div className="md:col-span-4 col-span-12 md:pl-4">
+            <div className="lg:col-span-4 col-span-12 md:pl-4">
               <h3 className="xl:text-[45px] font-medium text-[35px] leading-snug mb-5">Contact Us</h3>
               <ul className="flex flex-col gap-y-5">
                 {detailData?.map((e, i) => (

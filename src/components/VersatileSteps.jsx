@@ -15,7 +15,7 @@ export default function VersatileSteps() {
             <div>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-medium">
+                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold">
                             Our National SEO Services Entail<br class="hidden md:block" /> <span class="text-[#E1183A]">A Versatile Series of Steps</span>
                         </h2>
                         <p className="py-3 text-[16px] text-center font-light">

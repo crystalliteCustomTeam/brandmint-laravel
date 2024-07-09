@@ -9,7 +9,7 @@ export default function Process() {
   return (
     <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
       <div className="container">
-          <h2 className="text-center text-[24px] sm:text-[32px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] mb-[22px] font-medium">
+          <h2 className="text-center text-[24px] sm:text-[32px] lg:text-[32px] xl:text-[40px] 2xl:text-[50px] mb-[22px] font-semibold">
               What Goes Into Our Art Of  Creating Affordable <br className='hidden lg:block' />
               Website Design For Your Brand?
           </h2>

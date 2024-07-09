@@ -14,7 +14,7 @@ export default function Content({subTitle, title, desc, list = false, listingDat
             <div className="basis-7/12">
               <div>
                 {subTitle && <span className="text-[12px]" dangerouslySetInnerHTML={{__html: subTitle}} />}
-                {title && <h3 className="2xl:text-[55px] xl:text-[45px] md:text-[40px] text-[30px] font-medium leading-snug mb-3" dangerouslySetInnerHTML={{__html: title}} />}
+                {title && <h3 className="2xl:text-[50px] xl:text-[45px] md:text-[40px] text-[30px] font-medium leading-snug mb-3" dangerouslySetInnerHTML={{__html: title}} />}
                 {desc && <p className="2xl:text-[18px] xl:text-[16px] text-[14px] font-light mb-5" dangerouslySetInnerHTML={{__html: desc}} />}
                 {list && (
                   <ol className="list-decimal pl-4 text-[25px] font-semibold space-y-[60px] my-5">

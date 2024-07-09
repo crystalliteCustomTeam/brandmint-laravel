@@ -76,7 +76,7 @@ export default function TechnologiesTabs() {
     <section >
       <div className="container">
         <div className="text-center">
-          <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-medium text-[#202124] leading-tight mb-4">
+          <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4">
             Technologies We Love to Work
           </h2>
         </div>

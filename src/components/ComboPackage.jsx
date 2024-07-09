@@ -222,7 +222,7 @@ const ComboPackages = ({
         <div className={`relative before:bg-no-repeat before:bg-cover before:bg-center before:absolute before:w-[18%] before:h-full before:lg:block before:hidden`}>
           <div className="container">
             <div className="">
-                <h2 className=" text-white text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center mb-[22px]">
+                <h2 className=" text-white text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] text-center mb-[22px] font-semibold">
                     The Complete Internet Marketing <span className="bg-[url('/curve-line.png')] bg-contain bg-bottom bg-no-repeat pb-[10px] lg:pb-[16px] xl:pb-[19px]">Package!</span>
                 </h2>
             </div>

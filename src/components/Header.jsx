@@ -14,9 +14,9 @@ export default function Header() {
       <div >
         <div className="container ">
           <div className="flex items-center border-b-[1px] border-black pb-[25px] pt-[40px]">
-            <div>
+            <Link href="/">
               <Image src={LogoImage} className="xl:max-w-[200px] max-w-[150px]" alt="SEO company" />
-            </div> {/* Logo */}
+            </Link> {/* Logo */}
             <div className="ml-auto mr-5 hidden lg:block">
               <nav >
                 <NavigationMenu>
@@ -37,9 +37,10 @@ export default function Header() {
                           [
                             "On Page SEO", "/on-page-seo-services"
                           ],
-                         
                           [
                             "Off Page SEO", "/off-page-seo"
+                          ],[
+                            "SEO Services", "/seo-services"
                           ],
                           [
                             "Ecommerce SEO", "/ecommerce-seo"

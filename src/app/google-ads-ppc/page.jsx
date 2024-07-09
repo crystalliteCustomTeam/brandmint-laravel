@@ -9,12 +9,12 @@ export default function Page() {
     <main>
       <Hero
         subTitle="# Pay Per Click Agency"
-        title="We Don't Run Ads. We Grow Businesses."
+        title="We Don't Run Ads. <br/> We Grow Businesses."
         desc="With a keen eye on your bottom line, Solutions 8 uses precise targeting and advanced optimizations to ensure your ads do more than just reach—they multiply, return, and grow your business."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
-        titleCss="xs:text-[30px] sm:text-[35px] lg:text-[40px] xl:text-[45px] 2xl:text-[50px]"
+        titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
         spaceBottom="pb-0"
         marqueeCss="py-[80px] md:pb-[100px] "
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"

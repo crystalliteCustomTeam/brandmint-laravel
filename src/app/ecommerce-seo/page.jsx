@@ -10,7 +10,7 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Our eCommerce SEO Services"
-        title="Driving Qualified Traffic To Your Online Store!"
+        title="Driving Qualified Traffic <br class='block lg:hidden'/> To Your Online Store!"
         desc="We provide eCommerce website marketing strategies aimed at helping companies supercharge their online campaigns and attract more buyers. Partner with Jumpto1 and let us help you drive in more revenue to your eCommerce store. The more keywords you’re able to target successfully, the more qualified buyers will click on your products, and in turn, you’ll see an expansion in conversions and revenue."
         img={HeroImg}
         variant="default"
@@ -29,7 +29,7 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[60px]">
         <div className="my-5">
           <Content
             title={"Why Do Ecommerce Businesses Need SEO To Build Brand Awareness?"}

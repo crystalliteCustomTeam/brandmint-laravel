@@ -16,15 +16,16 @@ export default function page() {
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
         form={true}
+        titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
       />
       
       <div className="xs:py-[50px] py-[90px]">
         <ContactUsForm />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="py-[30px] lg:py-[90px]">
         <CallAway />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="py-[50px] lg:py-[90px]">
         <FAQs
           items={[
             {
