@@ -122,7 +122,7 @@ export default function Page() {
 
             </div>
             <div className="xs:py-[50px] py-[90px] ">
-                <VersatileSteps />
+                <VersatileSteps/>
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <CallAway

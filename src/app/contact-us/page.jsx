@@ -1,4 +1,4 @@
-import {CallAway, FAQs, Hero} from "@/components";
+import {CallAway, ContactUsForm, FAQs, Hero} from "@/components";
 import React from "react";
 
 // Media
@@ -15,8 +15,12 @@ export default function page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
+        form={true}
       />
       
+      <div className="xs:py-[50px] py-[90px]">
+        <ContactUsForm />
+      </div>
       <div className="xs:py-[50px] py-[90px]">
         <CallAway />
       </div>

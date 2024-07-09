@@ -4,7 +4,8 @@ import Image from 'next/image'
 import usaflag from 'media/usa_flag.png'
 import ukflag from 'media/uk_flag.png'
 // Components
-import { CTA, MarqueeBlock } from '@/components'
+import { CTA, MarqueeBlock, Input, Label, Button } from '@/components'
+
 
 export default function Hero({
     subTitle,
@@ -20,7 +21,8 @@ export default function Hero({
     imgCss = "",
     marqueeCss = "py-[80px]",
     gridleft = "col-span-12 lg:col-span-6",
-    gridright = "col-span-12 md:col-span-6"
+    gridright = "col-span-12 md:col-span-6",
+    form = false
 }) {
     return (
         <section>
@@ -47,9 +49,39 @@ export default function Hero({
                                     </div>
                                 </div>
                             </div>
-                            <div className={`${gridright}`}>
-                                {img && <Image src={img} alt="SEO company" className={`block mx-auto ${imgCss}`} />}
-                            </div>
+                            {
+                                form  ? (<>
+                                    <div className={`${gridright} relative py-[50px]`}>
+                                        <Image src={img} alt="SEO company" className={`block mx-auto object-contain ${imgCss}`} fill={true} />
+                                        <div className='p-10 w-[80%] mx-auto backdrop-blur-sm bg-white/85 shadow-lg rounded-[20px]'>
+                                            <form className="grid grid-cols-1  gap-5 ">
+                                                <div>
+                                                    <Input type="text" id="name" placeholder="Type Full Name" className="border-b-black text-black" />
+                                                </div>
+                                                <div>
+                                                    <Input type="text" id="phone" placeholder="(000) 0000-000" className="border-b-black text-black" />
+                                                </div>
+                                                <div>
+                                                    <Input type="text" id="name" placeholder="Type Full Name"  className="border-b-black text-black"/>
+                                                </div>
+                                                <div>
+                                                    <Input type="text" id="name" placeholder="Type Your Website"  className="border-b-black text-black" />
+                                                </div>
+                                                
+                                                <Button  variant="black" className="mt-5">
+                                                    <span className="xs:text-[14px] text-[18px]">Submit Now</span>
+                                                   
+                                                </Button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </>) : (
+                                    <> <div className={`${gridright}`}>
+                                        {img && <Image src={img} alt="SEO company" className={`block mx-auto ${imgCss}`} />}
+                                    </div></>
+                                )
+                            }
+
                         </div>
                     </div>
                     <MarqueeBlock theme={marqueeTheme} css={marqueeCss} />
