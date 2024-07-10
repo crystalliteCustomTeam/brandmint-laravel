@@ -1,135 +1,104 @@
-import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/Sheet"
-import Link from "next/link"
-import { CTA, MarqueeBlock, MenuMarquee, NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components"
-import Image from "next/image"
-import LogoImage from "media/logo.svg"
-import MenuImage from "media/menuimage.png"
-import MenuMask from "media/menuMask.png"
-
-
+import {Sheet, SheetTrigger, SheetContent} from "@/components/ui/Sheet";
+import Link from "next/link";
+import {
+  CTA,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components";
+import Image from "next/image";
+import LogoImage from "media/logo.svg";
+import MenuImage from "media/menuimage.png";
+import MenuMask from "media/menuMask.png";
 
 export default function Header() {
   return (
     <header>
-      <div >
+      <div>
         <div className="container ">
           <div className="flex items-center border-b-[1px] border-black pb-[25px] pt-[40px]">
             <Link href="/">
               <Image src={LogoImage} className="xl:max-w-[200px] max-w-[150px]" alt="SEO company" />
-            </Link> {/* Logo */}
+            </Link>{" "}
+            {/* Logo */}
             <div className="ml-auto mr-5 hidden lg:block">
-              <nav >
+              <nav>
                 <NavigationMenu>
                   <NavigationMenuList className="flex gap-2 2xl:gap-[28px]">
-                    {
+                    {[
+                      ["Home", "/"],
                       [
-                        ["Home", "/"],
-                        ["Services", [
-                          [
-                            "Local SEO", "/local-seo-services"
-                          ],
-                          [
-                            "Nationwide SEO", "/nationwide-seo"
-                          ],
-                          [
-                            "White Lable SEO", "/white-label-seo-services"
-                          ],
-                          [
-                            "On Page SEO", "/on-page-seo-services"
-                          ],
-                          [
-                            "Off Page SEO", "/off-page-seo"
-                          ],[
-                            "SEO Services", "/seo-services"
-                          ],
-                          [
-                            "Ecommerce SEO", "/ecommerce-seo"
-                          ],
-                          [
-                            "Google Services", "/google-services"
-                          ],
-                          [
-                            "Google Ads", "/google-ads-ppc"
-                          ],
-                          [
-                            "Website Development", "/website-design-and-development"
-                          ],
-                          [
-                            "Social Media Marketing", "/social-media-marketing"
-                          ],
-
-                        ]],
-                        ["Industries We Serve", "/ser"],
-                        ["Client Testimonials", "/ser"],
-                        ["About", "/about-us"],
-                        ["Blog", "/ser"],
-                        ["Contact", "/contact-us"]
-                      ].map(([text, link], i) => (
-
-                        <NavigationMenuItem key={i}>
-                          {typeof link === "string" ? (
-                            <Link href={link} className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors">
-                              {text}
-                            </Link>
-                          ) : (
-                            <>
-                              <NavigationMenuTrigger  className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors">Services</NavigationMenuTrigger>
-                              <NavigationMenuContent >
-                                <div className="w-[800px] max-w-[800px]  overflow-hidden bg-white p-5 !z-[9999999] relative">
-
-                                  <div className="grid grid-cols-12 gap-5 py-5 ">
-                                    <div className="col-span-8 p-5">
-                                      <ul className="columns-2">
-                                        {link.map(([text, link], i) => (
-                                          <li key={i} className="mb-5 "> 
-                                            <Link href={link} className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors ">{text}</Link>
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    
-                                    </div>
-                                    <div className="col-span-4 rounded-[25px] ">
-                                        <Image src={MenuImage} alt="SEO COMPANY" className="w-[320px] h-[270px]"/>
-                                    </div>
-                                  </div>
-                               
-                                </div>
-                                
-                              </NavigationMenuContent>
-                            </>
-                          )}
-                        </NavigationMenuItem>
-
-
-                      ))
-
-                    }
-                  </NavigationMenuList>
-                </NavigationMenu>
-
-                {/* <ul className="flex gap-5 2xl:gap-[28px]">
-                  {
-                    [
-                      ["Home", "/ds"],
-                      ["Services", "/ser"],
+                        "Services",
+                        [
+                          ["Local SEO", "/local-seo-services"],
+                          ["Nationwide SEO", "/nationwide-seo"],
+                          ["White Lable SEO", "/white-label-seo-services"],
+                          ["On Page SEO", "/on-page-seo-services"],
+                          ["Off Page SEO", "/off-page-seo"],
+                          ["SEO Services", "/seo-services"],
+                          ["Ecommerce SEO", "/ecommerce-seo"],
+                          ["Google Services", "/google-services"],
+                          ["Google Ads", "/google-ads-ppc"],
+                          ["Website Development", "/website-design-and-development"],
+                          ["Social Media Marketing", "/social-media-marketing"],
+                        ],
+                      ],
                       ["Industries We Serve", "/ser"],
                       ["Client Testimonials", "/ser"],
                       ["About", "/about-us"],
                       ["Blog", "/ser"],
-                      ["Contact", "/ser"]
+                      ["Contact", "/contact-us"],
                     ].map(([text, link], i) => (
-                      <li key={i}>
-                        <Link href={link} className=" text-[13px] xl:text-[16px]   font-medium hover:text-red-700 transition-colors">
-                          {text}
-                        </Link>
-                      </li>
-                    ))
-
-                  }
-                </ul> */}
+                      <NavigationMenuItem key={i}>
+                        {typeof link === "string" ? (
+                          <Link href={link} className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors">
+                            {text}
+                          </Link>
+                        ) : (
+                          <>
+                            <NavigationMenuTrigger className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors">Services</NavigationMenuTrigger>
+                            <NavigationMenuContent>
+                              <div className="w-[800px] max-w-[800px]  overflow-hidden bg-white p-5 !z-[9999999] relative">
+                                <div className="grid grid-cols-12 gap-5 py-5 ">
+                                  <div className="col-span-8 p-5">
+                                    <ul className="columns-2">
+                                      {link.map(([text, link], i) => (
+                                        <li key={i} className="mb-5 ">
+                                          <Link href={link} className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors ">
+                                            {text}
+                                          </Link>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                  <div className="col-span-4 rounded-[25px] ">
+                                    <Image src={MenuImage} alt="SEO COMPANY" className="w-[320px] h-[270px]" />
+                                  </div>
+                                </div>
+                              </div>
+                            </NavigationMenuContent>
+                          </>
+                        )}
+                      </NavigationMenuItem>
+                    ))}
+                  </NavigationMenuList>
+                </NavigationMenu>
               </nav>
-            </div> {/* Desktop Menu */}
-
+            </div>{" "}
+            {/* Desktop Menu */}
             <div className="lg:hidden ml-auto sm:mr-5">
               <Sheet>
                 <SheetTrigger asChild>
@@ -138,27 +107,61 @@ export default function Header() {
                 <SheetContent side="left">
                   <div className="mb-10">
                     <Image src={LogoImage} className="xl:max-w-[200px] max-w-[150px]" alt="SEO company" />
-                  </div> {/* Logo */}
+                  </div>{" "}
+                  {/* Logo */}
                   <nav>
                     <ul className="grid grid-cols-1 gap-5">
-                      {
+                      {[
+                        ["Home", "/ds"],
                         [
-                          ["Home", "/ds"],
-                          ["Services", "/ser"],
-                          ["Industries We Serve", "/ser"],
-                          ["Client Testimonials", "/ser"],
-                          ["About", "/ser"],
-                          ["Blog", "/ser"],
-                          ["Contact", "/ser"]
-                        ].map(([text, link], i) => (
-                          <li key={i}>
-                            <Link href={link} className=" text-[14px] xl:text-[16px]   font-medium hover:text-red-700 transition-colors">
-                              {text}
-                            </Link>
-                          </li>
-                        ))
-
-                      }
+                          "Services",
+                          [
+                            ["Local SEO", "/local-seo-services"],
+                            ["Nationwide SEO", "/nationwide-seo"],
+                            ["White Lable SEO", "/white-label-seo-services"],
+                            ["On Page SEO", "/on-page-seo-services"],
+                            ["Off Page SEO", "/off-page-seo"],
+                            ["SEO Services", "/seo-services"],
+                            ["Ecommerce SEO", "/ecommerce-seo"],
+                            ["Google Services", "/google-services"],
+                            ["Google Ads", "/google-ads-ppc"],
+                            ["Website Development", "/website-design-and-development"],
+                            ["Social Media Marketing", "/social-media-marketing"],
+                          ],
+                        ],
+                        ["Industries We Serve", "/ser"],
+                        ["Client Testimonials", "/ser"],
+                        ["About", "/ser"],
+                        ["Blog", "/ser"],
+                        ["Contact", "/ser"],
+                      ].map(([text, link], i) => (
+                        <li key={i}>
+                          {typeof link === "string" ? (
+                            <>
+                              <Link href={link} className=" text-[14px] xl:text-[16px]   font-medium hover:text-red-700 transition-colors">
+                                {text}
+                              </Link>
+                            </>
+                          ) : (
+                            <>
+                              <Sheet>
+                                <SheetTrigger>{text}</SheetTrigger>
+                                <SheetContent side="left">
+                                <ul className="">
+                                      {link.map(([text, link], i) => (
+                                        <li key={i} className="mb-5 ">
+                                          <Link href={link} className="text-[13px] xl:text-[16px] font-medium hover:text-red-700 transition-colors ">
+                                            {text}
+                                          </Link>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                </SheetContent>
+                              </Sheet>
+                            </>
+                          )}
+                        </li>
+                      ))}
                     </ul>
                   </nav>
                   <CTA text={"(123)-456-7890"} variant="icon" className="mt-10 !w-full text-center" icon={true} /> {/* Desktop Menu */}
@@ -170,25 +173,14 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
 function MenuIcon(props) {
   return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <line x1="4" x2="20" y1="12" y2="12" />
       <line x1="4" x2="20" y1="6" y2="6" />
       <line x1="4" x2="20" y1="18" y2="18" />
     </svg>
-  )
+  );
 }
