@@ -5,7 +5,7 @@ import {CTA} from ".";
 import CallAwayImageMen from "media/callaway/menLaptop.png"
 
 export default function CallAway({
-  title="Digital Marketing Expert Is <br class='block lg:hidden'/> Just A Call Away!", 
+  title="Digital Marketing Expert Is <br class='hidden xs:block sm:block md:block lg:hidden'/> Just A Call Away!", 
   desc="If yes, you are in luck with having Brand Mint on your side. We are the ultimate one-stop digital marketing solution for all the problems your business faces online.", 
   CallAwayImage= CallAwayImageMen, 
   bg= "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]", 
