@@ -1,0 +1,6 @@
+User-Agent: Googlebot
+Disallow: /
+
+User-Agent: *
+Disallow: /private/
+Allow: /
