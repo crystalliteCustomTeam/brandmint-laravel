@@ -12,7 +12,7 @@ export default function Page() {
       <Hero
         subTitle="America's Leading Digital Marketing Company"
         title="Fresh Strategies <br className='hidden lg:block' />for Digital Success"
-        desc="Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
+        desc="Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
         bg={heroBG}
         marqueeCss="absolute bottom-[100px] left-0 right-0"
         spaceBottom="pb-[300px]"

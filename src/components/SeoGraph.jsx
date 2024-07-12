@@ -27,7 +27,7 @@ export default function SeoGraph() {
                         </div>
                         <div className="flex items-center gap-3 mt-4">
                             <div className="w-[2px] h-[30px] bg-[#EC4139]"></div>
-                            <p className="font-medium">Brandmint start border</p>
+                            <p className="font-medium">SEO Company start border</p>
                         </div>
                     </div>
                     <div className="mt-10">

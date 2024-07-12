@@ -31,11 +31,11 @@ export default function Industries({
           <div>
             <AutoScrollSlider wrapperClasses="mt-[50px]" direction="forward">
               {[
-                [industries1, "Automotive", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries2, "Business", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries3, "Construction", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries4, "Education", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries5, "Travel", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
+                [industries1, "Automotive", "Maximize your online presence and captivate <br/> your audience with SEO Company's."],
+                [industries2, "Business", "Maximize your online presence and captivate <br/> your audience with SEO Company's."],
+                [industries3, "Construction", "Maximize your online presence and captivate <br/> your audience with SEO Company's."],
+                [industries4, "Education", "Maximize your online presence and captivate <br/> your audience with SEO Company's."],
+                [industries5, "Travel", "Maximize your online presence and captivate <br/> your audience with SEO Company's."],
               ].map(([img, title, desc], i) => (
                 <div key={i} className="grow-0 group shrink-0 basis-auto min-w-0 pl-4">
                   <div className="relative">

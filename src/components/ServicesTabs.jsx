@@ -8,31 +8,31 @@ const data = [
   {
     value: "Search Engine Optimization",
     title: "Search Engine Optimization (SEO)",
-    desc: "Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
+    desc: "Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
     img: service1
   },
   {
     value: "Reputation Management",
     title: "Reputation Management",
-    desc: "Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
+    desc: "Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
     img: service1
   },
   {
     value: "App Design & Development",
     title: "App Design & Development",
-    desc: "Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
+    desc: "Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
     img: service1
   },
   {
     value: "Pay Per Click",
     title: "Pay Per Click (PPC)",
-    desc: "Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
+    desc: "Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
     img: service1
   },
   {
     value: "Google Services",
     title: "Google Services",
-    desc: "Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
+    desc: "Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.",
     img: service1
   }
 ]
@@ -48,7 +48,7 @@ export default function ServicesTabs() {
           </h2>
           {/* <p className="max-w-[782px] mx-auto"> */}
           <p className="text-[#202124] text-[16px] leading-relaxed lg:max-w-[85%] xl:max-w-[70%] mx-auto">
-            Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+            Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
           </p>
         </div>
         <Tabs defaultValue={data[0]?.value} className="grid grid-cols-12 gap-x-5 gap-y-10 mt-[30px] md:mt-[60px]">
@@ -95,7 +95,7 @@ export default function ServicesTabs() {
                   Management
                 </h2>
                 <p className="text-[16px]">
-                  Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+                  Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
                 </p>
                 <CTA text={"Learn More"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
               </div>
@@ -110,7 +110,7 @@ export default function ServicesTabs() {
                   Optimization (SEO)
                 </h2>
                 <p className="text-[16px]">
-                  Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+                  Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
                 </p>
                 <CTA text={"Learn More"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
               </div>
@@ -125,7 +125,7 @@ export default function ServicesTabs() {
                   & Development
                 </h2>
                 <p className="text-[16px]">
-                  Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+                  Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
                 </p>
                 <CTA text={"Learn More"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
               </div>
@@ -140,7 +140,7 @@ export default function ServicesTabs() {
                   Click (PPC)
                 </h2>
                 <p className="text-[16px]">
-                  Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+                  Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
                 </p>
                 <CTA text={"Learn More"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
               </div>
@@ -155,7 +155,7 @@ export default function ServicesTabs() {
                   Services
                 </h2>
                 <p className="text-[16px]">
-                  Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
+                  Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out.
                 </p>
                 <CTA text={"Learn More"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[25px]" />
               </div>

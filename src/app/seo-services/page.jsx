@@ -10,7 +10,7 @@ export default function Page() {
       <Hero
         subTitle="Professional Search Engine Optimization Services"
         title="That Grow Traffic, <br  class='hidden lg:block'/> Increase Revenue"
-        desc="Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
+        desc="Maximize your online presence and captivate your audience with SEO Company's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
