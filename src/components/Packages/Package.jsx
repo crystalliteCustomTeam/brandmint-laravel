@@ -3,18 +3,21 @@ import { CTA, Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/inde
 import data from "./package.json"
 import Image from "next/image";
 
-const Package = ({ id }) => {
+const Package = ({ 
+    id,
+    title =`Break Your Competition Without <br class='hidden md:block' />
+                        <span class="text-[#E1183A]">Breaking Your Bank!</span>`,
+    desc,
+ }) => {
     return (
         <section className="packages">
             <div className="container">
                 <div className="text-center font-medium">
-                    <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold">
-                        Break Your Competition Without <br className='hidden md:block' />
-                        <span className="text-[#E1183A]">Breaking Your Bank!</span>
-                    </h2>
+                    <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold"
+                    dangerouslySetInnerHTML={{ __html: title }}/>
 
                     <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
-                        We praises its outcomes-oriented SEO services at the most sensible rates ever. We purpose multiple pricing SEO packages to best suit your varying budgets and business goals.
+                        {desc}
                     </p>
                 </div>
                 <Tabs defaultValue="Annually" className="mt-16 text-center">

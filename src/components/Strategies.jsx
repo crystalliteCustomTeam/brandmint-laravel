@@ -3,24 +3,24 @@ import { CTA } from "@/components"
 
 let data = [
   {
-    title: "Getting to Know You",
-    desc: "First, we dive deep. We learn everything about your businessfrom your goals and target audience to reviewing your past marketing efforts. This thorough understanding allows us to craft a perfectly tailored strategy that hits all the right notes."
+    title: "A Brief Introduction",
+    desc: "First, we fully comprehend your company, objectives, target market, and past marketing initiatives. This aids in developing a custom SEO plan and national SEO packages that precisely fit your requirements."
   },
   {
-    title: "Crafting Your Custom Plan",
-    desc: "Based on our findings, we develop an initial plan tailored just for you, covering the next 3-6 months. This isn’t just about SEO; we integrate various digital marketing strategies that align with your specific needs, ensuring a comprehensive approach."
+    title: "Creating Your Own Plan",
+    desc: "Our observations help us create a three—to six-month plan. When paired with other digital marketing tactics, our SEO services provide a well-rounded plan for your company."
   },
   {
-    title: "Setting the Partnership in Motion",
-    desc: "Once you’re happy with the plan and the pricing, we’ll send over a contract for you to sign. After the upfront fee is sorted, our team rolls up their sleeves and gets down to business. It’s time to turn plans into action."
+    title: "Initiating the Partnership",
+    desc: "We seal the deal once you accept the layout and cost. After settling the initial payment, our staff begins implementing the action plan to deliver results."
   },
   {
-    title: "Regular Updates and Reviews",
-    desc: "We believe in keeping you in the loop. That’s why we schedule monthly meetings to review progress, discuss results, and make any necessary tweaks. This keeps our strategies fresh and your business on the path to success.ght notes."
+    title: "Continual Revisions and Updates",
+    desc: "We hold monthly meetings to review progress, discuss outcomes, and make necessary adjustments. This keeps your company running smoothly and our methods effective."
   },
   {
-    title: "Flexible and Responsive",
-    desc: "We understand that business is dynamic. Should anything change in your situation or you need to adjust your marketing plans, you can pause or cancel our services anytime. We’re here to support your growth, however it evolves."
+    title: "Adaptable and Quick",
+    desc: "We recognize that business needs are dynamic. You have the freedom to adjust at any time by pausing or terminating our services. As the best SEO company, we assist with your development at every stage."
   }
 ]
 
@@ -30,11 +30,11 @@ export default function Strategies() {
       <div className="container">
         <div className="text-center">
           <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold leading-snug text-[#202124]">
-            How Our SEO Strategy Powers <br className="md:block hidden" />
-            Your Business
+          How Our SEO Strategy Powers <br className="md:block hidden" />
+          Your Business
           </h2>
           <p className="max-w-[970px] mx-auto py-3 text-[14px] md:text-[16px]">
-            At the heart of our approach is a commitment to truly understanding your business. Here’s how our tailored,  SEO strategy works to amplify your success:
+          At SEO Company, we take the time to learn about your business in depth. Being one of the leading SEO service providers, here's how we draft the perfect formula to propel you to the top of search results:
           </p>
         </div>
       </div>

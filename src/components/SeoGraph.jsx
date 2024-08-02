@@ -7,14 +7,13 @@ export default function SeoGraph() {
         <section>
             <div >
                 <div className="container">
-                    <h2 className="xs:text-[25px] sm:text-[30px] md:text-[30px] lg:text-[40px] xl:text-[48px] 2xl:text-[58px]   font-semibold leading-snug">Other SEO agencies promise results.
-                        We’ve got dozens of case studies to prove it</h2>
+                    <h2 className="xs:text-[25px] sm:text-[30px] md:text-[30px] lg:text-[40px] xl:text-[48px] 2xl:text-[58px]   font-semibold leading-snug">Many SEO Companies Promise Results. SEO Company Has The Proof To Back It Up.</h2>
                     <div className="my-10">
                         {
                             [
-                                "On average, we’ve helped our clients get a 780% return on investment.",
-                                "Oh and one time we helped a client go from zero clicks per day to 6,600 clicks per day.",
-                                "Don’t believe it? Take a look:"
+                                "Our Professional SEO Company proudly presents numerous case studies demonstrating our achievements. Our clients often see an astounding 200% return on their investment.",
+                                "In one prominent instance, we increased a client's daily clickthrough rate from 0 to a whopping 6,600.",
+                                "Having doubts? Check out the evidence for yourself"
                             ].map((e, i) => (
                                 <p className="my-5 font-medium" key={i}>{e}</p>
                             ))

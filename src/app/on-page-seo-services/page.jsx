@@ -8,6 +8,13 @@ import pageSeo from "media/on-page-seo/page-seo.png";
 import seoService from "media/on-page-seo/seo-service-business.png";
 import UiUx from "media/on-page-seo/ui-ux-check.png";
 
+import philip from "media/testimonial/philip.png";
+import chris from "media/testimonial/chris.png";
+import bilal from "media/testimonial/bilal.png";
+import elissa from "media/testimonial/elissa.png";
+import joe from "media/testimonial/joe.png";
+import moses from "media/testimonial/moses.png";
+
 // listing Data
 let data = [
   {
@@ -24,13 +31,64 @@ let data = [
   },
 ];
 
+const dataTest=[
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "The experts at SEO Company improved our website's performance. Our traffic increased by 50% in just three months!",
+    testimonialName: "Alex M",
+    testimonialImage: philip,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+  {
+    shadowColor: "bg-[#E1183A]",
+    review: "Impressed with the detailed on-page SEO strategies. They know how to optimize for both search engines and users!",
+    testimonialName: "Sarah L",
+    testimonialImage: chris,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "Exceptional service! The on-page SEO improvements significantly boosted our site’s ranking and visibility.",
+    testimonialName: "John D",
+    testimonialImage: bilal,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+  {
+    shadowColor: "bg-[#24BF5A]",
+    review: "Highly recommend their on-page SEO services. Professional, effective, and excellent results in a short time.",
+    testimonialName: "Jessica K",
+    testimonialImage: elissa,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "I can't say enough good things about the on page SEO this company has done for me. Their On page strategies are well-planned, and worked wonders for my website. Absolutely recommended!",
+    testimonialName: "Glenn Smith",
+    testimonialImage: joe,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "Five stars for SEO Company. Their on page SEO techniques really helped me improve my website’s content and that also increased the authority in days, hiring them was the best decision I made.",
+    testimonialName: "Amanda",
+    testimonialImage: moses,
+    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
+    minHeightMob:"min-h-[330px]"
+  },
+];
+
 export default function Page() {
   return (
     <main>
       <Hero
         subTitle="On Page SEO Services"
-        title="The practice of optimizing your website to help your web pages rank higher on Google!"
-        desc="On page SEO refers to the marketing measures taken by marketers to optimize individual web pages, including URLs and HTML. On page SEO is the basis of all SEO success. By adjusting the on-page elements, you can increase your chances of ranking for targeted keywords, generating more organic traffic, and making your site more friendly to users and search engine algorithms."
+        title="Build Your Website’s Authority With Our Expert On-Page SEO Services"
+        desc="Need help to attract more organic traffic and increase your website’s authority? We’re here to help and increase your website’s performance through our proven on-page SEO services. We specialize in optimizing every element of your site to enhance search engine rankings and improve user experience. Let our on page SEO team help you attract more organic traffic, increase ad revenue, boost ROI, and generate high-quality leads to achieve your business goals."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -38,9 +96,13 @@ export default function Page() {
         spaceBottom="pb-0"
         marqueeCss="pb-[80px] pt-[50px] xs:pt-[50px] sm:pt-[80px]"
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
+        ctaText="Get a Custom SEO Strategy!"
+        ctaText2="Contact Us for Expert SEO Solutions!"
       />
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial />
+        <Testimonial
+        data={dataTest}
+        />
       </div>
 
       <div>

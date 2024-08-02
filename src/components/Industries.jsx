@@ -11,8 +11,8 @@ import Image from "next/image";
 
 export default function Industries({
   subTitle, 
-  title="Customer Base From Different Industries", 
-  desc="Businesses of every GENRE or SCALE are more than welcome to increase <br className='lg:block hidden'/> their DIGITAL worth with us!", 
+  title="Industries We Proudly Serve", 
+  desc="No matter the NATURE or SCALE of your business, enhance your online value with our assistance!", 
 }) {
   return (
     <section>
@@ -31,11 +31,11 @@ export default function Industries({
           <div>
             <AutoScrollSlider wrapperClasses="mt-[50px]" direction="forward">
               {[
-                [industries1, "Automotive", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries2, "Business", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries3, "Construction", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries4, "Education", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
-                [industries5, "Travel", "Maximize your online presence and captivate <br/> your audience with BrandMint's."],
+                [industries1, "E-commerce:", "Boost your online store's traffic and sales <br/> with a targeted SEO Company that enhances <br/> product visibility."],
+                [industries2, "Education:", "Attract more students by optimizing your academic <br/> institution's online presence."],
+                [industries3, "Hospitality:", "Increase bookings and attract travelers with <br/> SEO Company for hotels, restaurants, and <br/> travel hubs."],
+                [industries4, "Technology and IT:", "Expand your tech company's reach with <br/> SEO Company strategies tailored to <br/> technology-specific keywords."],
+                [industries5, "Automotive:", "Drive local customer traffic to your dealership <br/> or auto repair shop with a focused automotive <br/> SEO Company."],
               ].map(([img, title, desc], i) => (
                 <div key={i} className="grow-0 group shrink-0 basis-auto min-w-0 pl-4">
                   <div className="relative">

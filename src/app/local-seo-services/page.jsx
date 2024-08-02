@@ -9,15 +9,74 @@ import qualityLeadsImg from "media/local-seo-service/qualityLeads.png";
 import CallAwayImageMen from "media/callaway/menLaptop.png";
 import CallAwayImageWomen from "media/callaway/women.png";
 
+// Media
+import icon1 from "media/social-media-marketing/speech-bubble.png";
+import icon2 from "media/social-media-marketing/customer-centric-approch.png";
+import icon3 from "media/social-media-marketing/great-idea.png";
+
+import philip from "media/testimonial/philip.png";
+import chris from "media/testimonial/chris.png";
+import bilal from "media/testimonial/bilal.png";
+import elissa from "media/testimonial/elissa.png";
+import joe from "media/testimonial/joe.png";
+import moses from "media/testimonial/moses.png";
+
 // Why Choose Section Data
 const chooseData = [
-  ["/social-media-marketing/speech-bubble.png", "Clear <br/> Communication", "We build relationships based on integrity and trust, deliver on our promises, and always maintain clear communication."],
-  [
-    "/social-media-marketing/customer-centric-approch.png",
-    "Customer-Centric <br/> Approch",
-    "We prioritize our client's success, understand your unique needs, and deliver tailored solutions that drive your",
-  ],
-  ["/social-media-marketing/great-idea.png", "Innovation and <br/> Excellence", "We consistently deliver innovative, highquality solutions as a team on the cutting edge of technology trends."],
+  [icon1, "Custom Plans:", "We create strategies tailored to your business needs, ensuring the best results."],
+  [icon2, "Proven Results:", "Our local business SEO services have a history of driving growth and sales."],
+  [icon3, "Expert Team:", "Our knowledgeable team stays updated with the latest SEO trends, keeping you ahead of the game."],
+];
+
+const dataTest=[
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "Since partnering with SEO Company, our local visibility has skyrocketed! We've seen a substantial increase in foot traffic and online inquiries. They really know their stuff when it comes to local SEO!",
+    testimonialName: "James Anderson",
+    testimonialImage: philip,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
+  {
+    shadowColor: "bg-[#E1183A]",
+    review: "The team at SEO Company is nothing short of spectacular. They helped us refine our local SEO strategy, and now we're consistently topping local search results!",
+    testimonialName: "Michael Johnson",
+    testimonialImage: chris,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "If you want to get noticed in your local area, an SEO Company is the way to go. Their tailored strategies have made a noticeable difference in our business's online presence.",
+    testimonialName: "William Thompson",
+    testimonialImage: bilal,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
+  {
+    shadowColor: "bg-[#24BF5A]",
+    review: "Investing in SEO Company's services has been the best decision for our business. We've seen a dramatic increase in local search rankings and overall brand recognition.",
+    testimonialName: "Emily Roberts",
+    testimonialImage: elissa,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "What sets SEO Company apart is their professionalism and client commitment. They revamped our local SEO strategy, and we immediately saw the impact. They're truly committed to helping businesses succeed.",
+    testimonialName: "Sophia Martinez",
+    testimonialImage: joe,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "SEO Company has truly set a new standard for what we expect from an SEO service. Their dedication to improving our local search rankings has resulted in a noticeable uptick in foot traffic. We're absolutely thrilled with the progress!",
+    testimonialName: "Alexander Davis",
+    testimonialImage: moses,
+    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
+    minHeightMob:"min-h-[360px]"
+  },
 ];
 
 export default function Page() {
@@ -25,8 +84,8 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Our Local SEO Services"
-        title="Driving Qualified Traffic <br class='lg:block hidden'/> To Your Business!"
-        desc="By harnessing the power of nationwide SEO, Jumpto1 creates digital solutions that challenge the highly-saturated marketplace and help you win new clients across the nation. Now you can target customers in every state, every region without the fear of any geographical confinement."
+        title="Expand Your Reach with <br class='lg:block hidden'/> Local SEO Services!"
+        desc="Accelerate your business success with SEO Company. We specialize in attracting new clients using innovative digital strategies and local SEO services that stand out in a crowded market. Connect with customers across every state and region, and make a significant impact wherever you aim."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -36,162 +95,173 @@ export default function Page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
+        ctaText="Get in Touch Now!"
       />
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} />
+        <Package 
+        id={1}
+        title={`Drive Results with Our <br class='hidden md:block' />
+                        <span class="text-[#E1183A]">Affordable Local SEO Services</span>`}
+        desc="You can get a wide selection of the best local SEO services, all of which are customized to different business requirements. We address every important facet of SEO in order to provide thorough solutions for all company objectives."
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChooseUs />
+        <WhyChooseUs
+        subTitle="Why Opt for Us?"
+        title="To See Your Business Thrive <br class='lg:block hidden'/> Every Single Day!"
+        desc="Thriving online can be challenging, especially with most businesses using social media. At SEO Company, we get it. Our experts help your brand stand out. Here’s why you should choose us as  your local SEO agency:"
+        data={chooseData}   
+        />
       </div>
       <div className="xs:py-[30px] md:py-[50px]">
         <div className="my-5">
           <Content
-            title="What Are Local SEO <br/> Services Basically?"
-            desc="Local SEO Services is a digital marketing process that deals with optimizing the website to improve its local search visibility. Sounds technical? Let’s talk about the process in a more layman's language.
+            title="Why Does Your Business Need Local SEO Services?"
+            desc='Ever noticed how certain local businesses pop up first when you search online for something close by? That’s because of a local SEO agency. Let’s break this down with a simple example.
             <br/><br/>
-            What if we say you are already familiar with Local SEO? Yes, you are.  
+            Say it’s Sunday morning, and you want a coffee. You search "coffee near me" on your phone. The places that show up are using local SEO to ensure they appear right when you’re looking for them.  
             <br/><br/>
-            Let us ask you a question. What do you do when you crave pizza? Obviously, you pick up your mobile phone and check what nearby pizza shop is available to satisfy your cravings. What did you just enter? Was it “pizza near me”? If yes, the shops that appear in the search results are the ones that have Local SEO done on their online profiles."
+            Our SEO services for local business can enhance their visibility in local searches, making it the first choice for local customers. Effective local SEO services, be it for a cafe or bookstore, help businesses catch the eye of potential customers in their area.'
             img1={seoImg}
+            ctaText="Get Started!"
           />
         </div>
         <div className="my-5">
           <Content
-            title="Why Does Your Business <br/> Need Local SEO Services?"
-            desc="Because 93% whopping U.S buyers search for local businesses online, in which 88% of the searches are made from mobile. Not to mention, 72% of those consumers end up visiting a store with phone calls within 24 hours of their searches.
-        <br/><br/>
-            These statistics show how important it is to have local SEO done for businesses. No matter what you offer and how aged your business is, it is useless unless it doesn't appear in front of the target audience. With millions and trillions of high-intent customers doing online searches for a local business every day and needing digital powers to support their brand transactions, investing in the best local SEO services becomes instrumental."
+            title="Having Trouble Getting Found Locally?
+            Local SEO Company Is Just What You Need!"
+            desc="How can your customers potentially find you? 88%  of the customers conduct their searches on mobile devices. Even more notably, 72% of these potential customers visit a store or make a phone call within just 24 hours of their initial search. This underscores the vital role that local SEO optimization plays in making your business visible to potential customers.
+            <br/><br/>
+            Securing the services of a skilled local SEO firm is essential in a virtual market where a customer's visit could result from a single click. Employing practical local SEO for businesses puts your brand in the best position to draw in and interact with local searchers who are actively looking for what you have to offer."
             img1={BusinessSeoImg}
             direction="flex-row-reverse"
+            ctaText="Contact Us Now!"
           />
         </div>
         <div className="my-5">
           <Content
-            title="What Goes Into Local SEO That Drives Quality Leads To Your Website?"
-            desc="Many attributes go into the process of creating a successful local SEO strategy for making the brand recognizable. It starts with devising a marketing strategy where lead generation and local SEO services hold a prominent position. It goes unsaid that lead generation serves as the lifeblood of any business. Without a steady stream of quality leads, firms of all shapes and sizes toil to make sales and grow. And, let alone local SEO acts as a funnel attracting prospects to your business."
+            title="How Local SEO Services for Small Business Propel Your Lead Generation"
+            desc="Getting into the core of an influential local SEO agency can significantly boost your brand's visibility. It all begins with establishing a strong marketing plan, where lead generation and local SEO services play a prominent role. Recognizing the importance of lead generation is essential for any business. Without a steady flow of quality leads, businesses, regardless of size, find it hard to secure sales and expand. Incorporating specialized SEO services for local businesses ensures your brand survives and excels in a competitive environment."
             img1={qualityLeadsImg}
+            ctaText="Call us now!"
           />
         </div>
       </div>
 
       <div className="xs:py-[50px] py-[60px]">
-        <CallAway />
+        <CallAway
+          title="We Can’t Wait To Assist Your Business!"
+          desc="Facing challenges? SEO Company is here to pull you into the spotlight."
+          btnText="Boost Your ROI!"
+        />
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <SeoServiceSteps
+          title={`What to Expect with Our <br class='hidden md:block' /> <span class="text-[#E1183A]">Local SEO Services</span>`}
+          description="If you choose SEO Company, you can expect a better online presence. Our local SEO services can help your business succeed online."
+
           items={[
             {
               no: "01",
-              title: "Local SEO Audit",
+              title: "Customized Local SEO Solutions:",
               content:
-                "Our local SEO Company conducts an exhaustive local SEO audit to define your existing local SEO ranking, acquire actionable insights and make your local SEO checklist. Jumpto1 checks your NAP visibility, determines your geographical area and service zones, and investigates your Google My Business listing. To achieve your local SEO strategy, our local SEO specialists also execute a Google My Business page audit, examine analysis, audit the landing page, analyze local citations, opponent benchmarking, and analyze organic links.",
+                "Every business is different, and so are the strategies needed to succeed. Our customized local SEO solutions are designed to meet your business's needs, ensuring you rise above local competition and increase visibility.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "02",
-              title: "Keyword Research & Strategy",
+              title: "Guidance from Experienced Local SEO Specialists:",
               content:
-                "We conduct extensive keyword investigation and analysis to recognize geo-specific, industry-corresponding keywords and categorize them by search intent. Once Jumpto1’s local SEO specialist has outlined your search terms, he makes a local SEO manual to help you devise locally-centric website content.",
+                "Our dedicated local SEO specialists are central to our promise of effectual service. They bring extensive expertise and a tailored process to your SEO efforts, ensuring your business competes and excels.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "03",
-              title: "On-Page Optimization",
+              title: "Detailed Local SEO Plan:",
               content:
-                "We source on-page optimization to make sure your site ranks high in your target area. Our SEO experts optimize metadata and homepage of your website with geo-specific keywords and develop city, service, and industry pages, establish social media cues and enforce local SEO best practices on your website. We apply local business schema to website pages to make it more effortless for search engines to comprehend your brand offerings and target locations.",
+                "Begin a strategic growth adventure with our in-depth local SEO plan. We assess your market, rivals, and opportunities to create a plan that aims for top-notch results.",
               borderColor: "border-[#34A854]",
             },
             {
               no: "04",
-              title: "Link Building",
+              title: "Advice from Local SEO Consultants:",
               content:
-                "We ensures search engines discover an authentic manifestation of your business across the web. We create hyperlocal SEO landing pages, construct your local SEO citations, powers keywords with high domain relevancy, and project email outreach movements. We pursue local link-building and GMB SEO best techniques to draw links that produce the results for your company.",
+                "See your business in a new light with guidance from our local SEO consultants. They provide deep insights and help you ask the right questions about your strategy, going beyond conventional methods.",
               borderColor: "border-[#000000]",
             },
             {
               no: "05",
-              title: "Business Citation Management",
+              title: "Targeted Local SEO Marketing Services:",
               content:
-                "Local SEO citations serve as an authority for your company name and address on another website. Jumpto1’s Google My Business specialists leverage high-end third-party sites to create local citations for your enterprise. We also explore industry-based niche directories and advance your business information to acquire the maximum authority of your online presence.",
+                "Our targeted local SEO marketing services are crafted to position your business as the top choice for local consumers. We focus on improving your listings and optimizing your website content, ensuring precision in every action.",
               borderColor: "border-[#F8BA05]",
             },
             {
               no: "06",
-              title: "Online Reputation Management (ORM)",
+              title: "All-Encompassing Local Search Engine Optimization Services:",
               content:
-                "Online reviews can deliver favorable evidence about your company and help improve customer trust. According to studies, 88 percent of customers check online reviews before buying local services. We protect your brand prestige by monitoring the customers' mentions across many sites.",
+                "Our all-encompassing local search engine optimization services cover every element needed for effective local optimization, from enhancing your Google My Business profile to managing reviews and boosting local citations.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "07",
-              title: "Content Writing",
+              title: "Choosing a Top Local SEO Company:",
               content:
-                "With a team of expert writers, we create well-researched and optimized content. They closely follow the local SEO guidelines to curate content that ranks high on the search engines. We help you become friends with your ideal customers with appealing and relevant titles and headlines.",
+                "Opting for SEO Company means you’re selecting a leader among local SEO companies. We stay on the leading edge, using the latest technologies and methods to maintain and enhance your local search standings.",
               borderColor: "border-[#EF4252]",
-            },
-            {
-              no: "08",
-              title: "Conversion Rate Optimization (CRO)",
-              content:
-                "We take a deeper look at your website to learn the elements that hinder the users from getting converted. With our CRO specialists, we ensure your website gets optimized to the level of finesse.",
-              borderColor: "border-[#34A854]",
-            },
-            {
-              no: "09",
-              title: "Nextdoor Local Business Advertising",
-              content:
-                "We local search services concentrate on creating your Nextdoor prestige and community. Our SEO experts optimize your Nextdoor company profile, interact with your local community, confirm your brand details are valid and monitor your campaign metrics. These local SEO keys permit us to identify areas you can enhance your reputations and conduct critical actions to associate your brand with the individuals in your target places.",
-              borderColor: "border-[#000000]",
-            },
-            {
-              no: "10",
-              title: "Mobile Responsive Design",
-              content:
-                "We conduct business the right way! We are Known for its two core values: Integrity and Results. We take satisfaction in what we do and always strive for excellence with total honesty and integrity.",
-              borderColor: "border-[#F8BA05]",
-            },
+            }
           ]}
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial />
+        <Testimonial
+          title="Still on the Fence?"
+          desc="Here’s why our customers have chosen us times and again!"
+          data={dataTest}
+          minHeight="2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]"
+          minHeightMob="min-h-[360px]"
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
+        <CallAway CallAwayImage={CallAwayImageWomen}
+        title="Need Expert SEO Guidance? Get in Touch With Us Right Now!"
+        desc="Fortune favors the bold — and SEO Company is ready to be your bold ally in the digital arena. As your ultimate one-stop SEO solution, we tackle every challenge your business encounters online with precision and expertise."
+        btnText="Unlock Your Potential!"
+         bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <FAQs
           items={[
             {
-              title: "How long does SEO take to generate results?",
+              title: "What does a local SEO agency do?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "A local SEO agency enhances your business's visibility in local search results, making it easier for customers to find and engage with your services.",
             },
             {
-              title: "What Includes In on page SEO services?",
+              title: "How can local SEO marketing services benefit my small business?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Local SEO marketing services help increase your visibility in geographic-specific searches, attract more local customers, and improve your overall online presence.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "Why should I choose local SEO experts for my business?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Local SEO experts specialize in optimizing your online presence to target an audience in your specific geographic area, which can increase foot traffic and sales.",
             },
             {
-              title: "How Does Jumpto1 Carry Its SEO service delivery?",
+              title: "What are the key components of local SEO services?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Key components include optimizing your Google My Business profile, local keywords optimization, building local backlinks, and managing online reviews.",
             },
             {
-              title: "Why Should You Partner With Us?",
+              title: "How do local search engine optimization services differ from general SEO?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Local SEO focuses on boosting your business's visibility in localized searches, while general SEO targets broader, non-location-specific search visibility.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "What results can I expect from hiring the best local business SEO company?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-            },
+                "Expect improved local search rankings, an increase in local traffic to your website, and a higher conversion rate from nearby customers.",
+            }
           ]}
         />
       </div>
