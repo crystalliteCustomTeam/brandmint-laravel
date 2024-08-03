@@ -5,13 +5,71 @@ import HeroImg from "media/ecommerceHero.png";
 import Ecommerce1 from "media/ecommerce1.png";
 import Ecommerce2 from "media/ecommerce2.png";
 import EcommerceVersatileSteps from "@/components/EcommerceVersatileSteps";
+
+import philip from "media/testimonial/philip.png";
+import chris from "media/testimonial/chris.png";
+import bilal from "media/testimonial/bilal.png";
+import elissa from "media/testimonial/elissa.png";
+import joe from "media/testimonial/joe.png";
+import moses from "media/testimonial/moses.png";
+
+import icon1 from "media/social-media-marketing/speech-bubble.png";
+import icon2 from "media/social-media-marketing/customer-centric-approch.png";
+import icon3 from "media/social-media-marketing/great-idea.png";
+
+const dataTest=[
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "Working with SEO Company has been a game-changer for our agency. Their white label SEO services are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
+    testimonialName: "Maria Parsons",
+    testimonialImage: philip
+  },
+  {
+    shadowColor: "bg-[#E1183A]",
+    review: "As a reseller, I rely on SEO Company’s expertise in WHITE LABEL SEO. They handle the complexities seamlessly, ensuring our clients receive exceptional results. Partnering with them has significantly enhanced our service portfolio and client retention rates.",
+    testimonialName: "Dale Harvey",
+    testimonialImage: chris
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "SEO Company stands out among white label SEO providers. Their commitment to excellence and results-driven approach have helped our agency excel in a competitive market. Trustworthy, reliable, and highly effective—couldn’t ask for more!",
+    testimonialName: "Marvin Duncan",
+    testimonialImage: bilal
+  },
+  {
+    shadowColor: "bg-[#24BF5A]",
+    review: "Choosing SEO Company for white label SEO services was one of our best decisions. Their dedication to our success is evident in every campaign they manage. They truly understand the intricacies of digital marketing and deliver results that exceed expectations.",
+    testimonialName: "Ernest Griffith",
+    testimonialImage: elissa
+  },
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "Partnering with SEO Company as our white label SEO company has been instrumental in our growth. Their tailored solutions and proactive support have allowed us to focus on client relationships while they handle the technical aspects flawlessly.",
+    testimonialName: "Carroll Marsh",
+    testimonialImage: joe
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "We've been collaborating with SEO Company for reseller SEO services and couldn't be happier. Their expertise and professionalism make them one of the industry's best White Label SEO FIRMS. Highly recommended for agencies looking to elevate their SEO offerings.",
+    testimonialName: "Roberto Bowen",
+    testimonialImage: moses
+  },
+];
+
+// Why Choose Section Data
+const chooseData = [
+    [icon1, "Clear Communication", "We build relationships based on integrity and trust. As the best eCommerce SEO agency, we deliver on our promises and always maintain clear communication."],
+    [icon2, "Customer-Centric Approach", "We prioritize our client's success by understanding your unique needs and delivering tailored solutions that drive results. As the best eCommerce SEO agency, our eCommerce SEO specialists are committed to providing personalized eCommerce SEO services that help your business flourish."],
+    [icon3, "Innovation and Excellence", "As the best eCommerce SEO agency, our eCommerce SEO specialists leverage the latest advancements to provide top-tier eCommerce SEO services that drive your business forward."],
+  ];
+
 export default function Page() {
   return (
     <main>
       <Hero
-        subTitle="Our eCommerce SEO Services"
-        title="Driving Qualified Traffic <br class='block lg:hidden'/> To Your Online Store!"
-        desc="We provide eCommerce website marketing strategies aimed at helping companies supercharge their online campaigns and attract more buyers. Partner with Jumpto1 and let us help you drive in more revenue to your eCommerce store. The more keywords you’re able to target successfully, the more qualified buyers will click on your products, and in turn, you’ll see an expansion in conversions and revenue."
+        subTitle="Do you want to attract more customers to your store?"
+        title="Reach the Right Customers with Our Best eCommerce SEO Services"
+        desc="At SEO Company, we specialize in eCommerce SEO services designed to raise your online presence and attract more customers to your store. As the best eCommerce SEO agency, we partner with you to amplify your revenue through tailored strategies. By expertly targeting a wide range of keywords, our eCommerce SEO specialists ensure that more qualified buyers discover your products, leading to increased conversions and revenue."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -21,20 +79,28 @@ export default function Page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
       />
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial />
+        <Testimonial
+        title="Don’t Believe Us?"
+        desc="See what our customers have to say about us"
+        data={dataTest}
+        />
       </div>
       <div>
         <ComboPackage />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChooseUs />
+        <WhyChooseUs
+        title="Increase Your Online Sales, One Great <br class='lg:block hidden'/> SEO Strategy At a Time!"
+        desc="Surviving and thriving in business is more challenging than ever. The competition is fierce with 90% of U.S. firms leveraging social media. That's where SEO Company comes in. As the best eCommerce SEO agency, we don't believe in cookie-cutter marketing."
+        data={chooseData}   
+        />
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <div className="my-5">
           <Content
-            title={"Why Do Ecommerce Businesses Need SEO To Build Brand Awareness?"}
+            title={"Why Do Businesses Need An eCommerce SEO Company?"}
             desc={
-              "Work Hard, Market Harder! Even though SEO has the highest ROI from other eCommerce marketing campaigns, surprisingly, most eCommerce stores are still put together with little to no regard for search engines. Instead, most brands rely on social media marketing or other paid ads, which are tremendous but can't compete with the SEO conversion rate.<br/> <br/> SEO helps your eCommerce store increase its ROI and grow. With our eCommerce SEO services and experienced team, your products will rank higher in search results for the keywords your target demographics use. SEO only requires onetime effort because you basically make sales on autopilot with no regular expense once you rank."
+              "Despite SEO offering the highest ROI among eCommerce marketing strategies, many online stores neglect search engine optimization, favoring social media marketing or other paid ads. However, SEO delivers consistent, high-converting traffic that other methods can't match.<br/> <br/> The SEO Company offers eCommerce SEO services to improve product rankings for target audience keywords. They understand SEO is a one-time effort, delivering autopilot sales with no ongoing expenses and conducting comprehensive audits for business growth."
             }
             img1={Ecommerce1}
           />
@@ -42,9 +108,9 @@ export default function Page() {
 
         <div className="my-5">
           <Content
-            title={"Why Is Ecommerce Marketing Necessary For Your Business?"}
+            title={"Here’s Why Your Business Needs SEO for eCommerce!"}
             desc={
-              "If your store is already online, that's great. However, you risk staying invisible to new opportunities and possible leads if you don't take bold steps to increase your online visibility. Jumpto1 is a full-service digital marketing company that's sincere about what we do — and it shows in our associations with successful eCommerce companies from different industries. Our eCommerce search engine optimization strategies aim to help your online store punch above its weight and dominate the competition. Our eCommerce SEO services include keyword research, product markup, content promotion,eCommerce SEO strategy, and online product management."
+              "Having your store online is a great start, but you risk missing out on new opportunities and potential leads without taking bold steps to enhance your visibility. SEO Company is a full-service digital marketing agency committed to genuine, results-driven strategies. Our eCommerce SEO services are designed to help your online store outperform competitors and dominate the market. As the best eCommerce SEO company, we offer comprehensive SEO for eCommerce websites, including keyword research, product markup, content promotion, and online product management."
             }
             img1={Ecommerce2}
             direction="flex-row-reverse"
@@ -53,39 +119,42 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway />
+        <CallAway
+        title="Our eCommerce SEO Expert is Just A Call Away"
+        desc="We are the ultimate one-stop solution for all your digital marketing challenges. Our eCommerce SEO services are designed to tackle every problem your business faces online."
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
-          title="Why Choose Jumpto1 For  <span class='text-[#E1183A]'> eCommerce <br class='lg:block hidden'/> SEO Services ?</span>"
-          description="eCommerce is here to dominate! Leverage Jumpto1 to your advantage and surpass the online competition by delivering the finest <br class='xl:block hidden'/> customer experience. Our eCommerce SEO marketing company brings a set of wholesomeness to your business arena."
+          title="What Makes Our eCommerce  <span class='text-[#E1183A]'> SEO <br class='lg:block hidden'/> Services the Best Choice?</span>"
+          description="Leverage SEO Company to your advantage and surpass the online competition by delivering the finest customer experience. As the best eCommerce SEO company, we bring a touch of excellence to your business."
           items={[
             {
               no: "01",
               title: "Boost Your <br class='lg:block hidden'/> Business Efficiency",
               content:
-                "With the help of Jumpto1 SEO marketing for an eCommerce company, you can successfully mount your business, improve your product ranges and eliminate repetitive tasks. eCommerce digital marketing permits you to execute data-driven strategies that align with your eCommerce marketing goals. We Position your brand in front of potential buyers and generate loyal customers. Jumpto1 eCommerce SEO marketing covers a variety of online solutions, including SEO, social media brand management, and keyword research and optimization.",
+                "With the expertise of the SEO Company, you can raise your eCommerce business, expand your product range, and streamline your operations. Our eCommerce SEO services enable you to implement data-driven strategies that align with your marketing goals. As the best eCommerce SEO company, we position your brand in front of potential buyers, turning them into loyal customers.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "02",
               title: "Strengthen Your Online Foundation rack Record",
               content:
-                "Our profitable digital marketing campaigns throughout the years reflect Jumpto1's exceptional portfolio. Through our passion for creation and dedication to supporting our clients, we are confident that we will bring you the best eCommerce SEO services for your online store.",
+                "Over the years, SEO Company has built a successful digital marketing campaign portfolio that reflects our commitment to excellence.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "03",
               title: "Client-Focused Approach",
               content:
-                "At Jumpto1, we appreciate your goals and put them above everything else. Our eCommerce SEO experts ensure everyone is on board when handling our clients' projects. You are always welcome to discuss your goals and share your ideas with our account managers.",
+                "At SEO Company, we prioritize your goals above all else. Our team of eCommerce SEO experts ensures everyone is aligned and committed to delivering exceptional results for your projects.",
               borderColor: "border-[#34A854]",
             },
             {
               no: "04",
               title: "We Value Honesty",
               content:
-                "If you prefer in-house SEO, you will require expensive SEO tools, which can be very costly to buy. If you subscribe to our white label SEO services, Jumpto1 has already invested in having these tools, helping our clients save on expenses.",
+                "If you opt for in-house SEO, investing in expensive SEO tools can incur significant costs. Alternatively, choosing our white-label SEO services at SEO Company can save you expenses while ensuring top-quality SEO solutions.",
               borderColor: "border-[#000000]",
             },
           ]}
@@ -94,40 +163,45 @@ export default function Page() {
           <EcommerceVersatileSteps/>
         </div>
         <div className="xs:py-[50px] py-[90px]">
-          <Contact />
+          <Contact
+          title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
+          Session with Our White Label <br className="hidden sm:block"/>
+          SEO Providers for the <br className="hidden sm:block"/>
+          <strong> Best Results</strong>`}
+          />
         </div>
         <div className="xs:py-[50px] py-[90px]">
           <FAQs
             items={[
               {
-                title: "How long does SEO take to generate results?",
+                title: "What are eCommerce SEO services?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "eCommerce SEO services enhance online store visibility in search engine results through keyword research, on-page and off-page SEO, content optimization, and technical SEO tailored for eCommerce websites.",
               },
               {
-                title: "What Includes In on page SEO services?",
+                title: "How can eCommerce SEO benefit my online store?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "eCommerce SEO enhances website visibility, organic traffic, leads, conversion rates, and sales by targeting relevant keywords and optimizing product pages.",
               },
               {
-                title: "Why is SEO important for your business?",
+                title: "Why should I choose an SEO Company for eCommerce SEO?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "The SEO Company specializes in eCommerce SEO, utilizing expert team members to conduct thorough keyword research, implement strategies, and provide tailored solutions to improve online store performance.",
               },
               {
-                title: "How Does Jumpto1 Carry Its SEO service delivery?",
+                title: "What does an eCommerce SEO audit involve?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "An eCommerce SEO audit by SEO Company evaluates a website's technical SEO performance, site structure, content quality, and keyword analysis and identifies areas for improvement to improve overall SEO effectiveness.",
               },
               {
-                title: "Why Should You Partner With Us?",
+                title: "How does product image optimization help my eCommerce store?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "Product image optimization services by SEO Company ensure that your product images are optimized for search engines. This enhances visibility in image search results and improves user experience, leading to increased clicks and potential conversions.",
               },
               {
-                title: "Why is SEO important for your business?",
+                title: "What sets SEO Company's eCommerce SEO services apart?",
                 content:
-                  "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                  "The SEO Company provides customized eCommerce SEO strategies, ensuring sustainable growth and competitiveness through effective tactics, continuous optimization, and transparent reporting.",
               },
             ]}
           />

@@ -16,7 +16,6 @@ export default function Page() {
         bg={heroBG}
         marqueeCss="absolute bottom-[100px] left-0 right-0"
         spaceBottom="pb-[300px]"
-        ctaText="Get in Touch!"
       />
       <div className=" xs:py-[50px] py-[90px]">
         <Awards/>
@@ -56,7 +55,6 @@ export default function Page() {
           bg= "bg-[#E1183A] rounded-[40px]"
           btnClass="!bg-[#202124] !text-white"
           btnClass2="!bg-white !text-black"
-          btnText="Call Us Now!"
         />
       </div>
    

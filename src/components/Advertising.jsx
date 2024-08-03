@@ -11,23 +11,23 @@ export default function Advertising() {
         <div>
             <div className="container">
                 <div>
-                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Social Media Advertising Services <br className="hidden lg:block"/>
-                  That Grows Your Business</h2>
+                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Step Up Your Business Growth with Premier <br className="hidden lg:block"/>
+                  Social Media Advertising Services</h2>
                   <p className="text-center my-5 xs:text-[1
-                  px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block"/>
-                  More Clients For Your Business!</p>
+                  px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Our social media marketing services are designed to maximize brand reach, drive significant results, and transform  <br className="hidden lg:block"/>
+                  your social media presence, ensuring exceptional success for your business</p>
                 </div>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-2 lg:gap-5 my-10">
-                  <COLORCARD title="Facebook Advertising" image={Facebook} btnText="Advertising on Facebook"  description="If you seek professional Facebook Advertising Services, you have come to the rightplace. We will help you reach your targeted audience using the most sought-aftersocial media platform." />
-                  <COLORCARD title="Youtube Advertising" image={Youtube} btnText="Advertising on Youtube" btnColor="bg-[#FE6763]" description="If your target audience is present on YouTube, then our experts cash bring you closer to your visual marketing goal. We bring you subscriptions, likes, and shares on your videos or channels with carefully targeted captions and tags."/>
-                  <COLORCARD  title="Instagram Advertising" btnText="Advertising on Instagram" image={Insta} btnColor="!bg-[#7BC786]" description="Instagram is home to billions of active users scrolling through news feeds every day. We bring your brand closer to your audience with Instagram availability with thousands of daily views and interactions with potential customers."/>
+                  <COLORCARD title="Facebook Advertising Services" image={Facebook} btnText="Advertising on Facebook"  description="Leverage our expertise to reach your target audience on Facebook with highly targeted and engaging ads that drive traffic and conversions." />
+                  <COLORCARD title="Youtube Advertising Services" image={Youtube} btnText="Advertising on Youtube" btnColor="bg-[#FE6763]" description="Boost your brand's visibility with our YouTube advertising services, designed to captivate viewers and generate more leads through impactful video content."/>
+                  <COLORCARD  title="Instagram Advertising Services" btnText="Advertising on Instagram" image={Insta} btnColor="!bg-[#7BC786]" description="Increase your brand's presence on Instagram with visually appealing and strategically crafted ads that attract and retain customers."/>
                   <div className=" block md:hidden" >
-                  <COLORCARD ctaCSS="inline-block" btnColor="!bg-[#262626]"  title="Advertising on X"  btnText="Advertising on X"  image={X} x description="Our team of professional in-house Twitter marketing experts, media strategists, and content creators drive attention by building brand awareness, influencer relations, and follower engagement."/>
+                  {/* <COLORCARD ctaCSS="inline-block" btnColor="!bg-[#262626]"  title="Advertising on X"  btnText="X Advertising Services"  image={X} x description="Our team of X (Twitter) advertising professionals provides comprehensive strategies and execution to ensure your campaigns deliver exceptional results across all platforms."/> */}
                   </div>
                 </div>
                 <div className=" grid-cols-1 my-5 hidden md:grid">
                  
-                    <COLORCARD ctaCSS="inline-block" btnColor="!bg-[#262626]"  title="Advertising on X"  btnText="Advertising on X" extraClass="!text-left" image={X} x description="Our team of professional in-house Twitter marketing experts, media strategists, and content creators drive attention by building brand awareness, influencer relations, and follower engagement."/>
+                    <COLORCARD ctaCSS="inline-block" btnColor="!bg-[#262626]"  title="X Advertising Services"  btnText="Advertising on X" extraClass="!text-left" image={X} x description="Our team of X (Twitter) advertising professionals provides comprehensive strategies and execution to ensure your campaigns deliver exceptional results across all platforms."/>
                  
                   
                 </div>

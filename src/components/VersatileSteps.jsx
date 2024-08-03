@@ -9,32 +9,35 @@ import seoImageSix from "media/seovarSix.png"
 import Image from "next/image"
 
 
-export default function VersatileSteps() {
+export default function VersatileSteps({
+    title=`Key Features of Our<br class="hidden md:block" /> <span class="text-[#E1183A]">National SEO Services</span>`,
+    desc="From comprehensive keyword research to mobile optimization, our tailored national SEO packages are designed to upgrade your online presence and drive measurable results.",
+    cardData = [
+        ["Comprehensive Keyword Research",seoImage,"Our national SEO services begin with in-depth keyword research to identify the most practical terms for your business. As a professional nationwide SEO company, we ensure your content targets high-performing keywords to maximize visibility."],
+        ["Custom National SEO Packages",seoImageTwo,"SEO Company offers tailored national SEO packages to meet your business needs. Our customized solutions ensure you get the most value and impact from your investment in nationwide SEO services."],
+        ["Advanced On-Page Optimization",seoImageThree,"We provide expert on-page optimization to enhance your website’s relevance and authority. Our nationwide SEO Company focuses on optimizing Meta tags, content, and site structure to improve your search engine rankings."],
+        ["Quality Link Building",seoImageFour,"Our national SEO services include strategic link-building campaigns to boost your website’s credibility. By acquiring high-quality backlinks, SEO Company helps you improve your domain authority and search engine positioning."],
+        ["Detailed Analytics and Reporting",seoImageFive,"SEO Company offers comprehensive analytics and reporting to track the performance of your nationwide SEO efforts. Our detailed reports provide insights into traffic, rankings, and conversions, helping you make informed decisions."],
+        ["Mobile SEO Optimization",seoImageSix,"Recognizing the growing importance of mobile search, our national SEO services include mobile optimization strategies. SEO Company ensures your website is mobile-friendly, providing a seamless user experience and improved rankings on mobile search results."]
+    ]
+}) {
     return (
         <section>
             <div>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold">
-                            Our National SEO Services Entail<br class="hidden md:block" /> <span class="text-[#E1183A]">A Versatile Series of Steps</span>
-                        </h2>
+                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold" dangerouslySetInnerHTML={{__html:title}} />
                         <p className="py-3 text-[16px] text-center font-light">
-                            Did you know 60% of national website traffic is sourced from organic searches? Jumpto1 powers your website with creative SEO tactics to improve <br class="hidden xl:block" /> conversions on your website! Here’s what we do to offer you the best nationwide SEO services.
+                            {desc}
                         </p>
                     </div>
                     <div className="mt-10 relative">
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 lg:gap-3 xl:gap-5">
-                            <ColoCard Color="bg-[#3BA155]"  title="Google Analytics Reports" description="With the help of Google Analytics, our company tracks the Nationwide SEO progress, troubleshoot the visibility problems"/>
-                            <ColoCard Color="bg-[#ED4F48]" BgImage={seoImageTwo} title="Tangible Results" description="With years of experience, Jumpto1 has bagged a position unbeatable by anyone. We offer our clients tangible results, which are sustainable for many more years to come." />
-                            <ColoCard Color="bg-[#3BA155]" BgImage={seoImageThree} title="Complimenting Services" description="With years of experience, Jumpto1 has bagged a position unbeatable by anyone. We offer our clients tangible results, which are sustainable for many more years to come." />
-                            <ColoCard Color="bg-[#3BA155]" BgImage={seoImageFour} title="Ingenious SEO Techniques and Tools" description="Ingenious SEO Techniques and Tools
-We join on-site optimization with offsite SEO efforts and develop unique tactics that can survive the fluctuations of the digital landscape."/>
-
-                            <ColoCard Color="bg-[#3BA155]" BgImage={seoImageFive} title="Ingenious SEO Techniques and Tools" description="Ingenious SEO Techniques and Tools
-We join on-site optimization with offsite SEO efforts and develop unique tactics that can survive the fluctuations of the digital landscape."/>
-                          
-                            <ColoCard  BgImage={seoImageSix} title="SEO Packages That Doesn’t Cost You Fortune" description="Our local SEO packages don't come as a burden on wallets, and they are accessible for businesses of any size., and offers you conversion-driven local SEO suggestions  "/>
-
+                            {
+                                cardData.map(([title,image,desc],i)=>(
+                                    <ColoCard key={i} Color="bg-[#3BA155]" BgImage={image}  title={title} description={desc}/>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>

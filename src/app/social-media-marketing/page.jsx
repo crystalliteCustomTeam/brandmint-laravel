@@ -4,14 +4,25 @@ import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChooseUs, Platfo
 import heroImg from "media/socialMediaHero1.png";
 import CallAwayImageWomen from "media/callaway/women.png";
 
+import icon1 from "media/social-media-marketing/speech-bubble.png";
+import icon2 from "media/social-media-marketing/customer-centric-approch.png";
+import icon3 from "media/social-media-marketing/great-idea.png";
+
+// Why Choose Section Data
+const chooseData = [
+    [icon1, "Proven Track Record", "SEO Company, a top social media marketing agency, consistently delivers measurable results, driving high ROI and increased engagement, sales, and revenue for clients."],
+    [icon2, "Customized Strategies", "Our top social media marketing company customizes services to meet unique business needs, generating high-quality leads and optimizing campaigns for maximum impact, resulting in increased revenue and growth."],
+    [icon3, "Dedicated Expertise", "Our team of top social media marketers utilizes cutting-edge tools and platforms to enhance brand visibility, engagement, conversions, and revenue, ensuring long-term business success."],
+  ];
+
 export default function Page() {
   return (
     <main>
       <div className="bg-black">
         <Hero
           subTitle="America's Leading Social Media Marketing Company"
-          title="Your Business Driven Our Social Media Marketing"
-          desc="Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies and surprising bottom-line results to fuel your business growth. Our SMM experts pen such stories that best narrate your BRAND. Let us create the hype for your brand , as we want you to get busy cracking lucrative deals and orders!"
+          title="Get More Traffic & Sales with Professional Social Media Marketing Services"
+          desc="SEO Company provides tailored social media marketing services to boost engagement, customer retention, and sales. Our social media marketing company offers management and full-funnel ROI tracking. Our campaigns use the latest trends to attract visitors and convert them into loyal customers. Our social media marketing agency offers a surge in traffic and sales, and partners can request a proposal for a strategy and pricing."
           img={heroImg}
           theme="dark"
           imgCss="absolute bottom-0  right-0 max-w-[60%] xl:max-w-full opacity-20 lg:opacity-100"
@@ -27,14 +38,27 @@ export default function Page() {
         <Platforms/>
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway/>
+        <CallAway
+        title="Reach a Wider Audience with SEO Company's Social Media Experts Now"
+        desc="Hire our #1 social media marketing agency and unlock top-tier SMM services customized to your business needs. Transform your online presence and drive exceptional results today!"
+        />
       </div>
      
       <div className="xs:py-[50px] py-[90px]">
-      <WhyChooseUs/>
+        <WhyChooseUs
+        title="Our expert social media marketing services <br class='lg:block hidden'/> offer the best growth opportunities!"
+        desc="The SEO Company offers the best social media marketing services, ensuring increased engagement, conversions, and brand growth."
+        data={chooseData}   
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} />
+        <Package 
+        id={1}
+        title={`Outsmart Competitors Without  <br class='hidden md:block' />
+          Breaking the Bank with Our<br class='hidden md:block' />
+          <span class="text-[#E1183A]"> Social Media Marketing Company!</span>`}
+        desc="SEO Company provides outcome-focused SEO services at competitive rates, offering various pricing packages to suit various budgets and business goals, ensuring the best value for investment. "
+        />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
@@ -56,6 +80,8 @@ export default function Page() {
           bg="bg-[#E1183A] rounded-[40px]"
           btnClass="!bg-[#202124] !text-white"
           btnClass2="!bg-white !text-black"
+          title="How We Drive Your Business Success With Our Social Media Marketing Company?"
+          desc="Hire our social media marketing agency to access customized strategies that deliver outstanding results. Learn how our expert social media marketing services can elevate your business to new heights."
         />
       </div>
      
@@ -63,34 +89,34 @@ export default function Page() {
         <FAQs
           items={[
             {
-              title: "How long does SEO take to generate results?",
+              title: "How can social media marketing services increase my traffic and sales?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Our social media marketing services utilize targeted advertising, engaging content, and strategic campaign management to attract more visitors to your website and convert them into paying customers.",
             },
             {
-              title: "What Includes In on page SEO services?",
+              title: "What platforms do you specialize in for social media marketing",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "We specialize in various platforms, including Facebook, Instagram, YouTube, Twitter, and LinkedIn, and many more to ensure comprehensive coverage and effective audience engagement.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "How do you measure the success of social media marketing campaigns?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "We use a range of metrics such as engagement rates, conversion rates, click-through rates, and ROI to evaluate the effectiveness of our campaigns and make data-driven adjustments.",
             },
             {
-              title: "How Does Jumpto1 Carry Its SEO service delivery?",
+              title: "What makes your social media marketing services different from others?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Our services stand out due to our customized strategies, expert team, and focus on delivering tangible business outcomes. It includes increased traffic, higher engagement, and boosted sales.",
             },
             {
-              title: "Why Should You Partner With Us?",
+              title: "How long does it take to see results from social media marketing?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "While some results can be seen within a few weeks, significant and sustained improvements typically become evident within three to six months. It also depends on the campaign and business goals.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "Do you offer social media marketing packages tailored to different business needs?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Yes, we offer various packages tailored to different budgets and business goals. We also ensure that our social media marketing services can effectively support businesses of all sizes.",
             },
           ]}
         />

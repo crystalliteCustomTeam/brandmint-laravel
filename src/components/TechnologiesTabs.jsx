@@ -18,55 +18,55 @@ const data = [
     {
       value: "wordpress",
       title: "Wordpress",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "At SEO Company, we specialize in offering top-notch Off-Page SEO Services tailored for WordPress websites across diverse industries. WordPress SEO has emerged as a cornerstone of effective website optimization globally, and our dedicated Off-Page SEO Experts leverage its creative flexibility to craft unique digital experiences for your brand. We prioritize enhancing user engagement and optimizing conversion rates through strategic Off-Page SEO Techniques.",
       img: wordpress
     },
     {
       value: "shopify",
       title: "Shopify",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "We provide exceptional Off-Page SEO Services tailored specifically for Shopify stores across diverse industries. Shopify SEO has become a pivotal aspect of effective website optimization globally, and our skilled Off-Page SEO Experts use its robust features to create compelling digital storefronts for your brand.",
       img: shopify
     },
     {
       value: "wix",
       title: "Wix",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "At SEO Company, our goal is to deliver professional Wix SEO services to clients across diverse industries. Wix website SEO is renowned globally as a powerful and trusted method for optimizing websites. Our dedicated Wix SEO experts leverage the creative flexibility of Wix.com to craft bespoke websites that embody your brand’s uniqueness.",
       img: wix
     },
     {
       value: "etsy",
       title: "Etsy",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "We specialize in delivering professional Etsy SEO services to clients across various verticals. Etsy website SEO is recognized globally as a powerful and trusted method for optimizing online shops. Our dedicated Etsy SEO experts leverage the creative flexibility of Etsy to design unique storefronts that reflect your brand’s identity.",
       img: etsy
     },
     {
       value: "magento",
       title: "Magento",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "Our Magento SEO services are renowned globally. Magento website SEO is recognized globally as a powerful and trusted method for optimizing e-commerce sites. Our dedicated Magento SEO experts leverage Magento's creative flexibility to design unique websites that embody your brand’s identity.",
       img: magento
     },
     {
       value: "woocommerce",
       title: "Woo Commerce",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "We specialize in delivering professional WooCommerce SEO services to clients across various verticals. WooCommerce website SEO is recognized globally as a powerful and trusted method for optimizing e-commerce platforms. Our dedicated WooCommerce SEO experts leverage WooCommerce's creative freedom to design unique websites that reflect your brand’s identity.",
       img: woocommerce
     },
     {
       value: "html5",
       title: "HTML5",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "HTML5 website SEO is recognized globally as a powerful and trusted method for optimizing websites. Our dedicated HTML5 SEO experts leverage the creative flexibility of HTML5 to design unique websites that embody your brand’s identity.",
       img: html5
     },
     {
       value: "bigcommerce",
       title: "Big Commerce",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "We have been providing BigCommerce SEO to our clients for a number of years and every time we’ve received satisfactory feedback. BigCommerce website SEO is recognized globally as a powerful and trusted method for optimizing e-commerce platforms. Our dedicated BigCommerce SEO experts leverage BigCommerce's creative flexibility to design unique websites that reflect your brand’s identity.",
       img: bigCommerce
     },
     {
       value: "squarespace",
       title: "Square Space",
-      desc: "At Jumpto1, we offer the most professional WordPress SEO services to our valued clients belonging to various verticals. WordPress website SEO has become one of the most powerful and trusted website optimization endeavors worldwide. Our WordPress SEO expert utilizes the creative freedom WordPress offers to design a unique website for your brand. We focus on enhancing user experience with the goal of generating sales.",
+      desc: "We specialize in delivering professional SquareSpace SEO services to clients across various verticals. SquareSpace website SEO is recognized globally as a powerful and trusted method for optimizing websites. Our dedicated SquareSpace SEO experts leverage the creative freedom of SquareSpace to design unique websites that embody your brand’s identity.",
       img: squareSpace
     }
   ]
@@ -77,7 +77,7 @@ export default function TechnologiesTabs() {
       <div className="container">
         <div className="text-center">
           <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4">
-            Technologies We Love to Work
+          Here’s What We Work With
           </h2>
         </div>
         <Tabs defaultValue={data[0]?.value} className="md:grid md:grid-cols-12 gap-10 mt-[30px] md:mt-[60px] items-center">

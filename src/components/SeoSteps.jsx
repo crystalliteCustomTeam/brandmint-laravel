@@ -1,5 +1,6 @@
-export default function SeoSteps() {
-  let count = [
+export default function SeoSteps({
+  title=`Our 6 Step SEO Process Ensures Your Customers <br className="2xl:block hidden" /> Don’t Find Your Competitors, But You!`,
+  count = [
     {
       title: "Understanding <br class='lg:block hidden'/> Your Goals",
       desc: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals. This helps us devise rock-solid SEO strategies suitable for their business. In short, we push limits to deliver satisfactory and tangible results every time! We cater to every type of SEO, Shopify SEO, E-commerce SEO, small business SEO, etc.",
@@ -24,15 +25,14 @@ export default function SeoSteps() {
       title: "Reporting & Analysis",
       desc: "We don’t hide anything from our customers and keep them in the loop throughout the process of SEO. We don’t hide anything from our customers and keep them in the loop throughout the process of SEO. We offer our clients various reporting options to choose from — weekly, bi-monthly and monthly. Our reports mention data-focused comparisons that we did for planning our strategy. Our thorough result analysis and month-on-month estimates help our clients discover differences between",
     },
-  ];
+  ]
+}) {
   return (
     <section>
       <div className={`bg-black`}>
         <div className="container">
           <div className="md:py-[100px] py-[50px] text-white">
-            <h3 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-center md:mb-24 mb-10">
-              Our 6 Step SEO Process Ensures Your Customers <br className="2xl:block hidden" /> Don’t Find Your Competitors, But You!
-            </h3>
+            <h3 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-center md:mb-24 mb-10" dangerouslySetInnerHTML={{__html:title}}/>
 
             {count.map((e, i) =>
               i % 2 === 0 ? (

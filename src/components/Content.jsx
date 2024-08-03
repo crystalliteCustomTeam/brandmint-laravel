@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import {CTA} from ".";
 
-export default function Content({subTitle, title, desc, list = false, listingData, classes = "", direction = "", img1,ctaText="Get Started!"}) {
+export default function Content({subTitle, title, desc, list = false, listingData, classes = "", direction = "", img1,ctaText="Get Started Now!",ctaText2="Contant"}) {
   return (
     <section>
       <div className={` ${classes} bg-cover bg-center`}>
@@ -29,7 +29,7 @@ export default function Content({subTitle, title, desc, list = false, listingDat
 
                 <div className="flex gap-2 mt-5">
                   <CTA text={ctaText} />
-                  <CTA text={"Contact"} variant="icon" icon={true} className="" />
+                  <CTA text={ctaText2} variant="icon" icon={true} className="" />
                 </div>
               </div>
             </div>

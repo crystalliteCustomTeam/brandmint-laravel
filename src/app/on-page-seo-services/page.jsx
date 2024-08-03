@@ -15,19 +15,23 @@ import elissa from "media/testimonial/elissa.png";
 import joe from "media/testimonial/joe.png";
 import moses from "media/testimonial/moses.png";
 
+import icon1 from "media/social-media-marketing/speech-bubble.png";
+import icon2 from "media/social-media-marketing/customer-centric-approch.png";
+import icon3 from "media/social-media-marketing/great-idea.png";
+
 // listing Data
 let data = [
   {
-    Heading: "Usability Testing",
-    spanDesc: "We partner with our customers to build websites that address real user needs.",
+    Heading: "Improved User Experience:",
+    spanDesc: "Our on-page SEO service ensures a seamless and engaging user experience.",
   },
   {
-    Heading: "User Research",
-    spanDesc: "We do comprehensive research to build up user personas to map your website’s full customer journey.",
+    Heading: "Internal Linking:",
+    spanDesc: "We will add relevant internal links to make sure it is easier for users to navigate.",
   },
   {
-    Heading: "UX Design",
-    spanDesc: "We bring together user experience design and top-notch technology to deliver persuasive web experiences.",
+    Heading: "Mobile-Friendly Design:",
+    spanDesc: "Our on-page SEO company strategies ensure your site looks great and functions well on all devices.",
   },
 ];
 
@@ -37,49 +41,44 @@ const dataTest=[
     review: "The experts at SEO Company improved our website's performance. Our traffic increased by 50% in just three months!",
     testimonialName: "Alex M",
     testimonialImage: philip,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
   {
     shadowColor: "bg-[#E1183A]",
     review: "Impressed with the detailed on-page SEO strategies. They know how to optimize for both search engines and users!",
     testimonialName: "Sarah L",
     testimonialImage: chris,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
   {
     shadowColor: "bg-[#F5C228]",
     review: "Exceptional service! The on-page SEO improvements significantly boosted our site’s ranking and visibility.",
     testimonialName: "John D",
     testimonialImage: bilal,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
   {
     shadowColor: "bg-[#24BF5A]",
     review: "Highly recommend their on-page SEO services. Professional, effective, and excellent results in a short time.",
     testimonialName: "Jessica K",
     testimonialImage: elissa,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
   {
     shadowColor: "bg-[#4E81EC]",
     review: "I can't say enough good things about the on page SEO this company has done for me. Their On page strategies are well-planned, and worked wonders for my website. Absolutely recommended!",
     testimonialName: "Glenn Smith",
     testimonialImage: joe,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
   {
     shadowColor: "bg-[#F5C228]",
     review: "Five stars for SEO Company. Their on page SEO techniques really helped me improve my website’s content and that also increased the authority in days, hiring them was the best decision I made.",
     testimonialName: "Amanda",
     testimonialImage: moses,
-    minHeight:"2xl:min-h-[310px] xl:min-h-[340px] lg:min-h-[380px] min-h-[350px]",
-    minHeightMob:"min-h-[330px]"
   },
+];
+
+// Why Choose Section Data
+const chooseData = [
+  [icon1, "Expert Team", "Our SEO professionals offer top-notch services, boosting organic traffic by 150% within six months, boosting conversion rates by 25%, and achieving 200% ROI and 30% increase in high-quality leads."],
+  [icon2, "Customized Strategies", "We create customized on-page SEO strategies that align with your business objectives and target audience."],
+  [icon3, "Proven Results", "Our track record of success speaks for itself, with numerous clients experiencing significant improvements in their search engine rankings and traffic."],
 ];
 
 export default function Page() {
@@ -110,94 +109,107 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <WhyChooseUs />
+      <WhyChooseUs
+        title="Why SEO Company Is Your Go-To <br class='lg:block hidden'/> On-Page SEO Agency"
+        desc="Choosing the right on page SEO agency is essential for maximizing your website's potential. At SEO Company, we offer specialized on-page SEO services tailored to your unique needs. As a leading on-page SEO company, we ensure your website’s content is optimized to achieve higher rankings and attract more organic traffic."
+        data={chooseData}   
+        />
       </div>
 
       <div className="xs:py-[40px] md:py-[50px]">
         <div className="my-5">
           <Content
-            title="Help Google Crawl Your Website With Our On Page SEO Services!"
-            desc="On page SEO is an ongoing, long-term investment — SEO allows you to quickly keep pace with marketing transformations so that your business is ever-present and ever-agile. Every time you want your website to rank on page 1 for a targeted keyword, on-page SEO comes into play. On page SEO research entails a mix of activities that reveal your website's existing position and authority in search and highlight avenues for business growth."
+            title="Let Google Index Your Website Content Faster with Our On-Page SEO Services"
+            desc="Maximize your website's potential with our comprehensive on-page SEO services. Our on-page optimization services ensure that every element of your site is fine-tuned for peak performance. From keyword integration to content adjustments, we provide a holistic approach that drives organic traffic and boosts search engine rankings. Trust our team to deliver strategies that enhance user experience and improve your site's indexability"
             img1={googleCrawl}
+            ctaText="Start Improving Your SEO Today!"
+            ctaText2="See Real Results with Our Services!"
           />
         </div>
         <div className="my-5">
           <Content
-            title="What Is On-Page SEO"
-            desc="On-Page SEO is the primary step to ranking your website on search engines like Google, Yahoo, and Bing. You will need to track-down keywords your clients may search to find businesses like yours and place them in your content. You will need to optimize your website’s URLs, meta tags, header tags, page content, and much more to optimize your website for On-Page SEO."
+            title="How Our On-Page SEO Agency Makes Your Website Experience Better"
+            desc="Understanding how on-page SEO works is important before you dive into it. At our on page SEO agency, we optimize various aspects of your website to enhance visibility and user experience. Our on page SEO services include keyword optimization, meta-tag improvements, and enhancing heading structures. Our on-page SEO team analyzes and adjusts these elements to ensure your site ranks higher on search engines."
             img1={pageSeo}
             direction="flex-row-reverse"
+            ctaText="Get in touch with us today!"
           />
         </div>
 
         <div className="my-5">
           <Content
-            title="How Can On-Page SEO <br className='lg:block hidden'/> Services Help Your <br className='lg:block hidden'/> Business?"
-            desc="By using website SEO services to optimize your business, you will save a lot of time and relieve the stress associated with technical SEO problems. Executing an SEO strategy is not an easy task. From trying to grasp how to optimize your online business to keyword research, it can be very overwhelming. If your SEO is done inaccurately, it can cost you a ton of missed leads and revenue for your brand.
-        At Jumpto1, we pride ourselves on having on-page SEO experts who are experienced and highly skilled. They improve your website's online visibility, making it easier for searchers to find your content and algorithms to crawl and index your webpage pages."
+            title="Why On-Page SEO is Essential for Your Search Engine Ranking"
+            desc="On-page SEO is vital in determining your website’s search engine ranking. Effective on-page SEO services enhance your site's visibility, making it easier for potential customers to find you. As a leading on page SEO company, we provide tailored solutions to improve your ranking and drive organic traffic."
             img1={seoService}
+            ctaText="Get Started with Professional SEO Services!"
           />
         </div>
 
         <div className="my-5">
-          <Content title="UI/UX Check" list={true} listingData={data} img1={UiUx} direction="flex-row-reverse" />
+          <Content title="Enhance UI/UX with Our On-Page SEO Services" list={true} listingData={data} img1={UiUx} direction="flex-row-reverse" />
         </div>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway />
+        <CallAway
+        title="Optimize Your Website for Top Search Rankings with On-Page SEO Services"
+        desc="Experience the benefits of optimized content, improved user experience, and higher search engine rankings with our tailored on-page SEO solutions."
+        btnText="Get Your Free SEO Audit!"
+        />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
+          title={`Drive Organic Traffic with Targeted <br class='hidden md:block' /> <span class="text-[#E1183A]">On Page SEO Services</span>`}
+          description="Explore our comprehensive collection of on-page SEO services designed to improve your website’s performance and visibility."
           items={[
             {
               no: "01",
-              title: "Website Audit",
-              content: "We begin our on-page SEO optimization strategy by analyzing your website, its structure, keyword density, content.",
+              title: "On-Page SEO Audit:",
+              content: "Our on page SEO specialists conduct thorough audits to identify and fix any issues impacting your website's performance.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "02",
-              title: "Technical SEO",
-              content: "At jumpto1, we check a number of technical parameters to determine areas for improvement to help your website rank higher in the search results.",
+              title: "Keyword Research & Planning:",
+              content: "Our on-page SEO consultants develop a targeted keyword strategy to boost your search engine rankings.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "03",
-              title: "Keyword research",
-              content: "We conduct keyword research and provide you with a list of potential keywords your website should be focusing on.",
+              title: "On-Page SEO Optimization:",
+              content: "We implement a robust on-page SEO plan to ensure that every element of your site is optimized for success.",
               borderColor: "border-[#34A854]",
             },
             {
               no: "04",
-              title: "On page SEO strategy",
-              content: "Our team at Jumpto1 identifies content gaps and maps out the entire SEO architecture to execute across the website.",
+              title: "Title & Meta Tag Optimization:",
+              content: "Our on page SEO marketing services include crafting compelling titles and meta tags to attract more clicks.",
               borderColor: "border-[#000000]",
             },
             {
               no: "05",
-              title: "On-page SEO optimization",
-              content: "Armed with all the details about your website, we establish an on-page SEO optimization strategy and build you an effective SEO architecture.",
+              title: "URLs Optimization:",
+              content: "With our on page SEO solutions, we streamline your URLs to enhance user experience and search engine friendliness.",
               borderColor: "border-[#F8BA05]",
             },
             {
               no: "06",
-              title: "Meta Tags",
-              content: "We optimize your page for SEO and use custom meta tags to influence users and increase your clickthrough rate (CTR).",
+              title: "Complete Internal Linking:",
+              content: "Our on page SEO companies create a strategic internal linking structure to improve site navigation and ranking.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "07",
-              title: "URLs",
-              content: "When we set a URL for your website page, we include the keyword in the URL as if we're trying to rank for a particular keyword; Google will look for it in the URL.",
+              title: "Improved Heading Hierarchy:",
+              content: "With our expert on page SEO services, we improve your website’s heading hierarchy so that your content is easier to understand.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "08",
-              title: "Local SEO",
+              title: "Image Optimization:",
               content:
-                "At Jumpto1, we align these on-page and off-page efforts by optimizing your web pages for local-intent keywords and correcting information on the web about your website, sending Google mixed signals.",
+                "Our on page search engine optimization services include optimizing images to improve load times and SEO performance.",
               borderColor: "border-[#34A854]",
             },
           ]}
@@ -205,41 +217,45 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <Contact />
+        <Contact
+        title={`Enhance <strong>Your Rankings </strong>with <br className="hidden sm:block"/>
+        a Custom On-Page<br className="hidden sm:block"/>
+        <strong> SEO Strategy!</strong>`}
+        />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <FAQs
           items={[
             {
-              title: "How long does SEO take to generate results?",
+              title: "What is on-page SEO, and why is it vital?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "On-page SEO involves optimizing individual web pages to improve search engine rankings and attract more relevant traffic. It requires keyword usage, meta tags, and content quality to improve visibility and user experience.",
             },
             {
-              title: "What Includes In on page SEO services?",
+              title: "How can an on-page SEO agency help my business?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "An on page SEO agency like ours provides specialized on page SEO marketing services, ensuring that every element of your site is optimized for search engines and users, boosting your rankings and driving organic traffic.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "What services are included in on-page SEO?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "Our on-page SEO services include keyword research, meta-tag optimization, content enhancement, internal linking, and site structure improvements. These services collectively enhance your website’s search engine performance.",
             },
             {
-              title: "How Does Jumpto1 Carry Its SEO service delivery?",
+              title: "Why choose an SEO Company for on-page SEO optimization?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "As one of the best on page SEO services providers, our team of on-page SEO experts tailors strategies to your business needs, ensuring effective and sustainable improvements in search engine rankings and user engagement.",
             },
             {
-              title: "Why Should You Partner With Us?",
+              title: "How is on-page SEO different from off-page SEO?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "On-page SEO focuses on optimizing elements within your website, like content and meta tags, while off-page SEO involves external factors, such as backlinks. Both are essential for comprehensive on page search engine optimization services.",
             },
             {
-              title: "Why is SEO important for your business?",
+              title: "What results can I expect from your on-page SEO services?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "With our best on page SEO service, you can expect improved search engine rankings, increased organic traffic, and enhanced user experience. This ultimately leads to higher conversions and business growth.",
             },
           ]}
         />

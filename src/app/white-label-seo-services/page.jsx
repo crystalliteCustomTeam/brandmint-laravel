@@ -7,13 +7,75 @@ import labelSeo from "media/labelSeo.png";
 import whitelabel from "media/whitelabel1.png";
 import CallAwayImageWomen from "media/callaway/women.png";
 
+import philip from "media/testimonial/philip.png";
+import chris from "media/testimonial/chris.png";
+import bilal from "media/testimonial/bilal.png";
+import elissa from "media/testimonial/elissa.png";
+import joe from "media/testimonial/joe.png";
+import moses from "media/testimonial/moses.png";
+
+import seoImage from "media/seovarOne.png"
+import seoImageTwo from "media/seovarTwo.png"
+import seoImageThree from "media/seovarThree.png"
+import seoImageFour from "media/seovarFour.png"
+import seoImageFive from "media/seovaFive.png"
+import seoImageSix from "media/seovarSix.png"
+
+const dataTest=[
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "Working with SEO Company has been a game-changer for our agency. Their white label SEO services are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
+    testimonialName: "Maria Parsons",
+    testimonialImage: philip
+  },
+  {
+    shadowColor: "bg-[#E1183A]",
+    review: "As a reseller, I rely on SEO Company’s expertise in WHITE LABEL SEO. They handle the complexities seamlessly, ensuring our clients receive exceptional results. Partnering with them has significantly enhanced our service portfolio and client retention rates.",
+    testimonialName: "Dale Harvey",
+    testimonialImage: chris
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "SEO Company stands out among white label SEO providers. Their commitment to excellence and results-driven approach have helped our agency excel in a competitive market. Trustworthy, reliable, and highly effective—couldn’t ask for more!",
+    testimonialName: "Marvin Duncan",
+    testimonialImage: bilal
+  },
+  {
+    shadowColor: "bg-[#24BF5A]",
+    review: "Choosing SEO Company for white label SEO services was one of our best decisions. Their dedication to our success is evident in every campaign they manage. They truly understand the intricacies of digital marketing and deliver results that exceed expectations.",
+    testimonialName: "Ernest Griffith",
+    testimonialImage: elissa
+  },
+  {
+    shadowColor: "bg-[#4E81EC]",
+    review: "Partnering with SEO Company as our white label SEO company has been instrumental in our growth. Their tailored solutions and proactive support have allowed us to focus on client relationships while they handle the technical aspects flawlessly.",
+    testimonialName: "Carroll Marsh",
+    testimonialImage: joe
+  },
+  {
+    shadowColor: "bg-[#F5C228]",
+    review: "We've been collaborating with SEO Company for reseller SEO services and couldn't be happier. Their expertise and professionalism make them one of the industry's best White Label SEO FIRMS. Highly recommended for agencies looking to elevate their SEO offerings.",
+    testimonialName: "Roberto Bowen",
+    testimonialImage: moses
+  },
+];
+
+let cardData = [
+  ["Using Google Analytics",seoImage,"Our company monitors SEO progress and addresses visibility issues effectively."],
+  ["Concrete Outcomes",seoImageTwo,"Benefiting from years of expertise, SEO Company secures an unmatched position. We deliver our clients tangible, enduring results that stand the test of time."],
+  ["Supplementary Offerings",seoImageThree,"Drawing on years of experience, SEO Company has established an unparalleled reputation. We provide our clients with tangible, enduring results that remain sustainable for years to come."],
+  ["Creative SEO Strategies and Tools",seoImageFour,"We combine on-site optimization with off-site SEO efforts and devise innovative tactics designed to withstand the changes in the digital scene."],
+  ["Innovative SEO Methods and Tools",seoImageFive,"We integrate on-site optimization with off-site SEO strategies, crafting distinctive tactics built to direct the shifts in the digital environment."],
+  ["Affordable SEO Packages",seoImageSix,"Our local SEO packages are budget-friendly and accessible to businesses of all sizes, providing conversion-focused local SEO recommendations."]
+];
+
 export default function Page() {
   return (
     <main>
       <Hero
         subTitle="White Label SEO Services"
-        title="Premium White Label SEO Services Serving Over 250 Different Digital Marketing Companies All Across United States"
-        desc="At Jump To 1, we like to create strategic partnerships with like-minded digital marketing companies that focus on providing quality marketing solutions while maintaining profits. We enable digital agencies worldwide to make big bucks while we do the hard work."
+        title="Boost Your Clients' Rankings with Our Premier White Label SEO Services"
+        desc="Are you looking to nurture strategic partnerships with fellow digital marketing agencies that deliver premium marketing solutions? Fret not. At SEO Company, we ensure profitability every step of the way. Our white label SEO services empower digital firms globally to achieve profitability effortlessly."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -25,20 +87,33 @@ export default function Page() {
         gridright="col-span-12 lg:col-span-5"
       />
       <div className="xs:py-[50px] py-[90px]">
-        <Testimonial />
+        <Testimonial
+        title="Our Vault of Customer Satisfaction"
+        desc="See what our customers have to say about us"
+        data={dataTest}
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Contact />
+        <Contact
+        title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
+        Session with Our White Label <br className="hidden sm:block"/>
+        SEO Providers for the <br className="hidden sm:block"/>
+        <strong> Best Results</strong>`}
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} />
+        <Package id={1}
+        title={`Topple Your Competition Without <br class='hidden md:block' />
+            <span class="text-[#E1183A]">Draining Your Budget</span>`}
+        desc="At SEO Company, we offer nothing but the best to our clients. We offer multiple white label SEO solutions to best align with your diverse budgets and business goals."
+        />
       </div>
       <div className="xs:py-[30px] md:py-[50px]">
         <div className="my-5">
           <Content
-            title={"Why Does Your Business Need White Label SEO Services?"}
+            title={"Why Should Your Business Consider White Label SEO Services?"}
             desc={
-              "A white label SEO collaboration can supply your website with the backlinks, on-page SEO, or content creation strategies necessary to keep serving your customer base for local companies that don't have in-house resources. With Jumpto1, expand your SEO service offerings without employing new SEO staff. Provide larger SEO fulfillments to keep up with your nominees. With our experience and in white-label, we are sure that we'll provide you with result-driven services that will introduce you to your customers in the best possible way."
+              "Partnering with a white label SEO provider can equip your website with essential backlinks, on-page SEO, and content strategies. With that said, we effectively serve your local customer base, especially for companies lacking internal resources. With SEO Company, you can broaden your SEO service capabilities without the need to hire additional SEO staff. With our extensive experience in white label SEO marketing, we guarantee result-driven services that will impress your clients effectively. It’s time to scale your SEO offerings to meet growing demands confidently!"
             }
             img1={labelSeo}
           />
@@ -46,9 +121,9 @@ export default function Page() {
 
         <div className="my-5">
           <Content
-            title={"Why Choose Jumpto1 As Your White Label SEO Company?"}
+            title={"Why Choose SEO Company For Your White Label SEO Needs?"}
             desc={
-              "Jumpto1 is a one-stop store for white label SEO services. We are a full-service white-label platform with a track record of enhancing organic traffic, online authority, and conversions for hundreds of websites from keyword research, content creation, and off-page optimization. We do it all. There is no need to employ an in-house team or concern about negating operational capacity. Our white label SEO services will provide you with the tools to get customers' deliverables. It's time to scale your operations with our pre-packaged white label SEO services that you can add to your company's services and cover your clients' needs."
+              "SEO Company is your comprehensive destination for White Label SEO solutions. We offer a complete suite of white label SEO services, proven to boost organic traffic, online authority, and conversions across numerous websites. We handle every aspect flawlessly from keyword research to content creation and off-page optimization. With us, there's no need to build an internal team or worry about capacity constraints. Our White Label SEO services equip you with the tools to meet client deliverables effectively. It's time to expand your business capabilities with our ready-to-deploy White Label SEO solutions, seamlessly integrating into your service offerings."
             }
             img1={whitelabel}
             direction="flex-row-reverse"
@@ -57,67 +132,70 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway />
+        <CallAway
+        title="Need a Digital Marketing Expert? Look No Further!"
+        desc="We are your ultimate one-stop white label SEO provider, offering solutions to all your online business challenges."
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
-          title="8 Ways Your Agency Benefits from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Our White Label SEO Services</span>"
+          title="8 Advantages Your Agency Gains from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Gain a Competitive Edge with Our White Label SEO Solutions</span>"
           description="Our White Label SEO Services Providing the Edge to Your Digital Agency"
           items={[
             {
               no: "01",
               title: "Team Of Experts",
               content:
-                "When your company becomes more recognized, more quality links will boost. With that, you will require more staff to service your SEO. Hiring then becomes a task that will take up more of your time, which will lead to less work efficiency. At Jumpto1, we provide you with a team of professionals to fulfill your SEO needs.",
+                "As your company's recognition grows, the need for quality links will increase, necessitating more SEO staff. This can consume more of your time and reduce work efficiency. At SEO Company, our team of professionals is ready to meet your SEO needs.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "02",
               title: "Agency Growth",
               content:
-                "With our pre-packaged SEO services, you can add value to your agency's offerings and deliver the work you need for customers. With Jumpto1, there is no requirement to hire an in-house team. Our white label SEO outsourcing will provide you with the resources to get clients' deliverables.",
+                "Our pre-packaged SEO services enhance your agency's offerings, allowing you to deliver essential work to your clients without hiring an in-house team. SEO Company's White Label SEO services provide the resources to fulfill client deliverables.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "03",
               title: "Improved SEO Performance",
               content:
-                "With our white-hat link-building services, you can track campaign advancement with a brandable SEO dashboard that displays keyword rankings, Google Analytics, and traffic gains. We help you assemble customizable white label SEO reports that you can send directly to customers. All this you can get with our white label SEO company.",
+                "Our white-hat link-building services enable you to monitor campaign progress with a brandable SEO dashboard, showcasing keyword rankings, Google Analytics, and traffic improvements. We assist in creating customizable White Label SEO reports that can be sent directly to clients, all available through our White Label SEO company.",
               borderColor: "border-[#34A854]",
             },
             {
               no: "04",
               title: "SEO Tools",
               content:
-                "If you prefer in-house SEO, you will require expensive SEO tools, which can be very costly to buy. If you subscribe to our white label SEO services, Jumpto1 has already invested in having these tools, helping our clients save on expenses.",
+                "In-house SEO requires costly tools. By subscribing to our White Label SEO services, you benefit from SEO Company's investment in these tools, helping you save on expenses.",
               borderColor: "border-[#000000]",
             },
             {
               no: "05",
               title: "Quality Backlinks",
               content:
-                "Link building demands skills and expertise. Hiring us as a white-label service provider will assure you get high-quality backlinks. Our backlinks will send powerful messages to primary search engines like Google, Yahoo, and Bing that show competence and mastery. With quality backlinks, your website will have higher rankings and attract more potential clients for your business.",
+                "Link building requires expertise. By choosing our White Label SEO services, you are assured of high-quality backlinks. These backlinks send strong signals to major search engines like Google, Yahoo, and Bing, demonstrating competence and expertise. Quality backlinks improve your website's rankings and attract more potential clients.",
               borderColor: "border-[#F8BA05]",
             },
             {
               no: "06",
               title: "Work Freedom",
               content:
-                "The costs associated with White Label SEO are far lower if you work with our white label SEO company that offers you a wholesale cost and the freedom to specify your client markup.",
+                "White Label SEO is cost-effective. Our White Label SEO company offers wholesale pricing, allowing you the freedom to set your client markup.",
               borderColor: "border-[#0085F8]",
             },
             {
               no: "07",
               title: "Increased revenues",
               content:
-                "The tools included in our white label SEO services will help you generate leads. With improved customer satisfaction, you will also be able to predict more reliable clients, which will lead to raised revenues for your digital agency. With our services, you save on expenses and time while improving business efficiency to gain more profit.",
+                "Our White Label SEO tools help generate leads and improve customer satisfaction, resulting in more reliable clients and increased revenues for your digital agency. Our services save you time and money, enhancing business efficiency and profitability.",
               borderColor: "border-[#EF4252]",
             },
             {
               no: "08",
               title: "Experts On Your Side",
               content:
-                "It takes years of expertise to advise customers on the best SEO strategies. And because search engines are constantly changing, it's not something you can understand once and move on from. At Jumpto1, we optimize your clients' websites and execute an efficient SEO strategy as a full-time job.",
+                "Providing top SEO advice requires years of expertise and continuous adaptation to changing search engine algorithms. At SEO Company, we optimize your clients' websites and implement effective SEO strategies full-time.",
               borderColor: "border-[#34A854]",
             },
           ]}
@@ -126,13 +204,17 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px] ">
         <VersatileSteps
-          title={"Our White-Label SEO Services"}
-          desc={'Outrank Your Competition Through Our White Label SEO Company.'}
+          title={"Our Complete White Label SEO Services Encompass a Diverse Set of Strategies"}
+          desc={"Did you know that 60% of national website traffic originates from organic searches? At SEO Company, we empower your website through innovative SEO approaches aimed at enhancing your website's conversion rates!"}
+          cardData={cardData}
         />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
+        <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black"
+        title="Expert Digital Marketing Just a Phone Call Away"
+        desc="Look no further than SEO Company for all-inclusive White Label SEO solutions. We are your ultimate one-stop shop for resolving all your online business challenges."
+        />
       </div>
 
 
@@ -140,34 +222,34 @@ export default function Page() {
         <FAQs
           items={[
             {
-              title: "How long does SEO take to generate results?",
+              title: "How long does SEO take to see results?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "SEO typically takes time to yield noticeable results, often several months depending on various factors such as competition, industry, and current website status.",
             },
             {
-              title: "What Includes In on page SEO services?",
+              title: "What is included in on-page SEO services?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "On-page SEO services encompass optimizing web content, meta tags, headings, and internal links to enhance search engine rankings and user experience.",
+            },
+            {
+              title: "Why is SEO crucial for your business?",
+              content:
+                "SEO is crucial for your business as it boosts online visibility, drives organic traffic, and enhances credibility and conversions.",
+            },
+            {
+              title: "How does SEO Company execute its SEO service delivery?",
+              content:
+                "SEO Company implements its SEO services through comprehensive strategies, including keyword research, content optimization, technical SEO, and ongoing adjustments.",
+            },
+            {
+              title: "What are the benefits of partnering with us?",
+              content:
+                "Partnering with us provides access to top-tier White Label SEO services, ensuring effective solutions for your clients without the need for in-house expertise.",
             },
             {
               title: "Why is SEO important for your business?",
               content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-            },
-            {
-              title: "How Does Jumpto1 Carry Its SEO service delivery?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-            },
-            {
-              title: "Why Should You Partner With Us?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-            },
-            {
-              title: "Why is SEO important for your business?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                "SEO is essential for maintaining online visibility, attracting potential customers, and remaining competitive in today's digital scene.",
             },
           ]}
         />

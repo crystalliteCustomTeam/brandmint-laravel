@@ -33,49 +33,37 @@ const dataTest=[
     shadowColor: "bg-[#4E81EC]",
     review: "Since partnering with SEO Company, our local visibility has skyrocketed! We've seen a substantial increase in foot traffic and online inquiries. They really know their stuff when it comes to local SEO!",
     testimonialName: "James Anderson",
-    testimonialImage: philip,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: philip
   },
   {
     shadowColor: "bg-[#E1183A]",
     review: "The team at SEO Company is nothing short of spectacular. They helped us refine our local SEO strategy, and now we're consistently topping local search results!",
     testimonialName: "Michael Johnson",
-    testimonialImage: chris,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: chris
   },
   {
     shadowColor: "bg-[#F5C228]",
     review: "If you want to get noticed in your local area, an SEO Company is the way to go. Their tailored strategies have made a noticeable difference in our business's online presence.",
     testimonialName: "William Thompson",
-    testimonialImage: bilal,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: bilal
   },
   {
     shadowColor: "bg-[#24BF5A]",
     review: "Investing in SEO Company's services has been the best decision for our business. We've seen a dramatic increase in local search rankings and overall brand recognition.",
     testimonialName: "Emily Roberts",
-    testimonialImage: elissa,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: elissa
   },
   {
     shadowColor: "bg-[#4E81EC]",
     review: "What sets SEO Company apart is their professionalism and client commitment. They revamped our local SEO strategy, and we immediately saw the impact. They're truly committed to helping businesses succeed.",
     testimonialName: "Sophia Martinez",
-    testimonialImage: joe,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: joe
   },
   {
     shadowColor: "bg-[#F5C228]",
     review: "SEO Company has truly set a new standard for what we expect from an SEO service. Their dedication to improving our local search rankings has resulted in a noticeable uptick in foot traffic. We're absolutely thrilled with the progress!",
     testimonialName: "Alexander Davis",
-    testimonialImage: moses,
-    minHeight:"2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]",
-    minHeightMob:"min-h-[360px]"
+    testimonialImage: moses
   },
 ];
 
@@ -95,7 +83,6 @@ export default function Page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
-        ctaText="Get in Touch Now!"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Package 
@@ -123,7 +110,6 @@ export default function Page() {
             <br/><br/>
             Our SEO services for local business can enhance their visibility in local searches, making it the first choice for local customers. Effective local SEO services, be it for a cafe or bookstore, help businesses catch the eye of potential customers in their area.'
             img1={seoImg}
-            ctaText="Get Started!"
           />
         </div>
         <div className="my-5">
@@ -135,7 +121,6 @@ export default function Page() {
             Securing the services of a skilled local SEO firm is essential in a virtual market where a customer's visit could result from a single click. Employing practical local SEO for businesses puts your brand in the best position to draw in and interact with local searchers who are actively looking for what you have to offer."
             img1={BusinessSeoImg}
             direction="flex-row-reverse"
-            ctaText="Contact Us Now!"
           />
         </div>
         <div className="my-5">
@@ -143,7 +128,6 @@ export default function Page() {
             title="How Local SEO Services for Small Business Propel Your Lead Generation"
             desc="Getting into the core of an influential local SEO agency can significantly boost your brand's visibility. It all begins with establishing a strong marketing plan, where lead generation and local SEO services play a prominent role. Recognizing the importance of lead generation is essential for any business. Without a steady flow of quality leads, businesses, regardless of size, find it hard to secure sales and expand. Incorporating specialized SEO services for local businesses ensures your brand survives and excels in a competitive environment."
             img1={qualityLeadsImg}
-            ctaText="Call us now!"
           />
         </div>
       </div>
@@ -152,7 +136,6 @@ export default function Page() {
         <CallAway
           title="We Can’t Wait To Assist Your Business!"
           desc="Facing challenges? SEO Company is here to pull you into the spotlight."
-          btnText="Boost Your ROI!"
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -218,15 +201,12 @@ export default function Page() {
           title="Still on the Fence?"
           desc="Here’s why our customers have chosen us times and again!"
           data={dataTest}
-          minHeight="2xl:min-h-[350px] xl:min-h-[360px] lg:min-h-[430px] min-h-[390px]"
-          minHeightMob="min-h-[360px]"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <CallAway CallAwayImage={CallAwayImageWomen}
         title="Need Expert SEO Guidance? Get in Touch With Us Right Now!"
         desc="Fortune favors the bold — and SEO Company is ready to be your bold ally in the digital arena. As your ultimate one-stop SEO solution, we tackle every challenge your business encounters online with precision and expertise."
-        btnText="Unlock Your Potential!"
          bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
       <div className="xs:py-[50px] py-[90px]">

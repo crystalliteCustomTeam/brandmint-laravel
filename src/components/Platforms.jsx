@@ -14,7 +14,13 @@ import five from "media/hurdles/5.png";
 import six from "media/hurdles/6.png";
 import loader from "media/loader.png";
 
-export default function Platforms( {variant = "slider", images = [one,
+export default function Platforms( {
+    subTitle="Platform We Working With",
+    title=`Enter The Digital Era Now, <br className='hidden sm:block' />
+                    Else Wait For Miracle To Happen!`,
+    desc=`Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years,
+                    there are certain    you wish to have, ALWAYS!`,
+    variant = "slider", images = [one,
     two,
     three,
     four,
@@ -27,7 +33,7 @@ export default function Platforms( {variant = "slider", images = [one,
                     variant == "slider" ? (
                         <>
                             <p className="relative mt-[20px] text-[24px] before:border-b-[6px] before:w-[90px] before:absolute before:-bottom-[3px] before:left-0 before:right-0 before:mx-auto before:border-[#EC4139] lg:text-[30px] inline-block border-b-[1px] border-[#707070] pb-[25px] font-medium">
-                                Platform We Working With
+                                {subTitle}
                             </p>
                             <div className="pt-[40px] flex flex-wrap justify-center xl:justify-between space-x-3 items-center gap-5 md:gap-8 xl:gap-5">
                                 <div className="animate-bounce">
@@ -56,13 +62,9 @@ export default function Platforms( {variant = "slider", images = [one,
                     )
                 }
 
-                <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-semibold">
-                    Enter The Digital Era Now, <br className='hidden sm:block' />
-                    Else Wait For Miracle To Happen!
-                </h2>
+                <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-semibold" dangerouslySetInnerHTML={{__html:title}} />
                 <p className="text-center max-w-[850px] mx-auto">
-                    Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years,
-                    there are certain    you wish to have, ALWAYS!
+                    {desc}
                 </p>
 
                 <div className="pt-[35px] flex flex-wrap justify-center items-center gap-5">

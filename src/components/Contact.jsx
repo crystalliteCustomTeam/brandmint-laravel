@@ -6,19 +6,19 @@ import buttonImage from "media/buttonImage.png";
 import icon from "media/ctaicon.svg";
 import { Button, Input, Label } from "@/components";
 
-export default function Contact() {
+export default function Contact({
+    title=`Get your <strong>free 30 minutes </strong>strategy<br className="hidden sm:block"/>
+            session with an experienced<br className="hidden sm:block"/>
+            digital marketer valued at<br className="hidden sm:block"/>
+            <strong> $300 USD.</strong>`
+}) {
     return (
         <section>
             <div>
                 <div className="container">
                     <div className="relative rounded-[25px] overflow-hidden z-10 ">
                         <div className="py-[70px] px-[40px]">
-                            <h2 className="capitalize text-white xs:text-[20px] text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px]">
-                                Get your <strong>free 30 minutes </strong>strategy<br className="hidden sm:block"/>
-                                session with an experienced<br className="hidden sm:block"/>
-                                digital marketer valued at<br className="hidden sm:block"/>
-                                <strong> $300 USD.</strong>
-                            </h2>
+                            <h2 className="capitalize text-white xs:text-[20px] text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px]" dangerouslySetInnerHTML={{__html: title}} />
                             <Image src={contactborder} alt="SEO company" className="max-w-[200px] md:max-w-[300px] my-5" />
                             <form className="grid xs:grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-10 mt-20">
                                 <div>
