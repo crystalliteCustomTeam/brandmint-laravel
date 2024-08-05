@@ -1,5 +1,5 @@
 export default function SeoSteps({
-  title=`Our 6 Step SEO Process Ensures Your Customers <br className="2xl:block hidden" /> Don’t Find Your Competitors, But You!`,
+  title=`Our 6 Step SEO Process Ensures Your Customers <br class="2xl:block hidden" /> Don’t Find Your Competitors, But You!`,
   count = [
     {
       title: "Understanding <br class='lg:block hidden'/> Your Goals",

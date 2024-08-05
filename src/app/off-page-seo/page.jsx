@@ -156,7 +156,7 @@ export default function Page() {
             </div>
             <div className="xs:py-[50px] py-[90px]" >
                 <SeoSteps
-                title={`Our 6-Step Off-Page SEO Process Ensures Your <br className="2xl:block hidden" /> Customer Can Easily Find Your Website!`}
+                title={`Our 6-Step Off-Page SEO Process Ensures Your Customer Can Easily <br class="2xl:block hidden" />  Find Your Website!`}
                 count={count}
                 />
             </div>
