@@ -18,7 +18,7 @@ const data = [
     {
       value: "wordpress",
       title: "Wordpress",
-      desc: "At SEO Company, we specialize in offering top-notch Off-Page SEO Services tailored for WordPress websites across diverse industries. WordPress SEO has emerged as a cornerstone of effective website optimization globally, and our dedicated Off-Page SEO Experts leverage its creative flexibility to craft unique digital experiences for your brand. We prioritize enhancing user engagement and optimizing conversion rates through strategic Off-Page SEO Techniques.",
+      desc: "At SEO Company, we specialize in offering top-notch Off-Page SEO Services tailored for WordPress websites across diverse industries. WordPress SEO has emerged as a cornerstone of effective website optimization globally, and our dedicated Off-Page SEO Experts leverage its creative flexibility to craft unique digital experiences for your brand.",
       img: wordpress
     },
     {
@@ -48,7 +48,7 @@ const data = [
     {
       value: "woocommerce",
       title: "Woo Commerce",
-      desc: "We specialize in delivering professional WooCommerce SEO services to clients across various verticals. WooCommerce website SEO is recognized globally as a powerful and trusted method for optimizing e-commerce platforms. Our dedicated WooCommerce SEO experts leverage WooCommerce's creative freedom to design unique websites that reflect your brand’s identity.",
+      desc: "WooCommerce website SEO is recognized globally as a powerful and trusted method for optimizing e-commerce platforms. Our dedicated WooCommerce SEO experts leverage WooCommerce's creative freedom to design unique websites that reflect your brand’s identity.",
       img: woocommerce
     },
     {

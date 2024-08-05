@@ -19,7 +19,7 @@ export default function SeoGraph() {
                             ))
                         }
                     </div>
-                    <div className="mt-[15px]">
+                    {/* <div className="mt-[15px]">
                         <div className="flex items-center gap-3">
                             <div className="w-[18px] h-[18px] bg-[#EC4139] rounded-full"></div>
                             <p className="font-medium">Organic traffic</p>
@@ -28,15 +28,15 @@ export default function SeoGraph() {
                             <div className="w-[2px] h-[30px] bg-[#EC4139]"></div>
                             <p className="font-medium">Brandmint start border</p>
                         </div>
-                    </div>
-                    <div className="mt-10">
+                    </div> */}
+                    <div className="mt-15">
                         <Image src={seoGraph} alt="SEO company" className="max-w-[90%] lg:max-w-[80%] mx-auto" />
                     </div>
                     <div className="grid grid-cols-3  items-center text-center gap-5 mt-5">
                       
                             {
                                 [
-                                    ["+570%","Return on Investment"],
+                                    ["200%","Return on Investment"],
                                     ["170,000","Monthly Organic Traffic"],
                                     ["20,600","Ranking Keywords"]
                                 ].map(([num,text], i) => (

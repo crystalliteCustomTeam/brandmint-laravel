@@ -60,7 +60,7 @@ export default function Page() {
       <Hero
         subTitle="Wouldn't you love for your Google Screened Badge to shine brighter than your competitors?"
         title="We Guarantee High Standards and Exceptional Results with Our Google Screened Services"
-        desc="Our Google Screened Program optimization services ensure your profile stands out. If your Google Screened Badge isn't delivering the expected results, trust us to lift your presence to new heights."
+        desc="Wouldn't you love for your Google Screened Badge to shine brighter than your competitors? Our Google Screened Program optimization services ensure your profile stands out. If your Google Screened Badge isn't delivering the expected results, trust us to lift your presence to new heights."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -90,7 +90,7 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content
-          title="Receive Sales-Ready Leads and Experience Tangible Success with Our Google Screened Services!"
+          title="Get Sales-Ready Leads and Experience Success with Our Google Screened Services!"
           desc="At SEO Company, we specialize in Google Screened Services to promote your business."
           direction="flex-row-reverse"
           img1={GoogleService2}
@@ -99,7 +99,7 @@ export default function Page() {
       <div className="xs:py-[50px] py-[60px]">
         <Content
           title="Increase Your Credibility with Our Google Screened Services"
-          desc="We make it easy for you to earn customer trust with the prestigious Google Screened Badge. This badge showcases your reliability and quality to potential clients."
+          desc="We make it easy for you to earn customer trust with the prestigious Google Screened Badge."
           img1={GoogleService3}
         />
       </div>

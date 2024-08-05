@@ -8,37 +8,37 @@ const data = [
   {
     value: "Search Engine Optimization",
     title: "Search Engine Optimization (SEO)",
-    desc: "Our expert SEO services are designed to boost your rankings, increase visibility, and attract more traffic, ensuring your business reaches its peak online performance. Let SEO Company guide you through the world of digital dominance with accuracy and innovation.",
+    desc: "Our expert SEO services are designed to boost your rankings, increase visibility, and attract more traffic, ensuring your business reaches its peak online performance.",
     img: service1,
-    ctaText : "Connect with us today!"
+    ctaText: "Call Us Now!"
   },
   {
     value: "Link Building",
     title: "Link Building",
-    desc: "Enhance your SEO with our best SEO link building services. We specialize in securing high-quality backlinks from reputable sources, enhancing your site’s authority and visibility. You can rely on our link building services to drive targeted traffic and strengthen your online presence effectively.",
+    desc: "Enhance your SEO with our best SEO link building services. We specialize in securing high-quality backlinks from reputable sources, enhancing your site’s authority and visibility.",
     img: service1,
-    ctaText : "Let’s connect!"
+    ctaText: "Call Us Now!"
   },
   {
     value: "Social Media Marketing",
     title: "Social Media Marketing",
-    desc: "Our experience guarantees that your company shines with everything from influential social media campaigns to SEO techniques. As a leading social media marketing agency, we specialize in maximizing visibility and engagement, helping your business thrive as a top social media marketing company.",
+    desc: "As a leading social media marketing agency, we specialize in maximizing visibility and engagement, helping your business thrive on top social media platforms.",
     img: service1,
-    ctaText : "Leave us a message!"
+    ctaText: "Call Us Now!"
   },
   {
     value: "Pay Per Click",
     title: "Pay Per Click (PPC)",
-    desc: "Increase your online visibility and engage your audience with SEO Company’s cutting-edge pay per click solutions. With our effective PPC advertising, we ensure you secure every client. Our pay per click services and PPC advertising services are designed to drive immediate traffic and conversions, putting your business in the spotlight.",
+    desc: "Increase your online visibility and engage your audience with SEO Company’s cutting-edge pay per click solutions. With our effective PPC advertising, we ensure you secure every client.",
     img: service1,
-    ctaText : "Find Out More"
+    ctaText: "Call Us Now!"
   },
   {
     value: "White Label SEO",
     title: "White Label SEO",
     desc: "As a premier white label SEO company, we offer top-notch white label SEO services, making us the go-to agency for businesses aiming to maximize visibility and engagement.",
     img: service1,
-    ctaText : "Learn More"
+    ctaText: "Call Us Now!"
   }
 ]
 
@@ -49,11 +49,11 @@ export default function ServicesTabs() {
         <div className="text-center">
           {/* <h2 className="text-[25px] sm:text-[30px] lg:text-[45px] xl:text-[60px] mb-[22px] font-medium"> */}
           <h2 className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4">
-          Exceptional Digital Performance with the Best SEO Company
+            Boost Your Digital Performance With SEO Company
           </h2>
           {/* <p className="max-w-[782px] mx-auto"> */}
           <p className="text-[#202124] text-[16px] leading-relaxed lg:max-w-[85%] xl:max-w-[70%] mx-auto">
-          Revive your website's visibility from just another URL to the digital leader in your field. Our professional SEO services thrust your brand to the top of search results, taking up valuable clients. Every plan we create strives to change how potential clients interact with your business online, not merely improve your exposure.
+            Revive your website's visibility from just another URL to the digital leader in your field. Our professional SEO services thrust your brand to the top of search results, taking up valuable clients.
           </p>
         </div>
         <Tabs defaultValue={data[0]?.value} className="grid grid-cols-12 gap-x-5 gap-y-10 mt-[30px] md:mt-[60px]">
@@ -72,7 +72,7 @@ export default function ServicesTabs() {
           {/* <div className="xl:col-span-8 col-span-12"> */}
           <div className="col-span-12 md:col-span-8">
             {
-              data?.map(({ value, title, desc, img,ctaText }, i) => (
+              data?.map(({ value, title, desc, img, ctaText }, i) => (
                 <TabsContent value={value} className="grid md:grid-cols-12 grid-cols-1 gap-5 items-center" key={i}>
                   <div className="col-span-12 md:col-span-5">
                     <Image src={img} alt="SEO company" className="mx-auto block" />

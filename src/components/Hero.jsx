@@ -23,8 +23,8 @@ export default function Hero({
     gridleft = "col-span-12 lg:col-span-6",
     gridright = "col-span-12 md:col-span-6",
     form = false,
-    ctaText = "Get in Touch Now!",
-    ctaText2 = "Contact"
+    ctaText = "Get in Touch!",
+    // ctaText2 = "Contact"
 }) {
     return (
         <section>
@@ -47,7 +47,7 @@ export default function Hero({
                                     </p>}
                                     <div className="flex gap-2 mt-5">
                                         <CTA text={ctaText} />
-                                        <CTA text={ctaText2} variant='icon' icon={true} className={`${theme === "light" ? " " : "!bg-white/20"}`} />
+                                        {/* <CTA text={ctaText2} variant='icon' icon={true} className={`${theme === "light" ? " " : "!bg-white/20"}`} /> */}
                                     </div>
                                 </div>
                             </div>

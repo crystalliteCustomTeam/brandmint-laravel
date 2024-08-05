@@ -11,11 +11,11 @@ export default function Advertising() {
         <div>
             <div className="container">
                 <div>
-                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Step Up Your Business Growth with Premier <br className="hidden lg:block"/>
+                  <h2 className="xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center font-semibold">Start Your Business Growth With Our <br className="hidden lg:block"/>
                   Social Media Advertising Services</h2>
                   <p className="text-center my-5 xs:text-[1
-                  px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Our social media marketing services are designed to maximize brand reach, drive significant results, and transform  <br className="hidden lg:block"/>
-                  your social media presence, ensuring exceptional success for your business</p>
+                  px] sm:text-[14px]  md:text-[14px] lg:text-[14px] xl:text-[16px] font-light">Our social media marketing services are designed to maximize brand reach, drive significant results, and transform <br className="hidden lg:block"/> your social media  
+                  presence, ensuring exceptional success.</p>
                 </div>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-2 lg:gap-5 my-10">
                   <COLORCARD title="Facebook Advertising Services" image={Facebook} btnText="Advertising on Facebook"  description="Leverage our expertise to reach your target audience on Facebook with highly targeted and engaging ads that drive traffic and conversions." />

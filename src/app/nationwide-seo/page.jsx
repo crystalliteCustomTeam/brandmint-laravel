@@ -12,19 +12,66 @@ import icon1 from "media/social-media-marketing/speech-bubble.png";
 import icon2 from "media/social-media-marketing/customer-centric-approch.png";
 import icon3 from "media/social-media-marketing/great-idea.png";
 
+import philip from "media/testimonial/philip.png";
+import chris from "media/testimonial/chris.png";
+import bilal from "media/testimonial/bilal.png";
+import elissa from "media/testimonial/elissa.png";
+import joe from "media/testimonial/joe.png";
+import moses from "media/testimonial/moses.png";
+
 // Why Choose Section Data
 const chooseData = [
-    [icon1, "Dedicated Support and Expertise", "Our team of national SEO experts is committed to your success. We offer dedicated support and work closely with you to understand your business needs. With our expert guidance and comprehensive nationwide SEO service, you can navigate the complexities of SEO and achieve outstanding results."],
+    [icon1, "Dedicated Support and Expertise", "Our team of national SEO experts is committed to your success. With our expert guidance and comprehensive nationwide SEO service, you can navigate the complexities of SEO and achieve outstanding results"],
     [icon2, "Comprehensive Reporting and Analytics", "Transparency is key to our approach. We provide detailed reports and analytics to keep you informed about your campaign's progress. Our insights help you understand your ROI and make informed decisions about your marketing strategy."],
-    [icon3, "Customized SEO Strategies", "We understand that every business is unique, so we create customized SEO plans that cater to your needs. Our approach ensures maximum effectiveness and efficiency, helping you reach your specific business goals with our top nationwide SEO services."],
-  ];
+    [icon3, "Customized SEO Strategies", "WWe understand that every business is unique, so we create customized SEO plans that cater to your needs. Our approach ensures maximum effectiveness and efficiency, helping you reach your specific business goals."],
+];
+
+//   TESTIMONIAL
+const dataTest = [
+    {
+        shadowColor: "bg-[#4E81EC]",
+        review: "SEO Company has completely transformed our online presence. Their advanced SEO tactics have boosted our website's traffic and increased our conversions immensely. Their expertise in keyword research, content optimization, and link-building is unmatched. Highly recommend their services!",
+        testimonialImage: philip,
+        testimonialName: "Philip",
+    },
+    {
+        shadowColor: "bg-[#E1183A]",
+        review: "SEO Company has been a game-changer. Their all-around SEO strategies helped us rank higher on search engines and attract more visitors. Their team is super knowledgeable and always ready to help. Five stars!",
+        testimonialImage: chris,
+        testimonialName: "Chris",
+    },
+    {
+        shadowColor: "bg-[#F5C228]",
+        review: "If you're looking for professional SEO services that deliver real results, SEO Company is your place to go. Their advanced SEO tactics and commitment to understanding our business have propelled us to the top of search results. Their team is amazing, and their services are worth every penny.",
+        testimonialImage: bilal,
+        testimonialName: "Bilal",
+    },
+    {
+        shadowColor: "bg-[#24BF5A]",
+        review: "I can't say enough good things about SEO Company. Their SEO strategies are well-planned, and work wonders for our search rankings. Their monthly updates keep us informed and confident. Highly recommended!",
+        testimonialImage: elissa,
+        testimonialName: "Elissa Kidarshan",
+    },
+    {
+        shadowColor: "bg-[#4E81EC]",
+        review: "If you want SEO services that really work, go with SEO Company. Their advanced SEO tactics and deep understanding of our business got us to the top of search results. Their team is awesome, and their services are worth every penny.",
+        testimonialImage: joe,
+        testimonialName: "Joe Francis",
+    },
+    {
+        shadowColor: "bg-[#F5C228]",
+        review: "SEO Company has a proven success record, and we’ve seen it ourselves. Their custom SEO plans helped us reach our target audience better, and their ongoing support ensures we keep growing. They're the best SEO firm out there.",
+        testimonialImage: moses,
+        testimonialName: "Moses",
+    },
+];
 
 export default function Page() {
     return (
         <main>
             <Hero
                 subTitle="Want to see your business dominate the national market?"
-                title="Grow Your Business All Over America With Our Nationwide SEO Services"
+                title="Grow Your Business All Over US With Our Nationwide SEO Services"
                 desc="Increase your business's online presence with SEO Company's expert nationwide SEO services. Our national SEO experts use cutting-edge strategies to ensure your brand ranks high across the country. Experience exponential growth and outshine your competitors with our proven national SEO services."
                 img={HeroImg}
                 variant="default"
@@ -37,16 +84,16 @@ export default function Page() {
                 gridright="col-span-12 md:col-span-4"
             />
             <div className="xs:py-[50px] py-[90px]">
-                <Testimonial />
+                <Testimonial data={dataTest}/>
             </div>
             <div>
                 <ComboPackage />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <WhyChooseUs
-                title="Top Reasons to Partner with Our Leading <br class='lg:block hidden'/> Nationwide SEO Company"
-                desc="We are the top national SEO agency that offers innovative strategies to boost business growth and visibility. Transform your online presence and position your brand as a market leader by hiring us."
-                data={chooseData}   
+                    title="Top Reasons to Hire Our Leading  <br class='lg:block hidden'/> Nationwide SEO Company"
+                    desc="We are the top national SEO agency that offers innovative strategies to boost business growth and visibility. Transform your online presence and position your brand as a market leader by hiring us."
+                    data={chooseData}
                 />
             </div>
             <div className="xs:py-[30px] md:py-[50px] ">
@@ -57,99 +104,99 @@ export default function Page() {
                 </div>
 
                 <div className="my-5">
-                    <Content direction="flex-row-reverse" title={"The Added Benefits of Hiring Our Nationwide SEO Company for Your Business!"} desc={"Isn't it time to upgrade your business with nationwide SEO?</br></br> SEO Company is the leading national SEO company that offers comprehensive nationwide SEO services to enhance your brand's visibility and reach. Our expert strategies attract a broader audience, increase organic traffic, and boost conversion rates. By choosing our services, you can ensure your business stays ahead of the competition and achieve sustainable growth."}
+                    <Content direction="flex-row-reverse" title={"Benefits of Hiring Our Nationwide SEO Company for Your Business!"} desc={"SEO Company is the leading national SEO company that offers comprehensive nationwide SEO services to enhance your brand's visibility and reach. Our expert strategies attract a broader audience, increase organic traffic, and boost conversion rates. By choosing our services, you can ensure your business stays ahead of the competition and achieve sustainable growth."}
                         img1={ImageTwo}
                     />
                 </div>
                 <div className="my-5">
-                    <Content title={"How Can You Overcome Nationwide SEO Challenges for Greater Rewards?"} desc={"Creating a successful nationwide SEO strategy involves many attributes essential for making your brand recognizable. It begins with a well-devised marketing strategy where lead generation and nationwide SEO services are pivotal. Lead generation ensures a steady flow of quality leads essential for sales and growth. Despite challenges, nationwide SEO services offer substantial rewards. At SEO Company, we excel in enhancing online visibility through effective strategies like keyword optimization and SEO audits. Let us empower your business to stand out and thrive. Hire nationwide SEO Company today to transform challenges into success!"}
+                    <Content title={"How Can You Overcome Nationwide SEO Challenges for Greater Rewards?"} desc={"Creating a successful nationwide SEO strategy involves many attributes essential for making your brand recognizable. It begins with a well-devised marketing strategy where lead generation and nationwide SEO services are pivotal. Lead generation ensures a steady flow of quality leads essential for sales and growth. Despite challenges, nationwide SEO services offer substantial rewards. At SEO Company, we excel in enhancing online visibility through effective strategies like keyword optimization and SEO audits. "}
                         img1={ImageThree}
                     />
                 </div>
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <CallAway
-                title="Dominate National Rankings with Our SEO Expertise"
-                desc="SEO Company offers expert national SEO services to maximize online visibility and drive results. We use strategic keyword targeting, comprehensive audits, and proven techniques to drive businesses to the forefront of search engine results."
+                    title="Dominate National Rankings with Our SEO Expertise"
+                    desc="SEO Company offers expert national SEO services to maximize online visibility and drive results. <br/> Hire us now!"
                 />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <SeoServiceSteps
-                title={`Expand Your Reach with Our Specialized <br class='hidden md:block' /> <span class="text-[#E1183A]">National SEO Services</span>`}
-                description="Explore our comprehensive collection of on-page SEO services designed to improve your website’s performance and visibility."
-                items={[
-                    {
-                        no: "01",
-                        title: "SEO Company",
-                        content: "offers customized strategies to enhance online visibility, drive traffic, and improve brand recognition, ensuring top search engine rankings nationwide.",
-                        borderColor: "border-[#0085F8]"
-                    },
-                    {
-                        no: "02",
-                        title: "Keyword Research and Analysis",
-                        content: "Our nationwide SEO services begin with comprehensive keyword research to identify the most relevant and high-performing keywords for your business. SEO Company ensures that your content targets the right audience, enhancing your visibility across the country.",
-                        borderColor: "border-[#EF4252]"
-                    },
-                    {
-                        no: "03",
-                        title: "On-Page Optimization",
-                        content: "As a leading nationwide SEO company, we optimize every element of your website, from Meta tags to content, ensuring that search engines can easily find and rank your pages. Our on-page optimization strategies improve your site’s relevance and authority.",
-                        borderColor: "border-[#34A854]"
-                    },
-                    {
-                        no: "04",
-                        title: "Content Creation and Marketing",
-                        content: "SEO Company provides top-notch content creation services, developing engaging and SEO-friendly content that resonates with your audience. Our content marketing efforts help you establish a strong online presence, positioning you as an authority in your industry.",
-                        borderColor: "border-[#000000]"
-                    },
-                    {
-                        no: "05",
-                        title: "Link Building Services",
-                        content: "Our national SEO services include strategic link-building campaigns to enhance your website’s credibility and authority. SEO Company uses ethical and effective techniques to acquire high-quality backlinks from reputable sources.",
-                        borderColor: "border-[#F8BA05]"
-                    },
-                    {
-                        no: "06",
-                        title: "Technical SEO Audits",
-                        content: "We conduct thorough technical SEO audits to identify and fix issues that could hinder your website’s performance. Our experts at SEO Company ensure that your site is fast, secure, and fully optimized for search engines.",
-                        borderColor: "border-[#0085F8]"
-                    },
-                    {
-                        no: "07",
-                        title: "Region-Specific Content Marketing",
-                        content: "By creating geographically relevant content, we help boost your search rankings, engage regional customers, and strengthen your brand's presence in diverse markets. This approach combines national reach with localized appeal for comprehensive SEO success.",
-                        borderColor: "border-[#EF4252]"
-                    },
-                    {
-                        no: "08",
-                        title: "Competitor Analysis",
-                        content: "Our nationwide SEO services include in-depth competitor analysis to understand your market. SEO Company identifies your competitors’ strengths and weaknesses, helping you stay ahead with targeted strategies.",
-                        borderColor: "border-[#34A854]"
-                    },
-                    {
-                        no: "09",
-                        title: "Analytics and Reporting",
-                        content: "SEO Company provides detailed analytics and reporting to track the performance of your nationwide SEO campaigns. Our transparent reporting helps you understand the impact of our efforts and make data-driven decisions.",
-                        borderColor: "border-[#000000]"
-                    },
-                    {
-                        no: "10",
-                        title: "E-commerce SEO",
-                        content: "Our best national SEO Company offers specialized e-commerce SEO services for online retailers. We optimize product listings, categories, and overall site architecture to improve your online store’s visibility and drive sales.",
-                        borderColor: "border-[#F8BA05]"
-                    },
-                    {
-                        no: "11",
-                        title: "Mobile SEO Optimization",
-                        content: "Recognizing the importance of mobile search, SEO Company ensures your website is fully optimized for mobile devices. Our mobile SEO strategies enhance user experience and improve your rankings on mobile search results.",
-                        borderColor: "border-[#F8BA05]"
-                    }
-                ]}
+                    title={`Expand Your Reach With Our Best <br class='hidden md:block' /> <span class="text-[#E1183A]">National SEO Services</span>`}
+                    description="SEO Company offers customized strategies to enhance online visibility, drive traffic, and improve brand recognition, ensuring top search engine rankings nationwide."
+                    items={[
+                        {
+                            no: "01",
+                            title: "SEO Company",
+                            content: "offers customized strategies to enhance online visibility, drive traffic, and improve brand recognition, ensuring top search engine rankings nationwide.",
+                            borderColor: "border-[#0085F8]"
+                        },
+                        {
+                            no: "02",
+                            title: "Keyword Research and Analysis",
+                            content: "Our nationwide SEO services begin with comprehensive keyword research to identify the most relevant and high-performing keywords for your business. SEO Company ensures that your content targets the right audience, enhancing your visibility across the country.",
+                            borderColor: "border-[#EF4252]"
+                        },
+                        {
+                            no: "03",
+                            title: "On-Page Optimization",
+                            content: "As a leading nationwide SEO company, we optimize every element of your website, from Meta tags to content, ensuring that search engines can easily find and rank your pages. Our on-page optimization strategies improve your site’s relevance and authority.",
+                            borderColor: "border-[#34A854]"
+                        },
+                        {
+                            no: "04",
+                            title: "Content Creation and Marketing",
+                            content: "SEO Company provides top-notch content creation services, developing engaging and SEO-friendly content that resonates with your audience. Our content marketing efforts help you establish a strong online presence.",
+                            borderColor: "border-[#000000]"
+                        },
+                        {
+                            no: "05",
+                            title: "Link Building Services",
+                            content: "Our national SEO services include strategic link-building campaigns to enhance your website’s credibility and authority. SEO Company uses ethical and effective techniques to acquire high-quality backlinks from reputable sources.",
+                            borderColor: "border-[#F8BA05]"
+                        },
+                        {
+                            no: "06",
+                            title: "Technical SEO Audits",
+                            content: "We conduct thorough technical SEO audits to identify and fix issues that could hinder your website’s performance. Our experts at SEO Company ensure that your site is fast, secure, and fully optimized for search engines.",
+                            borderColor: "border-[#0085F8]"
+                        },
+                        {
+                            no: "07",
+                            title: "Region-Specific Content Marketing",
+                            content: "By creating geographically relevant content, we help boost your search rankings, engage regional customers, and strengthen your brand's presence in diverse markets. ",
+                            borderColor: "border-[#EF4252]"
+                        },
+                        {
+                            no: "08",
+                            title: "Competitor Analysis",
+                            content: "Our nationwide SEO services include in-depth competitor analysis to understand your market. SEO Company identifies your competitors’ strengths and weaknesses, helping you stay ahead with targeted strategies.",
+                            borderColor: "border-[#34A854]"
+                        },
+                        {
+                            no: "09",
+                            title: "Analytics and Reporting",
+                            content: "SEO Company provides detailed analytics and reporting to track the performance of your nationwide SEO campaigns. Our transparent reporting helps you understand the impact of our efforts and make data-driven decisions.",
+                            borderColor: "border-[#000000]"
+                        },
+                        {
+                            no: "10",
+                            title: "E-commerce SEO",
+                            content: "Our best national SEO Company offers specialized e-commerce SEO services for online retailers. We optimize product listings, categories, and overall site architecture to improve your online store’s visibility and drive sales.",
+                            borderColor: "border-[#F8BA05]"
+                        },
+                        {
+                            no: "11",
+                            title: "Mobile SEO Optimization",
+                            content: "Recognizing the importance of mobile search, SEO Company ensures your website is fully optimized for mobile devices. Our mobile SEO strategies enhance user experience and improve your rankings on mobile search results.",
+                            borderColor: "border-[#F8BA05]"
+                        }
+                    ]}
                 />
 
             </div>
             <div className="xs:py-[50px] py-[90px] ">
-                <VersatileSteps/>
+                <VersatileSteps />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <CallAway
@@ -157,7 +204,7 @@ export default function Page() {
                     bg="bg-[#E1183A] rounded-[40px]"
                     btnClass="!bg-[#202124] !text-white"
                     btnClass2="!bg-white !text-black"
-                    title="Boost Your Rankings with Our Expert National SEO Company – Get Your Free Consultation Today!"
+                    title="Boost Your Rankings with Our National SEO Company - Call Us Now!"
                     desc="Contact us now to get started with our expert national SEO services and watch your business grow."
                 />
             </div>

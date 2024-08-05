@@ -11,7 +11,7 @@ import Image from "next/image"
 
 export default function VersatileSteps({
     title=`Key Features of Our<br class="hidden md:block" /> <span class="text-[#E1183A]">National SEO Services</span>`,
-    desc="From comprehensive keyword research to mobile optimization, our tailored national SEO packages are designed to upgrade your online presence and drive measurable results.",
+    desc="From comprehensive keyword research to mobile optimization, our tailored national SEO packages are designed to achieve your business goals.",
     cardData = [
         ["Comprehensive Keyword Research",seoImage,"Our national SEO services begin with in-depth keyword research to identify the most practical terms for your business. As a professional nationwide SEO company, we ensure your content targets high-performing keywords to maximize visibility."],
         ["Custom National SEO Packages",seoImageTwo,"SEO Company offers tailored national SEO packages to meet your business needs. Our customized solutions ensure you get the most value and impact from your investment in nationwide SEO services."],

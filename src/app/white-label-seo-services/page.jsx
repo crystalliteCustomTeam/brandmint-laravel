@@ -21,7 +21,7 @@ import seoImageFour from "media/seovarFour.png"
 import seoImageFive from "media/seovaFive.png"
 import seoImageSix from "media/seovarSix.png"
 
-const dataTest=[
+const dataTest = [
   {
     shadowColor: "bg-[#4E81EC]",
     review: "Working with SEO Company has been a game-changer for our agency. Their white label SEO services are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
@@ -61,12 +61,12 @@ const dataTest=[
 ];
 
 let cardData = [
-  ["Using Google Analytics",seoImage,"Our company monitors SEO progress and addresses visibility issues effectively."],
-  ["Concrete Outcomes",seoImageTwo,"Benefiting from years of expertise, SEO Company secures an unmatched position. We deliver our clients tangible, enduring results that stand the test of time."],
-  ["Supplementary Offerings",seoImageThree,"Drawing on years of experience, SEO Company has established an unparalleled reputation. We provide our clients with tangible, enduring results that remain sustainable for years to come."],
-  ["Creative SEO Strategies and Tools",seoImageFour,"We combine on-site optimization with off-site SEO efforts and devise innovative tactics designed to withstand the changes in the digital scene."],
-  ["Innovative SEO Methods and Tools",seoImageFive,"We integrate on-site optimization with off-site SEO strategies, crafting distinctive tactics built to direct the shifts in the digital environment."],
-  ["Affordable SEO Packages",seoImageSix,"Our local SEO packages are budget-friendly and accessible to businesses of all sizes, providing conversion-focused local SEO recommendations."]
+  ["Using Google Analytics", seoImage, "Our company monitors SEO progress and addresses visibility issues effectively."],
+  ["Concrete Outcomes", seoImageTwo, "Benefiting from years of expertise, SEO Company secures an unmatched position. We deliver our clients tangible, enduring results that stand the test of time."],
+  ["Supplementary Offerings", seoImageThree, "Drawing on years of experience, SEO Company has established an unparalleled reputation. We provide our clients with tangible, enduring results that remain sustainable for years to come."],
+  ["Creative SEO Strategies and Tools", seoImageFour, "We combine on-site optimization with off-site SEO efforts and devise innovative tactics designed to withstand the changes in the digital scene."],
+  ["Innovative SEO Methods and Tools", seoImageFive, "We integrate on-site optimization with off-site SEO strategies, crafting distinctive tactics built to direct the shifts in the digital environment."],
+  ["Affordable SEO Packages", seoImageSix, "Our local SEO packages are budget-friendly and accessible to businesses of all sizes, providing conversion-focused local SEO recommendations."]
 ];
 
 export default function Page() {
@@ -74,7 +74,7 @@ export default function Page() {
     <main>
       <Hero
         subTitle="White Label SEO Services"
-        title="Boost Your Clients' Rankings with Our Premier White Label SEO Services"
+        title="Boost Your Clients' Rankings with Our White Label SEO Services"
         desc="Are you looking to nurture strategic partnerships with fellow digital marketing agencies that deliver premium marketing solutions? Fret not. At SEO Company, we ensure profitability every step of the way. Our white label SEO services empower digital firms globally to achieve profitability effortlessly."
         img={HeroImg}
         variant="default"
@@ -88,14 +88,14 @@ export default function Page() {
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial
-        title="Our Vault of Customer Satisfaction"
-        desc="See what our customers have to say about us"
-        data={dataTest}
+          title="Our Vault of Customer Satisfaction"
+          desc="See what our customers have to say about us"
+          data={dataTest}
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Contact
-        title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
+          title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
         Session with Our White Label <br className="hidden sm:block"/>
         SEO Providers for the <br className="hidden sm:block"/>
         <strong> Best Results</strong>`}
@@ -103,9 +103,9 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Package id={1}
-        title={`Topple Your Competition Without <br class='hidden md:block' />
+          title={`Topple Your Competition Without <br class='hidden md:block' />
             <span class="text-[#E1183A]">Draining Your Budget</span>`}
-        desc="At SEO Company, we offer nothing but the best to our clients. We offer multiple white label SEO solutions to best align with your diverse budgets and business goals."
+          desc="At SEO Company, we offer nothing but the best to our clients. We offer multiple white label SEO solutions to best align with your diverse budgets and business goals."
         />
       </div>
       <div className="xs:py-[30px] md:py-[50px]">
@@ -113,7 +113,7 @@ export default function Page() {
           <Content
             title={"Why Should Your Business Consider White Label SEO Services?"}
             desc={
-              "Partnering with a white label SEO provider can equip your website with essential backlinks, on-page SEO, and content strategies. With that said, we effectively serve your local customer base, especially for companies lacking internal resources. With SEO Company, you can broaden your SEO service capabilities without the need to hire additional SEO staff. With our extensive experience in white label SEO marketing, we guarantee result-driven services that will impress your clients effectively. It’s time to scale your SEO offerings to meet growing demands confidently!"
+              "Partnering with a white label SEO provider can equip your website with essential backlinks, on-page SEO, and content strategies. With that said, we effectively serve your local customer base, especially for companies lacking internal resources. With SEO Company, you can broaden your SEO service capabilities without the need to hire additional SEO staff. With our extensive experience in white label SEO marketing, we guarantee result-driven services that will impress your clients effectively."
             }
             img1={labelSeo}
           />
@@ -133,13 +133,13 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Need a Digital Marketing Expert? Look No Further!"
-        desc="We are your ultimate one-stop white label SEO provider, offering solutions to all your online business challenges."
+          title="Need a Digital Marketing Expert? Look No Further!"
+          desc="We are your ultimate one-stop white label SEO provider, offering solutions to all your online business challenges."
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SeoServiceSteps
-          title="8 Advantages Your Agency Gains from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Gain a Competitive Edge with Our White Label SEO Solutions</span>"
+          title="8 Advantages Your Agency Gains from <br class='lg:block hidden'/> <span class='text-[#E1183A]'>Partnering with Our White Label SEO Services</span>"
           description="Our White Label SEO Services Providing the Edge to Your Digital Agency"
           items={[
             {
@@ -204,16 +204,16 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px] ">
         <VersatileSteps
-          title={"Our Complete White Label SEO Services Encompass a Diverse Set of Strategies"}
-          desc={"Did you know that 60% of national website traffic originates from organic searches? At SEO Company, we empower your website through innovative SEO approaches aimed at enhancing your website's conversion rates!"}
+          title={"Our Complete White Label SEO Services Encompass Diverse Strategies"}
+          desc={"At SEO Company, we empower your website through innovative SEO approaches aimed at enhancing your website's conversion rates!"}
           cardData={cardData}
         />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black"
-        title="Expert Digital Marketing Just a Phone Call Away"
-        desc="Look no further than SEO Company for all-inclusive White Label SEO solutions. We are your ultimate one-stop shop for resolving all your online business challenges."
+          title="Expert Digital Marketing Just a Phone Call Away"
+          desc="Look no further than SEO Company for all-inclusive White Label SEO solutions. We are your ultimate one-stop shop for resolving all your online business challenges."
         />
       </div>
 

@@ -14,11 +14,11 @@ export default function Industries({
   title="Industries We Proudly Serve", 
   desc="No matter the NATURE or SCALE of your business, enhance your online value with our assistance!", 
   data= [
-    [industries1, "E-commerce:", "Boost your online store's traffic and sales <br/> with a targeted SEO Company that enhances <br/> product visibility."],
-    [industries2, "Education:", "Attract more students by optimizing your academic <br/> institution's online presence."],
-    [industries3, "Hospitality:", "Increase bookings and attract travelers with <br/> SEO Company for hotels, restaurants, and <br/> travel hubs."],
-    [industries4, "Technology and IT:", "Expand your tech company's reach with <br/> SEO Company strategies tailored to <br/> technology-specific keywords."],
-    [industries5, "Automotive:", "Drive local customer traffic to your dealership <br/> or auto repair shop with a focused automotive <br/> SEO Company."],
+    [industries1, "E-commerce", "Boost your online store's traffic and sales <br/> with a targeted SEO Company that enhances <br/> product visibility."],
+    [industries2, "Education", "Attract more students by optimizing your academic <br/> institution's online presence."],
+    [industries3, "Hospitality", "Increase bookings and attract travelers with <br/> SEO Company for hotels, restaurants, and <br/> travel hubs."],
+    [industries4, "Technology and IT", " Expand your tech company's reach with <br/> SEO Company strategies tailored to <br/> technology-specific keywords."],
+    [industries5, "Automotive", "Drive local customer traffic to your dealership <br/> or auto repair shop with a focused automotive <br/> SEO Company."],
   ]
 }) {
   return (

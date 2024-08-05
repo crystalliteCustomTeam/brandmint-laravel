@@ -23,7 +23,7 @@ import icon3 from "media/social-media-marketing/great-idea.png";
 let data = [
   {
     Heading: "Improved User Experience:",
-    spanDesc: "Our on-page SEO service ensures a seamless and engaging user experience.",
+    spanDesc: "Our on-page SEO service ensures a seamless and engaging UX.",
   },
   {
     Heading: "Internal Linking:",
@@ -38,37 +38,37 @@ let data = [
 const dataTest=[
   {
     shadowColor: "bg-[#4E81EC]",
-    review: "The experts at SEO Company improved our website's performance. Our traffic increased by 50% in just three months!",
+    review: "Impressed with the detailed on-page SEO strategies. They know how to optimize for both search engines and users!",
     testimonialName: "Alex M",
     testimonialImage: philip,
   },
   {
     shadowColor: "bg-[#E1183A]",
-    review: "Impressed with the detailed on-page SEO strategies. They know how to optimize for both search engines and users!",
+    review: "Exceptional service! The on-page SEO improvements significantly boosted our site’s ranking and visibility.",
     testimonialName: "Sarah L",
     testimonialImage: chris,
   },
   {
     shadowColor: "bg-[#F5C228]",
-    review: "Exceptional service! The on-page SEO improvements significantly boosted our site’s ranking and visibility.",
+    review: "Highly recommend their on-page SEO services. Professional, effective, and excellent results in a short time.",
     testimonialName: "John D",
     testimonialImage: bilal,
   },
   {
     shadowColor: "bg-[#24BF5A]",
-    review: "Highly recommend their on-page SEO services. Professional, effective, and excellent results in a short time.",
+    review: "I can't say enough good things about the on page SEO this company has done for me. Their On page strategies are well-planned, and worked wonders for my website. Absolutely recommended!",
     testimonialName: "Jessica K",
     testimonialImage: elissa,
   },
   {
     shadowColor: "bg-[#4E81EC]",
-    review: "I can't say enough good things about the on page SEO this company has done for me. Their On page strategies are well-planned, and worked wonders for my website. Absolutely recommended!",
+    review: "Five stars for SEO Company. Their on page SEO techniques really helped me improve my website’s content and that also increased the authority in days, hiring them was the best decision I made.",
     testimonialName: "Glenn Smith",
     testimonialImage: joe,
   },
   {
     shadowColor: "bg-[#F5C228]",
-    review: "Five stars for SEO Company. Their on page SEO techniques really helped me improve my website’s content and that also increased the authority in days, hiring them was the best decision I made.",
+    review: "SEO Company delivers effective on-page optimization services, enhancing website visibility and rankings. Their expert team focuses on content quality, meta tags, and site structure, driving organic traffic and improving search engine performance for businesses. ",
     testimonialName: "Amanda",
     testimonialImage: moses,
   },
@@ -87,7 +87,7 @@ export default function Page() {
       <Hero
         subTitle="On Page SEO Services"
         title="Build Your Website’s Authority With Our Expert On-Page SEO Services"
-        desc="Need help to attract more organic traffic and increase your website’s authority? We’re here to help and increase your website’s performance through our proven on-page SEO services. We specialize in optimizing every element of your site to enhance search engine rankings and improve user experience. Let our on page SEO team help you attract more organic traffic, increase ad revenue, boost ROI, and generate high-quality leads to achieve your business goals."
+        desc="Need help to attract more organic traffic and increase your website’s authority? We’re here to help and increase your website’s performance through our proven on-page SEO services. We specialize in optimizing every element of your site to enhance search engine rankings and improve user experience. "
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -120,7 +120,7 @@ export default function Page() {
         <div className="my-5">
           <Content
             title="Let Google Index Your Website Content Faster with Our On-Page SEO Services"
-            desc="Maximize your website's potential with our comprehensive on-page SEO services. Our on-page optimization services ensure that every element of your site is fine-tuned for peak performance. From keyword integration to content adjustments, we provide a holistic approach that drives organic traffic and boosts search engine rankings. Trust our team to deliver strategies that enhance user experience and improve your site's indexability"
+            desc="Maximize your website's potential with our comprehensive on-page SEO services. Our on-page optimization services ensure that every element of your site is fine-tuned for peak performance. From keyword integration to content adjustments, we provide a holistic approach that drives organic traffic and boosts search engine rankings. Trust our team to deliver strategies that enhance user experience and improve your site's indexability."
             img1={googleCrawl}
             ctaText="Start Improving Your SEO Today!"
             ctaText2="See Real Results with Our Services!"
@@ -128,7 +128,7 @@ export default function Page() {
         </div>
         <div className="my-5">
           <Content
-            title="How Our On-Page SEO Agency Makes Your Website Experience Better"
+            title="How Does On-Page SEO Work?"
             desc="Understanding how on-page SEO works is important before you dive into it. At our on page SEO agency, we optimize various aspects of your website to enhance visibility and user experience. Our on page SEO services include keyword optimization, meta-tag improvements, and enhancing heading structures. Our on-page SEO team analyzes and adjusts these elements to ensure your site ranks higher on search engines."
             img1={pageSeo}
             direction="flex-row-reverse"
@@ -146,14 +146,14 @@ export default function Page() {
         </div>
 
         <div className="my-5">
-          <Content title="Enhance UI/UX with Our On-Page SEO Services" list={true} listingData={data} img1={UiUx} direction="flex-row-reverse" />
+          <Content title="Improve UI/UX With Our On-Page SEO Services" list={true} listingData={data} img1={UiUx} direction="flex-row-reverse" />
         </div>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Optimize Your Website for Top Search Rankings with On-Page SEO Services"
-        desc="Experience the benefits of optimized content, improved user experience, and higher search engine rankings with our tailored on-page SEO solutions."
+        title="Achieve Top SERP Ranks With Our On-Page SEO Services"
+        desc="Experience the benefits of optimized content, improved user experience, and higher search engine<br /> rankings with our tailored on-page SEO solutions."
         btnText="Get Your Free SEO Audit!"
         />
       </div>

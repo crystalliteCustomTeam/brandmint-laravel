@@ -102,7 +102,7 @@ export default function Page() {
         <main>
             <Hero
                 subTitle="Wondering how to enhance your site’s performance?"
-                title="Expert Off-Page SEO Services To Increase Your Website’s Search Visibility"
+                title="Off-Page SEO Services That Get Your Website Ranked"
                 desc="At SEO Company, we excel in Off-Page SEO, driving your website to peak success. Our top-tier Off-Page SEO Agency can help increase your website’s authority by strategic and effective link building."
                 img={HeroImg}
                 variant="default"
@@ -133,7 +133,7 @@ export default function Page() {
                 <Package id={1}
                 title={`Outshine Your Competitors Without <br class='hidden md:block' />
                     <span class="text-[#E1183A]">Draining Your Budget</span>`}
-                desc="At SEO Company, we take pride in delivering results-driven off-page SEO services at incredibly competitive rates. Our diverse SEO packages are designed to fit various budgets."
+                desc="At SEO Company, we take pride in delivering results-driven off-page SEO services at incredibly competitive rates. Have a look at what we offer."
                 />
             </div>
             <div className="xs:py-[50px] py-[90px]">
@@ -148,14 +148,15 @@ export default function Page() {
             </div>
             <div className="xs:py-[50px] py-[90px]">
             <WhyChooseUs
-            title="We Are the Best Off-Page SEO Company Because We Make Your <br class='lg:block hidden'/> Business Bigger Every Day"
+                    
+            title="Get Effective Results By Hiring Our Off-Page <br class='lg:block hidden'/> SEO Service!"
             desc="With 90% of U.S. businesses vying for attention on social media, keeping your business noticeable is a formidable challenge. SEO Company is here to help you navigate these complexities and transform potential hurdles into significant growth opportunities."
             data={chooseData}   
             />
             </div>
             <div className="xs:py-[50px] py-[90px]" >
                 <SeoSteps
-                title={`Our 6-Step Off-Page SEO Process Ensures Your Every Customer <br className="2xl:block hidden" /> Can Easily Find Your Website!`}
+                title={`Our 6-Step Off-Page SEO Process Ensures Your <br className="2xl:block hidden" /> Customer Can Easily Find Your Website!`}
                 count={count}
                 />
             </div>
@@ -173,7 +174,7 @@ export default function Page() {
             <div className="xs:py-[50px] py-[90px]">
                 <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black"
                 title="Quality Off-Page SEO Services Are Just a Call Away!"
-                desc="We’re here to serve you! Look no further than SEO Company for all your online business challenges as your one-stop for Off-Page services. We are here to rank your website higher on SERP."
+                desc="Quality Off-Page SEO Services Are Just a Call Away!We’re here to serve you! Look no further than SEO Company for all your online business challenges as your one-stop for Off-Page services. "
                 />
             </div>
             <div className="xs:py-[50px] py-[90px]" >

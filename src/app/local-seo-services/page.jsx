@@ -73,7 +73,7 @@ export default function Page() {
       <Hero
         subTitle="Our Local SEO Services"
         title="Expand Your Reach with <br class='lg:block hidden'/> Local SEO Services!"
-        desc="Accelerate your business success with SEO Company. We specialize in attracting new clients using innovative digital strategies and local SEO services that stand out in a crowded market. Connect with customers across every state and region, and make a significant impact wherever you aim."
+        desc="Accelerate your business success with SEO Company. We specialize in attracting new clients using innovative digital strategies and local SEO services that stand out in a crowded market."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -89,7 +89,7 @@ export default function Page() {
         id={1}
         title={`Drive Results with Our <br class='hidden md:block' />
                         <span class="text-[#E1183A]">Affordable Local SEO Services</span>`}
-        desc="You can get a wide selection of the best local SEO services, all of which are customized to different business requirements. We address every important facet of SEO in order to provide thorough solutions for all company objectives."
+        desc="You can get a wide selection of the best local SEO services, all of which are customized to different business requirements."
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
@@ -103,20 +103,19 @@ export default function Page() {
       <div className="xs:py-[30px] md:py-[50px]">
         <div className="my-5">
           <Content
-            title="Why Does Your Business Need Local SEO Services?"
+            title="Why Does Your Business Need Local SEO?"
             desc='Ever noticed how certain local businesses pop up first when you search online for something close by? That’s because of a local SEO agency. Let’s break this down with a simple example.
             <br/><br/>
             Say it’s Sunday morning, and you want a coffee. You search "coffee near me" on your phone. The places that show up are using local SEO to ensure they appear right when you’re looking for them.  
             <br/><br/>
-            Our SEO services for local business can enhance their visibility in local searches, making it the first choice for local customers. Effective local SEO services, be it for a cafe or bookstore, help businesses catch the eye of potential customers in their area.'
+            Our SEO services for local businesses can enhance their visibility in local searches, making it the first choice for local customers. Effective local SEO services, be it for a cafe or bookstore, help businesses catch the eye of potential customers in their area.'
             img1={seoImg}
           />
         </div>
         <div className="my-5">
           <Content
-            title="Having Trouble Getting Found Locally?
-            Local SEO Company Is Just What You Need!"
-            desc="How can your customers potentially find you? 88%  of the customers conduct their searches on mobile devices. Even more notably, 72% of these potential customers visit a store or make a phone call within just 24 hours of their initial search. This underscores the vital role that local SEO optimization plays in making your business visible to potential customers.
+            title="Need Help Getting Found? Hire Our Local SEO Company."
+            desc="88%  of the customers conduct their searches on mobile devices. Even more notably, 72% of these potential customers visit a store or make a phone call within just 24 hours of their initial search. This underscores the vital role that local SEO optimization plays in making your business visible to potential customers.
             <br/><br/>
             Securing the services of a skilled local SEO firm is essential in a virtual market where a customer's visit could result from a single click. Employing practical local SEO for businesses puts your brand in the best position to draw in and interact with local searchers who are actively looking for what you have to offer."
             img1={BusinessSeoImg}
@@ -240,8 +239,13 @@ export default function Page() {
             {
               title: "What results can I expect from hiring the best local business SEO company?",
               content:
-                "Expect improved local search rankings, an increase in local traffic to your website, and a higher conversion rate from nearby customers.",
-            }
+              "Expect improved local search rankings, an increase in local traffic to your website, and a higher conversion rate from nearby customers.",
+            },
+            {
+              title: "How long does it take to see results from local SEO services?",
+              content:
+                "Results can vary, but typically, noticeable improvements can be seen within 3-6 months after implementing local SEO strategies.",
+            },
           ]}
         />
       </div>

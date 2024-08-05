@@ -13,47 +13,11 @@ import moses from "media/testimonial/moses.png";
 
 import { CTA } from "@/components";
 // Testimonial Data
-const data = [
-  {
-    shadowColor: "bg-[#4E81EC]",
-    review: "SEO Company has completely transformed our online presence. Their advanced SEO tactics have boosted our website's traffic and increased our conversions immensely. Their expertise in keyword research, content optimization, and link-building is unmatched. Highly recommend their services!",
-    testimonialImage: philip,
-    testimonialName: "Philip",
-  },
-  {
-    shadowColor: "bg-[#E1183A]",
-    review: "SEO Company has been a game-changer. Their all-around SEO strategies helped us rank higher on search engines and attract more visitors. Their team is super knowledgeable and always ready to help. Five stars!",
-    testimonialImage: chris,
-    testimonialName: "Chris",
-  },
-  {
-    shadowColor: "bg-[#F5C228]",
-    review: "If you're looking for professional SEO services that deliver real results, SEO Company is your place to go. Their advanced SEO tactics and commitment to understanding our business have propelled us to the top of search results. Their team is amazing, and their services are worth every penny.",
-    testimonialImage: bilal,
-    testimonialName: "Bilal",
-  },
-  {
-    shadowColor: "bg-[#24BF5A]",
-    review: "I can't say enough good things about SEO Company. Their SEO strategies are well-planned, and work wonders for our search rankings. Their monthly updates keep us informed and confident. Highly recommended!",
-    testimonialImage: elissa,
-    testimonialName: "Elissa Kidarshan",
-  },
-  {
-    shadowColor: "bg-[#4E81EC]",
-    review: "If you want SEO services that really work, go with SEO Company. Their advanced SEO tactics and deep understanding of our business got us to the top of search results. Their team is awesome, and their services are worth every penny.",
-    testimonialImage: joe,
-    testimonialName: "Joe Francis",
-  },
-  {
-    shadowColor: "bg-[#F5C228]",
-    review: "SEO Company has a proven success record, and we’ve seen it ourselves. Their custom SEO plans helped us reach our target audience better, and their ongoing support ensures we keep growing. They're the best SEO firm out there.",
-    testimonialImage: moses,
-    testimonialName: "Moses",
-  },
-];
+
 export default function testimonial({
-  subTitle, title = "Still Not Convinced?",
-  desc = "Discover What Customers Have To Say About Us",
+  subTitle, title = "What Makes Us #1?",
+  desc = "See Real Client Reviews",
+  data
 }) {
   return (
     <section>
@@ -74,7 +38,7 @@ export default function testimonial({
                   className={`w-36 h-36 rounded-full transition-all ease-in-out duration-1000 group-hover:bottom-[180px] group-hover:right-[280px] blur-2xl ${e.shadowColor} bg-opacity-50 absolute right-0 bottom-0`}
                 ></div>
                 <Image src={iconimage} alt="Icon Image" className="mb-4" width={100} height={15} />
-                <p className="md:text-[18px] text-[16px] mb-3 font-normal leading-normal h-[140px] overflow-y-auto custom-scrollbar" dangerouslySetInnerHTML={{ __html: e.review }} />
+                <p className="md:text-[18px] text-[16px] mb-3 font-normal leading-normal h-[140px] overflow-y-auto custom-scrollbar pe-2" dangerouslySetInnerHTML={{ __html: e.review }} />
                 <div>
                   <div className="flex gap-2 items-center">
                     <Image alt="Testimonial image" src={e.testimonialImage} className="rounded-full" width={68} height={15} />

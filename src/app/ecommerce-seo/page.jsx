@@ -20,37 +20,37 @@ import icon3 from "media/social-media-marketing/great-idea.png";
 const dataTest=[
   {
     shadowColor: "bg-[#4E81EC]",
-    review: "Working with SEO Company has been a game-changer for our agency. Their white label SEO services are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
+    review: "Working with an SEO Company has been a game-changer for our agency. Their WHITE LABEL SEO SERVICES are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
     testimonialName: "Maria Parsons",
     testimonialImage: philip
   },
   {
     shadowColor: "bg-[#E1183A]",
-    review: "As a reseller, I rely on SEO Company’s expertise in WHITE LABEL SEO. They handle the complexities seamlessly, ensuring our clients receive exceptional results. Partnering with them has significantly enhanced our service portfolio and client retention rates.",
+    review: "As a reseller, I rely on SEO Company’s expertise in WHITE LABEL SEO. They handle the complexities seamlessly, ensuring our clients receive exceptional results. Hiring them has significantly enhanced our service portfolio and client retention rates.",
     testimonialName: "Dale Harvey",
     testimonialImage: chris
   },
   {
     shadowColor: "bg-[#F5C228]",
-    review: "SEO Company stands out among white label SEO providers. Their commitment to excellence and results-driven approach have helped our agency excel in a competitive market. Trustworthy, reliable, and highly effective—couldn’t ask for more!",
+    review: "SEO Company stands out among WHITE LABEL SEO PROVIDERS. Their commitment to excellence and results-driven approach have helped our agency excel in a competitive market. They are trustworthy, reliable, and highly effective—we couldn’t ask for more!",
     testimonialName: "Marvin Duncan",
     testimonialImage: bilal
   },
   {
     shadowColor: "bg-[#24BF5A]",
-    review: "Choosing SEO Company for white label SEO services was one of our best decisions. Their dedication to our success is evident in every campaign they manage. They truly understand the intricacies of digital marketing and deliver results that exceed expectations.",
+    review: "Choosing an SEO Company for WHITE LABEL SEO SERVICES was one of our best decisions. Their dedication to our success is evident in every campaign they manage. They truly understand the intricacies of digital marketing and deliver results that exceed expectations.",
     testimonialName: "Ernest Griffith",
     testimonialImage: elissa
   },
   {
     shadowColor: "bg-[#4E81EC]",
-    review: "Partnering with SEO Company as our white label SEO company has been instrumental in our growth. Their tailored solutions and proactive support have allowed us to focus on client relationships while they handle the technical aspects flawlessly.",
+    review: "Hiring SEO Company as our WHITE LABEL SEO COMPANY has been instrumental in our growth. Their tailored solutions and proactive support have allowed us to focus on client relationships while they handle the technical aspects flawlessly.",
     testimonialName: "Carroll Marsh",
     testimonialImage: joe
   },
   {
     shadowColor: "bg-[#F5C228]",
-    review: "We've been collaborating with SEO Company for reseller SEO services and couldn't be happier. Their expertise and professionalism make them one of the industry's best White Label SEO FIRMS. Highly recommended for agencies looking to elevate their SEO offerings.",
+    review: "We've been collaborating with an SEO Company for RESELLER SEO SERVICES and couldn't be happier. Their expertise and professionalism make them one of the industry's best White Label SEO FIRMS. Highly recommended for agencies looking to elevate their SEO offerings.",
     testimonialName: "Roberto Bowen",
     testimonialImage: moses
   },
@@ -59,7 +59,7 @@ const dataTest=[
 // Why Choose Section Data
 const chooseData = [
     [icon1, "Clear Communication", "We build relationships based on integrity and trust. As the best eCommerce SEO agency, we deliver on our promises and always maintain clear communication."],
-    [icon2, "Customer-Centric Approach", "We prioritize our client's success by understanding your unique needs and delivering tailored solutions that drive results. As the best eCommerce SEO agency, our eCommerce SEO specialists are committed to providing personalized eCommerce SEO services that help your business flourish."],
+    [icon2, "Customer-Centric Approach", "We prioritize our client's success by understanding their unique needs delivering results. As the best eCommerce SEO agency, our eCommerce SEO specialists are committed to providing personalized eCommerce SEO services that help your business flourish."],
     [icon3, "Innovation and Excellence", "As the best eCommerce SEO agency, our eCommerce SEO specialists leverage the latest advancements to provide top-tier eCommerce SEO services that drive your business forward."],
   ];
 
@@ -68,7 +68,7 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Do you want to attract more customers to your store?"
-        title="Reach the Right Customers with Our Best eCommerce SEO Services"
+        title="Drive More Sales with Our Ecommerce SEO Services."
         desc="At SEO Company, we specialize in eCommerce SEO services designed to raise your online presence and attract more customers to your store. As the best eCommerce SEO agency, we partner with you to amplify your revenue through tailored strategies. By expertly targeting a wide range of keywords, our eCommerce SEO specialists ensure that more qualified buyers discover your products, leading to increased conversions and revenue."
         img={HeroImg}
         variant="default"
@@ -90,7 +90,7 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
-        title="Increase Your Online Sales, One Great <br class='lg:block hidden'/> SEO Strategy At a Time!"
+        title="Increase Your Online Sales, With Our <br class='lg:block hidden'/> Perfect SEO Strategy!"
         desc="Surviving and thriving in business is more challenging than ever. The competition is fierce with 90% of U.S. firms leveraging social media. That's where SEO Company comes in. As the best eCommerce SEO agency, we don't believe in cookie-cutter marketing."
         data={chooseData}   
         />
@@ -120,7 +120,7 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Our eCommerce SEO Expert is Just A Call Away"
+        title="Our Professional Ecommerce SEO Expert is Just A Call Away -"
         desc="We are the ultimate one-stop solution for all your digital marketing challenges. Our eCommerce SEO services are designed to tackle every problem your business faces online."
         />
       </div>
@@ -166,8 +166,7 @@ export default function Page() {
           <Contact
           title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
           Session with Our White Label <br className="hidden sm:block"/>
-          SEO Providers for the <br className="hidden sm:block"/>
-          <strong> Best Results</strong>`}
+         <strong> Providers </strong>`}
           />
         </div>
         <div className="xs:py-[50px] py-[90px]">

@@ -34,7 +34,7 @@ export default function Strategies() {
           Your Business
           </h2>
           <p className="max-w-[970px] mx-auto py-3 text-[14px] md:text-[16px]">
-          At SEO Company, we take the time to learn about your business in depth. Being one of the leading SEO service providers, here's how we draft the perfect formula to propel you to the top of search results:
+          At SEO Company, we take the time to learn about your business in depth. Being one of the leading SEO service providers, here's how we draft the perfect formula to increase your website ranks:
           </p>
         </div>
       </div>

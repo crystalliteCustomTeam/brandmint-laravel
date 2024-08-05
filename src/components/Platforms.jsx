@@ -16,8 +16,8 @@ import loader from "media/loader.png";
 
 export default function Platforms( {
     subTitle="Platform We Working With",
-    title=`Enter The Digital Era Now, <br className='hidden sm:block' />
-                    Else Wait For Miracle To Happen!`,
+    title=`How Our Social Media <br className='hidden sm:block' />
+                    Marketers Drive Business Outcomes?`,
     desc=`Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years,
                     there are certain    you wish to have, ALWAYS!`,
     variant = "slider", images = [one,
