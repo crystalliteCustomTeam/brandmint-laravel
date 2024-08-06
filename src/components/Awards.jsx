@@ -1,8 +1,8 @@
 // Components
-import {AutoScrollSlider} from "@/components";
+import { AutoScrollSlider } from "@/components";
 // Media
 import award1 from "media/awards/1.png";
-import award2 from "media/awards/2.png";
+// import award2 from "media/awards/2.png";
 import award3 from "media/awards/3.png";
 import award4 from "media/awards/4.png";
 import award5 from "media/awards/5.png";
@@ -17,20 +17,20 @@ const list = [
     listComapny: "Inc. Magazine 2018-2023",
   },
   {
-    listTitle: "Best Places to Work in South Florida",
-    listComapny: "SF Business Journal",
+    listTitle: "Premiere Google Ads Certified Partner",
+    listComapny: "4.7 ★ average review rating on Google with 110+ reviews",
   },
   {
     listTitle: "Fastest Growing Companies in North America 2020-2024",
-    listComapny: "Financial Times",
+    listComapny: "Recognized By Financial Times",
   },
   {
-    listTitle: "Hype Entrepreneur of the Year",
-    listComapny: "Greater Miami COC",
+    listTitle: "4.7 ★ average review rating on Featured Customers",
+    listComapny: "1,200+ reviews of satisfied clients",
   },
   {
-    listTitle: "50 Fastest Growing Companies in South Florida",
-    listComapny: "SF Business Journal 2017-2021",
+    listTitle: "50 Fastest Growing Companies in USA",
+    listComapny: "Awarded By Business Journal 2017-2021",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function Awards() {
             </div>
             <div>
               <AutoScrollSlider>
-                {[award1, award2, award3, award4, award5, award6, award7].map((e, i) => (
+                {[award1, award3, award4, award5, award6, award7].map((e, i) => (
                   <div key={i} className="grow-0 group shrink-0 basis-auto min-w-0 pl-4">
                     <Image tabIndex={0} key={i} src={e} alt="awards" className=" w-[300px]" />
                   </div>

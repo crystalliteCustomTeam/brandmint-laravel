@@ -54,8 +54,8 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Professional Search Engine Optimization Services"
-        title="That Grow Traffic, <br  class='hidden lg:block'/> Increase Revenue"
-        desc="Maximize your online presence and captivate your audience with BrandMint's cutting-edge digital marketing solutions. From SEO to social media, our expertise ensures your brand stands out."
+        title="Rank Your Website On <br  class='hidden lg:block'/> Top With Our SEO Services"
+        desc="Elevate your online presence with our expert SEO services. As a leading SEO agency, we deliver tailored strategies to propel your website to the top of search rankings."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
@@ -68,65 +68,74 @@ export default function Page() {
         <Awards />
       </div>
       <div>
-        <Platforms variant={"logo"} />
+        <Platforms variant={"logo"}
+          subTitle="Platform We Working With"
+          title={`How Our SEO Services <br className='hidden sm:block' />
+                        Drive More Leads For Your Business?`}
+          desc={`Our best SEO services boost your visibility, attracting targeted traffic and converting
+             visitors into valuable leads. As a top-tier SEO company, we optimize your online presence 
+             to fuel sustainable business growth and maximize ROI.`}
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} />
+        <Package id={1} desc="As the #1 SEO Company, we deliver cost-effective strategies that outperform your competitors. Our data-driven approach ensures maximum impact on your search rankings, driving traffic and success without draining your budget." />
       </div>
       <div>
         <ComboPackage />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <SmmServices />
+        <SmmServices
+          title={`Professional SEO Services That <br className="hidden sm:block"/> Grows Your Business`}
+          desc={`As the #1 SEO Company, we deliver cost-effective strategies that outperform your competitors. Our data-driven approach <br className="hidden lg:block'"/> ensures maximum impact on your search rankings, driving traffic and success without draining your budget.`}
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial data={dataTest} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Contact />
+        <Contact title={`Get your <strong>free 30 minutes </strong>strategy<br className="hidden sm:block"/>
+            session with Our Professional<br className="hidden sm:block"/>
+            SEO Expert valued at<br className="hidden sm:block"/>
+            <strong> $300 USD.</strong>`} />
       </div>
 
       <div className="xs:py-[50px] py-[90px]" >
-        <SeoSteps />
+        <SeoSteps
+          title={`Our 6 Step SEO Process That Makes Sure That Your <br className="2xl:block hidden" /> Website Ranks On Top Of SERP!`} />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
+        <CallAway CallAwayImage={CallAwayImageWomen} desc={`Ready to skyrocket your online presence? Our proven SEO strategies will propel your website to <br className="2xl:block hidden" /> the top of search results. Don't let competitors outrank you – Hire SEO company today!`} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <FAQs
           items={[
             {
-              title: "How long does SEO take to generate results?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              title: "How long does SEO take to see results?",
+              content: "SEO typically takes time to yield noticeable results, often several months depending on various factors such as competition, industry, and current website status."
             },
             {
-              title: "What Includes In on page SEO services?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              title: "What is included in on-page SEO services?",
+              content: "On-page SEO services encompass optimizing web content, meta tags, headings, and internal links to enhance search engine rankings and user experience."
             },
             {
-              title: "Why is SEO important for your business?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              title: "Why is SEO crucial for your business?",
+              content: "SEO is crucial for your business as it boosts online visibility, drives organic traffic, and enhances credibility and conversions."
             },
             {
-              title: "How Does Jumpto1 Carry Its SEO service delivery?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              title: "How does SEO Company execute its SEO service delivery?",
+              content: "SEO Company implements its SEO services through comprehensive strategies, including keyword research, content optimization, technical SEO, and ongoing adjustments."
             },
             {
-              title: "Why Should You Partner With Us?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+              title: "What are the benefits of partnering with us?",
+              content: "Partnering with us provides access to top-tier White Label SEO services, ensuring effective solutions for your clients without the need for in-house expertise."
             },
             {
               title: "Why is SEO important for your business?",
-              content:
-                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-            },
-          ]}
+              content: "SEO is essential for maintaining online visibility, attracting potential customers, and remaining competitive in today's digital scene."
+            }
+          ]
+          }
         />
       </div>
     </main>
