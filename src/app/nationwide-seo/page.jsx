@@ -82,6 +82,7 @@ export default function Page() {
                 imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
                 gridleft="col-span-12 lg:col-span-8"
                 gridright="col-span-12 md:col-span-4"
+                ctaText="Schedule a Consultation!"
             />
             <div className="xs:py-[50px] py-[90px]">
                 <Testimonial data={dataTest}/>
@@ -100,24 +101,28 @@ export default function Page() {
                 <div className="my-5">
                     <Content title={"What is Nationwide SEO?"} desc={"Nationwide SEO involves optimizing your online presence to reach a broad audience across the entire country. At SEO Company, our nationwide SEO services are designed to promote your brand beyond local confines. </br> </br>With the expertise of our national SEO experts, we implement cutting-edge strategies to ensure your business stands out in search results. As the best national SEO Company, we tailor our approach to meet your unique needs, driving growth and visibility on a national scale. Hire our national SEO expert to experience the transformative power of national SEO services and dominate the market from coast to coast."}
                         img1={ImageOne}
-                    />
+                        ctaText="Hire Our National SEO Experts Now!"
+                        />
                 </div>
 
                 <div className="my-5">
                     <Content direction="flex-row-reverse" title={"Benefits of Hiring Our Nationwide SEO Company for Your Business!"} desc={"SEO Company is the leading national SEO company that offers comprehensive nationwide SEO services to enhance your brand's visibility and reach. Our expert strategies attract a broader audience, increase organic traffic, and boost conversion rates. By choosing our services, you can ensure your business stays ahead of the competition and achieve sustainable growth."}
                         img1={ImageTwo}
-                    />
+                        ctaText="Call us now!"
+                        />
                 </div>
                 <div className="my-5">
                     <Content title={"How Can You Overcome Nationwide SEO Challenges for Greater Rewards?"} desc={"Creating a successful nationwide SEO strategy involves many attributes essential for making your brand recognizable. It begins with a well-devised marketing strategy where lead generation and nationwide SEO services are pivotal. Lead generation ensures a steady flow of quality leads essential for sales and growth. Despite challenges, nationwide SEO services offer substantial rewards. At SEO Company, we excel in enhancing online visibility through effective strategies like keyword optimization and SEO audits. "}
                         img1={ImageThree}
-                    />
+                        ctaText="Call us now!"
+                        />
                 </div>
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <CallAway
                     title="Dominate National Rankings with Our SEO Expertise"
                     desc="SEO Company offers expert national SEO services to maximize online visibility and drive results. <br/> Hire us now!"
+                    btnText="Call us now!"
                 />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
@@ -206,6 +211,7 @@ export default function Page() {
                     btnClass2="!bg-white !text-black"
                     title="Boost Your Rankings with Our National SEO Company - Call Us Now!"
                     desc="Contact us now to get started with our expert national SEO services and watch your business grow."
+                    btnText="Get started now!"
                 />
             </div>
             <div className="xs:py-[50px] py-[30px]">

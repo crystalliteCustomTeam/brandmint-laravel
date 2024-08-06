@@ -83,6 +83,7 @@ export default function Page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
+        ctaText="Get in Touch Now!"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Package 
@@ -110,6 +111,7 @@ export default function Page() {
             <br/><br/>
             Our SEO services for local businesses can enhance their visibility in local searches, making it the first choice for local customers. Effective local SEO services, be it for a cafe or bookstore, help businesses catch the eye of potential customers in their area.'
             img1={seoImg}
+            ctaText="Get Started!"
           />
         </div>
         <div className="my-5">
@@ -120,6 +122,7 @@ export default function Page() {
             Securing the services of a skilled local SEO firm is essential in a virtual market where a customer's visit could result from a single click. Employing practical local SEO for businesses puts your brand in the best position to draw in and interact with local searchers who are actively looking for what you have to offer."
             img1={BusinessSeoImg}
             direction="flex-row-reverse"
+            ctaText="Contact Us Now!"
           />
         </div>
         <div className="my-5">
@@ -127,6 +130,7 @@ export default function Page() {
             title="How Local SEO Services for Small Business Propel Your Lead Generation"
             desc="Getting into the core of an influential local SEO agency can significantly boost your brand's visibility. It all begins with establishing a strong marketing plan, where lead generation and local SEO services play a prominent role. Recognizing the importance of lead generation is essential for any business. Without a steady flow of quality leads, businesses, regardless of size, find it hard to secure sales and expand. Incorporating specialized SEO services for local businesses ensures your brand survives and excels in a competitive environment."
             img1={qualityLeadsImg}
+            ctaText="Call Us Now!"
           />
         </div>
       </div>
@@ -135,6 +139,7 @@ export default function Page() {
         <CallAway
           title="We Can’t Wait To Assist Your Business!"
           desc="Facing challenges? SEO Company is here to pull you into the spotlight."
+          btnText="Boost Your ROI!"
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -206,7 +211,8 @@ export default function Page() {
         <CallAway CallAwayImage={CallAwayImageWomen}
         title="Need Expert SEO Guidance? Get in Touch With Us Right Now!"
         desc="Fortune favors the bold — and SEO Company is ready to be your bold ally in the digital arena. As your ultimate one-stop SEO solution, we tackle every challenge your business encounters online with precision and expertise."
-         bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
+         bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" 
+         btnText="Unlock Your Potential!" btnText2="Contact Us" />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <FAQs

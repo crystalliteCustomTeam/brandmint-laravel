@@ -86,6 +86,7 @@ export default function Page() {
         bg={heroImg}
         marqueeCss="absolute bottom-[100px] left-0 right-0"
         spaceBottom="pb-[300px]"
+        ctaText="Contact us today for a free consultation!"
       />
       <div>
         <Process />
@@ -94,7 +95,7 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-          title="Our Top Website Design Specialists Are Just A Call Away!"
+          title="Our Website Design Specialists Are Just A Call Away!"
           desc="Is your website underperforming? We offer top-notch web design and development to tackle <br /> all your online challenges with appealing and  functional solutions."
         />
       </div>
@@ -102,7 +103,9 @@ export default function Page() {
         <Portfolio />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending." />
+        <Package id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending." 
+        btnText="Contact Us"
+        />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
@@ -122,6 +125,7 @@ export default function Page() {
         <Contact title={`Get your <strong>Exclusive 30 minutes </strong><br className="hidden sm:block"/>
             Website Design Consultation <br className="hidden sm:block"/>
             at No Cost—A<strong>  $300 Value!</strong>`}
+            btnText="Schedule Your Conference Now!"
         />
       </div>
 

@@ -13,6 +13,7 @@ export default function CallAway({
   btnClass="!bg-[#EC4139] !text-white", 
   btnClass2="!bg-white !text-black",
   btnText= "Get Started Now!",
+  btnText2= "Contact",
 }) {
   return (
     <section>
@@ -30,7 +31,7 @@ export default function CallAway({
                 <p className="2xl:text-[16px] text-[14px] leading-normal font-light  lg:max-w-[85%] xl:max-w-full" dangerouslySetInnerHTML={{__html: desc}} />
                 <div className="flex gap-4 mt-[20px] justify-center lg:justify-start">
                   <CTA text={btnText} className={`${btnClass}`} />
-                  <CTA text={"Contact"} variant="icon" icon={true} className={`${btnClass2}`} />
+                  <CTA text={btnText2} variant="icon" icon={true} className={`${btnClass2}`} />
                 </div>
               </div>
             </div>

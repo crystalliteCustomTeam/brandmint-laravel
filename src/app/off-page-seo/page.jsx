@@ -111,6 +111,7 @@ export default function Page() {
                 spaceBottom="pb-0"
                 marqueeCss="pb-[80px] pt-[50px] xs:pt-[50px] sm:pt-[80px]"
                 imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
+                ctaText="Get a Custom SEO Strategy!"
             />
             <div>
                 <Platforms variant={"logo"}
