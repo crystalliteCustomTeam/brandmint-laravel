@@ -1,5 +1,5 @@
 // Components
-import {CallAway, Contact, FAQs, Hero, Package, Testimonial} from "@/components";
+import { CallAway, Contact, FAQs, Hero, Package, Testimonial } from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/googleservicesHero.png";
@@ -15,7 +15,7 @@ import elissa from "media/testimonial/elissa.png";
 import joe from "media/testimonial/joe.png";
 import moses from "media/testimonial/moses.png";
 
-const dataTest=[
+const dataTest = [
   {
     shadowColor: "bg-[#4E81EC]",
     review: "Choosing SEO Company was a game-changer for my business. Their Google Screened Services not only boosted my online visibility but also instilled trust in potential customers. Highly recommend!",
@@ -70,22 +70,24 @@ export default function Page() {
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         gridleft="col-span-12 lg:col-span-7"
         gridright="col-span-12 lg:col-span-5"
+        ctaText="Call us today!"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial
-        title="Don’t Believe Us? See for Yourself"
-        desc="If you believe otherwise, see what our clients say about us."
-        data={dataTest}
+          title="Don’t Believe Us? See for Yourself"
+          desc="If you believe otherwise, see what our clients say about us."
+          data={dataTest}
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <GoogleServices/>
+        <GoogleServices />
       </div>
       <div className="xs:py-[50px] py-[60px]">
         <Content
           title="Build a Trusted Reputation with Our Google Screened Services"
           desc="We are here to inform you that your Google My Business soared above your competitors easily! That sounds fascinating, doesn’t it? Well, if your current GMB listing isn’t delivering the results you need, we are here to transform it into a top performer. <br/><br/> Whether it’s Google Screened Ads, or optimizing your Google Screened Business, our expertise ensures you stand out as a Google Screened Firm."
           img1={GoogleService1}
+          ctaText="Connect with us!"
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -94,6 +96,7 @@ export default function Page() {
           desc="At SEO Company, we specialize in Google Screened Services to promote your business."
           direction="flex-row-reverse"
           img1={GoogleService2}
+          ctaText="Ready to Connect?"
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -101,28 +104,30 @@ export default function Page() {
           title="Increase Your Credibility with Our Google Screened Services"
           desc="We make it easy for you to earn customer trust with the prestigious Google Screened Badge."
           img1={GoogleService3}
+          ctaText="Connect Now"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Our Google Screened Services Are Just a Call Away"
-        desc="Our Google Screened Services ensure your business stands out with the prestigious Google Screened Badge, furthering your credibility and trust."
+          title="Our Google Screened Services Are Just a Call Away"
+          desc="Our Google Screened Services ensure your business stands out with the prestigious Google Screened Badge, furthering your credibility and trust."
+          btnText="Let’s Connect!"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package 
-        id={1}
-        title={`Crush Your Competition Without <br class='hidden md:block' />
-                        <span class="text-[#E1183A]">Crushing Your Budget</span>`}
-        desc="At SEO Company, we deliver results-driven SEO services at unbeatable rates. Our tailored SEO packages are designed to fit your budget and business goals perfectly."
+        <Package
+          id={1}
+          title={`Crush Your Competition Without <br class='hidden md:block' />
+          <span class="text-[#E1183A]">Crushing Your Budget</span>`}
+          desc="At SEO Company, we deliver results-driven SEO services at unbeatable rates. Our tailored SEO packages are designed to fit your budget and business goals perfectly."
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Contact
-        title={`Claim Your <strong>Free 30-Minute </strong> <br className="hidden sm:block"/>
-        Google Screened Ads Strategy <br className="hidden sm:block"/>
-        Session At $300 Value from <br className="hidden sm:block"/>
-        <strong> Our Experts!</strong>`}
+          title={`Claim Your <strong>Free 30-Minute </strong> <br className="hidden sm:block"/>
+          Google Screened Ads Strategy <br className="hidden sm:block"/>
+          Session At $300 Value from <br className="hidden sm:block"/>
+          <strong> Our Experts!</strong>`}
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">

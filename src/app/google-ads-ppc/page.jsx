@@ -83,25 +83,27 @@ export default function Page() {
         spaceBottom="pb-0"
         marqueeCss="py-[80px] md:pb-[100px] "
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
-      />
+        ctaText="Get Started Now!"
+        />
       <ImageComponent />
       <div className="xs:py-[50px] py-[90px]">
         <Package
           id={1}
           title={`Convert Browsers into Buyers With Our  <br class='hidden md:block' />
-          <span class="text-[#E1183A]">Google Ads Services</span>`}
-          desc="Engage your target audience with Google Ads, capturing more leads by featuring prominently on Google’s first page, where interested users are already searching for your offer. "
-        />
+            <span class="text-[#E1183A]">Google Ads Services</span>`}
+            desc="Engage your target audience with Google Ads, capturing more leads by featuring prominently on Google’s first page, where interested users are already searching for your offer. "
+            />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
           title="All You Got To Do Is Reach Out To Our Google Ads Experts!"
           desc="With SEO Company by your side, all your online business hurdles are history. Experience the best Google ad service today."
+          btnText="Give Us a Ring!"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
-          subTitle="Ready to attract more qualified leads and dominate the first page of Google?"
+          subTitle="Ready to attract more qualified leads?"
           title="Here’s What You Get With Our <br class='lg:block hidden'/> Google Ads Services"
           desc="Our Google Advertising Services can help attract more qualified leads. We offer an all-around PPC (pay-per-click) solution, encompassing everything from Google PPC services to expert ad management service and campaign optimization."
           data={chooseData}

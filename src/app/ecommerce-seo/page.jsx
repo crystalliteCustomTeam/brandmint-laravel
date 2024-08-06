@@ -17,7 +17,7 @@ import icon1 from "media/social-media-marketing/speech-bubble.png";
 import icon2 from "media/social-media-marketing/customer-centric-approch.png";
 import icon3 from "media/social-media-marketing/great-idea.png";
 
-const dataTest=[
+const dataTest = [
   {
     shadowColor: "bg-[#4E81EC]",
     review: "Working with an SEO Company has been a game-changer for our agency. Their WHITE LABEL SEO SERVICES are top-notch, allowing us to scale our offerings without compromising quality. Highly recommended for digital marketers looking to boost client satisfaction and profitability.",
@@ -58,10 +58,10 @@ const dataTest=[
 
 // Why Choose Section Data
 const chooseData = [
-    [icon1, "Clear Communication", "We build relationships based on integrity and trust. As the best eCommerce SEO agency, we deliver on our promises and always maintain clear communication."],
-    [icon2, "Customer-Centric Approach", "We prioritize our client's success by understanding their unique needs delivering results. As the best eCommerce SEO agency, our eCommerce SEO specialists are committed to providing personalized eCommerce SEO services that help your business flourish."],
-    [icon3, "Innovation and Excellence", "As the best eCommerce SEO agency, our eCommerce SEO specialists leverage the latest advancements to provide top-tier eCommerce SEO services that drive your business forward."],
-  ];
+  [icon1, "Clear Communication", "We build relationships based on integrity and trust. As the best eCommerce SEO agency, we deliver on our promises and always maintain clear communication."],
+  [icon2, "Customer-Centric Approach", "We prioritize our client's success by understanding their unique needs delivering results. As the best eCommerce SEO agency, our eCommerce SEO specialists are committed to providing personalized eCommerce SEO services that help your business flourish."],
+  [icon3, "Innovation and Excellence", "As the best eCommerce SEO agency, our eCommerce SEO specialists leverage the latest advancements to provide top-tier eCommerce SEO services that drive your business forward."],
+];
 
 export default function Page() {
   return (
@@ -77,12 +77,13 @@ export default function Page() {
         spaceBottom="pb-0"
         marqueeCss="py-[80px] md:pb-[100px] "
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
+        ctaText="Hire us!"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial
-        title="Don’t Believe Us?"
-        desc="See what our customers have to say about us"
-        data={dataTest}
+          title="Don’t Believe Us?"
+          desc="See what our customers have to say about us"
+          data={dataTest}
         />
       </div>
       <div>
@@ -90,9 +91,9 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
-        title="Increase Your Online Sales, With Our <br class='lg:block hidden'/> Perfect SEO Strategy!"
-        desc="Surviving and thriving in business is more challenging than ever. The competition is fierce with 90% of U.S. firms leveraging social media. That's where SEO Company comes in. As the best eCommerce SEO agency, we don't believe in cookie-cutter marketing."
-        data={chooseData}   
+          title="Increase Your Online Sales, With Our <br class='lg:block hidden'/> Perfect SEO Strategy!"
+          desc="Surviving and thriving in business is more challenging than ever. The competition is fierce with 90% of U.S. firms leveraging social media. That's where SEO Company comes in. As the best eCommerce SEO agency, we don't believe in cookie-cutter marketing."
+          data={chooseData}
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -103,6 +104,7 @@ export default function Page() {
               "Despite SEO offering the highest ROI among eCommerce marketing strategies, many online stores neglect search engine optimization, favoring social media marketing or other paid ads. However, SEO delivers consistent, high-converting traffic that other methods can't match.<br/> <br/> The SEO Company offers eCommerce SEO services to improve product rankings for target audience keywords. They understand SEO is a one-time effort, delivering autopilot sales with no ongoing expenses and conducting comprehensive audits for business growth."
             }
             img1={Ecommerce1}
+            ctaText="Book Your SEO Strategy Session!"
           />
         </div>
 
@@ -114,14 +116,16 @@ export default function Page() {
             }
             img1={Ecommerce2}
             direction="flex-row-reverse"
+            ctaText="Talk to Our SEO Specialists!"
           />
         </div>
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Our Professional Ecommerce SEO Expert is Just A Call Away -"
-        desc="We are the ultimate one-stop solution for all your digital marketing challenges. Our eCommerce SEO services are designed to tackle every problem your business faces online."
+          title="Our Professional Ecommerce SEO Expert is Just A Call Away"
+          desc="We are the ultimate one-stop solution for all your digital marketing challenges. Our eCommerce SEO services are designed to tackle every problem your business faces online."
+          btnText="Hire Our SEO Team!"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
@@ -160,13 +164,14 @@ export default function Page() {
           ]}
         />
         <div className="xs:py-[50px] py-[90px] ">
-          <EcommerceVersatileSteps/>
+          <EcommerceVersatileSteps />
         </div>
         <div className="xs:py-[50px] py-[90px]">
           <Contact
-          title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
-          Session with Our White Label <br className="hidden sm:block"/>
-         <strong> Providers </strong>`}
+            title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
+            Session with Our White Label <br className="hidden sm:block"/>
+            <strong> Providers </strong>`}
+            btnText="Get Started with eCommerce SEO Now!"
           />
         </div>
         <div className="xs:py-[50px] py-[90px]">

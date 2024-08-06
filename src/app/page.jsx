@@ -101,6 +101,7 @@ export default function Page() {
           bg= "bg-[#E1183A] rounded-[40px]"
           btnClass="!bg-[#202124] !text-white"
           btnClass2="!bg-white !text-black"
+          btnText2="Call Us Now!"
         />
       </div>
    

@@ -75,6 +75,7 @@ export default function Page() {
           spaceBottom="pb-[150px] sm:pb-[200px] xl:pb-[250px]"
           marqueeCss="relative top-[-70px] z-10"
           titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
+          ctaText="Call us now!"
         />
       </div>
       <div className="py-[80px]">

@@ -8,6 +8,7 @@ const Package = ({
     title =`Break Your Competition Without <br class='hidden md:block' />
                         <span class="text-[#E1183A]">Breaking Your Bank!</span>`,
     desc,
+    btnText='Call Us'
  }) => {
     return (
         <section className="packages">
@@ -68,7 +69,7 @@ const Package = ({
                                                 <div className="flex justify-center">
                                                     <div className="inline-flex mt-5 justify-center group w-full">
                                                         <CTA text={'Order Now'} className="xl:!w-full md:!w-max !w-full z-10 transition-all duration-300 ease-in-out !px-6 !xl:px-10 group-hover:bg-[rgb(255,255,255)] group-hover:opacity-[5px] group-hover:!pr-[60px] group-hover:text-[#000]" />
-                                                        <CTA text={'Call Us'} variant='icon' icon={true} className="xl:!w-full md:!w-max !w-full ml-[-40px] transition-all duration-300 ease-in-out 2xl:!pl-[60px] !pl-[50px] group-hover:!pl-[30px] group-hover:z-50" />
+                                                        <CTA text={btnText} variant='icon' icon={true} className="xl:!w-full md:!w-max !w-full ml-[-40px] transition-all duration-300 ease-in-out 2xl:!pl-[60px] !pl-[50px] group-hover:!pl-[30px] group-hover:z-50" />
                                                     </div>
                                                 </div>
                                             </div>

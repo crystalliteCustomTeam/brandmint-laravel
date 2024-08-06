@@ -10,7 +10,8 @@ export default function Contact({
     title=`Get your <strong>free 30 minutes </strong>strategy<br className="hidden sm:block"/>
             session with an experienced<br className="hidden sm:block"/>
             digital marketer valued at<br className="hidden sm:block"/>
-            <strong> $300 USD.</strong>`
+            <strong> $300 USD.</strong>`,
+    btnText="Get My Free 30 Minutes Strategy Session"
 }) {
     return (
         <section>
@@ -39,7 +40,7 @@ export default function Contact({
                                 </div>
                             </form>
                             <Button className="w-full flex items-center justify-between mt-20 !bg-[#E1183A] h-[55px] group">
-                                <span className="xs:text-[14px] text-[18px]">Get My Free 30 Minutes Strategy Session</span>
+                                <span className="xs:text-[14px] text-[18px]">{btnText}</span>
                                 <Image src={buttonImage} alt="SEO company" className="hidden sm:block group-hover:rotate-45 transition-transform duration-500 " width={41} height={41}/>
                             </Button>
                         </div>

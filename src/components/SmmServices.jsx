@@ -10,16 +10,19 @@ import Seven from "media/smmSeven.png"
 import Eight from "media/smmEght.png"
 import Nine from "media/smmNine.png"
 
-export default function SmmServices() {
+export default function SmmServices({
+    title = `Social Media Advertising Services <br className="hidden lg:block'"/>
+                            That Grows Your Business`,
+    desc = `Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block'"/>
+                            More Clients For Your Business!`
+}) {
     return (
         <section>
             <div>
                 <div className="container">
                     <div>
-                        <h2 className="text-[25px] md:text-[35px] lg:text-[40px] 2xl:text-[50px] font-semibold leading-snug text-center">Social Media Advertising Services <br className="hidden lg:block'"/>
-                            That Grows Your Business</h2>
-                        <p className=" text-[14px] xl:text-[16px] font-light text-center mt-5">Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block'"/>
-                            More Clients For Your Business!</p>
+                        <h2 className="text-[25px] md:text-[35px] lg:text-[40px] 2xl:text-[50px] font-semibold leading-snug text-center" dangerouslySetInnerHTML={{ __html: title }} />
+                        <p className=" text-[14px] xl:text-[16px] font-light text-center mt-5" dangerouslySetInnerHTML={{ __html: desc }} />
                     </div>
                     <div className="grid xs:grid-cols-1  grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
                         <COLORCARD
@@ -31,14 +34,14 @@ export default function SmmServices() {
                         />
                         <COLORCARD
                             title="Link Building"
-                            description="If your target audience is present on YouTube, then our experts cash bring you closer to your visual marketing goal. We bring you subscriptions, likes, and shares on your videos or channels with carefully targeted captions and tags."
+                            description="Our SEO services excel in strategic link building, a crucial aspect of off-page SEO. We acquire high-quality backlinks from authoritative sources, boosting your site's credibility and search rankings for long-term success."
                             btnColor="!bg-[#EF7D80]"
                             btnText="Get Started"
                             image={Two}
                         />
                         <COLORCARD
                             title="Technical SEO"
-                            description="Instagram is home to billions of active users scrolling through news feeds every day. We bring your brand closer to your audience with Instagram availability with thousands of daily views and interactions with potential customers."
+                            description="Optimize your site's foundation with our technical SEO expertise. We enhance site speed, mobile-friendliness, and crawlability, ensuring search engines easily index and rank your content. Boost performance and user experience simultaneously."
                             btnColor="!bg-[#6FC683]"
                             btnText="Get Started"
                             image={Three}
@@ -46,42 +49,42 @@ export default function SmmServices() {
 
                         <COLORCARD
                             title="Local SEO"
-                            description="Our team of professional in-house Twitter marketing experts, media strategists, and content creators drive attention by building brand awareness, influencer relations, and follower engagement."
+                            description="Dominate your local market with our targeted local SEO strategies. We optimize your Google Business Profile, manage citations, and create location-specific content to boost visibility in local searches and attract nearby customers."
                             btnColor="!bg-[#545051]"
                             btnText="Get Started"
                             image={Four}
                         />
                         <COLORCARD
                             title="On-Page SEO"
-                            description="If your target audience is present on YouTube, then our experts cash bring you closer to your visual marketing goal. We bring you subscriptions, likes, and shares on your videos or channels with carefully targeted captions and tags."
+                            description="At SEO Company, we perfect your on-page elements. From optimizing meta tags and content to enhancing site structure and internal linking, we ensure every page maximizes its potential for higher rankings."
                             btnColor="!bg-[#E1C044]"
                             btnText="Get Started"
                             image={Five}
                         />
                         <COLORCARD
                             title="Off-Page SEO"
-                            description="Instagram is home to billions of active users scrolling through news feeds every day. We bring your brand closer to your audience with Instagram availability with thousands of daily views and interactions with potential customers."
+                            description="Elevate your online authority through our comprehensive off-page SEO strategies. We focus on robust link building, brand mentions, and social signals to boost your site's credibility and improve search rankings across the web."
                             btnColor="!bg-[#56BFFF]"
                             btnText="Get Started"
                             image={Six}
                         />
                         <COLORCARD
                             title="Shopify SEO"
-                            description="Keyword Research & Strategy Keyword Research serves as the lifeline of Search Engine Optimization efforts. Our SEO company has a team of professional and highly skilled digital marketing "
+                            description="As a specialized SEO service provider, we optimize your Shopify store for maximum visibility. We enhance product pages, streamline site structure, and improve technical elements to boost your e-commerce rankings and drive more sales."
                             btnColor="!bg-[#FE8F9B]"
                             btnText="Get Started"
                             image={Seven}
                         />
                         <COLORCARD
                             title="Ecommerce SEO"
-                            description="If your target audience is present on YouTube, then our experts cash bring you closer to your visual marketing goal. We bring you subscriptions, likes, and shares on your videos or channels with carefully targeted captions and tags."
+                            description="Boost your online store's visibility and sales with our tailored ecommerce SEO strategies. We optimize product pages, enhance site structure, improve user experience, and implement schema markup to drive targeted traffic and increase conversions."
                             btnColor="!bg-[#63BD7E]"
                             btnText="Get Started"
                             image={Eight}
                         />
                         <COLORCARD
                             title="Content Writing"
-                            description="If your target audience is present on YouTube, then our experts cash bring you closer to your visual marketing goal. We bring you subscriptions, likes, and shares on your videos or channels with carefully targeted captions and tags."
+                            description="Engage your audience and boost SEO with our expert content writing services. We craft compelling, keyword-optimized articles, blog posts, and web copy that inform, persuade, and drive organic traffic to your site."
                             btnColor="!bg-[#545051]"
                             btnText="Get Started"
                             image={Nine}

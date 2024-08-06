@@ -30,7 +30,7 @@ export default function Portfolio() {
             </div>
             <div className="col-span-12 relative">
               <Image src={Portfolio3} alt="SEO company Portfolio" className="w-full" width={1000} height={500} quality={95} />
-              <CTA text={"View More Website Portfolio"} variant="icon" icon={true} className="!bg-[#414141] hover:!bg-[#EC4139] md:absolute static xl:left-[38%] lg:left-[34%] md:left-[30%] lg:bottom-16 md:bottom-10 mx-auto mt-5 md:mt-0" />
+              <CTA text={"See Our Portfolio to Learn More"} variant="icon" icon={true} className="!bg-[#414141] hover:!bg-[#EC4139] md:absolute static xl:left-[38%] lg:left-[34%] md:left-[30%] lg:bottom-16 md:bottom-10 mx-auto mt-5 md:mt-0" />
             </div>
           </div>
 
