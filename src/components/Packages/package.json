@@ -1,9 +1,10 @@
-{
-    "id": 1,
+{ 
+        "id": 1,
     "package": [
         {
             "name": "Annually",
             "upto": "40%",
+            "duration": "Per Month",
             "list": [
                 {
                     "name": "Basic",
@@ -133,6 +134,7 @@
         {
             "name": "Quarterly",
             "upto": "30%",
+            "duration": "Per Month",
             "list": [
                 {
                     "name": "Basic",
@@ -262,6 +264,7 @@
         {
             "name": "Monthly",
             "upto": "10%",
+            "duration": "Per Month",
             "list": [
                 {
                     "name": "Basic",

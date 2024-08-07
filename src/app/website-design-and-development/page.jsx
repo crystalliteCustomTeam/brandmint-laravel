@@ -16,6 +16,7 @@ import moses from "media/testimonial/moses.png";
 import icon1 from "media/social-media-marketing/speech-bubble.png";
 import icon2 from "media/social-media-marketing/customer-centric-approch.png";
 import icon3 from "media/social-media-marketing/great-idea.png";
+import PackageWeb from "@/components/Packages-web/PackageWeb";
 
 export default function Page() {
   // const [marqueeTheme, setMarqueeTheme] = useState("dark");
@@ -103,7 +104,7 @@ export default function Page() {
         <Portfolio />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending." 
+        <PackageWeb id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending." 
         btnText="Contact Us"
         />
       </div>

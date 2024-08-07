@@ -1,9 +1,9 @@
 import check from "media/home/check-mark.svg"
 import { CTA, Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/index";
-import data from "./package.json"
+import data from "./package-web.json"
 import Image from "next/image";
 
-const Package = ({ 
+const PackageWeb = ({ 
     id,
     title =`Break Your Competition Without <br class='hidden md:block' />
                         <span class="text-[#E1183A]">Breaking Your Bank!</span>`,
@@ -21,29 +21,16 @@ const Package = ({
                         {desc}
                     </p>
                 </div>
-                <Tabs defaultValue="Annually" className="mt-16 text-center">
-                    <TabsList className="bg-[#000000] rounded-[50px] flex md:inline-flex mb-[50px]">
-                        {(data.id === id) && data.package.map(({ name, upto }, i) => (
-                            <TabsTrigger key={i} value={name} className="data-[state=active]:bg-[#EC4139] data-[state=active]:text-white  bg-transparent rounded-[50px]
-                  border-[#F3F3F3] text-[14px] md:text-[16px] lg:text-[18px] text-[#CBCBCB] px-[22px] md:px-[55px] lg:px-[85px] py-[4px] md:py-[8px] lg:py-[10px] flex-1 md:flex-auto">
-                                <div className=" font-bold">
-                                    {name}
-                                </div>
-                                <div>
-                                    <span>Save {upto}</span>
-                                </div>
-                            </TabsTrigger>
-                        ))}
-                    </TabsList>
+                <div defaultValue="Annually" className="mt-16 text-center">
                     <div className="xl:col-span-8 col-span-12 text-left">
                         {(data.id === id) && data.package.map(({ name, list,duration }, i) => (
-                            <TabsContent key={i} value={name} className="grid grid-cols-1 items-center">
+                            <div key={i} value={name} className="grid grid-cols-1 items-center">
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 md:gap-5">
                                     {
                                         list && list?.map((item, i) => (
                                             <div className="bg-[#F2F2F2] even:bg-[#0085F8] even:text-white rounded-[26px] px-[25px]  xl:px-[30px] py-[30px] even:py-[30px] relative" key={i}>
                                                 <p className="text-[18px] sm:text-[20px]">{item.name} Plan</p>
-                                                <p className="text-[35px] lg:text-[50px]">${item.price} <span className="text-[20px] sm:text-[23px]">{duration}</span></p>
+                                                <p className="text-[30px] xl:text-[40px] 2xl:text-[50px]">${item.price} <span className="text-[16px] xl:text-[20px] 2xl:text-[23px]">{duration}</span></p>
                                                 <p className="text-[14px]">{item.desc}</p>
                                                 <div className="bg-white !text-black rounded-[26px] p-[27px] mt-[25px]">
                                                     <div className="h-[328px] overflow-y-scroll custom-scrollbar">
@@ -79,12 +66,12 @@ const Package = ({
 
                                 </div>
 
-                            </TabsContent>
+                            </div>
                         ))}
                     </div>
-                </Tabs>
+                </div>
             </div>
         </section>
     )
 }
-export default Package;
+export default PackageWeb;

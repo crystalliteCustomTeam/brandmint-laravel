@@ -1,0 +1,120 @@
+{
+        "id": 1,
+    "package": [
+        {
+            "name": "Annually",
+            "upto": "40%",
+            "duration": "One-Time Fee",
+            "list": [
+                {
+                    "name": "Basic",
+                    "price": "999",
+                    "desc": "Perfect for startups and small businesses needing a professional website.",
+                    "items": [
+                        {
+                            "Design & Development": [
+                                "Custom Website Design: Tailored to reflect your brand",
+                                "Responsive Design: Optimized for all devices",
+                                "Up to 5 Pages: Includes homepage, about us, services, contact, and blog"
+                            ],
+                            "Content": [
+                                "1 Article (400 words): Professionally written content",
+                                "1 Blog Post (500 words): Engaging and relevant content"
+                            ],
+                            "Website Features": [
+                                "CMS Integration: User-friendly platform for content management",
+                                "Meta Tags Creation: Basic SEO tags for visibility",
+                                "Contact Form: Basic integration for customer inquiries"
+                            ],
+                            "Support": [
+                                "1 Revision Round: Minor adjustments based on feedback",
+                                "30 Days Post-Launch Support: Addressing initial issues and updates"
+                            ],
+                            "Reporting": [
+                                "Basic Analytics Setup: Google Analytics integration for performance tracking"
+                            ],
+                            "Features": [
+                                "24/7 Support: Email and chat support",
+                                "Client Dashboard Access: View project progress and updates 100% Satisfaction Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard",
+                    "price": "2,499",
+                    "desc": "Ideal for established businesses seeking a more robust web solution.",
+                    "items": [
+                        {
+                            "Design & Development": [
+                                "Custom Website Design: Advanced design elements with enhanced functionality",
+                                "Responsive Design: Fully optimized for all devices",
+                                "Up to 10 Pages: Includes additional custom pages"
+                            ],
+                            "Content": [
+                                "2 Articles (400 words each): High-quality, tailored content",
+                                "2 Blog Posts (500 words each): Engaging and strategic content"
+                            ],
+                            "Website Features": [
+                                "CMS Integration: Robust platform with extended features",
+                                "Meta Tags Creation: Comprehensive SEO tags for better visibility",
+                                "Contact Form Integration: For efficient customer communication",
+                                "Social Media Integration: Links to your social media profiles"
+                            ],
+                            "Support": [
+                                "2 Revision Rounds: Extensive adjustments based on feedback",
+                                "60 Days Post-Launch Support: Ongoing support for updates and minor changes"
+                            ],
+                            "Reporting": [
+                                "Advanced Analytics Setup: Detailed performance tracking and reporting"
+                            ],
+                            "Features": [
+                                "24/7 Support: Phone, email, and chat support",
+                                "Client Dashboard Access: Detailed project and performance view",
+                                "CDedicated Project Manager: Personal point of contact for support 100% Satisfaction Guarantee"
+                            ]
+                        }
+                    ]
+                },
+                {   
+                    "name": "Professional",
+                    "price": "34,999",
+                    "desc": "For businesses needing a high-end, custom website with advanced features.",
+                    "items": [
+                        {
+                            "Design & Development": [
+                                "Bespoke Website Design: Completely custom design with advanced functionalities",
+                                "Responsive Design: Optimized with custom animations and interactions",
+                                "Unlimited Pages: Includes all necessary pages and custom functionalities"
+                            ],
+                            "Content": [
+                                "4 Articles (400 words each): In-depth, professionally written content",
+                                "4 Blog Posts (500 words each): High-quality, engaging content"
+                            ],
+                            "Website Features": [
+                                "Custom CMS Integration: Advanced platform tailored to your needs",
+                                "Meta Tags Creation: Extensive optimization for maximum visibility",
+                                "E-commerce Integration: For online sales and transactions (if applicable)",
+                                "Advanced Contact Form: Enhanced features for customer interactions",
+                                "Social Media Integration: Comprehensive integration for all platforms"
+                            ],
+                            "Support": [
+                                "3 Revision Rounds: Comprehensive adjustments based on feedback",
+                                "90 Days Post-Launch Support: Extensive support for ongoing needs and updates"
+                            ],
+                            "Reporting": [
+                                "Advanced Analytics Setup: In-depth performance insights and comprehensive reporting"
+                            ],
+                            "Features": [
+                                "24/7 Premium Support: Priority phone, email, and chat support",
+                                "Client Dashboard Access: Full visibility into project and performance metrics",
+                                "Dedicated Project Manager: Personalized management and support 100% Satisfaction Guarantee"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+    
+}
