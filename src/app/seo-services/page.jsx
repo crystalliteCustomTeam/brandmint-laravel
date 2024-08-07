@@ -4,6 +4,13 @@ import HeroImg from "media/seoservicesHero.png";
 import CallAwayImageWomen from "media/callaway/women.png";
 import SeoSteps from "@/components/SeoSteps";
 
+import one from "media/seo-services-hurdles/1.png";
+import two from "media/seo-services-hurdles/2.png";
+import three from "media/seo-services-hurdles/3.png";
+import four from "media/seo-services-hurdles/4.png";
+import five from "media/seo-services-hurdles/5.png";
+import six from "media/seo-services-hurdles/6.png";
+
 import philip from "media/testimonial/philip.png";
 import chris from "media/testimonial/chris.png";
 import bilal from "media/testimonial/bilal.png";
@@ -69,12 +76,21 @@ export default function Page() {
       </div>
       <div>
         <Platforms variant={"logo"}
-          subTitle="Platform We Working With"
           title={`How Our SEO Services <br className='hidden sm:block' />
                         Drive More Leads For Your Business?`}
           desc={`Our best SEO services boost your visibility, attracting targeted traffic and converting
              visitors into valuable leads. As a top-tier SEO company, we optimize your online presence 
              to fuel sustainable business growth and maximize ROI.`}
+             images={
+              [
+                  one,
+                  two,
+                  three,
+                  four,
+                  five,
+                  six,
+              ]
+            }
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
