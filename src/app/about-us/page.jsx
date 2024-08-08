@@ -13,50 +13,50 @@ import moses from "media/testimonial/moses.png";
 
 const dataTest = [
     {
-      shadowColor: "bg-[#4E81EC]",
-      review: "SEO Company has completely transformed our online presence. Their advanced SEO tactics have boosted our website's traffic and increased our conversions immensely. Their expertise in keyword research, content optimization, and link-building is unmatched. Highly recommend their services!",
-      testimonialImage: philip,
-      testimonialName: "Philip",
+        shadowColor: "bg-[#4E81EC]",
+        review: "SEO Company has completely transformed our online presence. Their advanced SEO tactics have boosted our website's traffic and increased our conversions immensely. Their expertise in keyword research, content optimization, and link-building is unmatched. Highly recommend their services!",
+        testimonialImage: philip,
+        testimonialName: "Philip",
     },
     {
-      shadowColor: "bg-[#E1183A]",
-      review: "SEO Company has been a game-changer. Their all-around SEO strategies helped us rank higher on search engines and attract more visitors. Their team is super knowledgeable and always ready to help. Five stars!",
-      testimonialImage: chris,
-      testimonialName: "Chris",
+        shadowColor: "bg-[#E1183A]",
+        review: "SEO Company has been a game-changer. Their all-around SEO strategies helped us rank higher on search engines and attract more visitors. Their team is super knowledgeable and always ready to help. Five stars!",
+        testimonialImage: chris,
+        testimonialName: "Chris",
     },
     {
-      shadowColor: "bg-[#F5C228]",
-      review: "If you're looking for professional SEO services that deliver real results, SEO Company is your place to go. Their advanced SEO tactics and commitment to understanding our business have propelled us to the top of search results. Their team is amazing, and their services are worth every penny.",
-      testimonialImage: bilal,
-      testimonialName: "Bilal",
+        shadowColor: "bg-[#F5C228]",
+        review: "If you're looking for professional SEO services that deliver real results, SEO Company is your place to go. Their advanced SEO tactics and commitment to understanding our business have propelled us to the top of search results. Their team is amazing, and their services are worth every penny.",
+        testimonialImage: bilal,
+        testimonialName: "Bilal",
     },
     {
-      shadowColor: "bg-[#24BF5A]",
-      review: "I can't say enough good things about SEO Company. Their SEO strategies are well-planned, and work wonders for our search rankings. Their monthly updates keep us informed and confident. Highly recommended!",
-      testimonialImage: elissa,
-      testimonialName: "Elissa Kidarshan",
+        shadowColor: "bg-[#24BF5A]",
+        review: "I can't say enough good things about SEO Company. Their SEO strategies are well-planned, and work wonders for our search rankings. Their monthly updates keep us informed and confident. Highly recommended!",
+        testimonialImage: elissa,
+        testimonialName: "Elissa Kidarshan",
     },
     {
-      shadowColor: "bg-[#4E81EC]",
-      review: "If you want SEO services that really work, go with SEO Company. Their advanced SEO tactics and deep understanding of our business got us to the top of search results. Their team is awesome, and their services are worth every penny.",
-      testimonialImage: joe,
-      testimonialName: "Joe Francis",
+        shadowColor: "bg-[#4E81EC]",
+        review: "If you want SEO services that really work, go with SEO Company. Their advanced SEO tactics and deep understanding of our business got us to the top of search results. Their team is awesome, and their services are worth every penny.",
+        testimonialImage: joe,
+        testimonialName: "Joe Francis",
     },
     {
-      shadowColor: "bg-[#F5C228]",
-      review: "SEO Company has a proven success record, and we’ve seen it ourselves. Their custom SEO plans helped us reach our target audience better, and their ongoing support ensures we keep growing. They're the best SEO firm out there.",
-      testimonialImage: moses,
-      testimonialName: "Moses",
+        shadowColor: "bg-[#F5C228]",
+        review: "SEO Company has a proven success record, and we’ve seen it ourselves. Their custom SEO plans helped us reach our target audience better, and their ongoing support ensures we keep growing. They're the best SEO firm out there.",
+        testimonialImage: moses,
+        testimonialName: "Moses",
     },
-  ];
+];
 
 export default function Page() {
     return (
         <main>
             <Hero
                 subTitle="About Us"
-                title="Internet Marketing Expertise That <br/> Brings Quantifiable Results"
-                desc="Our Multifaceted Digital Marketing Solutions Helps Business Succeed and Make an Impact on the Digital Realm"
+                title="SEO Company That Drives Measurable Results"
+                desc="Our SEO Solutions Help Businesses Succeed and Dominate the Digital Landscape"
                 img={HeroImg}
                 variant="default"
                 marqueeTheme="light"
@@ -89,34 +89,34 @@ export default function Page() {
                 <FAQs
                     items={[
                         {
-                            title: "How long does SEO take to generate results?",
+                            title: "How long does SEO take to see results?",
                             content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                                "SEO typically takes time to yield noticeable results, often several months depending on various factors such as competition, industry, and current website status.",
                         },
                         {
-                            title: "What Includes In on page SEO services?",
+                            title: "What is included in on-page SEO services?",
                             content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                                "On-page SEO services encompass optimizing web content, meta tags, headings, and internal links to enhance search engine rankings and user experience.",
+                        },
+                        {
+                            title: "Why is SEO crucial for your business?",
+                            content:
+                                "SEO is crucial for your business as it boosts online visibility, drives organic traffic, and enhances credibility and conversions",
+                        },
+                        {
+                            title: "How does SEO Company execute its SEO service delivery?",
+                            content:
+                                "SEO Company implements its SEO services through comprehensive strategies, including keyword research, content optimization, technical SEO, and ongoing adjustments.",
+                        },
+                        {
+                            title: "What are the benefits of partnering with us?",
+                            content:
+                                "Partnering with us provides access to top-tier White Label SEO services, ensuring effective solutions for your clients without the need for in-house expertise.",
                         },
                         {
                             title: "Why is SEO important for your business?",
                             content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-                        },
-                        {
-                            title: "How Does Jumpto1 Carry Its SEO service delivery?",
-                            content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-                        },
-                        {
-                            title: "Why Should You Partner With Us?",
-                            content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
-                        },
-                        {
-                            title: "Why is SEO important for your business?",
-                            content:
-                                "<strong>1. Dedicated team:</strong> Animation Studios literally gives your marketing and creative teams superpowers. You can rapidly bring any idea to life and make it work for your business. <br /> <br /> <strong>2. Fully managed:</strong> Skip the hassle of managing video production on your own and plan, shoot, edit, and produce your content through Animation Studios. <br /> <br /> <strong>3. Results-first:</strong> We’ve battle-tested what works and what doesn’t work over hundreds of different campaigns and for a variety of different businesses and industries.",
+                                "SEO is essential for maintaining online visibility, attracting potential customers, and remaining competitive in today's digital scene.",
                         },
                     ]}
                 />

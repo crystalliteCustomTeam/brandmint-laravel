@@ -18,11 +18,7 @@ export default function Footer() {
                   <Image src={logo} alt="SEO company" width={200} height={40} className="brightness-0 invert mb-5" />
                 </Link>
                 <p className="lg:text-[15px] text-[14px] leading-[25px] lg:leading-[30px] font-normal text-white mb-10">
-<<<<<<< HEAD
                   SEO Company is a full service digital marketing agency that offers a multitude of advertising solutions for various industry verticals. The company aims at making businesses successful
-=======
-                  SEO Comapany is a full service digital marketing agency that offers a multitude of advertising solutions for various industry verticals. The company aims at making businesses successful
->>>>>>> origin
                   BRANDS with its affordable internet marketing solutions.
                 </p>
 
