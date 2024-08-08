@@ -14,18 +14,18 @@ import five from "media/hurdles/5.png";
 import six from "media/hurdles/6.png";
 import loader from "media/loader.png";
 
-export default function Platforms( {
-    subTitle="Platform We Working With",
-    title=`How Our Social Media <br className='hidden sm:block' />
+export default function Platforms({
+    subTitle = "Platform We Working With",
+    title = `How Our Social Media <br className='hidden sm:block' />
                     Marketers Drive Business Outcomes?`,
-    desc=`Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years,
+    desc = `Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years,
                     there are certain    you wish to have, ALWAYS!`,
     variant = "slider", images = [one,
-    two,
-    three,
-    four,
-    five,
-    six] }) {
+        two,
+        three,
+        four,
+        five,
+        six] }) {
     return (
         <div className="xs:py-[50px] py-[90px] bg-[url('/bg-gradient.png')] bg-cover bg-center bg-no-repeat">
             <div className="container">
@@ -54,15 +54,15 @@ export default function Platforms( {
                         </>
                     ) : (
                         <>
-                        <div className="flex justify-center items-center animate-[spin_8s_ease-in_infinite]">
-                            <Image  src={loader} alt="seo-comapnay" width={150} height={150}/>
-                            <p></p>
-                        </div> 
+                            <div className="flex justify-center items-center">
+                                <Image src={loader} alt="seo-comapnay" width={150} height={150} />
+                                <p></p>
+                            </div>
                         </>
                     )
                 }
 
-                <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-semibold" dangerouslySetInnerHTML={{__html:title}} />
+                <h2 className="mt-[40px] text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] mb-[22px] font-semibold" dangerouslySetInnerHTML={{ __html: title }} />
                 <p className="text-center max-w-[850px] mx-auto">
                     {desc}
                 </p>
@@ -79,6 +79,6 @@ export default function Platforms( {
                 </div>
             </div>
         </div>
-            
+
     )
 }
