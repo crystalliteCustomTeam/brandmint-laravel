@@ -1,11 +1,11 @@
 // Components
 import {AutoScrollSlider} from "@/components";
 // Media
-import industries1 from "media/industries/automotive.png";
-import industries2 from "media/industries/buisness.png";
-import industries3 from "media/industries/construction.png";
-import industries4 from "media/industries/education.png";
-import industries5 from "media/industries/travel.png";
+import industries1 from "media/industries/ecommerce.png";
+import industries4 from "media/industries/it.png";
+import industries3 from "media/industries/health.png";
+import industries2 from "media/industries/education.png";
+import industries5 from "media/industries/conquered3.png";
 // Next
 import Image from "next/image";
 
@@ -41,7 +41,7 @@ export default function Industries({
                 <div key={i} className="grow-0 group shrink-0 basis-auto min-w-0 pl-4">
                   <div className="relative">
                     <div className="absolute top-[-1px] left-[-1px] right-[-1px] bottom-[-1px] bg-foreground opacity-0 rounded-[10px] group-hover:opacity-0 transition-opacity"></div>
-                    <Image tabIndex={0} key={i} src={img} alt="SEO company" className="rounded-[10px]" width={400} height={400} />
+                    <Image tabIndex={0} key={i} src={img} alt="SEO company" className="rounded-[60px] max-h-[535px]" width={400} height={400} />
                     <h4 className="text-[20px] font-medium mt-5 mb-3" dangerouslySetInnerHTML={{__html: title}} />
                     <p className="text-[16px] font-light" dangerouslySetInnerHTML={{__html: desc}} />
                   </div>
