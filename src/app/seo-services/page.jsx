@@ -115,7 +115,7 @@ export default function Page() {
             <strong> $300 USD.</strong>`} />
       </div>
 
-      <div className="xs:py-[50px] py-[90px]" >
+      <div >
         <SeoSteps
           title={`Our 6 Step SEO Process That Makes Sure That Your <br class="2xl:block hidden" /> Website Ranks On Top Of SERP!`} />
       </div>

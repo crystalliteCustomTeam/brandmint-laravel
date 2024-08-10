@@ -38,7 +38,7 @@ export default function SeoSteps({
               i % 2 === 0 ? (
                 <div key={i} className="md:grid md:grid-cols-12 items-center relative hidden">
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[20px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                   <div className="md:col-span-2 col-span-12">
                     <div className="xl:h-[180px] md:h-[250px]  w-1 mx-auto bg-white relative">
@@ -60,7 +60,7 @@ export default function SeoSteps({
                     </div>
                   </div>
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[20px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                 </div>
               )

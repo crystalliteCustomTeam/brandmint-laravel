@@ -5,7 +5,7 @@ import {CTA} from ".";
 import CallAwayImageMen from "media/callaway/menLaptop.png"
 
 export default function CallAway({
-  title="Achieve The Best SEO Results  <br class='hidden xs:block sm:block md:block lg:hidden'/> By Hiring Us!", 
+  title="Achieve The Best SEO Results  <br class='hidden sm:block md:block lg:hidden'/> By Hiring Us!", 
   desc="Need expert digital marketing help? We are here for you. We are the #1 SEO company, providing <br /> a complete digital marketing solution for your business.", 
   CallAwayImage= CallAwayImageMen, 
   bg= "bg-gradient-to-t from-[#202124] to-[#000E2A] rounded-[40px]", 
