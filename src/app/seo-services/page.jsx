@@ -76,21 +76,21 @@ export default function Page() {
       </div>
       <div>
         <Platforms variant={"logo"}
-          title={`How Our SEO Services <br className='hidden sm:block' />
+          title={`How Our SEO Services <br class='hidden sm:block' />
                         Drive More Leads For Your Business?`}
           desc={`Our best SEO services boost your visibility, attracting targeted traffic and converting
              visitors into valuable leads. As a top-tier SEO company, we optimize your online presence 
              to fuel sustainable business growth and maximize ROI.`}
-             images={
-              [
-                  one,
-                  two,
-                  three,
-                  four,
-                  five,
-                  six,
-              ]
-            }
+          images={
+            [
+              one,
+              two,
+              three,
+              four,
+              five,
+              six,
+            ]
+          }
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
@@ -101,27 +101,27 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <SmmServices
-          title={`Professional SEO Services That <br className="hidden sm:block"/> Grows Your Business`}
-          desc={`As the #1 SEO Company, we deliver cost-effective strategies that outperform your competitors. Our data-driven approach <br className="hidden lg:block'"/> ensures maximum impact on your search rankings, driving traffic and success without draining your budget.`}
+          title={`Professional SEO Services That <br class="hidden sm:block"/> Grows Your Business`}
+          desc={`As the #1 SEO Company, we deliver cost-effective strategies that outperform your competitors. Our data-driven approach <br class="hidden lg:block'"/> ensures maximum impact on your search rankings, driving traffic and success without draining your budget.`}
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial data={dataTest} />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Contact title={`Get your <strong>free 30 minutes </strong>strategy<br className="hidden sm:block"/>
-            session with Our Professional<br className="hidden sm:block"/>
-            SEO Expert valued at<br className="hidden sm:block"/>
+        <Contact title={`Get your <strong>free 30 minutes </strong>strategy<br class="hidden sm:block"/>
+            session with Our Professional<br class="hidden sm:block"/>
+            SEO Expert valued at<br class="hidden sm:block"/>
             <strong> $300 USD.</strong>`} />
       </div>
 
       <div className="xs:py-[50px] py-[90px]" >
         <SeoSteps
-          title={`Our 6 Step SEO Process That Makes Sure That Your <br className="2xl:block hidden" /> Website Ranks On Top Of SERP!`} />
+          title={`Our 6 Step SEO Process That Makes Sure That Your <br class="2xl:block hidden" /> Website Ranks On Top Of SERP!`} />
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-        <CallAway CallAwayImage={CallAwayImageWomen} desc={`Ready to skyrocket your online presence? Our proven SEO strategies will propel your website to <br className="2xl:block hidden" /> the top of search results. Don't let competitors outrank you – Hire SEO company today!`} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
+        <CallAway CallAwayImage={CallAwayImageWomen} desc={`Ready to skyrocket your online presence? Our proven SEO strategies will propel your website to <br class="2xl:block hidden" /> the top of search results. Don't let competitors outrank you – Hire SEO company today!`} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <FAQs

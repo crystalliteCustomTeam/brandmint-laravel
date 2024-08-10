@@ -95,9 +95,9 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Contact
-          title={`Schedule a <strong>Free Strategy </strong> <br className="hidden sm:block"/>
-        Session with Our White Label <br className="hidden sm:block"/>
-        SEO Providers for the <br className="hidden sm:block"/>
+          title={`Schedule a <strong>Free Strategy </strong> <br class="hidden sm:block"/>
+        Session with Our White Label <br class="hidden sm:block"/>
+        SEO Providers for the <br class="hidden sm:block"/>
         <strong> Best Results</strong>`}
         />
       </div>

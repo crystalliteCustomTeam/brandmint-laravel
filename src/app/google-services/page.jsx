@@ -124,9 +124,9 @@ export default function Page() {
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <Contact
-          title={`Claim Your <strong>Free 30-Minute </strong> <br className="hidden sm:block"/>
-          Google Screened Ads Strategy <br className="hidden sm:block"/>
-          Session At $300 Value from <br className="hidden sm:block"/>
+          title={`Claim Your <strong>Free 30-Minute </strong> <br class="hidden sm:block"/>
+          Google Screened Ads Strategy <br class="hidden sm:block"/>
+          Session At $300 Value from <br class="hidden sm:block"/>
           <strong> Our Experts!</strong>`}
         />
       </div>

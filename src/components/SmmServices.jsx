@@ -11,9 +11,9 @@ import Eight from "media/smmEght.png"
 import Nine from "media/smmNine.png"
 
 export default function SmmServices({
-    title = `Social Media Advertising Services <br className="hidden lg:block'"/>
+    title = `Social Media Advertising Services <br class="hidden lg:block'"/>
                             That Grows Your Business`,
-    desc = `Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br className="hidden lg:block'"/>
+    desc = `Business Boost? Watch Us Doing Social Media Ad Campaign. Rest Assured, Working With Us Guarantees You <br class="hidden lg:block'"/>
                             More Clients For Your Business!`
 }) {
     return (

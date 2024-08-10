@@ -1,5 +1,5 @@
 // Components
-import {Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs} from "@/components";
+import { Awards, CallAway, ComboPackage, Contact, FAQs, Hero, SeoServiceSteps, Testimonial, WhyChooseUs } from "@/components";
 import Content from "@/components/Content";
 // Media
 import HeroImg from "media/onpageseoHero.png";
@@ -35,7 +35,7 @@ let data = [
   },
 ];
 
-const dataTest=[
+const dataTest = [
   {
     shadowColor: "bg-[#4E81EC]",
     review: "Impressed with the detailed on-page SEO strategies. They know how to optimize for both search engines and users!",
@@ -96,11 +96,11 @@ export default function Page() {
         marqueeCss="pb-[80px] pt-[50px] xs:pt-[50px] sm:pt-[80px]"
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
         ctaText="Get a Custom SEO Strategy!"
-        // ctaText2="Contact Us for Expert SEO Solutions!"
+      // ctaText2="Contact Us for Expert SEO Solutions!"
       />
       <div className="xs:py-[50px] py-[90px]">
         <Testimonial
-        data={dataTest}
+          data={dataTest}
         />
       </div>
 
@@ -109,10 +109,10 @@ export default function Page() {
       </div>
 
       <div className="xs:py-[50px] py-[90px]">
-      <WhyChooseUs
-        title="Why SEO Company Is Your Go-To <br class='lg:block hidden'/> On-Page SEO Agency"
-        desc="Choosing the right on page SEO agency is essential for maximizing your website's potential. At SEO Company, we offer specialized on-page SEO services tailored to your unique needs. As a leading on-page SEO company, we ensure your website’s content is optimized to achieve higher rankings and attract more organic traffic."
-        data={chooseData}   
+        <WhyChooseUs
+          title="Why SEO Company Is Your Go-To <br class='lg:block hidden'/> On-Page SEO Agency"
+          desc="Choosing the right on page SEO agency is essential for maximizing your website's potential. At SEO Company, we offer specialized on-page SEO services tailored to your unique needs. As a leading on-page SEO company, we ensure your website’s content is optimized to achieve higher rankings and attract more organic traffic."
+          data={chooseData}
         />
       </div>
 
@@ -152,9 +152,9 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
-        title="Achieve Top SERP Ranks With Our On-Page SEO Services"
-        desc="Experience the benefits of optimized content, improved user experience, and higher search engine<br /> rankings with our tailored on-page SEO solutions."
-        btnText="Get Your Free SEO Audit!"
+          title="Achieve Top SERP Ranks With Our On-Page SEO Services"
+          desc="Experience the benefits of optimized content, improved user experience, and higher search engine<br /> rankings with our tailored on-page SEO solutions."
+          btnText="Get Your Free SEO Audit!"
         />
       </div>
 
@@ -218,8 +218,8 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
         <Contact
-        title={`Enhance <strong>Your Rankings </strong>with <br className="hidden sm:block"/>
-        a Custom On-Page<br className="hidden sm:block"/>
+          title={`Enhance <strong>Your Rankings </strong>with <br class="hidden sm:block"/>
+        a Custom On-Page<br class="hidden sm:block"/>
         <strong> SEO Strategy!</strong>`}
         />
       </div>
