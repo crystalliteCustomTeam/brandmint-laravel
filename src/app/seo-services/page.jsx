@@ -61,7 +61,7 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Professional Search Engine Optimization Services"
-        title="Rank Your Website On <br  class='hidden lg:block'/> Top With Our SEO Services"
+        title="Rank Your Website On  Top With Our SEO Services"
         desc="Elevate your online presence with our expert SEO services. As a leading SEO agency, we deliver tailored strategies to propel your website to the top of search rankings."
         img={HeroImg}
         variant="default"
