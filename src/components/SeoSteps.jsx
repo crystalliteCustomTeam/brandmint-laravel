@@ -2,7 +2,7 @@ export default function SeoSteps({
   title=`Our 6 Step SEO Process Ensures Your Customers <br class="2xl:block hidden" /> Don’t Find Your Competitors, But You!`,
   count = [
     {
-      title: "Understanding <br class='lg:block hidden'/> Your Goals",
+      title: "Understanding Your Goals",
       desc: "Once our clients choose to work with us, we arrange initial meetings to better understand their business and marketing goals. This helps us devise rock-solid SEO strategies suitable for their business. In short, we push limits to deliver satisfactory and tangible results every time! We cater to every type of SEO, Shopify SEO, E-commerce SEO, small business SEO, etc.",
     },
     {
@@ -32,13 +32,13 @@ export default function SeoSteps({
       <div className={`bg-black`}>
         <div className="container">
           <div className="md:py-[100px] py-[50px] text-white">
-            <h3 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-center md:mb-24 mb-10" dangerouslySetInnerHTML={{__html:title}}/>
+            <h3 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[45px] font-semibold text-center md:mb-24 mb-10" dangerouslySetInnerHTML={{__html:title}}/>
 
             {count.map((e, i) =>
               i % 2 === 0 ? (
                 <div key={i} className="md:grid md:grid-cols-12 items-center relative hidden">
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[40px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                   <div className="md:col-span-2 col-span-12">
                     <div className="xl:h-[180px] md:h-[250px]  w-1 mx-auto bg-white relative">
@@ -60,7 +60,7 @@ export default function SeoSteps({
                     </div>
                   </div>
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[40px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[30px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                 </div>
               )
