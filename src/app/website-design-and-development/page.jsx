@@ -104,14 +104,14 @@ export default function Page() {
         <Portfolio />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <PackageWeb id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending." 
-        btnText="Contact Us"
+        <PackageWeb id={1} desc="Get exceptional web design and development at budget-friendly prices. Our flexible pricing options align with your goals, delivering impressive results without overspending."
+          btnText="Contact Us"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
-          title="Accelerate Your Business Growth with Website <br className='hidden lg:block' /> Design &  Development Company"
-          desc="Competing online can be challenging with many companies out there. Our professional web design and development services give <br className='hidden lg:block' /> you the edge you need for growth."
+          title="Accelerate Your Business Growth with Website <br class='hidden lg:block' /> Design &  Development Company"
+          desc="Competing online can be challenging with many companies out there. Our professional web design and development services give <br class='hidden lg:block' /> you the edge you need for growth."
           data={choose}
         />
       </div>
@@ -123,10 +123,10 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[90px]">
 
-        <Contact title={`Get your <strong>Exclusive 30 minutes </strong><br className="hidden sm:block"/>
-            Website Design Consultation <br className="hidden sm:block"/>
+        <Contact title={`Get your <strong>Exclusive 30 minutes </strong><br class="hidden sm:block"/>
+            Website Design Consultation <br class="hidden sm:block"/>
             at No Cost—A<strong>  $300 Value!</strong>`}
-            btnText="Schedule Your Conference Now!"
+          btnText="Schedule Your Conference Now!"
         />
       </div>
 
