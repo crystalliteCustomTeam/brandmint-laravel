@@ -1,16 +1,19 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, BlurFade, WordFadeIn } from "@/components"
 
 export default function FAQs({ items }) {
     return (
         <section>
             <div className="text-foreground">
                 <div className="container">
-                    <h2 tabIndex={0} className="mb-8 md:mb-14 text-center text-[30px] md:text-[40px] lg:text-[50px] font-semibold leading-normal">
-                    Frequently Asked Questions
-                    </h2>
-                    <Accordion type="single" collapsible  className="grid grid-cols-1 xl:grid-cols-2 gap-5">
-                        { 
+
+
+
+                    <WordFadeIn words="Frequently Asked Questions" className="mb-8 md:mb-14 text-center text-[30px] md:text-[40px] lg:text-[50px] font-semibold leading-normal" />
+
+                    <Accordion type="single" collapsible className="grid grid-cols-1 xl:grid-cols-2 gap-5">
+                        {
                             items?.map(({ title, content }, i) => (
+                                <BlurFade delay={0.1*i} duration={2} inView={true} inViewMargin="-50px">
                                 <AccordionItem key={i} value={`item-${i + 1}`} className="h-auto">
                                     <AccordionTrigger>
                                         {title}
@@ -19,6 +22,7 @@ export default function FAQs({ items }) {
                                         <p dangerouslySetInnerHTML={{ __html: content }} />
                                     </AccordionContent>
                                 </AccordionItem>
+                                </BlurFade>
                             ))
                         }
                     </Accordion>

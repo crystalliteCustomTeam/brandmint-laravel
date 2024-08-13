@@ -1,6 +1,6 @@
 
 // Components
-import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header, FAQs, Contact } from "@/components"
+import { Awards, Hero, CallAway, Testimonial, Industries, SeoGraph, UsaCities, ServicesTabs, Strategies, Header, FAQs, Contact, BoxReveal, AnimatedList } from "@/components"
 // Media
 import heroBG from 'media/horsebg.png'
 
@@ -62,38 +62,39 @@ export default function Page() {
         bg={heroBG}
         marqueeCss="absolute bottom-[100px] left-0 right-0"
         spaceBottom="pb-[300px]"
+        headerlogo={true}
       />
-      <div className=" xs:py-[50px] py-[90px]">
+      <div className=" xs:py-[50px] py-[70px]">
         <Awards />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <ServicesTabs />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <CallAway />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <Strategies />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <SeoGraph />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <Testimonial data={dataTest} />
       </div>
 
 
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <Industries />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <Contact />
       </div>
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <UsaCities />
       </div>
 
-      <div className="xs:py-[50px] py-[90px]">
+      <div className="xs:py-[50px] py-[70px]">
         <CallAway
           title="SEO Company Awaits Your Signal!"
           desc="Lucky for you, our professional SEO services are here to dominate your online business presence. We’re your one-stop shop where all your SEO challenges meet their match with our expert solutions."

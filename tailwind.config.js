@@ -76,13 +76,15 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        // move: {
-        //   '50%': { bottom: '110px', right: '300px' },
-        // },
+        "rotation": {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(359deg)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-in-out",
         "accordion-up": "accordion-up 0.2s ease-in-out",
+        "rotation": 'rotation 15s linear infinite',
         // move: 'move 3s ease-in-out',
       },
       fontFamily: {
