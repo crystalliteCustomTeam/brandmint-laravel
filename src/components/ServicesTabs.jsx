@@ -70,10 +70,9 @@ export default function ServicesTabs() {
           <TabsList className="col-span-12 md:col-span-4 flex md:flex-col h-full md:justify-evenly gap-4 md:gap-0 text-nowrap py-3 md:py-0 overflow-x-scroll md:overflow-x-auto custom-scrollbar">
             {
               data?.map(({ value }, i) => (
-                //   <TabsTrigger value={value} key={i} className="data-[state=active]:bg-[#EF4252] data-[state=active]:text-white data-[state=active]:border-none bg-transparent rounded-[5px]
-                // border-[#F3F3F3] mb-3 mt-3 border-2 text-[17px] text-[#CBCBCB] h-[50px]">
+               
 
-                <TabsTrigger value={value} className="text-[15px] lg:text-[17px] text-[#707070] text-center border-2 font-medium h-[50px] rounded-sm border-[#707070a5] data-[state=active]:text-white data-[state=active]:bg-[#EF4252] data-[state=active]:border-[#EF4252] transition-colors xl:w-[95%] px-4 md:px-0">
+                <TabsTrigger value={value} key={i} className="text-[15px] lg:text-[17px] text-[#707070] text-center border-2 font-medium h-[50px] rounded-sm border-[#707070a5] data-[state=active]:text-white data-[state=active]:bg-[#EF4252] data-[state=active]:border-[#EF4252] transition-colors xl:w-[95%] px-4 md:px-0">
                  
                     {value}
                
