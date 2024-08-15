@@ -7,18 +7,19 @@ import seoImageFour from "media/seovarFour.png"
 import seoImageFive from "media/seovaFive.png"
 import seoImageSix from "media/seovarSix.png"
 import Image from "next/image"
+import { BlurFade } from "."
 
 
 export default function VersatileSteps({
-    title=`Key Features of Our<br class="hidden md:block" /> <span class="text-[#E1183A]">National SEO Services</span>`,
-    desc="From comprehensive keyword research to mobile optimization, our tailored national SEO packages are designed to achieve your business goals.",
+    title = `Key Features of Our<br class="hidden md:block" /> <span class="text-[#E1183A]">National SEO Services</span>`,
+    desc = "From comprehensive keyword research to mobile optimization, our tailored national SEO packages are designed to achieve your business goals.",
     cardData = [
-        ["Comprehensive Keyword Research",seoImage,"Our national SEO services begin with in-depth keyword research to identify the most practical terms for your business. As a professional nationwide SEO company, we ensure your content targets high-performing keywords to maximize visibility."],
-        ["Custom National SEO Packages",seoImageTwo,"SEO Company offers tailored national SEO packages to meet your business needs. Our customized solutions ensure you get the most value and impact from your investment in nationwide SEO services."],
-        ["Advanced On-Page Optimization",seoImageThree,"We provide expert on-page optimization to enhance your website’s relevance and authority. Our nationwide SEO Company focuses on optimizing Meta tags, content, and site structure to improve your search engine rankings."],
-        ["Quality Link Building",seoImageFour,"Our national SEO services include strategic link-building campaigns to boost your website’s credibility. By acquiring high-quality backlinks, SEO Company helps you improve your domain authority and search engine positioning."],
-        ["Detailed Analytics and Reporting",seoImageFive,"SEO Company offers comprehensive analytics and reporting to track the performance of your nationwide SEO efforts. Our detailed reports provide insights into traffic, rankings, and conversions, helping you make informed decisions."],
-        ["Mobile SEO Optimization",seoImageSix,"Recognizing the growing importance of mobile search, our national SEO services include mobile optimization strategies. SEO Company ensures your website is mobile-friendly, providing a seamless user experience and improved rankings on mobile search results."]
+        ["Comprehensive Keyword Research", seoImage, "Our national SEO services begin with in-depth keyword research to identify the most practical terms for your business. As a professional nationwide SEO company, we ensure your content targets high-performing keywords to maximize visibility."],
+        ["Custom National SEO Packages", seoImageTwo, "SEO Company offers tailored national SEO packages to meet your business needs. Our customized solutions ensure you get the most value and impact from your investment in nationwide SEO services."],
+        ["Advanced On-Page Optimization", seoImageThree, "We provide expert on-page optimization to enhance your website’s relevance and authority. Our nationwide SEO Company focuses on optimizing Meta tags, content, and site structure to improve your search engine rankings."],
+        ["Quality Link Building", seoImageFour, "Our national SEO services include strategic link-building campaigns to boost your website’s credibility. By acquiring high-quality backlinks, SEO Company helps you improve your domain authority and search engine positioning."],
+        ["Detailed Analytics and Reporting", seoImageFive, "SEO Company offers comprehensive analytics and reporting to track the performance of your nationwide SEO efforts. Our detailed reports provide insights into traffic, rankings, and conversions, helping you make informed decisions."],
+        ["Mobile SEO Optimization", seoImageSix, "Recognizing the growing importance of mobile search, our national SEO services include mobile optimization strategies. SEO Company ensures your website is mobile-friendly, providing a seamless user experience and improved rankings on mobile search results."]
     ]
 }) {
     return (
@@ -26,7 +27,7 @@ export default function VersatileSteps({
             <div>
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold" dangerouslySetInnerHTML={{__html:title}} />
+                        <h2 className="text-[26px] sm:text-[38px] lg:text-[45px] xl:text-[50px] font-semibold" dangerouslySetInnerHTML={{ __html: title }} />
                         <p className="py-3 text-[16px] text-center font-light">
                             {desc}
                         </p>
@@ -34,8 +35,10 @@ export default function VersatileSteps({
                     <div className="mt-10 relative">
                         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 lg:gap-3 xl:gap-5">
                             {
-                                cardData.map(([title,image,desc],i)=>(
-                                    <ColoCard key={i} Color="bg-[#3BA155]" BgImage={image}  title={title} description={desc}/>
+                                cardData.map(([title, image, desc], i) => (
+                                    <BlurFade delay={0.1*i} duration={1} inView={true} key={i}>
+                                        <ColoCard  Color="bg-[#3BA155]" BgImage={image} title={title} description={desc} />
+                                    </BlurFade>
                                 ))
                             }
                         </div>

@@ -1,6 +1,6 @@
 // Next
 import Image from "next/image";
-import { BlurFade, BoxReveal, CTA, FadeText, WordFadeIn } from ".";
+import { BlurFade, BoxReveal, CTA, FadeText, ShinyButton, WordFadeIn } from ".";
 // Media
 import CallAwayImageMen from "media/callaway/menLaptop.png"
 
@@ -31,8 +31,9 @@ export default function CallAway({
                   direction="left"
                  />
                 {/* <p className="2xl:text-[16px] text-[14px] leading-normal font-light  lg:max-w-[85%] xl:max-w-full" dangerouslySetInnerHTML={{ __html: desc }} /> */}
-                <div className="flex gap-4 mt-[20px] justify-center lg:justify-start">
+                <div className=" flex gap-4 mt-[20px] justify-center lg:justify-start">
                   <CTA text={btnText} className={`${btnClass}`} />
+               
                   <CTA text={btnText2} variant="icon" icon={true} className={`${btnClass2}`} />
                 </div>
               </div>

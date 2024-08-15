@@ -1,30 +1,33 @@
 import check from "media/home/check-mark.svg"
-import { CTA, Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/index";
+import { BlurFade, CTA, Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/index";
 import data from "./package.json"
 import Image from "next/image";
 
-const Package = ({ 
+const Package = ({
     id,
-    title =`Break Your Competition Without <br class='hidden md:block' />
+    title = `Break Your Competition Without <br class='hidden md:block' />
                         <span class="text-[#E1183A]">Breaking Your Bank!</span>`,
     desc,
-    btnText='Call Us'
- }) => {
+    btnText = 'Call Us'
+}) => {
     return (
         <section className="packages">
             <div className="container">
                 <div className="text-center font-medium">
-                    <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold"
-                    dangerouslySetInnerHTML={{ __html: title }}/>
-
+                    <BlurFade delay={0.1} duration={1} inView={true} >
+                        <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold"
+                            dangerouslySetInnerHTML={{ __html: title }} />
+                    </BlurFade>
+                    <BlurFade delay={0.1} duration={1} inView={true} >
                     <p className="max-w-[892px] mx-auto py-3 text-[16px] font-light">
                         {desc}
                     </p>
+                    </BlurFade>
                 </div>
                 <Tabs defaultValue="Annually" className="mt-16 text-center">
                     <TabsList className="bg-[#000000] rounded-[50px] flex md:inline-flex mb-[50px]">
                         {(data.id === id) && data.package.map(({ name, upto }, i) => (
-                            <TabsTrigger key={i} value={name} className="data-[state=active]:bg-[#EC4139] data-[state=active]:text-white  bg-transparent rounded-[50px]
+                            <TabsTrigger key={i} value={name} className="data-[state=active]:bg-[#EC4139] transition-all duration-500 data-[state=active]:text-white  bg-transparent rounded-[50px]
                   border-[#F3F3F3] text-[14px] md:text-[16px] lg:text-[18px] text-[#CBCBCB] px-[22px] md:px-[55px] lg:px-[85px] py-[4px] md:py-[8px] lg:py-[10px] flex-1 md:flex-auto">
                                 <div className=" font-bold">
                                     {name}
@@ -36,8 +39,9 @@ const Package = ({
                         ))}
                     </TabsList>
                     <div className="xl:col-span-8 col-span-12 text-left">
-                        {(data.id === id) && data.package.map(({ name, list,duration }, i) => (
+                        {(data.id === id) && data.package.map(({ name, list, duration }, i) => (
                             <TabsContent key={i} value={name} className="grid grid-cols-1 items-center">
+                                <BlurFade delay={0.1*i} duration={1} inView={true} >
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 md:gap-5">
                                     {
                                         list && list?.map((item, i) => (
@@ -78,7 +82,7 @@ const Package = ({
                                     }
 
                                 </div>
-
+                                </BlurFade>
                             </TabsContent>
                         ))}
                     </div>

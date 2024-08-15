@@ -46,7 +46,7 @@ export default function Industries({
                   <BlurFade>
                     <div className="relative">
                       <div className="absolute top-[-1px] left-[-1px] right-[-1px] bottom-[-1px] bg-foreground opacity-0 rounded-[10px] group-hover:opacity-0 transition-opacity"></div>
-                      <Image tabIndex={0} key={i} src={img} alt="SEO company" className="rounded-[60px] max-h-[535px]" width={400} height={400} />
+                      <Image tabIndex={0} key={i} src={img} alt="SEO company" className="rounded-[30px]  border border-[#ccc]" width={400} height={400} />
                       <h4 className="text-[20px] font-medium mt-5 mb-3" dangerouslySetInnerHTML={{ __html: title }} />
                       <p className="text-[16px] font-light" dangerouslySetInnerHTML={{ __html: desc }} />
                     </div>
