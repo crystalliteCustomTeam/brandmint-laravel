@@ -101,7 +101,7 @@ export default function Page() {
                 <div className="my-5">
                     <Content title={"What is Nationwide SEO?"} desc={"Nationwide SEO involves optimizing your online presence to reach a broad audience across the entire country. At SEO Company, our nationwide SEO services are designed to promote your brand beyond local confines. </br> </br>With the expertise of our national SEO experts, we implement cutting-edge strategies to ensure your business stands out in search results. As the best national SEO Company, we tailor our approach to meet your unique needs, driving growth and visibility on a national scale. Hire our national SEO expert to experience the transformative power of national SEO services and dominate the market from coast to coast."}
                         img1={ImageOne}
-                        ctaText="Hire Our National SEO Experts Now!"
+                        ctaText="Get Started Now!"
                         />
                 </div>
 
@@ -120,9 +120,10 @@ export default function Page() {
             </div>
             <div className="xs:py-[50px] py-[90px] ">
                 <CallAway
-                    title="Dominate National Rankings with Our SEO Expertise"
-                    desc="SEO Company offers expert national SEO services to maximize online visibility and drive results. <br/> Hire us now!"
+                    title="Dominate National Rankings with <br class='lg:hidden block'> Our SEO Expertise"
+                    desc="SEO Company offers expert national SEO services to maximize online visibility and drive results. <br class='xl:block hidden'/> Hire us now!"
                     btnText="Call us now!"
+                    titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[40px] xl:!text-[45px] 2xl:!text-[50px]"
                 />
             </div>
             <div className="xs:py-[50px] py-[90px] ">
@@ -212,6 +213,7 @@ export default function Page() {
                     title="Boost Your Rankings with Our National SEO Company - Call Us Now!"
                     desc="Contact us now to get started with our expert national SEO services and watch your business grow."
                     btnText="Get started now!"
+                    titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[30px] xl:!text-[45px] 2xl:!text-[50px]"
                 />
             </div>
             <div className="xs:py-[50px] py-[30px]">

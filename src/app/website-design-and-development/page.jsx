@@ -88,6 +88,7 @@ export default function Page() {
         marqueeCss="absolute bottom-[100px] left-0 right-0"
         spaceBottom="pb-[300px]"
         ctaText="Contact us today for a free consultation!"
+        titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[35px] xl:text-[45px] 2xl:text-[55px]"
       />
       <div>
         <Process />
@@ -97,7 +98,8 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
           title="Our Website Design Specialists Are Just A Call Away!"
-          desc="Is your website underperforming? We offer top-notch web design and development to tackle <br /> all your online challenges with appealing and  functional solutions."
+          desc="Is your website underperforming? We offer top-notch web design and development to tackle <br class='xl:block hidden'/> all your online challenges with appealing and  functional solutions."
+          titleClass="xs:text-[22px] text-[24px] sm:text-[32px]  lg:text-[35px] xl:text-[45px] 2xl:text-[50px] "
         />
       </div>
       <div className="xs:py-[50px] py-[50px]">

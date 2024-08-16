@@ -72,12 +72,12 @@ export default function Page() {
     <main>
       <Hero
         subTitle="Our Local SEO Services"
-        title="Expand Your Reach with <br class='lg:block hidden'/> Local SEO Services!"
+        title="Expand Your Reach with <br class='xl:block hidden '/> Local SEO Services!"
         desc="Accelerate your business success with SEO Company. We specialize in attracting new clients using innovative digital strategies and local SEO services that stand out in a crowded market."
         img={HeroImg}
         variant="default"
         marqueeTheme="light"
-        titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
+        titleCss="xs:text-[30px] text-[40px] md:text-[45px] lg:text-[45px] xl:text-[55px] 2xl:text-[60px]"
         spaceBottom="pb-0"
         marqueeCss="pb-[80px] xs:pt-[50px] sm:pt-[50px]"
         imgCss="absolute lg:relative bottom-0 left-0 right-0 top-0 max-w-[80%] object-cover -z-10 right-0  lg:max-w-full opacity-15 lg:opacity-100"
@@ -96,13 +96,13 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <WhyChooseUs
         subTitle="Why Opt for Us?"
-        title="To See Your Business Thrive <br class='lg:block hidden'/> Every Single Day!"
+        title="To See Your Business Thrive <br class='sm:block hidden'/> Every Single Day!"
         desc="Thriving online can be challenging, especially with most businesses using social media. At SEO Company, we get it. Our experts help your brand stand out. Here’s why you should choose us as  your local SEO agency:"
         data={chooseData}   
         />
       </div>
       <div className="xs:py-[30px] md:py-[50px]">
-        <div className="my-5">
+        <div className="my-[40px]">
           <Content
             title="Why Does Your Business Need Local SEO?"
             desc='Ever noticed how certain local businesses pop up first when you search online for something close by? That’s because of a local SEO agency. Let’s break this down with a simple example.
@@ -114,7 +114,7 @@ export default function Page() {
             ctaText="Get Started!"
           />
         </div>
-        <div className="my-5">
+        <div className="my-[40px]">
           <Content
             title="Need Help Getting Found? Hire Our Local SEO Company."
             desc="88%  of the customers conduct their searches on mobile devices. Even more notably, 72% of these potential customers visit a store or make a phone call within just 24 hours of their initial search. This underscores the vital role that local SEO optimization plays in making your business visible to potential customers.
@@ -125,7 +125,7 @@ export default function Page() {
             ctaText="Contact Us Now!"
           />
         </div>
-        <div className="my-5">
+        <div className="my-[40px]">
           <Content
             title="How Local SEO Services for Small Business Propel Your Lead Generation"
             desc="Getting into the core of an influential local SEO agency can significantly boost your brand's visibility. It all begins with establishing a strong marketing plan, where lead generation and local SEO services play a prominent role. Recognizing the importance of lead generation is essential for any business. Without a steady flow of quality leads, businesses, regardless of size, find it hard to secure sales and expand. Incorporating specialized SEO services for local businesses ensures your brand survives and excels in a competitive environment."
@@ -137,9 +137,10 @@ export default function Page() {
 
       <div className="xs:py-[50px] py-[60px]">
         <CallAway
-          title="We Can’t Wait To Assist Your Business!"
+          title="We Can’t Wait To Assist <br class='hidden lg:block'> Your Business!"
           desc="Facing challenges? SEO Company is here to pull you into the spotlight."
           btnText="Boost Your ROI!"
+          btnClass="xs:w-full"
         />
       </div>
       <div className="xs:py-[50px] py-[60px]">
@@ -211,8 +212,13 @@ export default function Page() {
         <CallAway CallAwayImage={CallAwayImageWomen}
         title="Need Expert SEO Guidance? Get in Touch With Us Right Now!"
         desc="Fortune favors the bold — and SEO Company is ready to be your bold ally in the digital arena. As your ultimate one-stop SEO solution, we tackle every challenge your business encounters online with precision and expertise."
-         bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black" 
-         btnText="Unlock Your Potential!" btnText2="Contact Us" />
+         bg="bg-[#E1183A] rounded-[40px]" 
+         btnClass="!bg-[#202124] !text-white" 
+         btnClass2="!bg-white !text-black" 
+         btnText="Unlock Your Potential!" 
+         btnText2="Contact Us" 
+         titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[30px] xl:!text-[45px] 2xl:!text-[50px]"
+         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
         <FAQs

@@ -18,9 +18,9 @@ export default function Contact({
             <div>
                 <div className="container">
                     <div className="relative rounded-[25px] overflow-hidden z-10 ">
-                        <div className="py-[70px] px-[40px]">
+                        <div className="sm:py-[70px] sm:px-[40px] py-[70px] px-[30px]">
 
-                            <FadeText text={title} className="capitalize text-white xs:text-[20px] text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px]"
+                            <FadeText text={title} className="capitalize text-white xs:text-[20px] text-[25px] md:text-[35px] lg:text-[40px] xl:text-[42px]"
                                 direction="up"
                             />
                             <Image src={contactborder} alt="SEO company" className="max-w-[200px] md:max-w-[300px] my-5" />
@@ -62,7 +62,7 @@ export default function Contact({
                             </form>
                             <BlurFade delay={0.9}>
                                 <Button className="w-full flex items-center justify-between mt-20 !bg-[#525252] h-[55px] group">
-                                    <span className="xs:text-[14px] text-[18px]">{btnText}</span>
+                                    <span className="xs:text-[12px] text-[16px] md:text-[18px]">{btnText}</span>
                                     <Image src={buttonImage} alt="SEO company" className="hidden sm:block group-hover:rotate-45 transition-transform duration-500 " width={41} height={41} />
                                 </Button>
                             </BlurFade>

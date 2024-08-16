@@ -56,7 +56,7 @@ export default function ServicesTabs() {
 
 
 
-          <WordFadeIn words=" Boost Your Digital Performance With SEO Company" className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4" />
+          <WordFadeIn words=" Boost Your Digital Performance With SEO Company" className="text-[30px] md:text-[40px] lg:text-[38px] xl:text-[45px] font-semibold text-[#202124] leading-tight mb-4" />
 
 
           {/* <p className="max-w-[782px] mx-auto"> */}

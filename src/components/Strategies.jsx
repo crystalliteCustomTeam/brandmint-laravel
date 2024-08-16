@@ -29,7 +29,7 @@ export default function Strategies() {
     <section >
       <div className="container">
         <div className="text-center">
-          <WordFadeIn words="  How Our SEO Strategy Powers Your Business" className="text-[30px] md:text-[35px] lg:text-[45px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4" />
+          <WordFadeIn words="  How Our SEO Strategy Powers Your Business" className="text-[32px] md:text-[30px] lg:text-[42px] xl:text-[50px] font-semibold text-[#202124] leading-tight mb-4" />
           <FadeText text="<p> At SEO Company, we take the time to learn about your business in depth. Being one of the leading SEO service providers, here's how we draft the perfect formula to increase your website ranks.</p>" className="max-w-[970px] mx-auto py-3 text-[14px] md:text-[16px]"
             direction="left"
           />

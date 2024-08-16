@@ -112,6 +112,7 @@ export default function Page() {
           title="Our Google Screened Services Are Just a Call Away"
           desc="Our Google Screened Services ensure your business stands out with the prestigious Google Screened Badge, furthering your credibility and trust."
           btnText="Let’s Connect!"
+          titleClass="xs:text-[22px] text-[24px] sm:text-[32px]  lg:text-[35px] xl:text-[45px] 2xl:text-[50px] "
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">

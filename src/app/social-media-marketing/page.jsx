@@ -74,7 +74,7 @@ export default function Page() {
           imgCss="absolute bottom-0  right-0 max-w-[60%] xl:max-w-full opacity-20 lg:opacity-100"
           spaceBottom="pb-[150px] sm:pb-[200px] xl:pb-[250px]"
           marqueeCss="relative top-[-70px] z-10"
-          titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[50px] xl:text-[55px] 2xl:text-[60px]"
+          titleCss="xs:text-[30px] text-[45px] md:text-[35px] lg:text-[35px] xl:text-[45px] 2xl:text-[55px]"
           ctaText="Call us now!"
         />
       </div>
@@ -87,7 +87,8 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
           title="Reach a Wider Audience with Our Social Media Experts - Call Us Now!"
-          desc="Hire our #1 social media marketing agency and unlock top-tier SMM services customized to your business needs. Transform your online presence and drive exceptional results today!"
+          desc="Hire our #1 social media marketing agency and unlock top-tier SMM services customized to your <br class='hidden 2xl:block'/> business needs. Transform your online presence and drive exceptional results today!"
+          titleClass="xs:text-[24px] text-[24px] sm:text-[28px]  lg:text-[30px] xl:text-[35px] 2xl:text-[45px] "
         />
       </div>
 
@@ -128,6 +129,7 @@ export default function Page() {
           btnClass2="!bg-white !text-black"
           title="How We Drive Unlimited Success With Our Social Media Strategies?"
           desc="Hire our social media marketing agency to access customized strategies that deliver outstanding results. Learn how our expert social media marketing services can elevate your business to new heights."
+           titleClass="xs:text-[24px] text-[24px] sm:text-[28px]  lg:text-[30px] xl:text-[35px] 2xl:text-[45px] "
         />
       </div>
 

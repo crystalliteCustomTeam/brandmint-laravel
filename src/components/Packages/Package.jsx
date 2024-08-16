@@ -15,7 +15,7 @@ const Package = ({
             <div className="container">
                 <div className="text-center font-medium">
                     <BlurFade delay={0.1} duration={1} inView={true} >
-                        <h2 className="text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold"
+                        <h2 className="text-[30px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold"
                             dangerouslySetInnerHTML={{ __html: title }} />
                     </BlurFade>
                     <BlurFade delay={0.1} duration={1} inView={true} >

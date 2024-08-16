@@ -99,6 +99,7 @@ export default function Page() {
           title="All You Got To Do Is Reach Out To Our Google Ads Experts!"
           desc="With SEO Company by your side, all your online business hurdles are history. Experience the best Google ad service today."
           btnText="Give Us a Ring!"
+          titleClass="xs:text-[22px] text-[24px] sm:text-[32px]  lg:text-[35px] xl:text-[45px] 2xl:text-[50px] "
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">

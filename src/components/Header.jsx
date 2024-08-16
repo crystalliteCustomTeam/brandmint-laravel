@@ -56,10 +56,10 @@ export default function Header() {
                           ["Social Media Marketing", "/social-media-marketing"],
                         ],
                       ],
-                      ["Industries", "/ser"],
-                      ["Testimonials", "/ser"],
+                      ["Industries", "/"],
+                      ["Testimonials", "/"],
                       ["About", "/about-us"],
-                      ["Blog", "/ser"],
+                      ["Blog", "/"],
                       ["Contact", "/contact-us"],
                     ].map(([text, link], i) => (
                       <NavigationMenuItem key={i}>
@@ -129,10 +129,10 @@ export default function Header() {
                             ["Social Media Marketing", "/social-media-marketing"],
                           ],
                         ],
-                        ["Industries We Serve", "/ser"],
-                        ["Client Testimonials", "/ser"],
-                        ["About", "/ser"],
-                        ["Blog", "/ser"],
+                        ["Industries We Serve", "/"],
+                        ["Client Testimonials", "/"],
+                        ["About", "/about-us"],
+                        ["Blog", "/"],
                         ["Contact", "/ser"],
                       ].map(([text, link], i) => (
                         <li key={i}>

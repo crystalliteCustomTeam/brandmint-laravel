@@ -104,7 +104,7 @@ export default function Page() {
               "Despite SEO offering the highest ROI among eCommerce marketing strategies, many online stores neglect search engine optimization, favoring social media marketing or other paid ads. However, SEO delivers consistent, high-converting traffic that other methods can't match.<br/> <br/> The SEO Company offers eCommerce SEO services to improve product rankings for target audience keywords. They understand SEO is a one-time effort, delivering autopilot sales with no ongoing expenses and conducting comprehensive audits for business growth."
             }
             img1={Ecommerce1}
-            ctaText="Book Your SEO Strategy Session!"
+            
           />
         </div>
 
@@ -116,7 +116,7 @@ export default function Page() {
             }
             img1={Ecommerce2}
             direction="flex-row-reverse"
-            ctaText="Talk to Our SEO Specialists!"
+            
           />
         </div>
       </div>
@@ -126,6 +126,7 @@ export default function Page() {
           title="Our Professional Ecommerce SEO Expert is Just A Call Away"
           desc="We are the ultimate one-stop solution for all your digital marketing challenges. Our eCommerce SEO services are designed to tackle every problem your business faces online."
           btnText="Hire Our SEO Team!"
+          titleClass="xs:text-[22px] text-[24px] sm:text-[32px]  lg:text-[30px] xl:text-[40px] 2xl:text-[50px] "
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">

@@ -33,7 +33,7 @@ const WhyChooseUs = ({
               </BlurFade>
             )}
             {title &&
-              <FadeText text={title} className={`text-center text-[24px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-[#202124] mx-auto text-[#202124]"  mb-5`} />
+              <FadeText text={title} className={`text-center text-[28px] sm:text-[32px] lg:text-[40px] xl:text-[50px] font-semibold text-[#202124] mx-auto text-[#202124]"  mb-5`} />
             }
             {desc &&
               <FadeText text={desc} className={`text-[14px] lg:text-[16px] mx-auto block leading-[26px] font-light text-[#202124] md:text-center !text-justify" `} />

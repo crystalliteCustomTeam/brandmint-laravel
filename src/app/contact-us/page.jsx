@@ -25,7 +25,8 @@ export default function page() {
       <div className="py-[30px] lg:py-[90px]">
         <CallAway
           title="Achieve The Best SEO Results By Hiring Us!"
-          desc="Need expert digital marketing help? We are here for you. We are the #1 SEO company, providing a complete digital marketing solution for your business."
+          desc="Need expert digital marketing help? We are here for you. We are the #1 SEO company, providing <br class='hidden 2xl:block'/> a complete digital marketing solution for your business."
+          titleClass="xs:text-[24px] text-[24px] sm:text-[28px]  lg:text-[40px] xl:text-[50px] 2xl:text-[55px] "
         />
       </div>
       <div className="py-[50px] lg:py-[90px]">

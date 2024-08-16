@@ -122,8 +122,8 @@ export default function Page() {
             title="Let Google Index Your Website Content Faster with Our On-Page SEO Services"
             desc="Maximize your website's potential with our comprehensive on-page SEO services. Our on-page optimization services ensure that every element of your site is fine-tuned for peak performance. From keyword integration to content adjustments, we provide a holistic approach that drives organic traffic and boosts search engine rankings. Trust our team to deliver strategies that enhance user experience and improve your site's indexability."
             img1={googleCrawl}
-            ctaText="Start Improving Your SEO Today!"
-            ctaText2="See Real Results with Our Services!"
+            // ctaText="Start Improving Your SEO Today!"
+            // ctaText2="See Real Results with Our Services!"
           />
         </div>
         <div className="my-5">
@@ -141,7 +141,7 @@ export default function Page() {
             title="Why On-Page SEO is Essential for Your Search Engine Ranking"
             desc="On-page SEO is vital in determining your website’s search engine ranking. Effective on-page SEO services enhance your site's visibility, making it easier for potential customers to find you. As a leading on page SEO company, we provide tailored solutions to improve your ranking and drive organic traffic."
             img1={seoService}
-            ctaText="Get Started with Professional SEO Services!"
+            // ctaText="Get Started with Professional SEO Services!"
           />
         </div>
 
@@ -153,8 +153,8 @@ export default function Page() {
       <div className="xs:py-[50px] py-[90px]">
         <CallAway
           title="Achieve Top SERP Ranks With Our On-Page SEO Services"
-          desc="Experience the benefits of optimized content, improved user experience, and higher search engine<br /> rankings with our tailored on-page SEO solutions."
-          btnText="Get Your Free SEO Audit!"
+          desc="Experience the benefits of optimized content, improved user experience, and higher search engine<br class='xl:block hidden'/> rankings with our tailored on-page SEO solutions."
+          titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[30px] xl:!text-[45px] 2xl:!text-[55px]"
         />
       </div>
 

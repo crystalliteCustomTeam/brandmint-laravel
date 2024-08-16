@@ -38,29 +38,29 @@ export default function SeoSteps({
               i % 2 === 0 ? (
                 <div key={i} className="md:grid md:grid-cols-12 items-center relative hidden">
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[20px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[20px] md:text-[25px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                   <div className="md:col-span-2 col-span-12">
-                    <div className="xl:h-[180px] md:h-[250px]  w-1 mx-auto bg-white relative">
-                      <span className="absolute bg-[#363636] h-16 flex items-center justify-center w-16 rounded-full text-3xl font-bold text-center -right-7 xl:top-10 lg:top-12 top-14">0{++i}</span>
+                    <div className="2xl:h-[250px] lg:h-[250px] md:h-[200px]  w-1 mx-auto bg-white relative">
+                      <span className="absolute bg-[#363636] h-16 flex items-center justify-center w-16 rounded-full text-xl lg:text-2xl xl:text-3xl  font-bold text-center -right-7 xl:top-[35%] lg:top-[35%] top-14">0{++i}</span>
                     </div>
                   </div>
                   <div className="md:col-span-5 col-span-12 ">
-                    <p className="md:text-[12px] leading-normal font-light " dangerouslySetInnerHTML={{__html: e.desc}} />
+                    <p className="text-[12px] lg:text-[14px] xl:text-[14px] leading-normal font-light " dangerouslySetInnerHTML={{__html: e.desc}} />
                   </div>
                 </div>
               ) : (
                 <div key={i} className="md:grid md:grid-cols-12 items-center relative hidden">
                   <div className="md:col-span-5 col-span-12 ">
-                    <p className="md:text-[12px] leading-normal font-light " dangerouslySetInnerHTML={{__html: e.desc}} />
+                    <p className="text-[12px] lg:text-[14px] xl:text-[14px] leading-normal font-light " dangerouslySetInnerHTML={{__html: e.desc}} />
                   </div>
                   <div className="md:col-span-2 col-span-12">
-                    <div className="xl:h-[180px] md:h-[250px]  w-1 mx-auto bg-white relative">
-                      <span className="absolute bg-[#363636] h-16 flex items-center justify-center w-16  rounded-full text-3xl font-bold text-center -left-7 xl:top-10 lg:top-12 top-14">0{++i}</span>
+                    <div className="2xl:h-[250px] lg:h-[250px] md:h-[250px]  w-1 mx-auto bg-white relative">
+                      <span className="absolute bg-[#363636] h-16 flex items-center justify-center w-16  rounded-full text-xl lg:text-2xl xl:text-3xl font-bold text-center -left-7 xl:top-[35%] lg:top-[35%] top-14">0{++i}</span>
                     </div>
                   </div>
                   <div className="md:col-span-5 col-span-12 py-5 border-b-[1px] border-solid border-[#363636]">
-                    <h4 className={`relative text-[24px] text-center sm:text-[20px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
+                    <h4 className={`relative text-[24px] text-center sm:text-[20px]  md:text-[25px] lg:text-[30px] xl:text-[35px]`} dangerouslySetInnerHTML={{__html: e.title}} />
                   </div>
                 </div>
               )

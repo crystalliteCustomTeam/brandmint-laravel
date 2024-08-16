@@ -4,7 +4,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 export const BoxReveal = ({
   children,
-  width = "fit-content",
+  width = "md:fit-content",
   boxColor,
   duration
 }) => {

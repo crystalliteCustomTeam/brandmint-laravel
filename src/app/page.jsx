@@ -94,15 +94,16 @@ export default function Page() {
         <UsaCities />
       </div>
 
-      <div className="xs:py-[50px] py-[70px]">
+      <div className="xs:py-[50px] py-[70px] sm:!px-[10px]">
         <CallAway
-          title="SEO Company Awaits Your Signal!"
+          title="SEO Company Awaits <br class='lg:block md:hidden sm:block hidden'> Your Signal!"
           desc="Lucky for you, our professional SEO services are here to dominate your online business presence. We’re your one-stop shop where all your SEO challenges meet their match with our expert solutions."
           CallAwayImage={CallAwayImageWomen}
           bg="bg-[#E1183A] rounded-[40px]"
           btnClass="!bg-[#202124] !text-white"
           btnClass2="!bg-white !text-black"
           btnText2="Call Us Now!"
+          titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[40px] xl:!text-[45px] 2xl:!text-[50px]"
         />
       </div>
 

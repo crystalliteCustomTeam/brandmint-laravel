@@ -135,6 +135,7 @@ export default function Page() {
         <CallAway
           title="Need a Digital Marketing Expert? Look No Further!"
           desc="We are your ultimate one-stop white label SEO provider, offering solutions to all your online business challenges."
+          titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[40px] xl:!text-[45px] 2xl:!text-[55px]"
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
@@ -214,6 +215,7 @@ export default function Page() {
         <CallAway CallAwayImage={CallAwayImageWomen} bg="bg-[#E1183A] rounded-[40px]" btnClass="!bg-[#202124] !text-white" btnClass2="!bg-white !text-black"
           title="Expert Digital Marketing Just a Phone Call Away"
           desc="Look no further than SEO Company for all-inclusive White Label SEO solutions. We are your ultimate one-stop shop for resolving all your online business challenges."
+          titleClass="!text-[24px] sm:!text-[32px]  lg:!text-[40px] xl:!text-[45px] 2xl:!text-[55px]"
         />
       </div>
 
