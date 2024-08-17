@@ -66,9 +66,10 @@ import { FadeText } from "./magicui/fade-text";
 import NumberTicker from "./magicui/number-ticker";
 import ShinyButton from "./magicui/shiny-button";
 import GradualSpacing from "./magicui/gradual-spacing";
+import IndustriesGrid from "./IndustriesGrid";
 
 
 
 export {
-    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps,AboutProcess,TechnologiesTabs,ContactUsForm,GoogleServices,EcommerceVersatileSteps,RotateLogo,BoxReveal,AnimatedList,BlurFade,WordFadeIn,FadeText,NumberTicker,ShinyButton,GradualSpacing
+    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps,AboutProcess,TechnologiesTabs,ContactUsForm,GoogleServices,EcommerceVersatileSteps,RotateLogo,BoxReveal,AnimatedList,BlurFade,WordFadeIn,FadeText,NumberTicker,ShinyButton,GradualSpacing, IndustriesGrid
 };
