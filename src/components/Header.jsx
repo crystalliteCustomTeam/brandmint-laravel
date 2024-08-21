@@ -44,6 +44,7 @@ import SMM from "media/icons/smm.png";
 import Telephone from "media/icons/telephone.webp";
 import Contact from "media/icons/cta2.webp";
 import Chat from "media/icons/cta3.webp";
+
 const links = [
   {
     text: "Local SEO",
@@ -199,7 +200,7 @@ export default function Header() {
                                           "Contact Support",
                                           "Revolutionize Your Digital Presence",
                                         ].map((text, i) => (
-                                          <ul className="w-full pl-6 first:divide-y-[1px] divide-slate-900 list-disc" key={i}>
+                                          <ul key={i} className="w-full pl-6 first:divide-y-[1px] divide-slate-900 list-disc">
                                             <li className="last:border-b-0 border-b-black border-b-[1px] py-2 font-medium">
                                               <Link href="/" className="hover:text-[#1d1d1d]">
                                                 {text}
@@ -219,11 +220,11 @@ export default function Header() {
                                           ["Contact Email", Contact, "/"],
                                           ["Let's Chat", Chat, "/"],
                                         ].map(([text, img], i) => (
-                                          <div className="flex flex-col  gap-5 items-center justify-center group">
-                                            <div key={i}>
+                                          <div key={i} className="flex flex-col  gap-5 items-center justify-center group">
+                                            <div>
                                               <Link href={link}>
-                                              <Image src={img} width={35} height={35} className="mx-auto mb-3 group-hover:invert group-hover:brightness-200" alt="SEO Company" />
-                                              <span className="group-hover:text-[#1d1d1d] p-0 m-0 font-semibold">{text}</span>
+                                                <Image src={img} width={35} height={35} className="mx-auto mb-3 group-hover:invert group-hover:brightness-200" alt="SEO Company" />
+                                                <span className="group-hover:text-[#1d1d1d] p-0 m-0 font-semibold">{text}</span>
                                               </Link>
                                             </div>
                                           </div>
