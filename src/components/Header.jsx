@@ -114,8 +114,6 @@ const links = [
 ];
 
 export default function Header() {
-  // const initialTabValue = link.length > 0 ? link[0][1] : "";
-  // const [selectedTab, setSelectedTab] = useState(initialTabValue);
   return (
     <header>
       <div>
