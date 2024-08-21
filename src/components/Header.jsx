@@ -113,9 +113,9 @@ const links = [
   },
 ];
 
-export default function Header({link = []}) {
-  const initialTabValue = link.length > 0 ? link[0][1] : "";
-  const [selectedTab, setSelectedTab] = useState(initialTabValue);
+export default function Header() {
+  // const initialTabValue = link.length > 0 ? link[0][1] : "";
+  // const [selectedTab, setSelectedTab] = useState(initialTabValue);
   return (
     <header>
       <div>
@@ -169,7 +169,7 @@ export default function Header({link = []}) {
                                     <hr className="my-3" />
                                     <ul className="flex flex-wrap xl:gap-5 gap-3">
                                       {links.map((e, i) => (
-                                        <li key={i} className="mb-5 w-[30%] group">
+                                        <li key={i} className="mb-5 w-[30%] group transition-all duration-300 delay-100 ease-in-out">
                                           <div className="flex  gap-5 items-start group-hover:border-[1px] group-hover:rounded-md group-hover:shadow-md  p-2 group-hover:bg-[#3b7ded] group-hover:text-white min-h-[100px]">
                                             <div className="w-[10%]">
                                               <Image src={e.img} alt="icon" width={80} height={80} quality={95} className="group-hover:invert group-hover:brightness-0" />
@@ -224,7 +224,7 @@ export default function Header({link = []}) {
                                           <div className="flex flex-col  gap-5 items-center justify-center group">
                                             <div key={i}>
                                               <Link href={link}>
-                                              <Image src={img} width={35} height={35} className="mx-auto mb-3 group-hover:invert group-hover:brightness-200" />
+                                              <Image src={img} width={35} height={35} className="mx-auto mb-3 group-hover:invert group-hover:brightness-200" alt="SEO Company" />
                                               <span className="group-hover:text-[#1d1d1d] p-0 m-0 font-semibold">{text}</span>
                                               </Link>
                                             </div>
