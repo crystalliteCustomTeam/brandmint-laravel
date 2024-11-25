@@ -8,6 +8,7 @@ import CallAway from "./CallAway"
 import Testimonial from "./Testimonial";
 import MarqueeBlock from "./MarqueeBlock"
 import Package from "./Packages/Package"
+import SMMPackage from "./Packages/SMM/Package"
 import { ButtonVariants, Button } from "@/components/ui/Button"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/Sheet"
 import SeoGraph from "./SeoGraph";
@@ -60,5 +61,5 @@ import GoogleServices from "./GoogleServices";
 
 
 export {
-    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps,AboutProcess,TechnologiesTabs,ContactUsForm,GoogleServices,EcommerceVersatileSteps
+    Header, Hero, Awards, CTA, ButtonVariants, MarqueeBlock, Tabs, TabsContent, TabsList, TabsTrigger, AutoScrollSlider, CallAway, Testimonial, Industries, WhyChooseUs, SeoGraph, UsaCities, Package, Footer, ServicesTabs, Strategies, Button, Sheet, SheetTrigger, SheetContent, Accordion, AccordionContent, AccordionItem, AccordionTrigger, FAQs, Platforms, Process, UkCities, Contact, Input, Label, Portfolio, Advertising, COLORCARD, ComboPackage, SeoServiceSteps, NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,MenuMarquee,SmmServices,ImageComponent,SeoSteps,VersatileSteps,AboutProcess,TechnologiesTabs,ContactUsForm,GoogleServices,EcommerceVersatileSteps,SMMPackage
 };

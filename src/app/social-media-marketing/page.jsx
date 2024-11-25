@@ -1,5 +1,5 @@
 // Components
-import { Awards, CallAway, FAQs, Hero, Package, Testimonial, WhyChooseUs, Platforms, Advertising, Contact } from "@/components"
+import { Awards, CallAway, FAQs, Hero, SMMPackage, Testimonial, WhyChooseUs, Platforms, Advertising, Contact } from "@/components"
 // Media
 import heroImg from "media/socialMediaHero1.png";
 import CallAwayImageWomen from "media/callaway/women.png";
@@ -99,11 +99,10 @@ export default function Page() {
         />
       </div>
       <div className="xs:py-[50px] py-[90px]">
-        <Package
+        <SMMPackage
           id={1}
-          title={`Outsmart Competitors Without <br class='hidden md:block' />
-          <span class="text-[#E1183A]">Breaking the Bank!</span>`}
-          desc="SEO Company provides outcome-focused SEO services at competitive rates, offering various pricing packages to suit various budgets and business goals, ensuring the best value for investment. "
+          title={`Industry Honed <span class="text-[#E1183A]"> SMM Solutions </span> <br class='hidden md:block' /> At Discounted Rates!`}
+          desc="Bringing you the ample chance to harness the power of social media without paying too much on advertising costs."
         />
       </div>
 

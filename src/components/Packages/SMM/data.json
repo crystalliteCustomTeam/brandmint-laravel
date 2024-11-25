@@ -1,0 +1,447 @@
+{
+    "id": 1,
+    "package": [
+        {
+            "name": "Annually",
+            "upto": "50%",
+            "duration": "WHEN BILLED ANNUALLY",
+            "list": [
+                {
+                    "name": "SIMPLE START",
+                    "price": "500",
+                    "desc": "The perfect starter plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 15 Posts Per Month",
+                                "24 Graphic Social Posts",
+                                "07 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn",
+                                "Twitter",
+                                "Pinterest",
+                                "TikTok",
+                                "YouTube",
+                                "Snapchat"
+                            ],
+                            "Social Ads Management": [
+                                "All Social Ad Platforms",
+                                "Unlimited Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "03 Dedicated Ads Expert",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring",
+                                "Daily Campaign Optimization"
+                            ],
+                            "Total Designated Team Members": [
+                                "05 Dedicated Social Media Copywriter",
+                                "03 Dedicated Graphic Designers",
+                                "03 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Dedicated Account Manager",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ESSENTIAL",
+                    "price": "1,000",
+                    "desc": "The perfect essential plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 25 Posts Per Month",
+                                "15 Graphic Social Posts",
+                                "05 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn"
+                            ],
+                            "Social Ads Management": [
+                                "Facebook, Instagram and LinkedIn Ads",
+                                "Total 3 Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring"
+                            ],
+                            "Total Designated Team Members": [
+                                "03 Dedicated Social Media Copywriters",
+                                "02 Dedicated Graphic Designers",
+                                "02 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Professional",
+                    "price": "1,500",
+                    "desc": "The perfect business plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 35 Posts Per Month",
+                                "24 Graphic Social Posts",
+                                "07 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn",
+                                "Twitter",
+                                "Pinterest",
+                                "TikTok",
+                                "YouTube",
+                                "Snapchat"
+                            ],
+                            "Social Ads Management": [
+                                "All Social Ad Platforms",
+                                "Unlimited Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "03 Dedicated Ads Expert",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring",
+                                "Daily Campaign Optimization"
+                            ],
+                            "Total Designated Team Members": [
+                                "05 Dedicated Social Media Copywriters",
+                                "03 Dedicated Graphic Designers",
+                                "03 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Dedicated Account Manager",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quarterly",
+            "upto": "35%",
+            "duration": "WHEN BILLED QUARTERLY",
+            "list": [
+                {
+                    "name": "SIMPLE START",
+                    "price": "650",
+                    "desc": "The perfect starter plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 15 Posts Per Month",
+                                "10 Graphic Social Posts",
+                                "03 Stories",
+                                "02 GIFS/Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram"
+                            ],
+                            "Social Ads Management": [
+                                "Facebook and Instagram Ads",
+                                "Total 1 Campaign Per Month",
+                                "05 Adsets Per Month"
+                            ],
+                            "Total Designated Team Members": [
+                                "01 Dedicated Social Media Copywriter",
+                                "01 Dedicated Graphic Designer",
+                                "01 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ESSENTIAL",
+                    "price": "1,300",
+                    "desc": "The perfect essential plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 25 Posts Per Month",
+                                "15 Graphic Social Posts",
+                                "05 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn"
+                            ],
+                            "Social Ads Management": [
+                                "Facebook, Instagram and LinkedIn Ads",
+                                "Total 3 Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring"
+                            ],
+                            "Total Designated Team Members": [
+                                "03 Dedicated Social Media Copywriters",
+                                "02 Dedicated Graphic Designers",
+                                "02 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "BUSINESS",
+                    "price": "1,950",
+                    "desc": "The perfect Business plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 35 Posts Per Month",
+                                "24 Graphic Social Posts",
+                                "07 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn",
+                                "Twitter",
+                                "Pinterest",
+                                "TikTok",
+                                "YouTube",
+                                "Snapchat"
+                            ],
+                            "Social Ads Management": [
+                                "All Social Ad Platforms",
+                                "Unlimited Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "03 Dedicated Ads Expert",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring",
+                                "Daily Campaign Optimization"
+                            ],
+                            "Total Designated Team Members": [
+                                "05 Dedicated Social Media Copywriters",
+                                "03 Dedicated Graphic Designers",
+                                "03 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Dedicated Account Manager",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monthly",
+            "upto": "20%",
+            "duration": "WHEN BILLED QUARTERLY",
+            "list": [
+                {
+                    "name": "SIMPLE START",
+                    "price": "800",
+                    "desc": "The perfect starter plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 15 Posts Per Month",
+                                "10 Graphic Social Posts",
+                                "03 Stories",
+                                "02 GIFS/Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram"
+                            ],
+                            "Social Ads Management": [
+                                "Facebook and Instagram Ads",
+                                "Total 1 Campaign Per Month",
+                                "05 Adsets Per Month"
+                            ],
+                            "Total Designated Team Members": [
+                                "01 Dedicated Social Media Copywriter",
+                                "01 Dedicated Graphic Designer",
+                                "01 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ESSENTIAL",
+                    "price": "1,600",
+                    "desc": "The perfect essential plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 25 Posts Per Month",
+                                "15 Graphic Social Posts",
+                                "05 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn"
+                            ],
+                            "Social Ads Management": [
+                                "Facebook, Instagram and LinkedIn Ads",
+                                "Total 3 Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring"
+                            ],
+                            "Total Designated Team Members": [
+                                "03 Dedicated Social Media Copywriters",
+                                "02 Dedicated Graphic Designers",
+                                "02 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "BUSINESS",
+                    "price": "2,400",
+                    "desc": "The perfect Business plan for your basic design needs.",
+                    "items": [
+                        {
+                            "Social Media Posts": [
+                                "Total 35 Posts Per Month",
+                                "24 Graphic Social Posts",
+                                "07 Stories",
+                                "03 GIFS",
+                                "02 Carousel Posts"
+                            ],
+                            "Social Platforms Supported": [
+                                "Facebook",
+                                "Instagram",
+                                "LinkedIn",
+                                "Twitter",
+                                "Pinterest",
+                                "TikTok",
+                                "YouTube",
+                                "Snapchat"
+                            ],
+                            "Social Ads Management": [
+                                "All Social Ad Platforms",
+                                "Unlimited Campaigns Per Month",
+                                "Unlimited Adsets Per Month",
+                                "03 Dedicated Ads Expert",
+                                "All Ad Objectives Supported",
+                                "Detailed Campaign Monitoring",
+                                "Daily Campaign Optimization"
+                            ],
+                            "Total Designated Team Members": [
+                                "05 Dedicated Social Media Copywriters",
+                                "03 Dedicated Graphic Designers",
+                                "03 Dedicated Ads Expert",
+                                "01 Dedicated Account Manager"
+                            ],
+                            "Social Media Management": [
+                                "Monthly Social Posts Scheduling",
+                                "Social Community Management (Query + Comment Responses)",
+                                "Social Page Optimization (Cover Photo, About Section, Display Picture, and more)",
+                                "Facebook Business Manager Setup",
+                                "Facebook Pixel Integration",
+                                "Facebook Shop Setup",
+                                "Dedicated Account Manager",
+                                "Monthly Statistical Reporting",
+                                "Daily Lead Reports",
+                                "Daily Sales Reports"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
