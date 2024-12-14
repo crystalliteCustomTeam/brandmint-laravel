@@ -4,7 +4,7 @@ import Link from "next/link";
 
 // Media
 import logo from "media/logo.svg";
-import payment from "media/payment.png";
+import payment from "media/payment2.webp";
 
 export default function Footer() {
   return (
@@ -79,7 +79,7 @@ export default function Footer() {
                 <h3 className="text-[25px] font-normal leading-[30px]">Contact</h3>
                 <ul className="list-none mt-5 space-y-3">
                   {[
-                    ["/location.png", "#", "Operations: 502 W 7th ST STE 100 Erie, PA 16502"],
+                    ["/location.png", "#", "2211 PRICE DR KILLEEN, TX 76542"],
                     ["/phone.png", "#", "(717)-400-0010"],
                     ["/phone.png", "#", "1-844-400-0025"],
                     ["/mail.png", "#", "Contact Email"],
@@ -94,7 +94,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-                <Image src={payment} alt="SEO company" width={120} height={100} className="absolute right-0 lg:-bottom-8 -bottom-[40px]" />
+                <Image src={payment} alt="SEO company" width={200} height={200} className="absolute right-0 lg:-bottom-8 -bottom-[40px]" />
               </div>
             </div>
           </div>

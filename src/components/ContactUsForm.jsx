@@ -10,7 +10,7 @@ import Link from "next/link";
 const detailData = [
   {
     imgIcon: location,
-    text: "Operations: 502 W 7th ST STE 100 Erie, PA 16502",
+    text: "2211 PRICE DR KILLEEN, TX 76542",
     URL: "javascript:;"
   },
   {
