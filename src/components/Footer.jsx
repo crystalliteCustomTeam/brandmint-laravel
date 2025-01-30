@@ -102,7 +102,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="py-[20px]">
             <div className="flex justify-center">
-              <h4 className="lg:text-[18px] text-[14px] font-normal text-white">Copyright © 2024 SEO Company. All rights reserved.</h4>
+              <h4 className="lg:text-[18px] text-[14px] font-normal text-white">Copyright © 2025 SEO Company. All rights reserved By <a href='https://infinitimediainc.com/' target="_blank">Infiniti Media INC</a>.</h4>
             </div>
           </div>
         </div>
