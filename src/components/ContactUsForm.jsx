@@ -55,8 +55,8 @@ const formSchema = z.object({
 const detailData = [
   {
     imgIcon: location,
-    text: "2211 PRICE DR KILLEEN, TX 76542",
-    URL: "javascript:;",
+    text: "305 Madison Ave S, Bainbridge Island, WA 98110",
+    URL: "https://maps.app.goo.gl/V9ykPtUg7HCjaPWS6",
   },
   {
     imgIcon: location,
