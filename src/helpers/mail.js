@@ -27,7 +27,7 @@ export default async function mail({
 
     const mailOptions = {
       from: "developer@infinitimediainc.com",
-      to: ["ppc@infinitimediainc.com", "developer@infinitimediainc.com"],
+      to: ["adil@infinityanimations.com", "developer@infinitimediainc.com"],
       subject: `New Lead Generated - SEO Company`,
       html: `<!DOCTYPE html>
             <html lang="en">
