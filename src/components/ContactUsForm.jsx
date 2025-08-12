@@ -59,11 +59,6 @@ const detailData = [
     URL: "https://maps.app.goo.gl/MMb7ZSqyo1oDnJVL9",
   },
   {
-    imgIcon: location,
-    text: "Operations: 7 Coronation Road, Dephna House, Launchese, London, United Kingdom, NW10 7PQ",
-    URL: "javascript:;",
-  },
-  {
     imgIcon: phone,
     text: "(717)-908-1211",
     URL: "tel:717-908-1211",
