@@ -3,7 +3,7 @@ import { Button, ButtonVariants } from "@/components"
 
 const CTA = ({
     variant = "default",
-    href = "javascript:;",
+    href = "javascript:parent.LC_API.open_chat_window();",
     text,
     className = " ",
     icon = false
