@@ -56,7 +56,7 @@ const detailData = [
   {
     imgIcon: location,
     text: "305 Madison Ave S, Bainbridge Island, WA 98110",
-    URL: "https://maps.app.goo.gl/V9ykPtUg7HCjaPWS6",
+    URL: "https://maps.app.goo.gl/MMb7ZSqyo1oDnJVL9",
   },
   {
     imgIcon: location,
@@ -70,8 +70,8 @@ const detailData = [
   },
   {
     imgIcon: phone,
-    text: "1-844-400-0025",
-    URL: "tel:1-844-400-0025",
+    text: "833-666-6684",
+    URL: "tel:833-666-6684",
   },
   {
     imgIcon: email,

@@ -79,9 +79,9 @@ export default function Footer() {
                 <h3 className="text-[25px] font-normal leading-[30px]">Contact</h3>
                 <ul className="list-none mt-5 space-y-3">
                   {[
-                    ["/location.png", "https://maps.app.goo.gl/V9ykPtUg7HCjaPWS6", "305 Madison Ave S, Bainbridge Island, WA 98110"],
-                    ["/phone.png", "#", "(717)-400-0010"],
-                    ["/phone.png", "#", "1-844-400-0025"],
+                    ["/location.png", "https://maps.app.goo.gl/MMb7ZSqyo1oDnJVL9", "305 Madison Ave S, Bainbridge Island, WA 98110"],
+                    ["/phone.png", "#", "(302)-217-6570"],
+                    ["/phone.png", "#", "833-666-6684"],
                     ["/mail.png", "#", "Contact Email"],
                   ].map(([icon, link, text], i) => (
                     <li key={i} className="flex items-center justify-start gap-3">

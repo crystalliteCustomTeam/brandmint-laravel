@@ -326,7 +326,7 @@ const ComboPackages = ({
                 <div className="flex items-center gap-[10px] mt-[10px]">
                   <Image src={call} alt="chat" className="" />
                   <h5 className="text-[18px] font-bold">
-                    <a href="tel:123-4567-89" className="">Call 123-4567-89</a>
+                    <a href="tel:833-666-6684" className="">Call 833-666-6684</a>
                   </h5>
                 </div>
                 <CTA text={"Request a Quote Now"} className="inline-block !bg-[#4E81EC] hover:!bg-[#EC4139] mt-[15px] text-[14px] xl:text-[16px] px-5 xl:px-10" />
