@@ -75,8 +75,8 @@ const detailData = [
   },
   {
     imgIcon: email,
-    text: "Contact Email",
-    URL: "javascript:;",
+    text: "hello@seo-company.us",
+    URL: "mailto:hello@seo-company.us",
   },
 ]
 

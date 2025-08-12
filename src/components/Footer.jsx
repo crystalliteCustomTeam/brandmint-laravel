@@ -80,9 +80,9 @@ export default function Footer() {
                 <ul className="list-none mt-5 space-y-3">
                   {[
                     ["/location.png", "https://maps.app.goo.gl/MMb7ZSqyo1oDnJVL9", "305 Madison Ave S, Bainbridge Island, WA 98110"],
-                    ["/phone.png", "#", "(302)-217-6570"],
-                    ["/phone.png", "#", "833-666-6684"],
-                    ["/mail.png", "#", "Contact Email"],
+                    ["/phone.png", "tel:3022176570", "(302)-217-6570"],
+                    ["/phone.png", "tel:8336666684", "833-666-6684"],
+                    ["/mail.png", "mailto:hello@seo-company.us", "hello@seo-company.us"],
                   ].map(([icon, link, text], i) => (
                     <li key={i} className="flex items-center justify-start gap-3">
                       <div className="max-w-[25%]">
