@@ -77,43 +77,43 @@ export default function Page() {
       <section >
         <div className="container">
           <div className="xs:py-[30px] md:py-[50px]">
-            <div className="grid  xs:grid-cols-12 md:grid-cols-2">
-              <div><Image src={trustindentalroi} alt="Trustin Dental Group || Seo Company" width={580} height={676} /></div>
+            <div className="grid xs:grid-cols-12 lg:grid-cols-2 gap-8">
+              <div><Image src={trustindentalroi} alt="Trustin Dental Group || Seo Company" width={580} height={676} className="mx-auto"/></div>
               <div>
-                <h2 className="font-sans font-semibold text-[40px] leading-snug">How We Helped Tustin Dental Group Achieve <span className="text-[#E1183A]">400% ROI</span></h2>
+                <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug">How We Helped Tustin Dental Group Achieve <span className="text-[#E1183A]">400% ROI</span></h2>
                 <div className="py-2"></div>
                 <h3 className="font-sans font-semibold text-[20px]">The Results</h3>
-                <div className="py-5">
+                <div className="xl:py-5 py-2">
                   <div className="flex flex-row items-center gap-3">
                     <div className="bg-black rounded-full w-2 h-2"></div>
-                    <h3 className="font-medium text-[25px]">400%+ ROI & ROAS</h3>
+                    <h3 className="font-medium xl:text-[25px] text-[22px] leading-normal">400%+ ROI & ROAS</h3>
                   </div>
-                  <div className="py-3"></div>
+                  <div className="xl:py-3 py-2"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#0085F8] rounded-full w-2 h-28"></div>
-                    <p className="font-light text-[18px]">By combining Google Business Profile optimization, targeted ads, and verification, we helped Tustin Dental Group quadruple their return on investment in under 3 months.</p>
+                    <div className="bg-[#0085F8] rounded-full w-2 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">By combining Google Business Profile optimization, targeted ads, and verification, we helped Tustin Dental Group quadruple their return on investment in under 3 months.</p>
                   </div>
                 </div>
-                <div className="py-5">
+                <div className="xl:py-5 py-2">
                   <div className="flex flex-row items-center gap-3">
                     <div className="bg-black rounded-full w-2 h-2"></div>
-                    <h3 className="font-medium text-[25px]">120+ New Patient Inquiries Generated</h3>
+                    <h3 className="font-medium xl:text-[25px] text-[22px] leading-normal">120+ New Patient Inquiries Generated</h3>
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#EF4252] rounded-full w-2 h-28"></div>
-                    <p className="font-light text-[18px]">The campaigns resulted in over 120 direct calls and appointment requests from interested patients, increasing their monthly bookings and overall clinic traffic.</p>
+                    <div className="bg-[#EF4252] rounded-full w-2 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">The campaigns resulted in over 120 direct calls and appointment requests from interested patients, increasing their monthly bookings and overall clinic traffic.</p>
                   </div>
                 </div>
-                <div className="py-5">
+                <div className="xl:py-5 py-2">
                   <div className="flex flex-row items-center gap-3">
                     <div className="bg-black rounded-full w-2 h-2"></div>
-                    <h3 className="font-medium text-[25px]">Ranked in the Top 3 on Google Maps</h3>
+                    <h3 className="font-medium xl:text-[25px] text-[22px] leading-normal">Ranked in the Top 3 on Google Maps</h3>
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#34A854] rounded-full w-2 h-28"></div>
-                    <p className="font-light text-[18px]">Within weeks, their practice appeared in the local “3-Pack” on Google Maps for high-volume dental search terms, such as “Tustin dentist” and “dental clinic near me.”</p>
+                    <div className="bg-[#34A854] rounded-full w-2 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">Within weeks, their practice appeared in the local “3-Pack” on Google Maps for high-volume dental search terms, such as “Tustin dentist” and “dental clinic near me.”</p>
                   </div>
                 </div>
               </div>
@@ -126,18 +126,18 @@ export default function Page() {
         <div className="container">
           <div className="xs:py-[30px] md:py-[50px]">
             <div>
-              <h2 className="font-sans font-semibold text-[40px] leading-snug">Fully <span className="text-[#E1183A]">Verified</span> & Ready to Scale</h2>
+              <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug">Fully <span className="text-[#E1183A]">Verified</span> & Ready to Scale</h2>
               <div className="py-1"></div>
-              <h3 className="font-sans font-semibold text-[18px] leading-snug w-[40%]">How does a small local business, like Tustin Dental Group, get big results using Google Adword?</h3>
+              <h3 className="font-sans font-semibold text-[18px] leading-snug w-full lg:w-[70%]">How does a small local business, like Tustin Dental Group, get big results using Google Adword?</h3>
               <div className="py-2"></div>
-              <p className="font-light text-[17px] w-[55%]">Within weeks, their practice appeared in the local “3-Pack” on Google Maps for high-volume dental search terms, such as “Tustin dentist” and “dental clinic near me.”</p>
+              <p className="font-light text-[17px] w-full lg:w-[55%]">Within weeks, their practice appeared in the local “3-Pack” on Google Maps for high-volume dental search terms, such as “Tustin dentist” and “dental clinic near me.”</p>
               <div className="py-2"></div>
               <div className="bg-black rounded-lg w-100 p-7">
                 <div className="grid grid-cols-2 gap-2">
                   <div>
                     <h4 className="font-sans font-semibold text-[18px] leading-snug text-white">Within 12 months, 370 people booked appointments via Google Business Profile</h4>
                     <div className="py-1"></div>
-                    <p className="font-light text-white text-[18px]">The screenshot shows their Google Business verification dashboard, where every requirement - from liability insurance and background checks to business profile and reviews - was completed. This 100% verification allowed us to:</p>
+                    <p className="font-light text-white xl:text-[18px] text-[15px]">The screenshot shows their Google Business verification dashboard, where every requirement - from liability insurance and background checks to business profile and reviews - was completed. This 100% verification allowed us to:</p>
                   </div>
                   <div>
                     <ul className="flex flex-col gap-5">
@@ -175,13 +175,13 @@ export default function Page() {
         <div className="container">
           <div className="xs:py-[30px] md:py-[50px]">
             <div>
-              <h2 className="font-sans font-semibold text-[40px] leading-snug w-[60%]">1024 Calls in 6 Months - Powered by <span className="text-[#E1183A]">Local Optimization</span></h2>
+              <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[60%]">1024 Calls in 6 Months - Powered by <span className="text-[#E1183A]">Local Optimization</span></h2>
               <div className="py-1"></div>
 
               <div className="py-2"></div>
-              <p className="font-light text-[17px] text-black">This graph shows the number of calls made directly from the Google Business Profile of Tustin Dental Group from January to June 2025. After we optimized their profile, launched high-performing Google Local Ads, and verified them as a Trusted Google Certified Dentist, their monthly calls increased consistently, totaling 1,024 calls in just 6 months.</p>
+              <p className="font-light xl:text-[18px] text-[15px] text-black">This graph shows the number of calls made directly from the Google Business Profile of Tustin Dental Group from January to June 2025. After we optimized their profile, launched high-performing Google Local Ads, and verified them as a Trusted Google Certified Dentist, their monthly calls increased consistently, totaling 1,024 calls in just 6 months.</p>
               <div className="py-1"></div>
-              <p className="font-light text-[17px] ">You can see a strong start in January, followed by stable growth month over month. This proves that local marketing done right brings real, measurable results.</p>
+              <p className="font-light xl:text-[18px] text-[15px] ">You can see a strong start in January, followed by stable growth month over month. This proves that local marketing done right brings real, measurable results.</p>
               <div className="py-2"></div>
               <div>
                 <Image src={screenshottwo} alt="Trustin Dental Group || Seo Company" />
@@ -195,9 +195,9 @@ export default function Page() {
         <div className="container">
           <div className="xs:py-[30px] md:py-[50px]">
             <div>
-              <h2 className="font-sans font-semibold text-[40px] leading-snug ">The Strategy Behind Their <span className="text-[#E1183A]">Success</span></h2>
+              <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug ">The Strategy Behind Their <span className="text-[#E1183A]">Success</span></h2>
               <div className="py-1"></div>
-              <p className="font-light text-[17px] w-[70%] text-black">We didn't just run ads, we built a full, local marketing system designed to bring real patients through the door. Here's how we made it happen:</p>
+              <p className="font-light xl:text-[18px] text-[15px] w-full lg:w-[70%] text-black">We didn't just run ads, we built a full, local marketing system designed to bring real patients through the door. Here's how we made it happen:</p>
 
               <div className="py-2"></div>
               <div>
@@ -207,8 +207,8 @@ export default function Page() {
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#0085F8] rounded-full w-1 h-28"></div>
-                    <p className="font-light text-[18px]">We fine-tuned their Google listing to boost local rankings, increase visibility on Google Maps, and make them easy to find for nearby patients searching for a dentist.</p>
+                    <div className="bg-[#0085F8] rounded-full w-1 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">We fine-tuned their Google listing to boost local rankings, increase visibility on Google Maps, and make them easy to find for nearby patients searching for a dentist.</p>
                   </div>
                 </div>
                 <div className="py-5">
@@ -217,8 +217,8 @@ export default function Page() {
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#EF4252] rounded-full w-1 h-28"></div>
-                    <p className="font-light text-[18px]">Instead of wasting budget on clicks, we ran high-converting Local Service Ads and Google Search Ads that generated direct phone calls and appointment requests.</p>
+                    <div className="bg-[#EF4252] rounded-full w-1 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">Instead of wasting budget on clicks, we ran high-converting Local Service Ads and Google Search Ads that generated direct phone calls and appointment requests.</p>
                   </div>
                 </div>
                 <div className="py-5">
@@ -227,8 +227,8 @@ export default function Page() {
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#34A854] rounded-full w-1 h-28"></div>
-                    <p className="font-light text-[18px]">We helped Tustin Dental earn the official Google Certified Doctor badge, giving their profile instant credibility and trust in the eyes of potential patients.</p>
+                    <div className="bg-[#34A854] rounded-full w-1 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">We helped Tustin Dental earn the official Google Certified Doctor badge, giving their profile instant credibility and trust in the eyes of potential patients.</p>
                   </div>
                 </div>
                 <div className="py-5">
@@ -237,8 +237,8 @@ export default function Page() {
                   </div>
                   <div className="py-3"></div>
                   <div className="flex flex-row items-center gap-8">
-                    <div className="bg-[#000000] rounded-full w-1 h-28"></div>
-                    <p className="font-light text-[18px]">Every call, click, and booking was tracked, giving us and the clinic full clarity on what worked, what didn't, and how much revenue was being driven</p>
+                    <div className="bg-[#000000] rounded-full w-1 xl:h-28 h-20"></div>
+                    <p className="font-light xl:text-[18px] text-[15px]">Every call, click, and booking was tracked, giving us and the clinic full clarity on what worked, what didn't, and how much revenue was being driven</p>
                   </div>
                 </div>
               </div>
@@ -251,9 +251,9 @@ export default function Page() {
         <div className="container">
           <div className="xs:py-[30px] md:py-[50px]">
             <div>
-              <h2 className="font-sans font-semibold text-[40px] leading-snug w-[70%]">Over <span className="text-[#E1183A]">30,000 Profile Views </span>  & 28,000+   Search Appearances in Just 6 Months</h2>
+              <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[70%]">Over <span className="text-[#E1183A]">30,000 Profile Views </span>  & 28,000+   Search Appearances in Just 6 Months</h2>
               <div className="py-1"></div>
-              <p className="font-light text-[17px] w-[70%] text-black">This highlights the powerful reach we created for Tustin Dental Group through a fully managed local marketing strategy. From January to June 2025:</p>
+              <p className="font-light xl:text-[18px] text-[15px] w-full lg:w-[70%] text-black">This highlights the powerful reach we created for Tustin Dental Group through a fully managed local marketing strategy. From January to June 2025:</p>
               <div className="py-2"></div>
               <div className="flex flex-row items-center gap-5">
                 <div className="bg-[#34A854] rounded-full w-10 h-1"></div>
@@ -309,7 +309,7 @@ export default function Page() {
             <hr />
 
             <div className="xs:py-[30px] md:py-[50px]">
-              <h2 className="font-sans font-semibold text-[40px] leading-snug w-[70%]">Fully Optimized & <span className="text-[#E1183A]">Trusted</span> Google Business Presence</h2>
+              <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[70%]">Fully Optimized & <span className="text-[#E1183A]">Trusted</span> Google Business Presence</h2>
               <div className="py-2"></div>
               <p>Here's a look at the live Google Business Profile we managed for Tustin Dental Group. After verifying the business as a <b>Trusted Google Certified Dentist</b>, we fully optimized every section, from services to photos to Q&A.</p>
               <div className="py-2"></div>
@@ -351,11 +351,11 @@ export default function Page() {
 
         <div className="xs:py-[30px] md:py-[50px]">
           <div className="container">
-            <h2 className="font-sans font-semibold text-[40px] leading-snug w-[70%]">How We Turned <span className="text-[#E1183A]">Local Clicks</span> into New Dental Patients  </h2>
+            <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[70%]">How We Turned <span className="text-[#E1183A]">Local Clicks</span> into New Dental Patients  </h2>
             <div className="py-2"></div>
-            <p className="text-[18px]">With a monthly spend of just <b>$553.00</b>, the campaign delivered over 2.79K ad views,<b> 320 Google Business Profile visits, 55 local</b> actions (like users clicking to get directions), and <b>101 phone calls</b> to the dental office.</p>
+            <p className="xl:text-[18px] text-[15px]">With a monthly spend of just <b>$553.00</b>, the campaign delivered over 2.79K ad views,<b> 320 Google Business Profile visits, 55 local</b> actions (like users clicking to get directions), and <b>101 phone calls</b> to the dental office.</p>
             <div className="py-2"></div>
-            <p className="text-[18px]">These results clearly highlight how effective our local marketing strategy was. By optimizing their <b>Google Business Profile</b>, verifying them as a <b>Google Trusted Dentist</b>, and launching <b>targeted Smart Campaigns</b>, we helped drive real local traffic and qualified leads, leading to a 400% ROI in just a few months.</p>
+            <p className="xl:text-[18px] text-[15px]">These results clearly highlight how effective our local marketing strategy was. By optimizing their <b>Google Business Profile</b>, verifying them as a <b>Google Trusted Dentist</b>, and launching <b>targeted Smart Campaigns</b>, we helped drive real local traffic and qualified leads, leading to a 400% ROI in just a few months.</p>
             <div className="py-3"></div>
             <div>
               <Image src={screenshotfive} alt="Trustin Dental Group || Seo Company" />
@@ -369,11 +369,11 @@ export default function Page() {
 
         <div className="xs:py-[30px] md:py-[50px]">
           <div className="container">
-            <h2 className="font-sans font-semibold text-[40px] leading-snug w-[70%]"><span className="text-[#E1183A]">Cost-Efficient </span> Advertising That Converts Local Leads</h2>
+            <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[70%]"><span className="text-[#E1183A]">Cost-Efficient </span> Advertising That Converts Local Leads</h2>
             <div className="py-2"></div>
-            <p className="text-[18px]">In this performance view, we're seeing the monthly summary of our Google Ads campaign for Trusting Dental Group.With 377 total clicks and 99.00 conversions, we achieved a strong 27% conversion rate. That means nearly in 3 clicks resulted in a meaningful customer action, whether that was calling. visiting the website, or getting directions to the clinic.</p>
+            <p className="xl:text-[18px] text-[15px]">In this performance view, we're seeing the monthly summary of our Google Ads campaign for Trusting Dental Group.With 377 total clicks and 99.00 conversions, we achieved a strong 27% conversion rate. That means nearly in 3 clicks resulted in a meaningful customer action, whether that was calling. visiting the website, or getting directions to the clinic.</p>
             <div className="py-2"></div>
-            <p className="text-[18px]">THere's a breakdown of key performance metrics:</p>
+            <p className="xl:text-[18px] text-[15px]">THere's a breakdown of key performance metrics:</p>
             <div className="py-3"></div>
             <div className="flex flex-col gap-3">
               <div className="flex flex-row items-center gap-5">
@@ -405,9 +405,9 @@ export default function Page() {
 
         <div className="xs:py-[30px] md:py-[50px]">
           <div className="container">
-            <h2 className="font-sans font-semibold text-[40px] leading-snug w-[70%]">Local Ads Performance: Smart Data, <span className="text-[#E1183A]">Real Growth</span> </h2>
+            <h2 className="font-sans font-semibold xl:text-[40px] text-[35px] leading-snug w-full lg:w-[70%]">Local Ads Performance: Smart Data, <span className="text-[#E1183A]">Real Growth</span> </h2>
             <div className="py-2"></div>
-            <p className="text-[18px]">This section of the dashboard uncovers how we reached and engaged high-quality leads using Google's Performance Max Campaign for Trusting Dental Group. Here's what stands out:</p>
+            <p className="xl:text-[18px] text-[15px]">This section of the dashboard uncovers how we reached and engaged high-quality leads using Google's Performance Max Campaign for Trusting Dental Group. Here's what stands out:</p>
             <div className="py-2"></div>
 
             <div className="flex flex-col gap-3">
@@ -440,48 +440,48 @@ export default function Page() {
                   High-Performing Campaigns
                 </h2>
                 <ul className="flex flex-col gap-3 list-disc ml-8 mt-5">
-                  <li className="text-white font-light">Our tailored Emergency Campaign stood out with a remarkable 40% click-through rate and over 50 quality conversions, helping new patients find immediate care when they needed it most.</li>
+                  <li className="text-white font-light xl:text-[18px] text-[15px]">Our tailored Emergency Campaign stood out with a remarkable 40% click-through rate and over 50 quality conversions, helping new patients find immediate care when they needed it most.</li>
                 </ul>
               </div>
 
 
               <div className="bg-[#EF4252] p-8 rounded-xl">
-                <h2 className="text-[18px] font-semibold text-white flex flex-row gap-3 items-center">
+                <h2 className="xl:text-[18px] text-[15px] font-semibold text-white flex flex-row gap-3 items-center">
                   <div className="bg-white rounded-full w-8 h-1"></div>
                   Smart Timing, Better Results
                 </h2>
                 <ul className="flex flex-col gap-3 list-disc ml-8 mt-5">
-                  <li className="text-white font-light">By analyzing the best-performing days and hours through the heatmap, we adjusted ad schedules to align with when patients are most likely to search for dental services- ensuring no opportunity is missed.</li>
+                  <li className="text-white font-light xl:text-[18px] text-[15px]">By analyzing the best-performing days and hours through the heatmap, we adjusted ad schedules to align with when patients are most likely to search for dental services- ensuring no opportunity is missed.</li>
                 </ul>
               </div>
 
               <div className="bg-[#34A854] p-8 rounded-xl">
-                <h2 className="text-[18px] font-semibold text-white flex flex-row gap-3 items-center">
+                <h2 className="xl:text-[18px] text-[15px] font-semibold text-white flex flex-row gap-3 items-center">
                   <div className="bg-white rounded-full w-8 h-1"></div>
                   Mobile-First Strategy
                 </h2>
                 <ul className="flex flex-col gap-3 list-disc ml-8 mt-5">
-                  <li className="text-white font-light">With over 80% of conversions coming from mobile devices, we shifted focus to mobile-optimized ads and landing pages, meeting patients where they are and making it easier for them to book appointments on the go.</li>
+                  <li className="text-white font-light xl:text-[18px] text-[15px]">With over 80% of conversions coming from mobile devices, we shifted focus to mobile-optimized ads and landing pages, meeting patients where they are and making it easier for them to book appointments on the go.</li>
                 </ul>
               </div>
 
               <div className="bg-[#F8BF19] p-8 rounded-xl">
-                <h2 className="text-[18px] font-semibold text-white flex flex-row gap-3 items-center">
+                <h2 className="xl:text-[18px] text-[15px] font-semibold text-white flex flex-row gap-3 items-center">
                   <div className="bg-white rounded-full w-8 h-1"></div>
                   100% Optimization Score
                 </h2>
                 <ul className="flex flex-col gap-3 list-disc ml-8 mt-5">
-                  <li className="text-white font-light">Our campaigns consistently meet Google's best practice standards. A perfect score reflects our commitment to maximizing budget efficiency, improving ad relevance, and delivering real ROI.</li>
+                  <li className="text-white font-light xl:text-[18px] text-[15px]">Our campaigns consistently meet Google's best practice standards. A perfect score reflects our commitment to maximizing budget efficiency, improving ad relevance, and delivering real ROI.</li>
                 </ul>
               </div>
 
               <div className="bg-black p-8 rounded-xl">
-                <h2 className="text-[18px] font-semibold text-white flex flex-row gap-3 items-center">
+                <h2 className="xl:text-[18px] text-[15px] font-semibold text-white flex flex-row gap-3 items-center">
                   <div className="bg-white rounded-full w-8 h-1"></div>
                   Insight-Driven Decisions
                 </h2>
                 <ul className="flex flex-col gap-3 list-disc ml-8 mt-5">
-                  <li className="text-white font-light">From tracking top-performing search terms to monitoring trends in ad performance over time, we use every data point to fine-tune our strategy, leading to smarter campaigns and better patient reach.</li>
+                  <li className="text-white font-light xl:text-[18px] text-[15px]">From tracking top-performing search terms to monitoring trends in ad performance over time, we use every data point to fine-tune our strategy, leading to smarter campaigns and better patient reach.</li>
                 </ul>
               </div>
 
@@ -509,7 +509,7 @@ export default function Page() {
 
             </div>
             <div className="py-5"></div>
-            <p className="text-[18px]">This section of the dashboard uncovers how we reached and engaged high-quality leads using Google's Performance Max Campaign for Trusting Dental Group. Here's what stands out:</p>
+            <p className="xl:text-[18px] text-[15px]">This section of the dashboard uncovers how we reached and engaged high-quality leads using Google's Performance Max Campaign for Trusting Dental Group. Here's what stands out:</p>
           </div>
         </div>
       </section>
